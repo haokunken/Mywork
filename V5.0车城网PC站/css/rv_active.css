@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+div{margin:0 auto;}
+a{text-decoration:none;}
+img{border:0px;}
+.clear{clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+:focus{OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: 0px;}
+ul,li{list-style:none; margin:0; padding:0;}
+body{margin:0px;font-family:Arial,"微软雅黑",Helvetica, sans-serif; min-width:1200px; background-position:center top; background-repeat:no-repeat; background-attachment:fixed;}
+/*背景*/
+body{background: #050600;}
+/*轮播图*/
+.g_banner{width: 100%; height: 720px; position: relative; overflow: hidden; border-top: 4px solid #fff;}
+.g_banner ul{width: 100%; height: 720px; position: absolute;} .g_banner ul li{width: 100%; height: 720px; float: left; position: relative; overflow: hidden;}
+.g_banner ul li img{width: 1920px; height: 719px; position: absolute; left: 50%; margin-left: -960px;}
+.g_bankz{width: 100%; position: absolute; left: 0; bottom: 66px; text-align: center; height: 10px;}
+.g_bankz a{display: inline-block; width: 10px; height: 10px; border-radius: 10px; background: #43464a; margin: 0 6px;}
+.g_bankz a.g_bkzdqys{background: #fff;}
+.hk_rm_mian{width: 1000px; margin:0 auto;}
+.y_main{background: #060606 url(../images/rongwei/hk_bj.jpg) no-repeat 50%; width: 100%; height: 3300px; margin-top: 21px;}
+.hk_rvbd{width: 100%;height: 320px;border-radius: 5px;background: #fff;margin-top: 40px;background: url(../images/rongwei/hk_tm.png);}
+.hk_rm_mian .hk_bt1{margin-top: 73px; margin-left: -50px;}
+.hk_mingcheng{overflow: hidden; position: relative; width: 480px; float: left;}
+.hk_mingcheng .gk_subject{width: 135px; margin-right: 30px; text-align: right; color: #fff; font-size: 20px; margin-top: 59px; opacity:1; font-weight: 600;}
+.hk_mingcheng .hk_size1{width: 280px; height: 27px; line-height: 30px;}
+.hk_mingcheng .hk_size2{width: 300px; height: 45px; line-height: 30px;}
+.hk_mingcheng .form-text{background: #fbfdff; resize: none; float: left; border: 1px solid #efefef; border-radius: 5px; font-size: 20px; padding: 8px 10px; margin-top: 50px;}
+.hk_tj_button{width: 300px; height: 45px; font-size: 18px; line-height: 45px; color: #fff; background: #cb1623; border-radius: 5px; display: block; margin-right: 25px; margin-top: 50px; text-align: center; font-weight: 600;}
+.hk_tj_button:hover{background: #af0c17;}
+.ml30{margin-left: 30px;}
+.hk_bt2{margin-top: 124px; margin-left: -50px; float: left;}
+.hk_cxqh,.hk_cxqh1{margin-top: 160px; font-size: 18px; color: #737373;}
+.hk_cxqh a ,.hk_cxqh1 a{height: 30px; display: block;float: left;margin-left: 30px;color:#737373;}
+.hk_cxqh .hk_xhx,.hk_cxqh1 .hk_xhx{background: url(../images/rongwei/hk_01.png) no-repeat; width: 40px; height: 6px;display: block;margin:0 auto;margin-top: 5px;}
+.hk_02{width: 100%;margin-top: 62px; display: block;}
+html, body{position: relative; height: 100%;}
+.swiper-container{width: 100%; height: 100%;}
+.swiper-slide{height: auto; -webkit-box-sizing: border-box; box-sizing: border-box;overflow-y: auto;}
+.swiper-slide .hk_b_bt{background: #252424; font-size: 15px;}
+.swiper-slide tr{color: #d8d8d8; background: #1b1b1b;}
+#myconfigwrap{height: 500px;}
+table.myconfig{font-size: 12px}
+table.myconfig{border-collapse: collapse; background: #fff; width: 100%; font-size: 14px; font-family: "微软雅黑";overflow-y: auto;}
+table.myconfig td{height: 39px; border: 1px solid #2b2a2a; text-align: center; padding: 5px; width: 131px; font-size: 12px;}
+table.myconfig td.hk_630w{width: 120px;}
+#myconfigwrap{height: 450px;}
+.myconfig .mytitle{background: #1b1b1b; color: #d8d8d8; font-size: 13px;}
+.myconfig .mytitle a{color: #626262;}
+table.myconfig1{font-size: 12px}
+table.myconfig1{border-collapse: collapse; background: #fff; width: 100%; font-size: 14px; font-family: "微软雅黑";overflow-y: auto;}
+table.myconfig1 td{height: 39px; border: 1px solid #2b2a2a; text-align: center; padding: 5px; font-size: 12px;}
+table.myconfig1 td.hk_630w{width: 120px;}
+.myconfig1 .mytitle{background: #1b1b1b; color: #d8d8d8; font-size: 13px;}
+.myconfig1 .mytitle a{color: #626262;}
+.mywrap .swiper-scrollbar-drag, .mywrap .swiper-scrollbar{border-radius: 0;}
+.mywrap .swiper-scrollbar-drag{background: #ec5307;}
+.mywrap .swiper-container-vertical>.swiper-scrollbar{top: 0; height: 100%;}
+.mywrap .swiper-container-vertical>.swiper-scrollbar{width: 10px; background: #c6c6c6;}
+.mywrap{height:590px;width:990px; overflow-y: auto; outline: none;}
+.mywrap .swiper-scrollbar-drag, .mywrap .swiper-scrollbar{border-radius: 0;}
+.nicescroll-rails{background: #232323;}
+.configure_d{margin-top: 40px; border: 5px solid #2f2e2e;border-radius: 5px;}
+.configure_d1{margin-top: 40px; border: 5px solid #2f2e2e;border-radius: 5px;}
+#hk_jxs{height: 350px;overflow-y:auto;overflow-x: none;}
+.w_footer{margin-top: 144px;}
+.mywrap1{height: 590px;width: 990px;overflow-y: auto;outline: none;}
+.hk_b_ys{color: #d8d8d8;font-size: 14px;float: right;margin-top: 18px}
+.hk_cxqh1 a.hk_txt{color: #fff;}
+.hk_cxqh a.hk_txt{color: #fff;}
+.hk_rm_mian .hk_bt4{margin-top: 130px; margin-left: -50px;}
+.beian a{color: #999;}
+/*轮播*/
+/*.focusBox { position: relative; width: 100%; height: 719px; overflow: hidden;}
+.focusBox .pic { position: relative; z-index: 0; width: 100%!important;  height: 719px; margin:0 auto;}
+.focusBox .pic img {width: 1920px; height: 719px; position: absolute; left: 50%; margin-left: -960px;}
+.focusBox .pic li{width:100%!important;height:719px!important;}
+.focusBox .hd { width: 5%; position: absolute; bottom: 50px; text-align: center; font-size: 0; z-index: 1; right: 48%;}
+.focusBox .hd li { margin: 0 5px; background: url(../images/rongwei/dot.png) no-repeat 0px -2px; height: 15px; overflow: hidden; width: 15px; cursor: pointer; display: inline-block; zoom: 1;}
+.focusBox .hd .on { background-position: 0px -25px;}
+.swiper-slide22{height:450px!important; }*/
+table.myconfig td.hk_b_bt1{font-size: 18px;}

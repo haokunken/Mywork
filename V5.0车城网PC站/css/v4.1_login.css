@@ -1,0 +1,441 @@
+/*找回密码*/
+.l_findpassword_box{width: 100%;  background: #fafafa; padding: 130px 0px 0px 0px;}
+.l_findpassword_list p{font-size: 18px; color: #000000; width: 370px; margin: 0 auto; margin-bottom: 30px; }
+.l_findpassword_list .l_phone{width: 368px; height: 38px; border:1px solid #CCC; border-radius: 3px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; padding-left:45px; font-size: 14px;}
+.l_findpassword_cenB{position: relative; margin-bottom: 16px; width: 370px; height: 40px; overflow: hidden;}
+.l_findpassword_cenD {position: relative;}
+.l_findpassword_cenD .l_confirm_pwd{width: 368px; height: 38px;  padding-left: 45px; border:1px solid #CCC; border-radius: 3px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; font-size: 14px;}
+.l_findpassword_cenD .l_confirm_pwd_img{background:url(../images/v4.1_login/l_04.png) no-repeat; width: 17px; height: 22px; background-size: 100%; position: absolute; z-index: 300; left : 16px; top: 8px;}
+.l_findpassword_cenE .l_save{width:368px; height: 38px; border-radius: 3px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; background: #558ff2; text-align: center; font-size: 18px; color: #ffffff; line-height: 38px;}
+.l_findpassword_wrapper{width: 368px; height: 285px;}
+/*找回密码成功*/
+.l_findpassword_wrapper{width: 368px; height: 317px;}
+/*登入与注册*/
+.y_loginA{ width: 370px;}
+.y_loginA_top{margin-bottom: 40px;}
+.y_loginA_topL{font-size: 18px; color: #333333;}
+.y_loginA_topR{font-size: 16px; color: #558ff2;}
+.y_loginA_topR a{color: #558ff2;}
+.y_loginA_topR a:hover{color: #ff1616;}
+.y_loginA_cenA{width: 370px; height: 40px; position: relative; margin-bottom: 16px;}
+.y_loginA_cenA input.y_input_number{width: 368px; height: 38px; border: 1px solid #dddddd; border-radius: 3px; line-height: 38px; padding-left: 12px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; font-size: 14px;}
+.y_loginA_cenA em{background: url(../images/v4.1_login/y_209.png) no-repeat; background-size: 100%; width: 12px; height: 13px; display: inline-block; position: absolute; z-index: 300; right: 12px; top: 13px; display: none;}
+.y_loginA_cenB{width: 370px; height: 40px; overflow: hidden; margin-bottom: 12px;}
+.y_loginA_cenB input.y_input_number{width: 368px; height: 38px; border: 1px solid #dddddd; border-radius: 3px; line-height: 38px; padding-left: 12px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; font-size: 14px;}
+.y_loginA_cen input.y_input_add{border: 1px solid #558ff2;}
+.y_loginA_cenC{width: 370px; margin-bottom: 15px;}
+.y_loginA_cenC label {display: block; text-align: center;}
+.y_loginA_cenC label input {position: relative;display: inline-block;width: 12px;height: 12px;margin-right: 5px; vertical-align: middle;border: 1px solid #dddddd;border-radius: 3px;}
+.y_loginA_cenC label input:checked {background-color: #2470b3; border-color: #dddddd;}
+.y_loginA_cenC label span {display: inline-block;font-size: 14px;color: #666666;vertical-align:middle;}
+.y_loginA_cenC label a{display: inline-block;font-size: 14px;color: #666666;vertical-align:middle;}
+.y_loginA_cenCR{font-size: 14px;color: #666666;}
+.y_loginA_cenCR a{font-size: 14px;color: #666666;}
+.y_loginA_cenCR a:hover{color: #ff1616;}
+.y_loginA_cenD{width: 370px; height: 47px; overflow: hidden;}
+.y_loginA_cenD_box{width: 370px; padding-bottom: 25px;}
+.y_loginA_cenD em{background: url(../images/v4.1_login/y_210.png) no-repeat; background-size: 100%; width: 12px; height: 12px; display: inline-block; margin: 0px 8px -1px 0px;}
+.y_loginA_cenD span{font-size: 12px; color: #ff1616;}
+.y_loginA_cenE{margin-bottom: 40px;}
+.y_tpos_login_top{width: 370px; height: 40px;}
+.y_tpos_login_topA{width: 370px; border-top: 1px solid #eeeeee; position: relative;}
+.y_tpos_login_topA span{font-size: 14px; color: #666666; padding: 0px 5px; background: #fff; text-align: center; display: block; position: absolute; top: -10px; left: 145px; z-index: 500;}
+.y_tpos_login_cen{width: 370px;}
+.y_tpos_login_cen ul{overflow: hidden;}
+.y_tpos_login_cen ul li{width: 33.3%; text-align: center; float: left;}
+.y_tpos_login_cen ul li a em{background-size: 100%; width: 50px; height: 50px;}
+.y_tpos_login_cen ul li a.y_wechat_icon em{background: url(../images/v4.1_login/y_211.png) no-repeat; background-size: 100%; display: inline-block; width: 50px; height: 50px;}
+.y_tpos_login_cen ul li a.y_qq_icon em{background: url(../images/v4.1_login/y_212.png) no-repeat; background-size: 100%; display: inline-block; width: 50px; height: 50px;}
+.y_tpos_login_cen ul li a.y_sina_icon em{background: url(../images/v4.1_login/y_213.png) no-repeat; background-size: 100%; display: inline-block; width: 50px; height: 50px;}
+.y_tpos_login_cen ul li a.y_wechat_icon:hover em{background: url(../images/v4.1_login/y_214.png) no-repeat; background-size: 100%; display: inline-block; width: 50px; height: 50px;}
+.y_tpos_login_cen ul li a.y_qq_icon:hover em{background: url(../images/v4.1_login/y_215.png) no-repeat; background-size: 100%; display: inline-block; width: 50px; height: 50px;}
+.y_tpos_login_cen ul li a.y_sina_icon:hover em{background: url(../images/v4.1_login/y_216.png) no-repeat; background-size: 100%; display: inline-block; width: 50px; height: 50px;}
+/*手机注册*/
+.y_mobile_login{width: 370px;}
+.y_mobile_login_top{font-size: 18px; color: #333333; margin-bottom: 30px;}
+.y_findpassword_cenA{position: relative;}
+.y_findpassword_cenA .y_phone{width: 368px; height: 38px; line-height: 38px;  border:1px solid #CCC; border-radius: 3px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; margin-bottom: 16px; padding-left:45px; font-size: 14px;}
+.y_findpassword_cenA .y_phone_left{background:url(../images/v4.1_login/l_01.png) no-repeat; width: 16px; height: 22px; background-size: 100%; position: absolute; z-index: 300; left : 16px; top: 9px;}
+.y_findpassword_cenA .y_phone_right{background:url(../images/v4.1_login/l_02.png) no-repeat; width: 12px; height: 13px; background-size: 100%; position: absolute; z-index: 300; right: 12px; top: 13px;}
+.y_findpassword_cenB{position: relative; margin-bottom: 16px; width: 370px; height: 40px; overflow: hidden;}
+.y_findpassword_cenB .y_yzm{width: 252px; height: 38px; line-height: 38px; border:1px solid #CCC; border-radius: 3px;box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; padding-left: 45px; font-size: 14px;}
+.y_findpassword_cenB .y_yzm_img{background:url(../images/v4.1_login/l_03.png) no-repeat; width: 16px; height: 20px; background-size: 100%; position: absolute; z-index: 300; left : 16px; top: 9px;}
+.y_findpassword_cenB .y_yzm_con{ width: 106px; height: 38px; line-height: 38px; display:inline-block; background: #558ff2;  text-align:center; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border-radius: 3px; margin-left: 5px; color: #ffffff; display: block; float: right; font-size: 14px;}
+.y_findpassword_cenB .y_yzm_con:hover{background: #3b77d1;}
+.y_findpassword_cenB .l_yzm_color{background: #bbbbbb;}
+.y_findpassword_cenB a.l_yzm_color:hover{background: #bbbbbb;}
+.y_findpassword_cenC{position: relative; margin-bottom: 16px;}
+.y_findpassword_cenC .y_new_pwd{width: 368px; height: 38px; line-height: 38px; padding-left: 45px; border:1px solid #CCC; border-radius: 3px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; font-size: 14px;}
+.y_findpassword_cenC .y_new_pwd_img{background:url(../images/v4.1_login/l_04.png) no-repeat; width: 17px; height: 22px; background-size: 100%; position: absolute; z-index: 300; left : 16px; top: 8px;}
+.y_findpassword_cenD {position: relative;margin-bottom: 16px;}
+.y_findpassword_cenD .y_confirm_pwd{width: 368px; height: 38px; line-height: 38px; padding-left: 45px; border:1px solid #CCC; border-radius: 3px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; }
+.y_findpassword_cenD .y_confirm_pwd_img{background:url(../images/v4.1_login/l_04.png) no-repeat; width: 17px; height: 22px; background-size: 100%; position: absolute; z-index: 300; left : 16px; top: 8px;}
+.y_findpassword_cenF{width: 368px; height: 80px;}
+.y_findpassword_cenE .y_save{ width:368px; height: 38px;border:1px solid #CCC; border-radius: 3px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; background: #558ff2; text-align: center; font-size: 18px; color: #ffffff; line-height: 40px;}
+.y_findpassword_wrapper{width: 368px; height: 317px;}
+.y_findpassword_cenA input.y_input_add{border: 1px solid #558ff2;}
+.y_findpassword_cenB input.y_input_add{border: 1px solid #558ff2;}
+.y_findpassword_cenC input.y_input_add{border: 1px solid #558ff2;}
+.y_findpassword_cenD input.y_input_add{border: 1px solid #558ff2;}
+/* 验证提示样式 */
+.y_findpassword_warn{position: relative; top: -13px; display: none;}
+.y_findpassword_warn em{width: 13px; height: 14px; background:url(../images/v4.1_login/l_05.png) no-repeat; background-size: 100%; display: inline-block; margin: 0px 8px -3px 0px;}
+.y_findpassword_warn span{font-size: 12px; color: #ff1616;}
+/*注册成功*/
+.y_login_full{width: 370px;}
+.y_mobile_login_success_bg{text-align: center; padding-top: 30px;}
+.y_mobile_login_success{width: 122px; height: 122px; display: inline-block;}
+.y_name_login_content{font-size: 20px; color: #333333;  padding-top: 88px; line-height: 30px;}
+.y_name_login_content p{text-align: center;}
+/*注册昵称*/
+.y_name_login{width: 370px; }
+.y_name_login_cen_top{font-size: 18px; color: #333333;}
+.y_name_login_top{font-size: 18px;}
+.y_name_login_box{padding: 100px 0px;}
+.y_name_login_cen{width: 370px; height: 40px; position: relative;}
+.y_name_login_cen input{width: 368px; height: 38px; border: 1px solid #dddddd; border-radius: 3px; line-height: 38px; padding-left: 45px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; font-size: 14px;}
+.y_name_login_cen em.y_name_login_cenA{background: url(../images/v4.1_login/y_217.png) no-repeat; background-size: 100%; width: 22px; height: 22px; display: inline-block; position: absolute; z-index: 300; left: 10px; top: 8px; display: block;}
+.y_name_login_cen em.y_name_login_cenB{background: url(../images/v4.1_login/y_209.png) no-repeat; background-size: 100%; width: 12px; height: 13px; display: inline-block; position: absolute; z-index: 300; right: 12px; top: 13px; display: block;}
+.y_name_login_cen input.y_input_add{border: 1px solid #558ff2;}
+/*找回密码*/
+.l_findpassword_wrapper input .l_input_add{border:1px solid #558ff2;}
+.l_person_wrapper input.l_input_add{border:1px solid #558ff2;}
+.l_findpassword_list{width: 950px; background: #fff; padding: 36px 0px 56px 0px;}
+.l_findpassword_list p{font-size: 18px; color: #000000; width: 370px; margin: 0 auto; margin-bottom: 30px; }
+.l_findpassword_cenA{position: relative;}
+.l_findpassword_list .l_phone{width: 368px; height: 38px;line-height:38px; border:1px solid #CCC; border-radius: 3px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; margin-bottom: 16px; padding-left:45px;}
+.l_findpassword_cenA .l_phone_left{background:url(../images/v4.1_login/l_01.png) no-repeat; width: 16px; height: 22px; background-size: 100%; position: absolute; z-index: 300; left : 16px; top: 9px;}
+.l_findpassword_cenA .l_phone_right{background:url(../images/v4.1_login/l_02.png) no-repeat; width: 12px; height: 13px; background-size: 100%; position: absolute; z-index: 300; right: 12px; top: 13px;}
+.l_findpassword_cenB{position: relative; margin-bottom: 16px; width: 370px; height: 40px; overflow: hidden;}
+.l_findpassword_cenB .l_yzm{width: 252px; height: 38px;line-height:38px;border:1px solid #CCC; border-radius: 3px;box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; padding-left: 45px;}
+.l_findpassword_cenB .l_yzm_img{background:url(../images/v4.1_login/l_03.png) no-repeat; width: 16px; height: 20px; background-size: 100%; position: absolute; z-index: 300; left : 16px; top: 9px;}
+.l_findpassword_cenB .l_yzm_con{ width: 106px; height: 38px; line-height: 38px; display:inline-block; background: #558ff2;  text-align:center; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border-radius: 3px; margin-left: 5px; color: #ffffff; float: right; font-size: 14px;}
+.l_yzm_con:hover{background: #3b77d1;}
+.l_findpassword_cenB .l_yzm_color{background: #bbbbbb;}
+.l_findpassword_cenC{position: relative; margin-bottom: 16px;}
+.l_findpassword_cenC .l_new_pwd{width: 368px; height: 38px;line-height:38px;padding-left: 45px; border:1px solid #CCC; border-radius: 3px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; }
+.l_findpassword_cenC .l_new_pwd_img{background:url(../images/v4.1_login/l_04.png) no-repeat; width: 17px; height: 22px; background-size: 100%; position: absolute; z-index: 300; left : 16px; top: 8px;}
+.l_findpassword_cenD{position: relative; margin-bottom: 16px;}
+.l_findpassword_cenD .l_new_npwd{width: 368px; height: 38px;line-height:38px;padding-left: 45px; border:1px solid #CCC; border-radius: 3px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; }
+.l_findpassword_cenD .l_new_npwd_img{background:url(../images/v4.1_login/l_04.png) no-repeat; width: 17px; height: 22px; background-size: 100%; position: absolute; z-index: 300; left : 16px; top: 8px;}
+.l_findpassword_wrapper input.l_input_add{border:1px solid #558ff2;}
+.l_findpassword_cenD {position: relative;margin-bottom: 16px;}
+.l_findpassword_cenD .l_confirm_pwd{width: 368px; height: 38px;  padding-left: 45px; border:1px solid #CCC; border-radius: 3px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; }
+.l_findpassword_cenD .l_confirm_pwd_img{background:url(../images/v4.1_login/l_04.png) no-repeat; width: 17px; height: 22px; background-size: 100%; position: absolute; z-index: 300; left : 16px; top: 8px;}
+.l_findpassword_cenF{width: 368px; height: 80px;}
+.l_findpassword_cenE .l_save{ width:368px; height: 38px;border:1px solid #CCC; border-radius: 3px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; background: #558ff2; text-align: center; font-size: 18px; color: #ffffff; line-height: 40px;}
+.l_findpassword_cenA input.l_input_add{border: 1px solid #558ff2;}
+.l_findpassword_cenB input.l_input_add{border: 1px solid #558ff2;}
+.l_findpassword_cenC input.l_input_add{border: 1px solid #558ff2;}
+.l_findpassword_cenD input.l_input_add{border: 1px solid #558ff2;}
+.l_findpassword_wrapper{width: 368px; height: 317px;}
+.l_findpassword_other{padding:36px 0px 136px 0px;}
+.l_findpassword_wrapper .y_mobile_login_success{width: 122px; height: 122px; display: block; padding-top: 55px;}
+.l_findpassword_wrapper .l_findpassword_set{text-align: center; font-size: 20px; color: #333333; padding-bottom: 80px; padding-top: 60px;}
+/* 验证提示样式 */
+.y_loginA_cenE a{width: 370px; height: 40px; line-height: 40px; background: #558ff2; border-radius: 3px; text-align: center; display: inline-block; color: #fff; font-size: 18px;}
+.y_loginA_cenE input{width: 370px; height: 40px; line-height: 40px; border: none; cursor: pointer; background: #558ff2; border-radius: 3px; text-align: center; display: inline-block; color: #fff; font-size: 18px;}
+.y_loginA_cenE input:hover{background:#3b77d1;}
+.y_loginA_cenE a:hover{background:#3b77d1;}
+.find_pwd_save{margin-left: 290px;}
+/*找回密码*/
+.l_setpassword_box{width: 100%;  background: #fafafa; padding:90px 0px 130px 0px;}
+.l_setpassword_list{width: 1140px; height:569px; background: #fff; border:1px solid #e9eef4;}
+.l_setpassword_list_l{width: 200px; height: 100%;}
+.l_setpassword_logo{width: 103px; height: 103px; border-radius: 50%;  margin-top: 28px;}
+.l_setpassword_logo img{width: 103px; height: 103px; border-radius: 103px; border: 1px solid #ecf2fe;}
+.l_setpassword_list_l .l_setpassword_name{font-size: 16px; color: #333333;  width: 198px; height:60px; text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-top: 10px;}
+.l_setpassword_bottom ul{width: 100%; text-align: center;line-height: 35px; cursor: pointer;}
+.l_setpassword_bottom ul li a{font-size: 16px; color: #333333; letter-spacing: 5px;}
+.l_setpassword_bottom ul li:hover a{background: #558ff2; color: white; display: block;}
+.l_setpassword_bottom .l_current{background: #558ff2; color: white; display: block;}
+.l_setpassword_list_r{width: 939px; min-height: 569px;  border-left: 1px solid #e9eef4; }
+.l_setpassword_nav{width: 880px; height: 61px; border-bottom: 2px solid #fafafa;}
+.l_setpassword_nav ul li{float: left; margin-top:28px; margin-right: 14px;}
+.l_setpassword_nav ul li a{font-size: 16px; color: #333333;padding: 30px 33px 11px 33px;}
+.l_setpassword_nav ul li a:hover{color: #2d72dd; border-bottom: 2px solid #2d72dd;}
+.l_setpassword_nav .l_current{color: #2d72dd; border-bottom: 2px solid #2d72dd;}
+.l_setpassword_img img{width: 122px; height: 122px; display: block; padding-top:80px;}
+.l_setpassword_textA{text-align: center; padding-top: 61px; font-size:20px; color: #333333;}
+.l_setpassword_textB{text-align: center; padding-top: 14px; font-size:20px; color: #333333;}
+.l_setpassword_login{ text-align: center; padding-top: 60px; }
+/*基本信息*/
+.l_person_information_tip{width: 880px; height: 30px; background: #fffbe5; }
+.l_person_information_tip em{ background: url(../images/v4.1_login/l_08.png) no-repeat; width: 14px; height: 14px; background-size: 100%; display: inline-block;  margin-top:7px; margin-left: 30px; margin-bottom: -1.5px; background-position: center center;}
+.l_person_information_tip span{font-size: 12px; color: #bbbbbb; padding-left: 10px;}
+.l_person_information_table{width:880px; padding-top:38px; font-size: 16px; color: #333333; padding-left: 30px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+.l_person_information_table .l_person_information_reset{color: #2d72dd; font-size: 14px; padding-left: 25px;}
+.l_person_information_tableA span em{width: 34px; display: inline-block;}
+.l_person_information_tableA input{border:1px solid #ffffff; background:none; font-size: 16px; color: #333333; padding-left: 11px;}
+.l_person_information_tableA{margin-bottom: 41px;}
+.l_person_information_tableB input{border:1px solid #ffffff; background:none; font-size: 16px; color: #333333; padding-left:13px;}
+.l_person_information_tableB{margin-bottom: 41px;}
+.l_person_information_tableC{margin-bottom: 41px;}
+.l_person_information_tableC span em{width: 34px; display: inline-block;}
+.l_person_information_tableC input{margin-right:12px; margin-left: 7px;}
+.l_person_information_tableC .female{margin-left: 44px;}
+.l_person_information_tableD{margin-bottom: 41px;}
+.l_person_information_tableD input{border:1px solid #ffffff; background:none; font-size: 16px; color: #333333; padding-left: 8px;}
+.l_person_information_tableE span{margin-right: 10px;}
+.l_person_information_tableE select{width: 102px; height: 34px; line-height: 34px; margin-right: 5px; border-radius: 3px; border:1px solid #e9eef4; padding: 5px 0px 5px 20px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+.l_person_information_tableE span em{width: 34px; display: inline-block;}
+.l_person_information_submit{text-align: center; margin-top: 63px;}
+.l_person_information_tableA .l_person_add{border:1px solid #e9eef4; border-radius: 3px;}
+.l_person_information_tableB .l_person_add{border:1px solid #e9eef4; border-radius: 3px;}
+.l_person_information_tableD .l_person_add{border:1px solid #e9eef4; border-radius: 3px;}
+/*修改头像*/
+.l_setlogo_tip{padding-top: 52px; padding-left: 58px;}
+.l_setlogo_tip_condition{font-size: 16px; color: #333333;}
+.l_setlogo_tip_condition span{font-size: 14px; color: #999999;}
+.l_setlogo_tip_file{margin-bottom: 36px;}
+.l_upload{margin-top: 40px; width: 100px; height: 34px; position: relative; float: left;}
+.l_upload span.y_load_picA{width: 100px; height: 34px; position: absolute; top: 0px; left: 0px; z-index: 200; background:#558ff2; border-radius: 3px; text-align: center; line-height: 34px; color: #ffffff; cursor: pointer; display: block;}
+.l_upload span.y_load_picB{color: #999999; font-size: 14px; display: inline-block; padding-left:  130px; width: 150px; padding-top: 6px;}
+.l_upload input{display: block; opacity: 0; width: 100px; height: 34px; border-radius:3px; position: absolute; top: 0px; left: 0px; z-index: 300;}
+.l_setlogo_tip_png img{width: 109px; height: 109px; float: right; margin-right: 122px; margin-top: -53px; border-radius: 109px; border: 1px solid #ecf2fe;}
+.l_setlogo_size{margin-top: 8px; margin-bottom: 5px;}
+.l_setlogo_size ul li{float: left; padding-right: 26px; text-align: center; }
+.l_setlogo_size ul li img{margin-bottom: 10px;}
+.l_setlogo_large img{width: 138px; height: 138px; border-radius: 138px; display: block; border: 1px solid #ecf2fe;}
+.l_setlogo_middle img{width: 108px; height: 108px; margin-top: 30px; border-radius: 108px; display: block;}
+.l_setlogo_small img{width: 80px; height: 80px; margin-top: 58px; border-radius: 80px; display: block;}
+.l_setlogo_text{float: left;}
+.l_setlogo_text .l_setlogo_text_large{font-size: 22px; color: #333333; padding-left:58px;}
+.l_setlogo_text .l_setlogo_text_middle{font-size: 18px; color: #333333; padding-left:125px;}
+.l_setlogo_text .l_setlogo_text_small{font-size: 14px; color: #333333; padding-left:100px;}
+.l_setlogo_save{ margin-top: 51px; margin-left: 225px; }
+/*修改手机*/
+.l_setphone_text{color: 16px; color: #333333; padding-left: 39px; padding-top: 60px;}
+.l_setphone_yzm{margin-top: 48px; padding-left: 39px;}
+.l_setphone_yzm label{font-size: 16px; color: #333333;}
+.l_setphone_yzm_num{width: 254px; height: 38px; border-radius: 3px; border:1px solid #e9eef4; padding-left: 20px; font-size: 16px; color: #333333;}
+.l_setphone_yzm_con{width: 106px; height: 38px; background: #bbbbbb; display: inline-block; text-align: center; line-height: 38px; color: #ffffff; margin-left: 10px; border-radius: 3px;}
+/*验证码错误提示*/
+.l_findpassword_warn{position: relative; top: -13px; display: none;}
+.l_findpassword_warn em{width: 13px; height: 14px; background:url(../images/v4.1_login/l_05.png) no-repeat; background-size: 100%; display: inline-block; margin: 0px 8px -3px 0px;}
+.l_findpassword_warn span{font-size: 12px; color: #ff1616;}
+.l_setphone_error{margin-top: 17px; margin-left: 140px; display: none;}
+.l_setphone_next{margin-left:65px; margin-top:88px;}
+/*新手机号码*/
+.l_person_newphone{padding-top: 70px; padding-left: 58px;}
+.l_person_newphoneA{margin-bottom: 25px; overflow: hidden;}
+.l_person_newphoneB{margin-bottom: 25px;}
+.l_person_newphone_label{font-size: 16px; color: #333333; line-height: 38px; display: block; float: left; width: 125px;}
+.l_person_newphone_input{width: 256px; height: 40px; border-radius: 3px; border:1px solid #dddddd; padding-left: 20px; font-size: 14px; color: #333333; line-height: 40px; display: block; float: left; }
+.l_person_newphoneB input{/*margin-left: 17px;*/}
+.l_person_newphone_yzm{padding: 0px 15px; height: 40px; background: #558ff2; display: inline-block; text-align: center; line-height: 40px; color: #ffffff; margin-left: 10px; border-radius: 3px; font-size: 14px;}
+.l_person_newphone_yzm:hover{background:#3b77d1;}
+.l_person_newphone_error{margin-top: -10px; margin-left:118px; display: none;}
+.l_person_newphone_save{margin-top: 77px; margin-left:7px;}
+.l_person_newphoneB .l_yzm_color{background: #bbbbbb;}
+/*修改手机号码成功*/
+.l_person_phone_img {width: 122px; height: 122px;}
+.l_person_phone_img img{padding-top: 80px;}
+.l_person_phonetxt{text-align: center; padding-top: 140px;}
+.l_person_phonetxt p{font-size: 20px; color: #333333; line-height: 35px;}
+/*修改密码*/
+.l_person_new span{font-size: 16px; color: #333333; line-height: 40px;}
+.l_person_new input{width: 256px; height: 40px; margin-bottom: 16px; border-radius: 3px; border:1px solid #CCC; padding-left: 12px;font-size: 14px; color: #333333; margin-left: 5px; line-height: 40px;}
+.l_person_nerror{margin-left: 106px; display: none;}
+/*个人中心-收藏-车系*/
+.y_collect_nav ul li{margin-right: 0px;}
+.y_collect_nav ul li a{padding: 30px 50px 11px 50px;}
+.y_collect_nav ul li a:hover{border-bottom: none;}
+.y_collect_nav ul li a.l_current{border-bottom: 2px solid #2d72dd;}
+.y_collect_chexi{width: 880px; /*height: 692px;*/ overflow: hidden;}
+.y_collect_chexi ul{overflow: hidden; padding-top: 30px; min-height: 405px;}
+.y_collect_chexi ul li{float: left; text-align: center; margin-bottom: 44px; margin-right: 24px;}
+.y_collect_chexi ul li a.y_collect_name p:hover{color: #ff1616;}
+.y_collect_chexi ul li.y_none{display: none;}
+.y_collect_chexi ul li:nth-child(4n){ margin-right: 0px; }
+.y_collect_chexi ul li a.y_collect_name{border: 1px solid #e9eef4; display: block; padding-bottom: 18px; margin-bottom: 14px; background: #fff;}
+.y_collect_chexi ul li a.y_collect_name img{width: 200px; height: 150px; display: block;}
+.y_collect_chexi ul li a.y_collect_name p{width: 200px; height: 38px; line-height: 20px; overflow: hidden; font-size: 16px; color: #333333; padding: 16px 13px 0px 13px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; margin-bottom: 10px;}
+.y_collect_chexi ul li a.y_collect_name span{font-size: 14px; color: #ff1616; width: 200px; height: 20px; line-height: 20px; padding: 0px 13px 0px 13px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; overflow: hidden; display: block;}
+.y_collect_chexi ul li a.y_collect_del{width: 78px; height: 28px; line-height: 28px; overflow: hidden; display: inline-block; border-radius: 3px; text-align: center; border: 1px solid #e9eef4; font-size: 14px; color: #666666;}
+.y_collect_chexi ul li a.y_collect_del:hover{color: #ff1616;}
+.y_clt_box{height: auto;}
+.l_cltR{height: auto; padding-bottom: 30px;}
+.y_page_box{margin-top: 0px;}
+/*个人中心-收藏-车系-加载更多按钮*/
+/*.y_more{width: 880px; border-top: 2px solid #f7f7f7; padding: 20px 0px; text-align: center;}
+.y_more a{font-size: 16px; color: #666666;}
+.y_more a em{width: 9px; height: 6px; background:url(../images/v4.1_login/y_218.png) no-repeat; background-size: 100%; display: inline-block; margin: 0px 0px 2px 10px;}*/
+/*个人中心-收藏-文章*/
+.y_collect_atl .lxy_labelmain{ width: 880px; min-height: 405px; margin-bottom: 30px;}
+.y_collect_atl .lxy_labelmain ul{overflow: hidden;}
+.y_collect_atl .lxy_labelmain ul li a.y_collect_atl_L{width: 745px; overflow: hidden; }
+.y_collect_atl .lxy_labelmain li{padding: 30px 0; border-bottom: 1px solid #e9eef4; }
+/*.y_collect_atl .lxy_labelmain li:hover{background: #fafafa;}*/
+.y_collect_atl .lxy_labelmain li:hover h3{color: #ff1616;}
+.y_collect_atl .lxy_labelmain .y_collect_atl_L{width: 745px;}
+.y_collect_atl .lxy_labelmain .y_collect_atl_L .pic{margin-right: 12px; width: 198px; height: 148px;}
+.y_collect_atl .lxy_labelmain .y_collect_atl_L .pic img{display: block; width: 198px; height: 148px; margin: 0;}
+.y_collect_atl .lxy_labelmain .y_collect_atl_L .word h3{ font-size: 24px; color: #333; font-weight: normal; overflow: hidden; text-overflow:ellipsis; white-space: nowrap; margin-bottom: 10px;}
+.y_collect_atl .lxy_labelmain .y_collect_atl_L .word h3:hover{color: #ff1616;}
+.y_collect_atl .lxy_labelmain .y_collect_atl_L .word p{font-size: 14px; line-height: 24px; color: #888888; height: 48px;  margin-bottom: 35px; overflow: hidden;}
+.y_collect_atl .lxy_labelmain .y_collect_atl_L .word p:hover{color: #ff1616;}
+.y_collect_atl .lxy_labelmain .y_collect_atl_L .article-bar{font-size: 12px; color: #999;}
+.y_collect_atl .lxy_labelmain .y_collect_atl_L .article-bar a{ float: left; border: 1px solid #e9eef4; color: #999999; font-size: 12px; border-radius: 27px; padding: 2px 8px; margin-right: 20px; margin-top: -3px}
+.y_collect_atl .lxy_labelmain .y_collect_atl_L .article-bar a:hover{ color: #2d72dd; border: 1px solid #558ff2 }
+.y_collect_atl .lxy_labelmain .y_collect_atl_L .article-bar em{font-style: normal;}
+.y_collect_atl .lxy_labelmain .y_collect_atl_L .article-bar strong{font-weight: normal; margin-right: 20px;}
+.y_collect_atl .lxy_labelmain .y_collect_atl_R{width: 130px; text-align: right; padding-top: 60px;}
+.y_collect_atl .lxy_labelmain .y_collect_atl_R a{width: 78px; height: 28px; line-height: 28px; overflow: hidden; display: inline-block; border-radius: 3px; text-align: center; border: 1px solid #e9eef4; font-size: 14px; color: #666666;}
+.y_collect_atl .lxy_labelmain .y_collect_atl_R a:hover{color: #ff1616;}
+/*个人中心-收藏-暂无数据*/
+.y_collect_none{width: 880px; text-align: center; vertical-align: middle; padding-top: 140px;}
+.y_collect_none img{width: 130px; height: 103px;}
+.y_collect_none p{font-size: 20px; color: #666666; padding-top: 20px;}
+/*个人中心-订阅*/
+.y_takeA{margin-bottom: 30px; width: 900px;}
+.y_takeA .lxy_szm_list ul{padding-top: 24px;}
+.y_takeA .lxy_szm_list ul li{border: 1px solid #f1f1f1; float: left; height: 325px; margin: 0 20px 24px;}
+.y_takeA .lxy_szm_list ul li:hover{box-shadow: 0 0 14px 2px #f1f1f1;}
+.y_takeA .lxy_szm{background: rgba(0, 0, 0, 0) url("../images/v3.1_self_media/lxy_14.jpg") no-repeat scroll 0 0; height: 323px; position: relative; width: 258px;}
+.y_takeA .lxy_szm_top{height: 158px; padding-top: 40px; text-align: center;}
+.y_takeA .lxy_szm_top img{border: 1px solid #eeedec; border-radius: 108px; height: 108px; width: 108px;}
+.y_takeA .lxy_szm_bottom{background: #ffffff none repeat scroll 0 0; height: 53px; padding: 42px 18px 30px; text-align: center;}
+.y_takeA .lxy_szm_bottom h3{color: #333333; font-size: 22px; font-weight: normal; height: 30px; margin-bottom: 15px; overflow: hidden; width: 100%;}
+.y_takeA .lxy_szm_bottom p{color: #666666; font-size: 14px;}
+.y_takeA .lxy_szm_bottom span{color: #ff1616; font-weight: bold;}
+.y_takeA .lxy_dingyue{background: #fff none repeat scroll 0 0; border: 1px solid #ff874a; border-radius: 20px; bottom: 108px; height: 34px; left: 88px; line-height: 34px; position: absolute; text-align: center; width: 88px;}
+.y_takeA .lxy_dingyue:hover{background: #fff7eb none repeat scroll 0 0;}
+.y_takeA .lxy_dingyue a{color: #ff874a; display: inline-block; height: 100%; width: 100%;}
+/*补充找回密码-返回首页*/
+.l_findpassword_list .x_back{margin-right:20px;margin-top:-15px; text-align:right;}
+.l_findpassword_list .x_back a{color:#2d72dd; font-size:16px;}
+.l_findpassword_list .x_back a:hover{color:#ff1616;}
+/*hk_自媒体后台_申请入驻*/
+.hk_top{width: 100%; background: #fff; height: 70px;box-shadow: 0 3px 6px #f4f4f4;position: relative;}
+.hk_w_1000 {width: 1000px;overflow: hidden;}
+.hk_top .hk_w_1000 .hk_logo{display: block; margin-top: 15px; float: left;}
+.hk_top .hk_w_1000 img{float: left; width: 107px; height: 45px;}
+.hk_top .hk_w_1000 a span.hk_top_text{margin-top: 5px; font-size: 24px;color: #6c6c6c;margin-left: 28px;float: left;}
+.hk_top .hk_w_1000 .hk_dl{/* width: 100px; */margin-right: 22px;}
+.hk_top .hk_w_1000 .hk_dl a{margin-top: 21px;float: left;color: #333;font-size: 21px;}
+.hk_top .hk_w_1000 .hk_dl a:hover{color: #2d72dd;}
+.hk_top .hk_w_1000 .hk_dl em{margin: 27px 10px 0px 10px;display: block;float: left;background: url(../images/hk_01.png) no-repeat;height: 20px;width: 11px;}
+.hk_uesr .hk_name_right{float: right;}
+/*banner*/
+.hk_pic_Parent{position: relative; width: 100%; height: 523px; overflow: hidden;}
+.hk_banner{position: absolute; left: 50%; height: 523px; display: block; margin-left: -960px;}
+.hk_process{background: url(../images/hk_03.png) no-repeat center top; width: 1000px; height: 160px; margin-top: 30px;}
+.hk_list {width: 983px; height: 180px; box-shadow: 0px 0px 17px #f2f2f2; margin-bottom: 45px;margin-top: 10px;}
+.hk_list a{width: 983px; height: 180px; display: block;}
+.hk_list img{float: left; display: block; margin: 17px 18px 0 25px;}
+.hk_list .hk_gr_text { margin-right:32px; font-size: 20px; line-height: 34px; color: #888888; height: 65px; width: 700px;  overflow: hidden;padding-top: 35px;}
+.hk_list .hk_button_style{display: block;cursor:pointer; margin-right: 30px; width: 170px; height: 50px; line-height: 50px; text-align: center; font-size: 24px; color: #fff; border-radius: 30px; float: right; margin-top: 10px;}
+.hk_list .hk_button_color1{background: #fbba2e;}
+.hk_list .hk_button_color1:hover{background: #ffac31;}
+.hk_list .hk_button_color2{background: #558ff2;}
+.hk_list .hk_button_color2:hover{background: #2d72dd;}
+.hk_bt85 {margin-bottom: 85px;}
+.beian a { color: #999;}
+.beian { margin-left: 30px;}
+/*hk_资料填写*/
+.hk_top .hk_uesr{width: 316px; margin-top: 7px; margin-right: 20px; position: relative;}
+.hk_top .hk_uesr img.hk_user_head{width: 55px; height: 55px; margin-right: 20px; float: left; border-radius: 25px; display: block;}
+.hk_top .hk_uesr .hk_user_name{white-space:nowrap; text-overflow:ellipsis; margin-top: 5px; display: block;float: left;font-size: 18px;color: #333;/* margin-top: 0px; */min-width: 60px;max-width: 160px;overflow: hidden;height: 26px;}
+.hk_top .hk_name_box{/* max-width:180px; *//* position: relative; */float: left;overflow: hidden;}
+.hk_top .hk_uesr .hk_uesr_personal{background: #fbba2e;}
+.hk_top .hk_uesr .hk_uesr_mechanism{background: #2d72dd;}
+.hk_top .hk_uesr .style{color: #fff;border-radius: 3px;float: left;font-size: 12px;position: absolute;display: block;top: 36px;width: 40px;height: 15px;text-align: center;line-height: 15px;/* margin-top: 8px; */}
+.hk_top .hk_uesr a.hk_introduction {margin-top: 10px;color:#333;font-size: 20px;display: block;float: right;border-left: 1px solid #efefef;padding-left: 20px;margin-left: 20px;height: 30px;line-height: 30px;}
+.hk_top .hk_uesr a.hk_introduction:hover{color: #2d72dd;}
+/*中间部分*/ 
+.hk_wmian_1000{width: 1000px; margin-top: 20px; margin-bottom: 20px;}
+.hk_back{background: #fff; overflow: hidden;}
+.hk_mian {background: #f4faff; overflow: hidden;}
+.hk_box {width: 958px;}
+.hk_box .hk_title{border-bottom: 2px solid #f8f8f8;height: 50px;color: #333;line-height: 50px;}
+.hk_box span{font-size: 20px;font-weight: 600;}
+.hk_box .hk_data{overflow: hidden;padding-bottom: 20px;}
+.hk_box .hk_data .hk_geren{float: left; margin-top: 20px;}
+.hk_data .hk_leix{font-size: 18px;float: left;font-weight: 400;}
+.hk_data .hk_top_text{width: 75%;overflow: hidden;float: left;height: 25px;margin-top: 30px;line-height: 20px;}
+.hk_data span.hk_shuoming{display: block;width: 75%;font-size: 14px;font-weight: 400;float: left;margin-top: 13px;}
+.hk_title .hk_none {font-weight: 400;}
+/*表单*/
+.hk_mingcheng .gk_subject{width: 100px;margin-right: 10px;text-align: right;color: #333;font-size: 16px;margin-top: 37px;}
+.hk_mingcheng .form-text {background: #fbfdff;resize: none;float: left;border: 1px solid #efefef;border-radius: 0;font-size: 14px;padding: 8px 10px;margin-top: 30px;}
+.hk_mingcheng .hk_size1 {width: 314px;height: 16px;line-height: 16px;}
+.hk_mingcheng .hk_size2 {width: 535px;height: 52px;}
+.hk_mingcheng .hk_black{color: #333;}
+.hk_mingcheng .hk_explain{font-size: 14px;color: #999;}
+.hk_mingcheng .hk_explain_position {margin-left: 110px;width: 100%;margin-top: 10px;}
+.hk_mingcheng .hk_explain_position1 {margin-left: 20px;line-height: 24px;margin-top: 63px;}
+.hk_mingcheng .hk_explain_position2 {margin-left: 20px;line-height: 24px;margin-top: 74px;}
+.hk_mingcheng .hk_explain_position3 {margin-left: 20px;line-height: 24px;margin-top: 108px;}
+.hk_portrait{margin-top: 30px; width: 105px; height:105px; float: left;}
+.hk_sczhengjian {width: 124px; height: 150px; margin-top: 30px; float: left;}
+.hk_mingcheng{overflow: hidden; position: relative;}
+.hk_shallowblack{color: #999;}
+.hk_id_img{width: 205px; height:139px; float: left; margin-top: 30px;}
+.hk_id_imgbox {width: 205px; height:160px; float: left; margin-top: 30px; margin-left: 20px;  }
+.hk_id_imgbox .hk_id_img1{width: 205px; height:139px; float: left; border: 1px solid #efefef;}
+.hk_id_imgbox p { display: block; width: 100%; text-align: center; }
+.hk_mingcheng .y_yzm_con { width: 115px; height: 35px; line-height: 35px; display: inline-block; background: #558ff2; text-align: center; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; border-radius: 3px; margin-left: 20px; margin-top: 30px; color: #ffffff; display: block; float: left; font-size: 14px;}
+.hk_mingcheng .y_yzm_con:hover{background: #2d72dd;}
+.hk_zishuA {position: absolute;top: 37px;right: 525px; background: #fbfdff; z-index: 300; width: 40px; height:20px;}
+.hk_zishuB {position: absolute;top: 75px;right: 304px;}
+.hk_explain em{font-style: normal;}
+.hk_level{ margin: 29px 0 40px 112px;}
+.hk_level ul li{height: 30px;}
+.hk_level em {display: block; width: 20px; height: 20px; float: left; margin-right: 10px; cursor:pointer }
+.hk_level .hk_selected{background: url(../images/hk_12.png) no-repeat; }
+.hk_level .hk_selected_none{background: url(../images/hk_11.png) no-repeat; }
+.hk_level .hk_sm{  font-size: 14px; color: #999; float: left;}
+.hk_level a {color: #333; font-size: 14px; float: left;}
+.hk_box .hk_tijiao{margin: 0 auto 20px;color: #fff;font-size: 18px;width: 376px;height: 45px;line-height: 45px;text-align: center;border-radius: 5px;background: #558ff2;display: block;}
+.hk_box .hk_tijiao:hover{background: #2d72dd;}
+.hk_ing {background: #fff!important;color: #2d72dd!important; border:1px solid #558ff2!important;}
+.hk_shangchuan{ cursor:pointer;display: block; opacity: 0;filter:alpha(opacity=0); width: 105px; height: 105px; border-radius: 3px; position: absolute; top: 30px; left: 109px; z-index: 300;}
+.hk_shangchuan1{ cursor:pointer;display: block; opacity: 0;filter:alpha(opacity=0); width: 205px; height: 139px; border-radius: 3px; position: absolute; top: 30px; left: 109px; z-index: 300;}
+.hk_shangchuan2{ cursor:pointer;display: block; opacity: 0;filter:alpha(opacity=0); width: 124px; height: 150px; border-radius: 3px; position: absolute; top: 30px; left: 109px; z-index: 300;}
+.hk_mingcheng .hk_gh{cursor:pointer;display: none; width: 105px; height: 105px;position: absolute; top: 30px; left: 109px;}
+.hk_mingcheng .hk_gh1{cursor:pointer;display: none; width: 205px; height: 139px;position: absolute; top: 30px; left: 109px;}
+.hk_mingcheng .hk_gh2{cursor:pointer;display: none; width: 124px; height: 150px;position: absolute; top: 30px; left: 109px;}
+.hk_error_text {color: #ff1616;margin: 0 auto 35px;width: 376px;text-align: center;}
+.hk_setpassword_list_r{width: 950px; height: 510px; background: #fff;margin-top: 80px; margin-bottom: 330px;}
+.hk_person_phonetxt { text-align: center; padding-top: 120px;}
+.hk_person_phonetxt p{font-size: 20px; margin-top: 10px;color: #333;}
+.hk_ml28{margin-left: 28px;}
+.hk_ml10{margin-left: 10px;}
+.hk_mb45{margin-bottom: 45px;}
+.hk_mb25{margin-bottom: 25px;}
+.error {border: 1px solid #ff1616!important;}
+#sy,#sy1,#sy2,#sy3,#sy4,#sy5,#sy6{color: #78797a;}
+.hk_mingcheng textarea.hk_size2::-webkit-input-placeholder {  font-size: 14px; color: #ccc;  font-family: 'Microsoft YaHei','PingFangSC-Regular', 'PingFangSC','SimSun',Arial, Helvetica, sans-serif;} 
+.hk_mingcheng textarea.hk_size2:-moz-placeholder { font-size: 14px;  color: #ccc;  font-family: 'Microsoft YaHei','PingFangSC-Regular', 'PingFangSC','SimSun',Arial, Helvetica, sans-serif;} 
+.hk_mingcheng textarea.hk_size2::-moz-placeholder {  font-size: 14px; color: #ccc;  font-family: 'Microsoft YaHei','PingFangSC-Regular', 'PingFangSC','SimSun',Arial, Helvetica, sans-serif;} 
+.hk_mingcheng textarea.hk_size2:-ms-input-placeholder {  font-size: 14px; color: #ccc;  font-family: 'Microsoft YaHei','PingFangSC-Regular', 'PingFangSC','SimSun',Arial, Helvetica, sans-serif;} 
+/*2017.9.19 协议 */
+.hk_frame{background: #fff; padding: 50px 25px 60px 25px; font-size: 13px; color: #666; margin: 0 0 50px;}
+.hk_frame .hk_login{overflow: hidden; height: 100%; font-size: 13px;}
+.hk_frame .hk_login span{border-bottom: 1px solid #f8f8f8; height: 50px; display: block; margin: 0 0 32px;}
+.hk_frame .hk_login span strong{font-size: 20px; float: left; line-height: 1.3; color: #333;}
+.hk_frame .hk_subject p{font-size: 13px;color: #666666;line-height: 22px;}
+.hk_frame .hk_subject strong{font-size: 13px; font-weight: 800; display: block; margin-bottom:30px;}
+.hk_frame .hk_subject ul{margin-left: 17px;}
+.hk_frame .hk_subject ul li{margin: 0 0 30px;line-height: 20px;font-size: 13px;}
+.hk_frame .hk_subject ol{margin-bottom: 30px;}
+.hk_frame .hk_subject ol li{margin: 0 0 10px;line-height: 20px;font-size: 13px;}
+.hk_frame .hk_subject p.hk_company{text-align: right;}
+/*.hk_yy{position: absolute;width: 100%; height: 10px; left: 0; top: 20px; background: url(../images/hk_22.png) repeat-x; }*/
+/*修改密码字体大小*/
+.y_findpassword_cenD input.y_confirm_pwd{font-size: 14px;}
+/*2017-9-21 用户名*/
+.hk_yhm{text-align: right; display: block; color: #333333; font-size: 21px; width: 168px; height: 30px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; margin-top: 7px;}
+.hk_yhm:hover{color: #2d72dd;}
+.hk_tchu {
+	margin-top: 10px;
+    color: #333;
+    font-size: 20px;
+    display: block;
+    float: right;
+    border-left: 1px solid #efefef;
+    padding-left: 10px;
+    margin-left: 10px;
+    height: 30px;
+    line-height: 30px;}

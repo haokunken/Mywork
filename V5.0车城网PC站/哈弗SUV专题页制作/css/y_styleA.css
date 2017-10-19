@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+div{margin:0 auto;}
+a{text-decoration:none;}
+img{border:0px;}
+.clear{clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+:focus {OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: 0px;}
+ul,li{ list-style:none; margin:0; padding:0;}
+body{margin:0px;font-family:Arial,"微软雅黑",Helvetica, sans-serif; min-width:1200px; background-position:center top; background-repeat:no-repeat; background-attachment:fixed; }
+
+/*哈弗专题页*/
+.y_top{width: 1200px; height: 60px;}
+.y_topL a img{width: 222px; height: 60px;}
+.y_topR{font-size: 16px; height: 60px; line-height: 60px; color: #242424; }
+.y_topR a{color: #242424; display: inline-block;  padding: 0 20px;}
+.y_topR a:hover{color: #242424; color: #fe7134;}
+.y_Banner{width: 100%; height: 784px; position: relative; overflow: hidden;}
+.y_Banner ul{overflow: hidden;}
+.y_Banner ul li{float: left; height: 784px; overflow: hidden;}
+.y_Banner ul li p img{height: 784px; }
+.y_Banner ul li p{height: 784px; width:3000px; position: absolute; left: 50%; margin-left: -1500px; z-index: 20; display:block; text-align:center;}
+/*一键分享*/
+.y_shareA{position: absolute; left: 50%; margin-left: 360px; z-index: 30; overflow: hidden; top: 8px; font-size: 12px; color: #fff;}
+.shareTo{padding-top: 5px; color: #000;}
+.bdshare-button-style0-16 a, .bdshare-button-style0-16 .bds_more{float: left;font-size: 12px;background-image: url(../images/share.png) !important;padding-left: 0 !important;
+	background-repeat: no-repeat;cursor: pointer;margin:0 2px!important;width: 26px; height: 26px !important;}
+.bdshare-button-style0-16 .bds_tsina {background-position: 0px  0px !important;}
+.bdshare-button-style0-16 .bds_tqq{background-position: -26px  0px !important;}
+.bdshare-button-style0-16 .bds_sqq {background-position: -52px  0px !important;}
+.bdshare-button-style0-16 .bds_qzone {background-position: -78px  0px !important;}
+.bdshare-button-style0-16 .bds_weixin {background-position: -104px  0px !important;}
+.bdshare-button-style0-16 .bds_more {background-position: -130px  0px !important;}
+.bdshare-button-style0-16 .bds_count{width:auto!important;padding: 0 10px!important; background: #fff!important; color: #000!important;  height: 26px!important;line-height: 26px; border: 1px solid #bbb;border-radius: 3px; font-size: 12px; margin-top: 0px!important;}
+.y_body_bgB{background: #6f7487; padding-bottom: 40px;}
+.y_foot{background: #ececec; height: 24px; text-align: center; line-height: 24px; font-size: 12px;}
+.y_date{position: absolute; left: 50%; margin-left: -600px; z-index: 30; overflow: hidden; top: 0px; font-size: 12px; color: #fff;}
+.y_dateA{width: 120px; height: 30px; background: #737373; font-size: 16px; color: #fff; line-height: 30px; text-align: center; font-weight: bold;}
+.y_dateB{width: 120px; height: 26px; background: #fff; font-size: 12px; color: #000; line-height: 26px; text-align: center;}
+.y_hfA{padding: 15px; width: 1170px; background: #5d606d; margin-bottom: 30px;}
+.y_hfA p{text-indent: 25px; font-size: 14px; color: #cbcbcb; padding-top: 12px;}
+.y_hfA_top{border-bottom: 1px dashed #82858e; color: #333; width: 100%; font-size: 14px; color: #cbcbcb; position: relative; margin: 15px 0}
+.y_hfA_top span{font-size: 20px; color: #ffffff; font-weight: bold; display: inline-block; background: #5d606d; position: absolute; left: 0px; top: -14px; padding-right: 15px;}
+.y_hfh1{padding: 15px; width: 1170px; background: #5d606d; margin-bottom: 26px;}
+.y_hfh1_top{border-bottom: 1px dashed #82858e; color: #333; width: 100%; font-size: 14px; color: #cbcbcb; position: relative; margin: 15px 0}
+.y_hfh1_top a{font-size: 20px; color: #ffffff; font-weight: bold; display: inline-block; background: #5d606d; position: absolute; left: 0px; top: -14px; padding-right: 15px;}
+.y_hfh1_cen{padding-top: 10px;}
+.y_hfh1_cenL{width: 378px; height: 273px; position: relative;}
+.y_hfh1_cenL img{width: 378px; height: 273px;}
+.y_hfh1_cenLB{position: absolute; width: 368px; height: 36px; bottom: 10px; left: 10px;}
+.y_hfh1_cenLB a{width: 88px; height: 36px; background: url(../images/y_02.png) no-repeat center; text-align: center; line-height: 36px; color: #fff; font-size: 14px; display: block; float: left; margin: 0px 1px;}
+.y_hfh1_cenLB a:hover{width: 88px; height: 36px; background: url(../images/y_03.png) no-repeat center;}
+.y_hfh1_cenR{width: 760px;}
+.y_hfh1_cenR ul{overflow: hidden;}
+.y_hfh1_cenR ul li{float: left; padding-bottom: 16px; border-bottom: 1px dashed #8a8e9d;}
+.y_hfh1_cenR ul li h4{font-size: 16px; color: #fff; padding: 10px 0px;}
+.y_hfh1_cenR ul li h4:hover{text-decoration: underline;}
+.y_hfh1_cenR ul li p{font-size: 14px; color: #cbcbcb; line-height: 24px; text-indent: 20px; height: 72px; overflow: hidden;}
+.y_hfh2{padding: 15px; width: 1170px; background: #6f7487;}
+.y_hfh2_top a{background: #6f7487;}
+.y_hfh1_cenR ul .y_Bbottom{border: none;}
+.y_topicA{width: 1200px; padding: 15px 0px; background: #5d606d; color: #fff; position: relative;}
+.y_topicA h4{font-size: 20px; padding-left: 15px; padding-bottom: 15px;}
+.y_topicB{width: 1150px; height: 210px; overflow: hidden; position: relative;}
+.y_topicB ul{overflow: hidden; height: 210px; position: absolute; width: 1150px;}
+.y_topicB ul li{width: 278px; float: left; font-size: 14px; color: #cbcbcb; margin-right: 15px;  text-align: center;}
+.y_topicB ul li img{width: 278px; height: 185px;}
+.y_topicB ul li p{font-size: 14px; color: #cbcbcb; line-height: 26px;}
+.y_jtL{position: absolute; top: 76px; left: 0px; z-index: 10; width: 50px; height: 50px;}
+.y_jtL a{display: block;}
+.y_jtR{position: absolute; top: 76px; right: 0px; z-index: 10; width: 50px; height: 50px;}
+.y_jtR a{display: block;}
+.y_jtL .y_jtL_A{background: url(../images/y_12.png) no-repeat center; width: 50px; height: 50px;}
+.y_jtL .y_jtL_B{background: url(../images/y_14.png) no-repeat center; width: 50px; height: 50px; display: none;}
+.y_jtR .y_jtR_A{background: url(../images/y_13.png) no-repeat center; width: 50px; height: 50px;}
+.y_jtR .y_jtR_B{background: url(../images/y_15.png) no-repeat center; width: 50px; height: 50px; display: none;}
+.y_jtL:hover .y_jtL_A{display: none;}
+.y_jtL:hover .y_jtL_B{display: block;}
+.y_jtR:hover .y_jtR_A{display: none;}
+.y_jtR:hover .y_jtR_B{display: block;}
+/*哈弗楼层*/
+.y_HFfdA{position: fixed; top: 100px; right: 0px; z-index: 999; display: none;}
+.y_HFfdA ul{overflow: hidden;}
+.y_HFfdA ul li{display: block; width: 120px; height: 40px; line-height: 40px; background: #292929; color: #fff; font-size: 13px; margin-bottom: 1px; text-align: center;}
+.y_HFfdA ul li a{color: #fff;}
+.y_HFfdA ul li img{width: 28px; height: 14px; padding: 10px 40px;}
+.y_HFfdA ul li.current{background: #a60b0b;}

@@ -1,0 +1,311 @@
+@charset "utf-8";
+/* CSS Document by YangJun */ 
+.y_mouth_box{width: 1200px; margin: 0 auto; padding-top: 55px;}
+.y_mouthL{width: 860px;}
+.y_mouthR{width: 280px;}
+.y_mouthLA{overflow: hidden; width: 860px; height: 500px; margin-bottom: 50px; overflow: hidden;}
+.y_mouthLA .lxy_hotA_top{border-bottom: 4px solid #e9eef4;font-size: 16px;height: 42px; margin-bottom: 20px;}
+.lxy_hotA_top a{display: inline-block; margin: 0px 48px -2px 0px; font-size: 22px; height: 42px; color: #333333}
+.lxy_hotA_top a:hover{ color: #2d72dd;}
+.lxy_hotA_top a.current{border-bottom: 4px solid #558ff2; color: #2d72dd;}
+.y_mouthLA_cen{width: 860px;}
+.y_mouthLA_cen ul{overflow: hidden;}
+.y_mouthLA_cen ul li{float: left; width: 202px; text-align: center; margin-bottom: 15px; margin-right: 17px;}
+.y_mouthLA_cen ul li img{width: 202px; height: 151px; display: block;}
+.y_mouthLA_cen ul li p{font-size: 16px; color: #333333; padding-top: 10px;  padding-bottom: 7px; height: 20px; width: 202px; overflow: hidden;}
+.y_mouthLA_cen ul li span{font-size: 14px; color: #ff1616; display: block; height: 20px; width: 202px; overflow: hidden}
+.y_mouthLA_cen ul li span font{color: #888888; padding-left: 5px;}
+.y_mouthLA_cen ul li:nth-child(4n){ margin-right: 0px}
+.y_mouthLB{margin-bottom: 50px;}
+.y_mouthLB .y_mouthLB_top{border-bottom: 4px solid #e9eef4;font-size: 16px;height: 42px; margin-bottom: 10px;}
+.y_mouthLB_top a{display: inline-block; margin: 0px 35px -2px 0px; font-size: 22px; height: 42px; color: #333333}
+.y_mouthLB_top a:hover{ color: #2d72dd;}
+.y_mouthLB_top a.current{border-bottom: 4px solid #558ff2; color: #2d72dd;}
+.y_mouthLB_cen{width: 860px; height: 44px; background: #f8f8f8;}
+.y_mouthLB_cen ul li{float: left; padding: 0px 40px; line-height: 44px; background: #f8f8f8; text-align: center; font-size: 20px; border-right: 2px solid #fff; position: relative;}
+.y_mouthLB_cen ul li.y_current{background: #447ff5;}
+.y_mouthLB_cen ul li.y_current em{background: url(../images/v3.1_koubei/y_193.png) no-repeat; width: 16px; height: 8px; background-size: 100%; display: inline-block; position: absolute; left: 50%; z-index: 200; left: 50%; margin-left: -8px; top: 44px;}
+.y_mouthLB_cen ul li.y_current a{color: #fff; }
+.y_mouthLB_cen ul li a{color: #333;}
+
+.y_mouthLB_btm ul li{padding: 20px 0px; border-bottom: 1px solid #e9eef5}
+.y_mouthLB_btm ul li:last-child{border-bottom: none;}
+
+.y_mouthLB_btm ul li .yj_sortpic i{ color: #ffffff;font-size: 16px; font-style: normal; }
+.y_mouthLB_btm ul li .yj_sortpic i.yj_color1{position: absolute; background: url(../images/v3.1_koubei/y_195.png) no-repeat; display: inline-block; width: 22px; height: 30px; left: 6px; top: 0px; text-align: center;}
+.y_mouthLB_btm ul li .yj_sortpic i.yj_color2{position: absolute; background: url(../images/v3.1_koubei/y_196.png) no-repeat; display: inline-block; width: 22px; height: 30px; left: 6px; top: 0px; text-align: center;}
+.y_mouthLB_btm ul li .yj_sortpic i.yj_color3{position: absolute; background: url(../images/v3.1_koubei/y_197.png) no-repeat; display: inline-block; width: 22px; height: 30px; left: 6px; top: 0px; text-align: center;}
+.yj_sortpic{ position: relative; width: 160px; height: 120px; float: left; }
+.yj_sortpic img{ width: 160px; height: 120px;  }
+.yj_sortdetail{ float: left;; margin-left: 20px; width: 460px; height: 120px;  }
+.yj_carname h3{ font-weight: bold; font-size: 18px; color: #333333 }
+.yj_clear{ clear: both; }
+.yj_carpoints{ margin: 20px 0px; height: 55px; }
+.yj_carpoint{ float: left; border-right: 1px solid #e9eef5; text-align: center; padding: 0px 30px;  height: 55px; }
+.yj_carpoint span{ color: #333333; font-size: 16px; }
+.yj_carpoint p{ color: #eb2e3b; font-size: 22px; font-weight: bold; }
+.yj_carpoint p em{ font-weight: normal; font-size: 14px; font-style: normal;}
+.yj_total{ float: right; height: 120px ;line-height: 120px; }
+.yj_total span{ line-height: 13px; display: inline-block; width: 70px; background: url("../images/y_33.png"); height: 13px; }
+.yj_total span i{ line-height: 13px; display: inline-block; background: url("../images/v3.1_koubei/y_198.png"); height: 13px; }
+.yj_total p{ color: #eb2e3b; font-weight: bold; font-size: 24px; display: inline-block; margin-left: 10px;}
+
+
+.y_audicar_list{ margin-bottom: 35px;  margin-top: -4px;}
+.y_audicar_listhead{ border-bottom: 4px solid #e9eef4; height: 45px }
+.y_audicar_listhead h3{ color: #333333; font-size: 24px; font-weight: normal;  }
+.y_audicar_listcontent ul li{ float: left; margin: 20px 20px 0px 0px; width: 130px; text-align: center; }
+.y_audicar_listcontent ul li:nth-child(2n){ margin-right: 0px }
+.y_audicar_listcontent ul li img{ width: 130px; height: 97px; float: left; margin-bottom: 13px }
+.y_audicar_listcontent ul li span{ color: #333333; font-size: 16px; margin-bottom: 3px; width: 100%; height: 22px; overflow: hidden; display: block;}
+.y_audicar_listcontent ul li:hover span{color: #ff1616}
+.y_audicar_listcontent ul li p{ color: #ff1616; font-size: 14px; width: 100%; height: 19px; overflow: hidden;}
+.y_audicar_listcontent ul li p.y_koubei_p1{font-size: 14px; color: #ff1616;}
+.y_audicar_listcontent ul li p.y_koubei_p1 .y_koubei_font1{font-size: 14px; color: #888888; padding-left: 5px;}
+/*2017/4/28 lxy 字体修改*/
+.y_audicar_listhead h3{ font-size: 22px; }
+.y_audicar_listcontent ul li span{ font-size: 15px }
+.y_audicar_listcontent ul li p{ font-size: 13px }
+.y_mouthLB_cen ul li{ font-size: 18px }
+/*v4.4*/
+/*面包屑*/
+.j_findcar_box{width: 1200px; margin: 0 auto;}
+.j_findcar_nav {margin: 24px 0 18px 0; color: #999;font-size: 13px;}
+.j_findcar_nav a{color: #999;}
+.j_findcar_nav a:hover{color: #2d72dd}
+.j_findcar_nav a.disabled{color: #2d72dd}
+.j_findcar_nav a.disabled:hover{cursor: default;color: #2d72dd}
+/*2017/7/31 LSD*/
+/*热门车型口碑*/
+.clear_float{clear: both;}
+.l_hotModel{width: 1200px;margin: 0 auto;margin-top: 6px;			}
+.l_hotModel .l_koubeiTitle{padding-bottom: 8px;border-bottom: 4px solid #e9eef4;}
+.l_hotModelTitle{font-size: 20px;color:#333333;padding-bottom: 8px;border-bottom: 4px solid #558ff2;}
+.l_hotModelTitleNotes{font-size: 12px;color: #999999;margin-left: 18px;}
+.l_hotModelContent{margin-top: 16px;border: 1px solid #e9eef5;border-top: none;box-sizing: border-box;}
+.l_list1{height: 42px;background: #f8fbfe;}
+.l_hotModelContent ul.l_click1{background: #f8fbfe;display: inline-block;float: left;}
+.l_hotModelContent ul.l_click1 .l_addClass{border-left: 1px solid #e9eef5;border-right: 1px solid #e9eef5;border-top: 2px solid #ff6633;background: #fff;border-bottom: none;}
+.l_hotModelContent ul.l_click1 li{float: left;width: 120px;	border-top: 1px solid #e9eef5;border-bottom: 1px solid #e9eef5;line-height: 40px;font-size: 16px;color: #333;text-align: center;}
+/*搜索*/
+.l_search{background: #f8fbfe;border-top: 1px solid #e9eef5;border-bottom: 1px solid #e9eef5;width: 476px;height: 40px;float: right;}
+.l_search .l_searchBox{border: 1px solid #528cf5;width: 220px;height: 30px;margin-top: 4px;margin-right: 10px;color: #333;font-size: 12px;line-height: 30px;border-radius: 3px;background: #fff;}
+.l_search .l_searchBox i{width: 10px;height: 6px;margin-left: 8px;display: inline-block;background: url("../images/v3.1_koubei/l_04.png");}
+.l_search .l_searchBox span{display: inline-block;background: #528cf5;color: #fff;font-size: 14px;width: 60px;line-height: 30px;text-align: center;float: right;}
+.l_search .l_searchBox input{padding-left: 10px;width: 180px;border: none;}
+.l_search .l_searchBox input::-webkit-input-placeholder{color:#ccc;}
+.l_search .l_searchBox input::-moz-placeholder{color:#ccc;}
+/*车型列表*/
+.l_chexingLists ul{padding-left: 20px;position: relative;}
+.l_chexingLists ul li{border-bottom: 1px dashed #e9eef5;float: left;padding: 12px 0px 14px 23px;}
+.l_chexingLists ul .l_position{width: 12px;height: 344px;background: #fff;position: absolute;right: 0px;top: 0px;}
+.l_chexingLists ul li .l_con{padding-right: 21px;border-right: 1px dashed #e9eef5;}
+.l_chexingLists ul li .l_chexingListsName{padding-bottom: 10px;color: #333;font-size: 14px;font-weight: bold;}
+.l_chexingLists ul li .l_chexingListsName:hover{color: #ff2929;}
+.l_chexingLists .l_left{float: left;margin-right: 10px;width: 80px;height: 59px;}
+.l_chexingLists .l_left img{width: 80px;height: 59px;}
+.l_chexingLists .l_right{float: left;}
+.l_chexingLists .l_right p{color: #999999;font-size: 12px;}
+.l_chexingLists .l_right .l_stars{color: #ff2929;font-size: 14px;margin-top: 4px;margin-bottom: 2px;}
+.l_chexingLists .l_right .l_stars span{margin-right: 4px;width: 80px;height: 13px;display: inline-block;background: url("../images/v3.1_koubei/l_03.png") repeat-x;position: relative;}
+.l_chexingLists .l_right .l_stars span i{position: absolute;top: -0.8px;width: 80px;height: 13px;display: inline-block;background: url("../images/v3.1_koubei/l_02.png") repeat-x;}
+.l_chexingLists .l_right .l_pingfen span{color: #2d72dd;}
+.l_chexingLists .l_last a{margin-left: 46px;color: #333;font-size: 14px;line-height: 88px;}
+.l_chexingLists .l_last a:hover{color: #ff2929;}
+#l_compact,#l_suv,#l_smallSize,#l_middleSize,#l_bigSize{display: none;}
+/*单项满意度排行*/
+.l_satisfied{width: 1200px;margin: 0 auto;margin-top: 34px;}
+.l_satisfied .l_koubeiTitle{padding-bottom: 8px;border-bottom: 4px solid #e9eef4;margin-bottom: 85px;}
+.l_satisfiedTitle{font-size: 20px;color:#333333;padding-bottom: 8px;border-bottom: 4px solid #558ff2;}
+.l_satisfiedTitleNotes{font-size: 12px;color: #999999;margin-left: 18px;}
+/*单项满意度排行 内容*/
+.l_satisfiedContent{border: 1px solid #e9eef5;margin-top: 63px;border-top: none;}
+.l_list2{height: 42px;background: #f8fbfe;}
+.l_satisfiedContent ul.l_click2{background: #f8fbfe;display: inline-block;float: left;}
+.l_satisfiedContent ul.l_click2 .l_addClass{border-left: 1px solid #e9eef5;border-right: 1px solid #e9eef5;border-top: 2px solid #ff6633;background: #fff;border-bottom: none;}
+.l_satisfiedContent ul.l_click2 li{float: left;width: 180px;	border-top: 1px solid #e9eef5;border-bottom: 1px solid #e9eef5;line-height: 40px;font-size: 16px;color: #333;text-align: center;}
+.l_satisfiedContent .l_kong{width: 296px;height: 40px;float: right;border-top: 1px solid #e9eef5;border-bottom: 1px solid #e9eef5;}
+.l_satisfiedChexingLists ul li p{width:150px;font-size: 12px;color: #999;}
+.l_satisfiedChexingLists .l_satisfiedChexingListsName{font-size: 14px;font-weight: bold;line-height: 20px;margin-top: 2px;margin-bottom: 6px;height: 40px;overflow: hidden;}
+.l_satisfiedChexingLists .l_satisfiedChexingListsName a{color: #333;}
+.l_satisfiedChexingLists .l_satisfiedChexingListsName a:hover{color: #ff2929;}
+.l_satisfiedChexingLists .l_price{color: #333;	}
+.l_satisfiedChexingLists .l_stars{color: #ff2929;font-size: 14px;margin-top: 8px;margin-bottom: 6px;}
+.l_satisfiedChexingLists .l_stars span{margin-right: 4px;width: 80px;height: 13px;display: inline-block;background: url("../images/v3.1_koubei/l_03.png") repeat-x;position: relative;}
+.l_satisfiedChexingLists .l_stars span i{position: absolute;top: -0.8px;width: 80px;height: 13px;display: inline-block;background: url("../images/v3.1_koubei/l_02.png") repeat-x;}
+.l_satisfiedChexingLists .l_average span{color: #2d72dd;}
+.l_satisfiedChexingLists .l_floorPrice{display: inline-block;margin-top: 10px;width: 80px;height: 30px;border: none;border-radius: 3px;background: #558ff2;color: #fff;line-height: 30px;text-align: center;}
+.l_satisfiedChexingLists .l_floorPrice:hover{background: #2d72dd;}
+.l_satisfiedChexingLists ul li{float: left;position: relative;padding:20px 0 20px 50px;margin-right: 37px;}
+.l_satisfiedChexingLists ul li .l_number{position: absolute;right: 170px;top: 22px;	} 
+.l_space,.l_power,.l_control,.l_costPerformance{display: none;}
+/*精华口碑推荐*/
+.l_essence{width: 1200px;margin: 0 auto;margin-top: 34px;		}
+.l_essence .l_koubeiTitle{padding-bottom: 8px;border-bottom: 4px solid #e9eef4;margin-bottom: 10px;}
+.l_essenceTitle{font-size: 20px;color:#333333;padding-bottom: 8px;border-bottom: 4px solid #558ff2;}
+.l_essenceTitleNotes{font-size: 12px;color: #999999;margin-left: 18px;}
+/*精华口碑推荐 内容*/
+.l_essenceContent ul li{padding-top: 16px;padding-bottom: 26px;border-bottom: 1px dashed #e9eef5;float: left;margin-bottom: 10px;}
+.l_essenceContent .l_essenceCon{padding-left: 30px;padding-right: 30px;border-left: 1px dashed #e9eef5;}
+.l_essenceContent .l_essenceCon .l_essenceContentName{font-size: 16px;	font-weight: bold;margin-bottom: 10px;height: 24px;width: 330px;overflow: hidden;}
+.l_essenceContent .l_essenceCon .l_essenceContentName a{color: #333;}
+.l_essenceContent .l_essenceCon .l_essenceContentName a:hover{color: #ff2929;}
+.l_essenceContent .l_essenceCon p{color: #999999;font-size: 14px;}
+.l_essenceContent .l_essenceLeft{float: left;margin-right: 10px;width: 150px;height: 98px;}
+.l_essenceContent .l_essenceLeft img{width: 150px;height: 98px;cursor:pointer;}
+.l_essenceContent .l_essenceRight{float: left;}
+.l_essenceContent .l_stars{color: #ff2929;font-size: 14px;margin-top: 8px;margin-bottom: 9px;margin-top: 12px;}
+.l_essenceContent .l_stars .l_background{margin-right: 4px;width: 80px;height: 13px;display: inline-block;background: url("../images/v3.1_koubei/l_03.png") repeat-x;position: relative;}
+.l_essenceContent .l_stars .l_background i{position: absolute;top: -0.8px;width: 80px;height: 13px;display: inline-block;background: url("../images/v3.1_koubei/l_02.png") repeat-x;}
+.l_essenceContent .l_essenceCon .l_red{color: #ff2929;}
+.l_essenceContent .l_essenceCon .l_oilConsumption{color: #333;}
+.l_essenceContent .l_essenceCon .l_time{margin-top: 8px;}
+.l_essenceContent .l_essenceCon .l_satisfiedest{margin-top: 16px;margin-bottom: 8px;}
+.l_essenceContent .l_essenceCon .l_satisfiedest,.l_essenceContent .l_essenceCon .l_noSatisfiedest{width: 349px;height: 38px;overflow: hidden;}
+.l_essenceContent .l_essenceCon .l_satisfiedest img,.l_essenceContent .l_essenceCon .l_noSatisfiedest img{position: relative;top: 2px;}
+.l_essenceContent .l_essenceCon .l_satisfiedest span,.l_essenceContent .l_essenceCon .l_noSatisfiedest span{color: #333;}
+.l_essenceContent .l_essenceCon .l_noSatisfiedest a{color: #2d72dd;}
+.l_essenceContent .l_essenceCon .l_noSatisfiedest a:hover{color: #ff2929;}
+/*条件筛选*/
+.lxy_findcarR_filter{ margin-bottom: 40px;}
+.lxy_findcarR_filter_top{padding: 0px 20px 9px 20px; background: #f8fbfe; border-bottom: 1px solid #e9eef5; color: #0a518f; font-size: 14px; overflow: hidden;}
+.lxy_findcarR_filter_top p{display: inline-block; float: left; padding-top: 8px;}
+.lxy_findcarR_filter_top span{font-size: 14px; color: #0a518f; line-height: 18px; padding: 0px 4px 0px 10px; display: inline-block; background: #fff; border: 1px solid #277bc4; margin-right: 20px; margin-top: 9px; float: left;}
+.lxy_findcarR_filter_top span i{background: url(../images/y_21.png) no-repeat; background-size: 100%; width: 11px; height: 11px; display: inline-block; margin-left: 5px; cursor: pointer;}
+.lxy_findcarR_filter_top .lxy_findcarR_filter_topR{font-size: 14px; color: #0a518f; display: inline-block; float: right; padding-top: 9px;}
+.lxy_filter_cen{padding-top: 10px; background: #fff;}
+.lxy_filter_cen1{line-height: 45px; border-bottom: 1px dashed #ebebeb; width: 100%; height: 45px;}
+.lxy_filter_cen1_L span{font-size: 14px; color: #999999;}
+.lxy_filter_cen1_L span em{display: inline-block; width: 13px;}
+.lxy_filter_cen1_L a{font-size: 14px; color: #333; margin-right: 0px; padding: 0px 8px; height: 24px; line-height: 24px; display: inline-block;}
+.lxy_filter_cen1_L a.current{background: #558ff5; color: #fff; border-radius: 2px}
+.lxy_filter_cen1_L a.current:hover{background: #558ff5; color: #fff; border-radius: 2px}
+.lxy_filter_cen1_L a:hover{background: #558ff5; color: #fff; border-radius: 2px}
+.lxy_filter_cen1_R input{width: 42px; height: 24px; line-height: 24px; border: 1px solid #dbdbdb; text-indent: 5px; border-radius: 2px}
+.lxy_filter_cen1_R font{margin: 0px 2px; width: 12px; display: inline-block; border-bottom: 1px solid #333333; margin-bottom: 4px;}
+.lxy_filter_cen1_R span{font-size: 14px; color: #333333; padding-left: 5px; margin-right: 20px;}
+.lxy_filter_cen1_R a{font-size: 14px; color: #2d72dd; line-height: 25px; border: 1px solid #558ff5; padding: 2px 7px; border-radius: 2px;}
+.lxy_filter_cen1_R a:hover{background: #558ff5; color: #fff;}
+.lxy_filter_cen1_L a span{ color: #333;}
+.lxy_filter_cen1_open{display: inline-block; position: relative; margin-right: 3px;height: 39px;  }
+.lxy_filter_cen1_open.current span{ color: #fff;background: #558ff5; border-radius: 2px; }
+.lxy_filter_cen1_open.current i{ background: url(../images/v3.1_findcar/lxy_59.png) }
+.lxy_filter_cen1_open span{color: #333; padding: 0px 4px; display: inline-block; height: 24px; line-height: 24px}
+.lxy_filter_cen1_open i{background: url(../images/v3.1_findcar/lxy_52.png) no-repeat; background-size: 100%; width: 10px; height: 6px; margin: 0px 0px 2px 2px; display: inline-block;}
+.lxy_filter_cen1_hide{ display: none; position: absolute; top: 35px; left: 50%;margin-left: -42px; width: 85px; text-align: center; background: #fff; -webkit-box-shadow: 0px 3px 7px #e5e6e7; -moz-box-shadow: 0px 3px 7px #e5e6e7; box-shadow: 0px 3px 7px #e5e6e7;}
+.lxy_filter_cen1_open:hover .lxy_filter_cen1_hide{display: block;}
+.lxy_filter_cen1_hide a{display: inline-block; font-size: 14px; color: #333333; line-height: 33px; padding: 0px 0px; width: 100%; border-bottom: 1px solid #e9eef4; display: block; height: 33px}
+.lxy_filter_cen1_hide a:hover{background: #fafafa; color: #2d72dd;}
+.lxy_filter_width1{width: 420px; height: 45px; overflow: hidden;}
+.lxy_filter_width2{width: 360px; height: 45px; overflow: hidden;}
+.lxy_this_hide{display: none;}
+.lxy_click_box{ margin-top: -1px }
+.lxy_click_down{margin: 0 auto; width: 98px; line-height: 26px; font-size: 14px; color: #2d72dd; background: #f8fbfe;  border: 1px solid #e9eef5; text-align: center; cursor: pointer; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px}
+.lxy_click_down i{background: url(../images/v3.1_findcar/lxy_52.png) no-repeat; background-size: 100%; width: 10px; height: 6px; margin: 0px 0px 2px 2px; display: inline-block;}
+.lxy_click_up{margin: 0 auto; width: 98px; line-height: 26px; font-size: 14px; color: #2d72dd; background: #f8fbfe;  border: 1px solid #e9eef5; text-align: center; cursor: pointer; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; display: none;}
+.lxy_click_up i{background: url(../images/v3.1_findcar/lxy_53.png) no-repeat; background-size: 100%; width: 10px; height: 6px; margin: 0px 0px 2px 2px; display: inline-block;}
+.lxy_hot_box{ margin-bottom: 40px;}
+.lxy_hotA{background: #fff; }
+.lxy_hotA_top{border-bottom: 4px solid #e9eef4;font-size: 16px;height: 42px;}
+.lxy_hotA_top>a{display: inline-block; margin: 0px 40px -2px 0px; font-size: 22px; height: 42px; color: #333333; float: left;}
+.lxy_hotA_top>a:hover{ color: #2d72dd;}
+.lxy_hotA_top>a.current{border-bottom: 4px solid #558ff2; color: #2d72dd;}
+.lxy_hot_photo_box{margin-bottom: 0px;}
+.lxy_hot_photo{background: #fff; }
+.lxy_hot_photo ul{overflow: hidden;}
+.lxy_hot_photo ul li{text-align: center; width: 202px; margin-right: 24px; float: left;}
+.lxy_hot_photo ul li:nth-child(4n){ margin-right: 0px }
+.lxy_hot_photo ul li img{width: 202px; height: 151px; display: block; margin-bottom: 15px; margin-top: 20px;}
+.lxy_hot_photo ul li span{display: block; font-size: 16px; color: #333333; margin-bottom: 5px;}
+.lxy_hot_photo ul li:hover span{ color: #ff1616 }
+.lxy_hot_photo ul li span font{font-size: 13px; color: #666666; padding-left: 10px;}
+.lxy_hot_photo ul li p{font-size: 14px; color: #ff1616; text-align: center; }
+.lxy_new_carA{ margin-bottom: 20px }
+.lxy_new_carA_top{height: 43px; font-size: 22px; color: #333333; border-bottom: 4px solid #e9eef4;}
+.lxy_new_carA_top p{ border-bottom: 4px solid #558ff2; height: 43px; display: inline-block;}
+.lxy_new_carA_cen{padding-top: 20px}
+.lxy_new_carA_cen a{ display: inline-block; float: left; }
+.lxy_new_carA_cen ul{overflow: hidden;}
+.lxy_new_carA_cen ul li{float: left; margin-right: 24px;}
+.lxy_new_carA_cen ul li:nth-child(4n){ margin-right: 0px }
+.lxy_new_carA_cen ul li img{width: 202px; height: 151px; display: inline-block; margin-bottom: 7px}
+.lxy_new_carA_cen ul li p{font-size: 16px; color: #333333; height: 42px; width: 202px; overflow: hidden; text-align: center;}
+.lxy_new_carA_cen ul li:hover p{ color: #ff1616 }
+/*车型列表*/
+.w_public_praise_container{width:1200px;overflow:hidden;}
+.w_car_list {width:inherit;overflow:hidden;}
+.w_car_list .w_public_praise_top{border-bottom:4px solid #e9eef4;margin-bottom: 20px;height:43px;margin-top:33px;}
+.w_car_list .w_public_praise_top h2{font-weight: normal;display: inline-block;border-bottom: 4px solid #558ff2;float: left;height: 43px;}
+.w_car_list .w_public_praise_top div{float: right;margin-top:10px;}
+.w_car_list .w_public_praise_top div a{color:#999;font-size: 14px;}
+.w_car_list .w_public_praise_top div a.w_link_selected{color:#333333;}
+.w_car_list .w_public_praise_top div span{color:#cccccc;font-size: 14px;margin:0 3px;}
+.w_car_list ul{display: block;width:inherit;}
+.w_car_list ul li{width:222px;height: 315px;overflow:hidden;float: left;margin-right: 10px; margin-left: 10px; border:1px solid #eeeeee;margin-bottom: 20px;}
+.w_car_list ul li p{padding:0 10px;box-sizing: border-box;}
+.w_car_list ul li.w_first_one{margin-right: 0;}
+.w_car_list ul li img{display: block;border:0;width:222px;height: 165px;}
+.w_car_list ul li .w_public_title{font-size: 14px;font-weight: bold;line-height: 16px;color:#333333;margin-top:12px;}
+.w_car_list ul li .w_guidance_price{font-size: 12px;line-height: 18px;color:#888888;margin-top:6px;}
+.w_car_list ul li .w_guidance_price b{color:#333333;font-weight: normal;font-size: 12px;line-height: 18px;}
+.w_car_list ul li .w_public_star{width:inherit;display: block;margin-top:4px;}
+.w_car_list ul li .w_public_star .w_star_container{width:71px;height: 13px;display:inline-block;background: url(../images/v3.1_canpei/js_06.png) repeat-x;}
+.w_car_list ul li .w_public_star i{display: block;height: 13px;background: url('../images/v3.1_canpei/y_05.png') repeat-x;}
+.w_car_list ul li .w_public_star b{font-size: 14px;color:#ff1616;display: inline-block;}
+.w_car_list ul li .w_public_people{font-size: 12px;color:#888888;margin-top:4px;margin-bottom: 10px;}
+.w_car_list ul li .w_public_people span{font-size: 12px;color:#2d72dd;}
+.w_car_list .w_floor_price{display: block;text-align: center;margin:0 10px;font-size: 14px;height: 14px;line-height: 14px;border-radius: 3px;padding:6px 20px;color:#2d72dd;border:1px solid #558ff2;}
+.w_car_list .w_floor_price:hover{color:#ffffff;background: #558ff5}
+.w_car_list .w_load_more{width: inherit;height: 45px;background: #f8fbfe;line-height: 45px;text-align: center;border:1px solid #eeeeee;cursor: pointer;}
+/*价格区间拖动*/
+.l_movePrice{width:600px; margin:60px auto 10px 220px;}#g1,#g2{margin-top:50px}
+.l_movePrice{position: relative;}
+.l_movePrice .l_choosePrice{position: absolute;color: #999;font-size: 14px;left: -80px;top: -5px;}
+/*搜索下拉框*/
+.l_hotModelContent{position: relative;}
+.l_searchLists{display: none;border: 1px solid #e9eef4;padding: 10px;background: #fff;z-index: 100;position: absolute;right: 9px;box-shadow: 0px 0px 6px #ddd;}
+.l_searchListsLeft{float: left;}
+.l_searchLists p{font-size: 14px;padding: 2px 0 8px 0;position: relative;}
+.l_searchLists p .l_normal{background: url(../images/v3.1_koubei/l_15.png);display: inline-block;width: 16px;height: 16px;background-size: 100% 100%;position: absolute;right: 0;top: 2px;}
+.l_searchLists p .l_hover{background: url(../images/v3.1_koubei/l_16.png);display: inline-block;width: 16px;height: 16px;background-size: 100% 100%;position: absolute;right: 0;top: 2px;}
+.l_searchLists .l_searchListsScroll{border: 1px solid #e9eef4;display: inline-block;}
+.l_searchListsScrollNav{padding: 10px 7px 4px 7px;display: inline-block;background: #f8fbfe;border-right: 1px solid #e9eef4;float: left;}
+.l_searchListsScrollNav ul li a{display: inline-block;color: #333;font-size: 14px;width: 18px;height: 18px;text-align: center;}
+.l_searchListsScrollNav ul li a:hover{color: #fff;background: #528cf5;}
+.l_searchListsScrollContent{float: right;height: 586px;overflow: auto;width: 165px;}
+.l_searchListsScrollContent ul{border-bottom: 1px solid #e9eef4;}
+.l_searchListsScrollContent ul li{line-height: 28px;padding-left: 10px;	}
+.l_searchListsScrollContent ul li:hover{background: #f8fbfe;color: #528cf5;	}
+/*请选择车系*/
+.l_searchListsRight{float: left;width: 200px;display: none;	}
+.l_searchListsRight p{color: #999;}
+.l_searchListsRightContent{border: 1px solid #e9eef4;max-height: 586px;overflow: auto;	}
+.l_searchListsRightContent ul{border-bottom: 1px solid #e9eef4;	}
+.l_searchListsRightContent .l_noborder{border-bottom: none;}
+.l_searchListsRightContent ul p{padding-left: 10px;font-weight: bold;color: #333;}
+.l_searchListsRightContent ul li{padding-left: 10px;line-height: 28px;font-size: 13px;}
+.l_searchListsRightContent ul li a{color: #333;}
+.l_searchListsRightContent ul li:hover{background: #f8fbfe;color: #528cf5;}
+.l_searchListsRightContent ul li:hover .l_hoverChexi{color: #528cf5;}
+.l_searchListsLeft span,.l_searchListsRight span{cursor: pointer;color: #2D72DD;}
+.l_searchListsLeft span:hover,.l_searchListsRight span:hover{color: #FF2929;}
+.l_searchListsLeft .l_chexi{font-weight: 900;}
+/*修改评分*/
+.l_chexingLists ul li .l_con {padding-right: 12px;}
+.l_chexingLists .l_right .l_stars{width: 114px;}
+.lxy_filter_cen1_open a:hover .lxy_filter_cen1_hide{display: block;}
+.lxy_filter_cen1_open a:hover .l_current{background: url(../images/v3.1_findcar/l_01.png);}
+.lxy_filter_cen1_open i.l_top {background: url(../images/v3.1_findcar/lxy_59.png) no-repeat;}
+/*搜索框输入弹层*/
+.l_searchKeyup{border: 1px solid #e9eef4;background: #fff;z-index: 100;position: absolute;right: 9px;box-shadow: 0px 0px 6px #ddd;}
+.l_searchKeyup ul li{border-bottom: 1px solid #e9eef4;padding-left: 20px;width: 200px;line-height: 28px;font-size: 13px;	}
+.l_searchKeyup ul li a{color: #333;}
+.l_searchKeyup ul li a span{color: #999;}
+.l_searchKeyup ul li:hover{background: #f8fbfe;	}
+.l_searchKeyup ul li:hover .l_hoverColor,.l_searchKeyup ul li:hover .l_tingshou{color: #2d72dd;}
+.l_satisfiedChexingLists ul li a img{width: 150px;height: 111px;}
+.l_searchListsScrollContent ul li{font-size: 14px;}
+/*修改2017-08-11热门车型*/
+.l_chexingLists{width: 1200px; height: 344px; overflow: hidden;}
+/*修改2017-08-11车型列表*/
+.w_list_container{margin-left: -10px; margin-right: -10px;}

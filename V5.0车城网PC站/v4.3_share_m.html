@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>分享页面触屏版</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/share.css"/>
+	<script src="js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<body>
+		<!--头部-->
+		<div class="l_shareHead">
+			<div class="l_shareHeadContent">
+				<div class="l_shcTitle">
+					<!--跳首页-->
+					<a href="www.checheng.com"><img src="images/v4.3_share/l_logo.png" alt="" /></a>
+					<div class="l_button">
+						<a href=""><button class="l_shareTouch l_shareTouchM">移动端下载</button></a>
+						<a href=""><button class="l_shareMove">触屏版</button></a>
+					</div>
+					<div class="clear_float"></div>													
+				</div>
+				<div class="l_shcContent">
+					<div class="l_shareLeft">
+						<img src="images/v4.3_share/l_25.png"/>
+						<img class="l_shareQRcode" src="images/v4.3_share/l_23.png"/>
+					</div>
+					<div class="l_shareRight ">
+						<span class="l_shareSwiper swiper-container">
+							<span  class="l_sharecontent">
+								<div class="w_scroll" id="w_scroll">
+									<img src="images/v4.3_share/lm_6.png"/>
+									<img src="images/v4.3_share/lm_26.png"/>
+									<img src="images/v4.3_share/lm_27.png"/>
+									<img src="images/v4.3_share/lm_6.png"/>
+								</div>
+							</span>
+							<!-- 如果需要导航按钮  -->
+							<div class="swiper-button-prev" id="prev"></div>
+							<div class="swiper-button-next" id="next"></div>
+						</span>
+					</div>
+					<div class="clear_float"></div>	
+				</div>
+			</div>
+		</div>
+		<!--投影区域-->
+		<div class="l_shareShadow"></div>
+		<!--louceng-->
+		<div class="l_shareFloat">
+			<div class="l_shareFloatContent">
+				<img class="l_aboutCar" src="images/v4.3_share/l_24.png" alt="" />
+				<ul>
+					<li>
+						<img src="images/v4.3_share/l_21.png"/>
+						<p class="l_textOne">车城网</p>
+						<p class="l_textTwo">车城网，让选车变得如此简单</p>
+					</li>
+					<li>
+						<img src="images/v4.3_share/l_22.png"/>
+						<p class="l_textOne">最新资讯</p>
+						<p class="l_textTwo">专业汽车资讯，24小时实时更新</p>
+					</li>
+					<li>
+						<img src="images/v4.3_share/l_19.png"/>
+						<p class="l_textOne">专家解读</p>
+						<p class="l_textTwo">深读文章，观点犀利独到，专家权威解读</p>
+					</li>
+					<li>
+						<img src="images/v4.3_share/l_20.png"/>
+						<p class="l_textOne">精准找车</p>
+						<p class="l_textTwo">精准选车，快速发现适合你的爱车</p>
+					</li>
+					<div class="clear_float"></div>
+				</ul>
+			</div>
+		</div>
+		<!--footer-->
+		<div class="l_shareFooter">
+            <div class="l_shareFooterContent">
+            	<a href="/about/" title="">公司简介</a>
+            	<a href="/about/contact.html" title="">联系我们</a> 
+            	<a href="/about/contact.html" title="">诚聘英才</a> 
+            	<a href="/about/disclaimer.html" title="">法律声明</a> 
+            	<a href="/about/business.html" title="">商务合作</a> 
+            	<a href="/about/feedback.html" title="">意见反馈</a>
+	            <a href="http://www.checheng.com/app/m.html">手机版</a>	                
+            	<div class="l_shareSurvice">
+                    <span class="l_shareNumber">服务热线：4000-888-888</span>
+                    <span>服务时间：9:00-21:00（法定节假日除外）</span>
+               </div>	            
+            </div>            
+		</div>
+		<script type="text/javascript">
+		(function(){
+			var $box = $('.l_shareSwiper');
+			var $ball = $('#w_scroll');
+			var $prev = $('#prev');
+			var $next = $('#next');
+			//添加计时器
+			var $timer = setTimeout(move,5000);
+			var $flag = true;
+			var $i = 0;
+			var $f = 1;
+			//自动轮播函数
+			function move(){
+				$i+=$f;
+				//判断临界点
+				if($i == 4){
+					$i = 1;
+					$ball.css('left',0);
+				}else if($i==-1){
+					$i = 2;
+					$ball.css('left',-735);
+				}
+				//添加动画效果
+				$ball.stop().animate({
+					left:-$i*245
+				},300,function(){
+					clearTimeout($timer); 
+					if($flag){
+						$timer = setTimeout(move,5000);
+					}
+				})
+			}
+	//		鼠标滑入/滑出  
+			$box.hover(function(){
+				clearTimeout($timer);
+				$flag = false;
+	//			$('#prev,#next').show();
+			},function(){
+				$timer = setTimeout(move,5000);
+				$flag = true;
+	//			$('#prev,#next').hide();
+			})
+	
+			//左右切换
+			$prev.click(function(){
+				$f = -1;
+				move();
+			})
+			$next.click(function(){
+				$f = 1;
+				move();
+			})
+		})();
+		</script>
+	</body>
+</html>

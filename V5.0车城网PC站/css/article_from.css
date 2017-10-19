@@ -1,0 +1,91 @@
+@charset "utf-8";
+/*文章详情页——tab表格样式调整*/
+.j_conter table{margin: 12px auto;}
+.j_conter table{background-color: #e9eaee; border: none; width: 628px;}
+.j_conter table .title{background-color: #f6f6f6;font-size: 14px;}
+.j_conter table td, .table th{background-color: #fff;line-height: 36px;text-align: center;border-collapse:collapse;word-break: break-all;}
+.j_conter table td p{text-align: center;}
+.j_conter table td a{color: #333}
+.j_conter table td strong{color: #333;}
+.j_conter table{font-size: 16px;line-height: 28px;}
+.param_table td{line-height: 18px;padding: 2px;border: 1px solid #D9E5F3;word-break: normal;}
+.param_table img{display: inline!important;width: auto!important;}
+/*ak-img模糊*/
+.j_conter .smallpic{width: 310px!important;overflow: hidden;}
+.j_conter .j_conter p{word-wrap: break-word;}
+.j_conter .artical_txt_zj{padding: 0 0px;display: block;margin-top: -10px;font: normal 20px/28px 'Microsoft YaHei',simsun;}
+.j_conter .imageControl .artical_txt_zj .artical_img_txt{margin: 0;width: auto !important;/*width: 614px;*/}
+.j_conter .artical_txt_zj .artical_img_txt{margin: 0;width: 614px;}
+.j_conter .artical_txt_zj .artical_img_txt a{color: #fff;}
+.j_conter .img_txt_left{text-align: left;}
+.j_conter .artical_img_txt{width: 584px;margin: -5px auto 0;font: normal 20px/28px 'Microsoft YaHei',simsun;border: 1px solid #333;border-top: none;display: block;padding: 10px 12px;background-color: #222;text-align: center;color: #fff;}
+.j_conter .img_txt_left{text-align: left;}
+/*9.4号样式添加*/
+.j_conter .imageControl img{width: 100%;}
+.j_conter .tabB10{margin-bottom: 20px;}
+.j_conter table{margin: 0 auto;}
+.evaluationTableA{border-spacing: 0;border-collapse: collapse;background: 0;}
+.port tr{background: #fff;}
+.configTableA .configTableTit, .speedUpTableA .speedUpTableTit, .brakeTableA .speedUpTableTit, .brakeTableA .brakeTableTit, .noiseTableA .noiseTableTit, .oilWearTableA .oilWearTableTit, .evaluationTableA .evaluationTableTit{background: #0777dd;color: #fff;font-size: 14px;padding: 5px;}
+.evaluationTableA .evaluationTableTit strong{margin: 0 10px;}
+.evaluationTableA .evaluationLevelC{background: url(../images/hk_levelC.png) no-repeat right 1px bottom -13px;}
+.evaluationTableA td{vertical-align: top;}
+.evaluationTableA th, .evaluationTableA td{border: 1px solid #c6c6c6;}
+.evaluationTableA .general{padding: 0 10px;}
+.j_conter td p{text-align: inherit;}
+.port p{margin: 0;}
+.artText td p{text-align: inherit;}
+.evaluationTableA .general strong{font-weight: normal;color: #777;}
+.evaluationTableA th, .evaluationTableA td{border: 1px solid #c6c6c6;}
+.evaluationTableA td{vertical-align: top;}
+.evaluationTableA dl{padding: 5px 40px;}
+.evaluationTableA .virtue dt{color: #2a8c01;}
+.evaluationTableA dt{font-weight: bold;font-size: 14px;text-align: left;}
+.evaluationTableA dd{color: #777;text-align: left;}
+.evaluationTableA .icon{float: left;margin: 7px 10px 0 0;width: 24px;height: 24px;background: url(../images/hk_artIcons_v3.png) no-repeat;}
+.evaluationTableA .defect .icon{background-position: -30px -562px;}
+.evaluationTableA .icon{float: left;margin: 7px 10px 0 0;width: 24px;height: 24px;background: url(../images/hk_artIcons_v3.png) no-repeat;}
+.evaluationTableA .virtue .icon{background-position: 0 -562px;}
+.evaluationTableA .defect dt{color: #e44;}
+/* 文章来源  太平洋*/
+.evaluationTable{border-spacing: 0; border-collapse: collapse; background: 0;}
+.speedUpTable .speedUpTableTit, .brakeTable .brakeTableTit, .noiseTable .noiseTableTit, .oilWearTable .oilWearTableTit, .evaluationTable .evaluationTableTit, .configTable .configTableTit{background: #0777dd; height: 35px; color: #fff; font-size: 14px; padding: 5px;}
+.evaluationTable .evaluationTableTit strong{margin: 0 10px;}
+.evaluationTable td{vertical-align: top;}
+.evaluationTable th, .evaluationTable td{border: 1px solid #c6c6c6;}
+.j_conter td{word-break: break-all; padding: 8px 5px;}
+.evaluationLevelC{background: url(../images/hk_levelC.png) no-repeat 400px 5px;}
+.evaluationTable .general{padding: 10px;}
+.j_conter td p{text-align: inherit;}
+.evaluationTable .carType a{font-size: 14px; color: #259;}
+.evaluationTable td p{text-align: inherit;}
+.evaluationTable td{vertical-align: top;}
+.evaluationTable th, .evaluationTable td{border: 1px solid #c6c6c6;}
+.evaluationTable dl{padding: 15px 40px;}
+.evaluationTable .virtue dt{color: #2a8c01; text-align: left;}
+.evaluationTable .virtue .icon{background-position: 0 -386px;}
+.evaluationTable .icon{float: left; margin: 6px 0 0 -20px; width: 15px; height: 16px; background: url(../images/hk_artIcons_v3.png) no-repeat;}
+.icon, .icon-renz, .icon-renz1{display: inline-block; background-image: url(../images/hk_icon.png); background-repeat: no-repeat; vertical-align: middle;}
+.evaluationTable dd{color: #777; text-align: left; font-size: 13px;}
+.evaluationTable .defect .icon{background-position: -17px -386px;}
+.evaluationTable .icon{float: left; margin: 9px 0 0 -20px; width: 15px; height: 16px; background: url(../images/hk_artIcons_v3.png) no-repeat;}
+.evaluationTable .carType a{font-size: 14px; color: #259;}
+.evaluationTable p{margin: 0 auto 20px; font-size: 16px; word-wrap: normal;}
+.evaluationTable .defect dt{color: #e44; text-align: left;}
+/*易车表格*/
+.j_conter .table_news{border: 1px solid #DCE2EA;}
+.j_conter .table_news{border: 2px solid #333;width: 100%;margin: 0 0 30px;}
+.j_conter .table_news td, .j_conter .table_news th{border: 1px solid #DCE2EA;height: 50px;}
+.j_conter .table_news th{height: 50px;color: #333;font-size: 16px;font-weight: bold;}
+.j_conter .table_news th{background: #f4f8fa;font-size: 16px;}
+.j_conter .table_news td, .j_conter .table_news th{border: 1px solid #333;height: 48px;line-height: 48px;font-size: 14px;text-align: center;padding: 0 10px;}
+.j_conter .table_news td{color: #333;font-size: 14px;}
+.j_conter .table_news td, .j_conter .table_news th{border: 1px solid #DCE2EA;height: 50px;}
+.j_conter .table_news{border: 1px solid #DCE2EA;}
+.j_conter table.table_news{border-spacing: 0;border-collapse: collapse;}
+/*超链接修改*/
+.table_news a{color: #333;}
+.j_conter p .imgborder{display: block; margin: 0 auto;}
+/*2017-09-05——汽车之家*/
+.j_conteir p.center{text-align: center;}
+.j_conteir p.center img{display: inline-block;}

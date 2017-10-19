@@ -1,0 +1,415 @@
+.lxy_findcar_box{width: 1200px; margin: 0 auto; }
+/*.lxy_findcar_nav {margin: 24px 0 18px 0; color: #999;font-size: 13px;}
+.lxy_findcar_nav a{color: #999;}
+.lxy_findcar_nav a:hover{color: #2d72dd}
+.lxy_findcar_nav a.disabled{color: #2d72dd}
+.lxy_findcar_nav a.disabled:hover{cursor: default;color: #2d72dd}*/
+/*左侧字母品牌*/
+.lxy_findcarL_fixed{width: 280px; height: 850px; position: fixed; top: 0px;}
+.lxy_findcarL_fixed_height{height: 300px!important;}
+.lxy_findcarL{width: 280px; height: 850px; border: 1px solid #e9eef5; float: left;}
+.lxy_findcarL_letter_height{height: 300px!important}
+.lxy_findcarL_letter{width: 26px; height: 850px; border-right: 1px solid #e9eef5; background: #85beff; }
+.lxy_findcarL_letter .current{background: #fe5555;}
+.lxy_findcarL_letter a{ font-size: 14px; color: #ffffff; display: block; width: 26px; text-align: center; padding: 2.5px 0px; font-weight: bold;}
+.lxy_findcarL_letter a:hover{ background: #fe5555; }
+.lxy_findcarL_brand{background: #ffffff; overflow-y: auto; width: 253px; height: 850px;}
+.lxy_findcarL_brand ul .lxy_brand_letter{height: 40px; line-height: 40px; background: #f7f7f7; padding-left: 20px; font-size: 16px; font-weight: bold;}
+.lxy_findcarL_brand ul li .lxy_brands_show{padding: 9px 12px 9px 20px; border-bottom: 1px solid #e9eef5;}
+.lxy_findcarL_brand ul li .lxy_brands_show img{width: 30px; height: 30px; display: block; float: left; margin-right: 20px;}
+.lxy_findcarL_brand ul li .lxy_brands_show span{font-size: 14px; color: #333; margin-top: 4px; display: block; float: left; margin-right: 2px;}
+.lxy_findcarL_brand ul li .lxy_brands_show:hover span{ color: #ff1616 }
+.lxy_findcarL_brand ul li .lxy_brands_show font{font-size: 14px; color: #999999; margin-top: 4px; display: block; float: left;}
+.lxy_findcarL_brand ul li .lxy_brands_show i{background: url(../images/y_19.png) no-repeat; background-size: 100%; display: block; width: 10px; height: 6px; margin-top: 13px; cursor: pointer; float: right;}
+.lxy_findcarL_brand ul li .lxy_brands_hide{padding: 3px 10px 0px 70px; display: none;}
+.lxy_findcarL_brand ul li .lxy_brands_hideA{padding: 10px 0px 0px 0px;}
+.lxy_findcarL_brand ul li .lxy_brands_hideA i{background: url(../images/y_20.png) no-repeat; background-size: 100%; display: inline-block; width: 12px; height: 13px; margin: 0px 5px 9px 0px; }
+.lxy_findcarL_brand ul li .lxy_brands_hideA a{font-size: 14px; color: #333333; height: 20px; width: 130px; display: inline-block; white-space: nowrap; overflow: hidden;}
+.lxy_findcarL_brand ul li .lxy_brands_hideA a:hover{ color: #ff1616 }
+.lxy_findcarL_brand ul li .lxy_brands_hideB{border-bottom: 1px dashed #f7f7f7; padding: 7px 0px 7px 20px;}
+.lxy_findcarL_brand ul li .lxy_brands_hideB i{background: url(../images/y_20.png) no-repeat; background-size: 100%; display: inline-block; width: 12px; height: 13px; margin: 7px 5px 10px 0px;}
+.lxy_findcarL_brand ul li .lxy_brands_hideB a{font-size: 14px; color: #333333; height: 20px; width: 117px; display: inline-block; white-space: nowrap; overflow: hidden; }
+.lxy_findcarL_brand ul li .lxy_brands_show .lxy_brands_hideBa span{color: #e22222;}
+.lxy_findcarL_brand ul li .lxy_brands_show .lxy_brands_hideBa font{color: #e22222;}
+.lxy_findcarL_brand ul li .lxy_brands_hide .lxy_brands_hideBa{color: #e22222;}
+.lxy_findcarL_brand ul li .lxy_brands_hideB a:hover{color: #ff1616}
+.lxy_findcarR{width: 880px;}
+.lxy_findcarR_filter{border: 1px solid #e9eef5; margin-bottom: 20px;}
+.lxy_findcarR_filter_top{padding: 0px 20px 9px 20px; background: #f8fbfe; border-bottom: 1px solid #e9eef5; color: #0a518f; font-size: 14px; overflow: hidden;}
+.lxy_findcarR_filter_top p{display: inline-block; float: left; padding-top: 8px;}
+.lxy_findcarR_filter_top span{font-size: 14px; color: #0a518f; line-height: 18px; padding: 0px 4px 0px 10px; display: inline-block; background: #fff; border: 1px solid #277bc4; margin-right: 20px; margin-top: 9px; float: left;}
+.lxy_findcarR_filter_top span i{background: url(../images/y_21.png) no-repeat; background-size: 100%; width: 11px; height: 11px; display: inline-block; margin-left: 5px; cursor: pointer;}
+.lxy_findcarR_filter_top .lxy_findcarR_filter_topR{font-size: 14px; color: #0a518f; display: inline-block; float: right; padding-top: 9px;}
+.lxy_filter_cen{padding: 20px 10px 0px 10px; background: #fff;}
+.lxy_filter_cen1{line-height: 45px; border-bottom: 1px dashed #ebebeb; padding: 0px 5px 0px 8px; width: 100%; height: 45px;}
+.lxy_filter_cen1_L span{font-size: 14px; color: #999999;}
+.lxy_filter_cen1_L span em{display: inline-block; width: 13px;}
+.lxy_filter_cen1_L a{font-size: 14px; color: #333; margin-right: 0px; padding: 0px 8px; line-height: 24px;}
+.lxy_filter_cen1_L a.current{background: #0c61ac; color: #fff;}
+.lxy_filter_cen1_L a:hover{background: #0c61ac; color: #fff;}
+.lxy_filter_cen1_R input{width: 42px; height: 24px; line-height: 24px; border: 1px solid #e9eef5; text-indent: 5px;}
+.lxy_filter_cen1_R font{padding: 0px 2px;}
+.lxy_filter_cen1_R span{font-size: 14px; color: #333333; padding-left: 5px; margin-right: 20px;}
+.lxy_filter_cen1_R a{font-size: 14px; color: #0a518f; line-height: 24px; border: 1px solid #e9eef5; padding: 0px 8px;}
+.lxy_filter_cen1_R a:hover{background: #0c61ac; color: #fff;}
+.lxy_filter_cen1_L a span{ color: #333;}
+.lxy_filter_cen1_open{display: inline-block; position: relative; margin-right: 3px;}
+.lxy_filter_cen1_open span{color: #333;}
+.lxy_filter_cen1_open i{background: url(../images/y_22.png) no-repeat; background-size: 100%; width: 10px; height: 6px; margin: 0px 0px 2px 2px; display: inline-block;}
+.lxy_filter_cen1_hide{display: inline-block; display: none; position: absolute; top: 35px; left: -20px; width: 85px; text-align: center; background: #fff;}
+.lxy_filter_cen1_open:hover .lxy_filter_cen1_hide{display: block;}
+.lxy_filter_cen1_hide a{display: inline-block; font-size: 14px; color: #333333; line-height: 32px; padding: 0px 0px; width: 100%; border-bottom: 1px dashed #f7f7f7; display: block;}
+.lxy_filter_cen1_hide a:hover{background: #fafafa; color: #0a518f;}
+.lxy_filter_width1{width: 420px; height: 45px; overflow: hidden;}
+.lxy_filter_width2{width: 360px; height: 45px; overflow: hidden;}
+.lxy_this_hide{display: none;}
+.lxy_click_box{padding-top: 22px;}
+.lxy_click_down{margin: 0 auto; width: 98px; line-height: 26px; font-size: 14px; color: #0a518f; background: #f8fbfe;  border: 1px solid #e9eef5; text-align: center; cursor: pointer;}
+.lxy_click_down i{background: url(../images/y_22.png) no-repeat; background-size: 100%; width: 10px; height: 6px; margin: 0px 0px 2px 2px; display: inline-block;}
+.lxy_click_up{margin: 0 auto; width: 98px; line-height: 26px; font-size: 14px; color: #0a518f; background: #f8fbfe;  border: 1px solid #e9eef5; text-align: center; cursor: pointer; display: none;}
+.lxy_click_up i{background: url(../images/y_23.png) no-repeat; background-size: 100%; width: 10px; height: 6px; margin: 0px 0px 2px 2px; display: inline-block;}
+.lxy_hot_box{ margin-bottom: 40px;}
+.lxy_hotA{background: #fff; }
+.lxy_hotA_top{border-bottom: 4px solid #e9eef4;font-size: 16px;height: 42px;}
+.lxy_hotA_top>a{display: inline-block; margin: 0px 48px -2px 0px; font-size: 22px; height: 42px; color: #333333}
+.lxy_hotA_top>a:hover{ color: #2d72dd;}
+.lxy_hotA_top>a.current{border-bottom: 4px solid #558ff2; color: #2d72dd;}
+.lxy_hotA_top>a.lxy_current{background: rgba(0, 0, 0, 0) url("../images/y_24.png") no-repeat scroll center bottom;border-bottom: 2px solid #e22222;color: #e22222;}
+.lxy_hot_photo_box{margin-bottom: 0px;}
+.lxy_hot_photo{background: #fff; }
+.lxy_hot_photo ul{overflow: hidden;}
+.lxy_hot_photo ul li{text-align: center; width: 202px; margin-right: 24px; float: left;}
+/*.lxy_hot_photo ul li:nth-child(4n){ margin-right: 0px }*/
+.lxy_hot_photo ul li img{width: 202px; height: 151px; display: block; margin-bottom: 15px; margin-top: 20px;}
+.lxy_hot_photo ul li span{display: block; font-size: 16px; color: #333333; margin-bottom: 5px;}
+.lxy_hot_photo ul li span font{font-size: 13px; color: #666666; padding-left: 10px;}
+.lxy_hot_photo ul li p{font-size: 14px; color: #999999; text-align: center; }
+.lxy_new_carA{ margin-bottom: 20px }
+.lxy_new_carA_top{height: 40px; font-size: 22px; color: #333333; border-bottom: 4px solid #e9eef4;}
+.lxy_new_carA_top p{ border-bottom: 4px solid #558ff2; height: 40px; width: 90px; }
+.lxy_new_carA_cen{padding-top: 20px}
+.lxy_new_carA_cen a{ display: inline-block; float: left; }
+.lxy_new_carA_cen ul{overflow: hidden;}
+.lxy_new_carA_cen ul li{float: left; margin-right: 24px;}
+/*.lxy_new_carA_cen ul li:nth-child(4n){ margin-right: 0px }*/
+.lxy_new_carA_cen ul li img{width: 202px; height: 151px; display: inline-block; margin-bottom: 7px}
+.lxy_new_carA_cen ul li p{font-size: 16px; color: #333333; height: 22px; width: 202px; overflow: hidden; text-align: center; margin-bottom: 25px}
+.lxy_new_carA_cen ul li:hover p{ color: #ff1616 }
+/*图片页底部*/
+.lxy_footer{ border-top: 2px solid #eeeeee;  }
+.lxy_foot_top{  line-height: 45px; height: 45px; color: #999999; font-size: 14px;  }
+.lxy_foot_bottom{ border-top: 1px solid #eeeeee; height: 50px; line-height: 50px; font-size: 14px;color: #666666 }
+.lxy_foot_bottom a{ color: #666666;  }
+.lxy_foot_bottom a:hover{ color: #2d72dd;  }
+.lxy_foot_bottom span{ margin: 0px 14px;}
+
+/*图片-品牌页*/
+.lxy_brand_box{ margin-bottom: 40px;}
+.lxy_brandA{background: #fff; }
+.lxy_brandA_top{border-bottom: 4px solid #e9eef4;font-size: 16px;height: 53px;}
+.lxy_brandA_top img{ width: 40px; height: 40px; float: left; margin-right: 10px}
+.lxy_brandA_top span{ font-size: 28px; color: #2b2b2b; margin-right: 40px; float: left;  }
+.lxy_brandA_top>a{display: inline-block; margin: 5px 48px -2px 0px; font-size: 22px; height: 48px; color: #333333}
+.lxy_brandA_top>a:hover{ color: #2d72dd;}
+.lxy_brandA_top>a.current{border-bottom: 4px solid #558ff2; color: #2d72dd;}
+.lxy_brandA_top>a.lxy_current{background: rgba(0, 0, 0, 0) url("../images/y_24.png") no-repeat scroll center bottom;border-bottom: 2px solid #e22222;color: #e22222;}
+.lxy_brand_photo_box{margin-bottom: 0px;}
+.lxy_brand_photo{background: #fff; }
+.lxy_brand_photo ul{overflow: hidden;}
+.lxy_brand_photo ul li{text-align: center; width: 202px; margin-right: 24px; float: left;}
+/*.lxy_brand_photo ul li:nth-child(4n){margin-right: 0px}*/
+.lxy_brand_photo ul li img{width: 202px; height: 151px; display: block; margin-bottom: 15px; margin-top: 20px;}
+.lxy_brand_photo ul li span{display: block; font-size: 16px; color: #333333; margin-bottom: 5px; width: 202px; height: 22px; overflow: hidden;}
+.lxy_brand_photo ul li span font{font-size: 13px; color: #666666; padding-left: 10px;}
+.lxy_brand_photo ul li p{font-size: 14px; color: #999999; text-align: center; }
+.lxy_brand_head{ margin-top: 25px;  }
+.lxy_brand_head p{ color: #333333; font-size: 20px;}
+.lxy_brand_head a{ color: #333333; font-size: 20px;}
+.lxy_brand_head a:hover{ color: #ff1616;}
+.lxy_brand_head a em{ display: inline-block; width: 10px; height: 18px; background: url(../images/v3.1_picture/lxy_32.png) no-repeat; margin-left: 7px; margin-bottom: -2px;}
+.lxy_brand_head a:hover em{ background: url(../images/v3.1_picture/lxy_34.png) no-repeat; }
+.lxy_brand_head span{ color: #666666; font-size: 16px; margin-left: 13px }
+
+/*图片-品牌-下拉*/
+.lxy_conditionR_more{display: inline-block; position: relative; margin-right: 3px;}
+.lxy_conditionR_more p{color: #333; font-size: 22px; height: 50px}
+.lxy_conditionR_more p.y_current{color: #2d72dd;}
+.lxy_conditionR_more_hide{ display: none; position: absolute; top: 40px; left: -16px; width: 100px; text-align: center; background: #fff; -moz-box-shadow: 0px 2px 10px  #aaaaaa; -webkit-box-shadow: 0px 2px 10px #aaaaaa; box-shadow: 0px 2px 10px #aaaaaa;}
+.lxy_conditionR_more i{display: inline-block; width: 16px; height: 10px; margin: 0px 0px 2px 5px; background: url(../images/v3.1_picture/lxy_33.png) no-repeat;}
+.lxy_conditionR_more:hover .lxy_conditionR_more_hide{display: block;}
+.lxy_conditionR_more .lxy_conditionR_more_hideA{display: inline-block; font-size: 16px; color: #333333; height: 39px; line-height: 39px; padding: 0px 0px; width: 100%; border-bottom: 1px solid #f7f7f7; display: block;}
+.lxy_conditionR_more .lxy_conditionR_more_hideA:hover{background: #fafafa; color: #2d72dd;}
+.lxy_condition_cen{padding: 30px 0px 10px;}
+.lxy_condition_cen ul{overflow: hidden;}
+.lxy_condition_cen ul li{overflow: hidden; margin-bottom: 10px;}
+.lxy_condition_cenL{line-height: 20px; width: 46px; height: 30px; overflow: hidden; text-align: left; font-size: 14px; color: #999999;}
+.lxy_condition_cenR{width: 810px; overflow: hidden;}
+.lxy_condition_cenR div{float: left; width: 270px;}
+.lxy_condition_cenR .lxy_brandA_cenR_current{background: #558ff2;}
+.lxy_condition_cenR .lxy_brandA_cenR_current:hover{background: #558ff2;}
+.lxy_condition_cenR .lxy_brandA_cenR_current span{ color: #ffffff}
+.lxy_condition_cenR .lxy_brandA_cenR_current font{color: #ffffff}
+/*.lxy_condition_cenR .lxy_brandA_cenR_current i{ background: url(../images/v3.1_picture/lxy_35.png); width: 11px; height: 11px; display: inline-block; margin-left: 8px; }*/
+.lxy_condition_cenR a{margin-bottom: 10px;; width: auto; height: 28px; line-height: 28px; padding: 0px 10px; border: 1px solid #dbdbdb; font-size: 14px; display: inline-block; overflow: hidden; color: #333333}
+.lxy_condition_cenR a:hover{background: #ecf5fe;}
+.lxy_condition_cenR a span{display: block; float: left; max-width: 165px; line-height: 24px; height: 24px; overflow: hidden; }
+.lxy_condition_cenR a font{display: block; float: left; height: 24px; line-height: 24px; color: #999999;}
+.lxy_condition_cenR_box2 a i{width: 12px; height: 12px; display: inline-block; border: 1px solid #e9eef5; float: left; margin-top: 7px; margin-right: 10px;}
+.lxy_condition_cenR_box2 a i em{ height: 50%; display: inherit; }
+
+/*图片-大图星星*/
+.lxy_star i{ background: url(../images/y_33.png); height: 13px; top: -2px}
+.lxy_star em{ background: url(../images/y_32.png); height: 13px }
+
+/*车系图片*/
+.lxy_header{width: 1200px; height: 108px; }
+.lxy_audi_logo{ margin-top: 26px; height: 58px; line-height: 58px}
+.lxy_audi_logo img{float: left; width: 56px; height: 56px; margin-right: 20px; }
+.lxy_audi_logo em{ color: #2b2b2b; font-size: 36px; font-style: normal; }
+.lxy_state{ margin-left: 50px; color: #bbbbbb; font-size: 14px; margin-top: 57px; position: relative;}
+.lxy_state a{ color: #333333; font-size: 14px}
+.lxy_state_ts a{ color: #999999; cursor: default; height: 40px; display: inline-block;}
+.lxy_state_zs a{ height: 40px; display: inline-block; }
+.lxy_state_zs a:hover{ color: #ff1616; }
+.lxy_state a i{ width: 9px; height: 6px; display: inline-block; background: url(../images/v3.1_picture/lxy_39.png) no-repeat; margin-left: 7px }
+.lxy_state span{ margin: 0px 15px; }
+.lxy_headerR{ margin-top: 32px; width: 400px; height: 38px; position: relative; }
+.lxy_headerR input{border: 2px solid #ffad5c; width: 286px; line-height: 38px; height: 38px; padding-left: 10px; display: block; float: left; overflow: hidden;}
+.lxy_headerR .y_search_ico{width: 100px; height: 42px; display: block;  float: left;line-height: 40px; text-align: center; font-size: 20px; color: #ffffff;background: #ffad5c; background: -moz-linear-gradient(left, #ffad5c 0%, #ff8844 100%); background: -webkit-linear-gradient(left, #ffad5c 0%,#ff8844 100%); background: -o-linear-gradient(left, #ffad5c 0%,#ff8844 100%); background: -ms-linear-gradient(left, #ffad5c 0%,#ff8844 100%); background: linear-gradient(to right, #ffad5c 0%,#ff8844 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr=#ffad5c, endColorstr=#ff8844);/*IE<9>*/ -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=1, startColorstr=#ffad5c, endColorstr=#ff8844)";/*IE8+*/ 
+}
+.lxy_audicar{ width: 280px; }
+.lxy_audicar_list{ margin-bottom: 35px;  }
+.lxy_audicar_listhead{ border-bottom: 4px solid #e9eef4; height: 45px }
+.lxy_audicar_listhead h3{ color: #333333; font-size: 24px; font-weight: normal;  }
+.lxy_audicar_listcontent ul li{ float: left; margin: 20px 20px 0px 0px; width: 130px; text-align: center; }
+.lxy_audicar_listcontent ul li:nth-child(2n){ margin-right: 0px }
+.lxy_audicar_listcontent ul li img{ width: 130px; height: 97px; float: left; margin-bottom: 13px }
+.lxy_audicar_listcontent ul li span{ color: #333333; font-size: 16px; margin-bottom: 3px; width: 100%; height: 22px; overflow: hidden; display: block;}
+.lxy_audicar_listcontent ul li:hover span{color: #ff1616}
+.lxy_audicar_listcontent ul li p{ color: #ff1616; font-size: 14px; width: 100%; height: 19px; overflow: hidden;}
+.y_nav ul li .lxy_disabled{ color: #8daffe; }
+.y_nav ul li .lxy_disabled:hover{background: #5183de;}
+/*车系图片-全部在售*/
+.lxy_state span{ float: left; }
+.lxy_zaishou_hide{ display: none; position: absolute; top: 25px; left: -15px; width: 100px; text-align: center; background: #fff; -moz-box-shadow: 0px 2px 10px  #aaaaaa; -webkit-box-shadow: 0px 2px 10px #aaaaaa; box-shadow: 0px 2px 10px #aaaaaa; z-index: 20}
+.lxy_tingshou_hide{ display: none; position: absolute; top: 25px; left: 90px; width: 100px; text-align: center; background: #fff; -moz-box-shadow: 0px 2px 10px  #aaaaaa; -webkit-box-shadow: 0px 2px 10px #aaaaaa; box-shadow: 0px 2px 10px #aaaaaa; z-index: 20}
+.lxy_tingshou_hide a{ color: #333333 }
+.lxy_tingshou_hide a:hover{ color: #2d72dd }
+.lxy_conditionR_more i{display: inline-block; width: 16px; height: 10px; margin: 0px 0px 2px 5px; background: url(../images/v3.1_picture/lxy_33.png) no-repeat;}
+.lxy_zaishou_hideA{display: inline-block; font-size: 16px; color: #333333; height: 39px; line-height: 39px; padding: 0px 0px; width: 100%; border-bottom: 1px dashed #f7f7f7; display: block;}
+.lxy_zaishou_hide .lxy_zaishou_hideA:hover{background: #fafafa; color: #2d72dd;}
+.j_youce{ width: 300px;}
+.j_content{box-sizing:border-box; width: 1204px; margin: 0 auto; position: relative; overflow: hidden; margin-bottom: 40px;}
+/*补充  删除按钮*/
+.lxy_brandA_cenR_current b{font-weight: normal; display: inline-block; width: 11px; height: 11px;  background: url(../images/y_56.png);
+    margin-left: 5px; float: right; margin-top: 5px; position: relative; top: 3px;}
+/*修改*/
+/*图片首页*/
+.lxy_hot_photo ul li img{ background: url(../images/v3.1_common/y_204.png) center center; }
+.lxy_new_carA_cen ul li img{ background: url(../images/v3.1_common/y_204.png) center center; }
+/*图片-品牌*/
+.lxy_brand_photo ul li img{ background: url(../images/v3.1_common/y_204.png) center center; }
+/*图片-车系*/
+.lxy_audicar_listcontent ul li img{ background: url(../images/v3.1_common/y_206.png) center center; }
+.lxy_brand_photo ul li:hover span{ color: #ff1616 }
+.lxy_findcarL_brand ul li .lxy_brands_hide .lxy_brands_hideBa{ color: #ff1616 }
+.lxy_foot_bottom a:hover{ color: #ff1616 }
+/*2017/4/28 字体修改 lxy*/
+.lxy_audicar_listhead h3{ font-size: 22px;  }
+.lxy_audicar_listcontent ul li span{ font-size: 15px; }
+.lxy_audicar_listcontent ul li p{ font-size: 13px }
+
+/*2017/5/31 大图经过样式*/
+.y_LphotoRA4 a:hover{color: #ff1615;}
+.lxy_new_carA_top .yl_see{ border-bottom: 4px solid #558ff2; padding-bottom: 11px;}
+/*轮播图*/
+.yl_hot_photo_cen{width: 880px; height: 355px; overflow: hidden; position: relative;}
+.yl_hot_photo_cen ul{width: 880px; height: 355px; position: absolute;}
+.yl_hot_photo_cen ul li{float: left;}
+.yl_hot_photo_cenL{ width: 435px; height: 328px; position: relative; overflow: hidden;}
+.yl_hot_photo_cenL a{width: 435px; height: 328px; background: url(../images/v3.1_common/y_208.png) no-repeat; background-size: 100%; display: block;}
+.yl_hot_photo_cenL img{width: 435px; height: 328px; transition:all 0.3s cubic-bezier(0.5,0,0.7,1);}
+.yl_hot_photo_cenL img:hover{-webkit-transform:scale(1.1);-moz-transform:scale(1.1);-o-transform:scale(1.1);transform:scale(1.1);}
+.yl_hot_photo_cenL p{background: url(../images/v3.1_index/y_148.png) no-repeat; background-size: 100%; width: 394px; color: #fff; padding: 0px 20px; line-height: 50px; height: 50px; overflow: hidden;  position: absolute; left: 0px; bottom: 0px; z-index: 100; text-align: center; font-size: 24px;}
+.yl_hot_photo_cenR{width: 445px; height: 328px; overflow: hidden;}
+.yl_hot_photo_cenRA{width: 214px; height: 159px; display: inline-block; float: left; overflow: hidden; margin: 0px -1px 9px 9px; position: relative;}
+.yl_hot_photo_ceRA a{width: 214px; height: 159px; background: url(../images/v3.1_common/y_224.png) no-repeat; background-size: 100%; display: block;}
+.yl_hot_photo_cenRA img{width: 214px; height: 159px; transition:all 0.3s cubic-bezier(0.5,0,0.7,1);}
+.yl_hot_photo_cenRA img:hover{-webkit-transform:scale(1.1);-moz-transform:scale(1.1);-o-transform:scale(1.1);transform:scale(1.1);}
+.yl_hot_photo_cenRA p{background: url(../images/v3.1_index/y_186.png) no-repeat; background-size: 100%; width: 174px; color: #fff; padding: 0px 20px; line-height: 40px; height: 40px; overflow: hidden;  position: absolute; left: 0px; bottom: 0px; z-index: 100; text-align: center; font-size: 18px;}
+.yl_origin{width: 880px; text-align: center; position: absolute; height: 14px; bottom: 5px;}
+.yl_origin span{width: 10px; height: 10px; display: inline-block; border-radius: 14px; background: #cdd7e5; margin: 0px 10px; cursor: pointer;transition:0.5s;
+	-moz-transition: 0.5s; /* Firefox 4 */
+	-webkit-transition: 0.5s; /* Safari and Chrome */
+	-o-transition: 0.5s; /* Opera */
+}
+.yl_origin span:hover{width: 70px; height: 10px; background: #558ff2; }
+.yl_origin span.yl_current{width: 70px; height: 10px; background: #558ff2; }
+.yl_cutB{ position: relative; }
+.yl_cutBL{position: absolute; left: 0px; top: 128px;}
+.yl_cutBL a{background: url(../images/v3.1_index/y_187.png) no-repeat; background-size: 100%; display: inline-block; width: 30px; height: 60px;}
+.yl_cutBL a:hover{background: url(../images/v3.1_index/y_189.png) no-repeat; background-size: 100%; display: inline-block; width: 30px; height: 60px;}
+.yl_cutBR{position: absolute; right: 0px; top: 128px;}
+.yl_cutBR a{background: url(../images/v3.1_index/y_188.png) no-repeat; background-size: 100%; display: inline-block; width: 30px; height: 60px;}
+.yl_cutBR a:hover{background: url(../images/v3.1_index/y_190.png) no-repeat; background-size: 100%; display: inline-block; width: 30px; height: 60px;}
+/*2017/6/1*/
+.lxy_brandA_top span a{color: #2b2b2b;}
+.lxy_condition_cenR_box a .y_no_city{ font-size: 14px; color: #ff1616; padding-left: 15px;}
+.lxy_condition_cenR .y_city_selected{background: #ecf5fe;}
+.lxy_condition_cenR a font{ line-height: 30px; }
+.lxy_condition_cenR a span{ line-height: 30px; }
+/*大图展示*/
+.y_LphotoRA4 a:hover{color: #ffffff; text-decoration: underline;}
+.y_LphotoRD{ height: 192px; width:240px; border: 1px solid #373738; background: #2b2b2c; padding-top: 10px; padding-left:20px;}
+.y_LphotoRD span{ color:#adadae; font-size: 14px; margin-bottom: 10px; display: block;}
+.y_LphotoRD a{ color: #ffffff; line-height: 20px; margin-top:4px; display:block;}
+
+/*2017/6/2 导航栏margin修改*/
+.lxy_brandA_top>a{margin:5px 48px -25px 0px;}
+/*2017/6/2 左侧导航栏字体加粗*/
+.lxy_findcarL_brand ul li .lxy_brands_hideA a{font-weight: bold;}
+/*2017/5/31 图片、报价 底部文字间距*/
+.lxy_foot_top span{ padding-right: 40px; }
+/*V2.9*/
+.lxy_condition_cenR a span{max-width: 143px;}
+.y_large_iq{background: #2b2b2c; padding: 10px 10px; margin-bottom: 10px;}
+.y_large_iq p{font-size: 14px; color: #ffffff; /*line-height: 14px; height: 14px;*/ margin-bottom: 10px;}
+.y_large_iq p span{font-size: 14px; color: #ff6633;}
+.y_large_iq a{display: inline-block; width: 100%; padding: 10px 0px; text-align: center; background: #ff8844;}
+.y_large_iq a em{background: url(../images/v3.1_picture/lxy_44.png) no-repeat; background-size: 100%; display: inline-block; width: 11px; height: 14px; margin: 0px 6px -2px 0px;}
+.y_large_iq a span{color: #ffffff; font-size: 14px;}
+.y_large_iq a:hover{background: #ff6633;}
+.y_list ul li{margin-right: 5px;}
+.y_large_btm .y_list ul{width: 840px;}
+.y_large_btm .y_list{width: 933px;}
+.y_LphotoRD{height: 158px;}
+/*V2.9*/
+.yl_cutBL{z-index: 500;}
+.yl_cutBR{z-index: 500;}
+/*V3.0*/
+.y_act_adC{padding: 0px 0px 6px 0px;}
+.y_act_adC img{width: 240px; height: 180px;}
+.y_LphotoR{padding-top: 0px;}
+/*4.4优化*/
+.y_large_box{padding-bottom:60px;}
+.y_large_btm{width:934px;float: left;}
+.y_large_box .w_left{width:934px;float: left;}
+.y_LphotoRD{height: auto;padding-bottom:10px;}
+/*index*/
+.lxy_footer{border-top:0;}
+.lxy_foot_top{height: 33px;line-height: 1;}
+.lxy_foot_bottom{height: 38px;line-height: 38px;}
+.lxy_foot_bottom span{color:#cccccc;}
+.lxy_findcarL_brand ul li .lxy_brands_hide{padding:0px 10px 10px 70px;}
+.lxy_findcarL_brand ul li .lxy_brands_hideB{padding:0 0 7px 20px;margin-bottom: -18px;border-bottom: 0;}
+.yl_origin span.yl_current{height: 10px;}
+.lxy_new_carA_top{font-size:20px;}
+.lxy_hot_box{margin-bottom: 38px;}
+.lxy_hotA_top>a{font-size: 20px;}
+.lxy_new_carA_top .yl_see{padding-bottom:13px;}
+.lxy_new_carA_cen ul li p{font-size: 14px;}
+.lxy_hot_photo ul li span{font-size: 14px;font-weight: bold;}
+.lxy_hot_photo ul li span font{font-size: 12px;font-weight: normal;}
+.lxy_new_carA_cen{padding-top:13px;}
+.lxy_new_carA_cen ul li{width:182px;margin:17px 50px 4px 0;}
+.lxy_new_carA_cen ul li img{width:182px;height: 136px;margin-bottom: 6px;}
+.lxy_new_carA_cen ul li p{width:182px;margin-bottom: -3px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.lxy_new_carA{margin-bottom: 27px;margin-top:25px;}
+.lxy_hot_photo  ul{padding-top:13px;}
+.lxy_hot_photo  ul li{width:182px;margin:17px 50px 4px 0;}
+.lxy_hot_photo  ul li img{width:182px;height: 136px;margin-bottom: 10px;margin-top:0;}
+.lxy_hot_photo  ul li p{width:182px;margin-bottom: -3px;}
+.lxy_hot_photo ul li span{margin-bottom: 6px;}
+/*brand*/
+.lxy_brandA_top span{font-size: 26px;font-weight: bold;}
+.lxy_brand_photo  ul li{width:182px;margin:20px 50px 4px 0;}
+.lxy_brand_photo  ul li img{width:182px;height: 136px;margin-bottom: 10px;margin-top:0;}
+.lxy_brand_photo  ul li p{width:182px;margin-bottom: -3px;}
+.lxy_brand_photo ul li span{margin-bottom: 3px;font-weight: bold;font-size: 14px;width:182px;}
+.lxy_brand_photo ul li span font{font-weight: normal;font-size: 12px;}
+/*brand-down*/
+.lxy_brand_head{margin-top:28px;}
+.lxy_brand_head a{font-weight: bold;}
+/*brand_more*/
+.lxy_brand_head p{font-weight: bold;}
+.lxy_brand_head p span{font-weight: normal;}
+.lxy_brand_box{margin-bottom: 38px;}
+.lxy_audicar_listhead h3{font-size:20px;}
+/*common*/
+.w_bb_1{border-bottom: 1px solid #e9eef5;}
+.w_mb_20{margin-bottom: 20px;}
+.lxy_findcarL_brand ul li .lxy_brands_show i.w_change_arrow{background:url(../images/w_01.png) no-repeat; }
+.lxy_findcarL_brand ul li .lxy_brands_hide{padding:0px 10px 15px 52px;}
+.lxy_findcarL_brand ul li .lxy_brands_hideA{margin-bottom: -5px;padding:0;}
+.lxy_findcarL_brand ul li .lxy_brands_hideB{padding:0 0 17px 20px;margin-bottom: -18px;border:none;}
+.lxy_findcarL_brand ul li .lxy_brands_hideB a font{color:#999999;}
+.lxy_hotA_top>a{margin:0 34px -2px 0;}
+.yl_hot_photo_cenRA p{font-size: 14px;height: 30px;line-height: 30px;}
+.yl_hot_photo_cenL p{height: 40px;line-height: 40px;}
+.w_w_860{width:860px;}
+.w_more_m ul li{margin:20px 43px 4px 0;}
+.lxy_brandA_top{height: 45px;}
+.lxy_brandA_top>a{margin:5px 30px -25px 0;height: 40px;}
+.lxy_condition_cen{padding:20px 0 10px;}
+.lxy_conditionR_more_hide{left:0px;}
+.lxy_conditionR_more p:hover{color:#2d72dd;}
+.w_pt_10{position: relative;top:-10px;}
+/*V4.4修改左侧字母导航高度*/
+.lxy_findcarL_fixed{height: 100%;}
+.lxy_findcarL_fixed .lxy_findcarL_letter{height: 100%;}
+.lxy_findcarL_fixed .lxy_findcarL_brand{height: 100%;}
+.j_headerR{margin-top:19px;width: 400px;height: 38px;position: relative;} 
+.lxy_brand_photo  ul li p{margin-bottom: 3px;font-size: 14px;width: 182px;color: #333333;overflow:hidden;height: 20px;box-sizing: border-box;}
+/*V4.4 全部在售、停售车型*/
+.lxy_state{ margin-top:47px; }
+/*4.5*/
+.lxy_new_carA_cen ul li{width: 144px;margin:17px 40px 19px 0;}
+.lxy_new_carA_cen ul li a{display: block;width: inherit;height: inherit;}
+.lxy_new_carA_cen a{width:inherit;height: inherit;}
+.lxy_new_carA_cen ul li img{width:inherit;height: 108px;margin-bottom: -4px;}
+.lxy_new_carA_cen ul li p{width: inherit;height: 32px;padding-top:4px;box-sizing: border-box;line-height: 24px;}
+.yl_price{width: inherit;font-size: 12px;margin-top:-25px;display: block;color: #ff1616;text-align: center;height: 20px;}
+.lxy_new_carA_cen ul li p{background: #f7f7f7;}
+.lxy_new_carA{/*margin-bottom: 37px;*//*margin-bottom: 20px;*/margin-bottom: 10px;}
+.lxy_brandA{margin-bottom: 20px;}
+.lxy_hot_photo  ul li{width: 144px;height:159px;margin:17px 40px 19px 0;}
+.lxy_hot_photo  ul li a{display: block;width: inherit;height: inherit;}
+.lxy_hot_photo ul li p{width: inherit;background: #f7f7f7;padding-bottom: 8px;}
+.lxy_hot_photo ul li span{color:#333;font-weight: normal;background: #f7f7f7;margin-bottom: 0;padding-top:5px;}
+.lxy_hot_photo  ul li img{width:inherit;height: 108px;margin-bottom: 0;}
+.lxy_hot_box{/*margin-bottom: 28px;*/margin-bottom: 23px;}
+.lxy_brand_box{margin-bottom: 10px;}
+.lxy_brand_photo{margin-bottom: 10px;}
+.lxy_brand_photo  ul li{width: 144px;height:159px;margin:0px 40px 30px 0;}
+.lxy_brand_photo  ul li a{display: block;width: inherit;height: inherit;}
+.lxy_brand_photo  ul li img{width:inherit;height: 108px;margin-bottom: 0;}
+.lxy_brand_photo  ul li p{width: inherit;background: #f7f7f7;padding-bottom: 2px;}
+.lxy_brand_photo  ul li span{width:inherit;color:#333;font-weight: normal;background: #f7f7f7;margin-bottom: 0;/*padding-top:5px;*/padding-top:7px;height: 19px;}
+.lxy_brand_photo  ul li p{color:#777;}
+.lxy_brand_head{background: #f7f7f7;padding-left: 10px;box-sizing: border-box;height: 40px;line-height: 40px;margin-top:18px;margin-bottom: 30px;margin-top:0;}
+
+.lxy_new_carA_cen{padding-top:0;}
+.lxy_new_carA_cen.w_pt_7 ul li{margin:0px 40px 30px 0;}
+.lxy_brand_photo.w_more_m ul li{margin:0 35px 5px 0;}
+.w_del_p_bag{background: #fff;margin-bottom: 10px;}
+.lxy_brand_photo.w_more_m ul li p{font-size: 12px;line-height: 27px;}
+.w_container_type_one .lxy_brand_photo{margin-bottom: 0;}
+
+.lxy_new_carA_top{margin-bottom: 30px;}
+.lxy_new_carA_cen ul li{margin:0 40px 30px 0;}
+.lxy_hot_photo ul li p{font-size: 12px;}
+.lxy_new_carA_cen ul li p{font-size: 12px;}
+.lxy_brand_photo  ul li p{font-size: 12px;}
+.lxy_new_carA.w_font_14 .lxy_new_carA_cen ul li p{font-size: 14px;}
+.lxy_brand_photo.w_more_m ul li p{height: 27px;color:#333;}
+.lxy_audicar{width: 300px;}
+.lxy_audicar_listcontent ul li{width: 140px;}
+.lxy_audicar_listcontent ul li img{width: 140px;height:105px;}
+.lxy_brand_photo ul li span{height: auto;padding-top:5px;}
+.lxy_brand_photo  ul li p{height: auto;padding-bottom:8px;}
+.lxy_brand_head a{font-size: 18px;}
+.lxy_brand_head p{font-size: 18px;}
+.lxy_brand_head span{font-weight: normal;}
+/*lhk  2017.9.19 修改*/
+.lxy_hot_photo ul li span{white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}

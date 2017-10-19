@@ -1,0 +1,17 @@
+.new_banner{position:relative; margin:0 auto;height: 380px;overflow: hidden;}
+.rslides{width:100%;position:relative;list-style:none;padding:0}
+.rslides_nav{ width:50px; height:50px; background: url(../images/controls.png) no-repeat; display:block; position:absolute;text-indent:-10em; overflow:hidden;top:50%;margin-top: -25px;}
+.prev{ background-position:0 0;left:1px;top:50%;}
+.prev:hover{ background-position:0 -50px;}
+.next{ background-position:-50px 0;right:1px;}
+.next:hover{ background-position:-50px -50px;}
+.new_banner .rslides_tabs{ position:absolute;bottom: 0px;width: 100%;z-index:99999;text-align: center}
+.new_banner .rslides_tabs li{display:inline-block;float: none;}
+.new_banner .rslides_tabs a{background: #666;display: block;width: 20px;height: 6px;text-indent:-5em; overflow:hidden; display:block; float:left; margin: 0 3px}
+.new_banner .rslides_tabs .rslides_here a{background: #eb2b3b;width: 30px;}
+/*.priceBnenr .rslides_tabs{display: none;}*/
+.priceBnenr{position:relative; margin:0 auto;height: 356px;overflow: hidden;}
+.priceBnenr .rslides_tabs{ position:absolute;bottom: 10px;width: 100%;z-index:99999;text-align: center}
+.priceBnenr .rslides_tabs li{display:inline-block;float: none;}
+.priceBnenr .rslides_tabs a{background: #fff;display: block;width: 11px;height: 11px;text-indent:-5em; overflow:hidden; display:block; float:left;border-radius: 100%;margin: 0 3px}
+.priceBnenr .rslides_tabs .rslides_here a{background: #eb2b3b;}

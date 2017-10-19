@@ -1,0 +1,104 @@
+/*.topding{background: #fff;z-index: 999}
+.oneTit{border-bottom: 3px solid #cd181d;height: 36px; background: #fff;z-index: 999}
+.oneTit h2{font-size: 22px;font-weight: bold;color: #000;float: left;}
+.listmenu li{margin-top: 9px;}
+.listmenu li a{font-size: 14px;color:#cd181d;border: 1px solid #cd181d;margin-left: 8px;padding:5px 15px;background: #fff;}
+.listmenu li a.current{background:#cd181d;color: #fff; }
+.listmenu li a:hover{text-decoration: underline;}*/
+/*.letter-list li {margin-right: 5px; margin-bottom: 5px;}
+.letter-list li a{display: block;background: #fdfdfd;width: 28px; height: 28px;line-height: 28px;float: left;text-align: center;border: 1px solid #e6e6e6;cursor: pointer;}
+.letter-list li.current a{background: #cd181d;border: 1px solid #cd181d;color: #fff;}
+.letter-list li:hover a{border: 1px solid #cd181d}
+.letter-list li.disabled a{color: #9d9d9d;cursor: default;}
+.letter-list li.disabled a:hover{border: 1px solid #dedede;}
+.cartree{background: #fff;border: 1px solid #e6e6e6;overflow-y: auto;position: relative;margin-bottom: 20px;}
+.cartree-letter{width: 100%;line-height: 40px; font-size: 24px;font-weight: bold;background: #f8f8f8;text-align: center;}*/
+/*.kind li{padding: 12px 0;border-bottom: 1px dashed #ebebeb;width: 100%}*/
+/*.kind .leftlist{text-align: right;width: 70px;float: left;}
+.kind .leftlist span{font-weight: bold;}
+.kind .rightlist{float: left; width: 800px;}
+.kind .rightlist a{padding: 1px 8px;margin-bottom: 5px;float: left;margin: 0 4px;}
+.kind .rightlist a.current{background: #cd181d;color: #fff;}*/
+/*#ycBox{display: none;}
+.rightlist .checkbox-inline{padding-left:34px;float: left;margin-bottom: 5px;}
+.morekind:hover{background: #f0f0f0}
+*/
+.redone{color:#cd181d;margin: 0 2px }
+.buleone{color:#004276;margin: 0 2px }
+.guanzuh,.price {margin-right: 8px;}
+.paixu{font-size: 13px;}
+
+.brandlink span{color: #004276;font-size: 16px;padding-left: 5px;}
+.brandlink:hover span{color:#cd181d; }
+.pin{display: block;background: url(../images/pin.png) no-repeat center;width: 16px; height: 16px;margin-top: 3px;}
+
+.tjpic{display: inline-block;margin: 5px 0;padding: 5px;}
+.tjpic img{width: 168px; height: 98px;}
+.tjBtn{font-size: 12px;display: inline-block;width: 152px;}
+.tjBtn a{background: #f8f8f8;border: 1px solid #d9d9d9;border-radius: 1px;float: left;width: 68px;height: 29px;line-height: 29px;margin: 4px;}
+.tjBtn a:hover{background: #e8e8e8;}
+/*.minheight{min-height: 278px;}*/
+.hotcar{padding: 10px 0 5px}
+.toutiao ul{border-bottom: 1px solid #ececec;padding-bottom: 15px;margin-top: 13px;}
+.toutiao li{float:none;height: 20px;line-height: 20px;overflow: hidden;}
+.toutiao li a{display:inline-block;padding: 0 6px; }
+.toutiao li.storng{font-size: 19px;font-weight: bold;margin-bottom: 5px;height: 28px; line-height: 28px; overflow: hidden;}
+.toutiao li.storng a{color: #cd181d;}
+.toutiao span{font-size: 14px;color: #666;line-height: 22px;}
+/*.threelist li {width: 100%}*/
+/*.threelist span{width: 4px;height: 4px;float: left;background: #b5b5b5;border-radius: 100%;margin-top: 16px;overflow: hidden;}*/
+.threelist a {width:46%; padding-left: 10px;float: left;height: 30px;line-height: 30px; overflow: hidden;display: block; background: url(../images/dot.png) no-repeat left;margin-right: 4%}
+/*.threelist li a:last-child{float:right}*/
+
+.jrtt{font-size: 16px; font-weight: bold;color:#2b2b2b;padding-left: 9px;}
+.activity img{width: 278px;height: 100px;}
+.newsWord,.hangQing{display: none;}
+.newsWord.now,.hangQing.now{display: block;}
+.newsPd li{padding-right: 20px;}
+.picList li{width: 33.3%;padding: 0 8px;}
+.picList li img{width: 110px; height: 73px;}
+.picList span{font-size: 13px; color: #666;line-height: 22px;height: 40px;overflow: hidden;display: block;}
+.meitu li a{position: relative;display: block;}
+.meitu li.m1{width: 34%;padding: 0 2px;}
+.meitu li.m2{width: 22%;padding:0 2px;margin-bottom: 3px;}
+.meitu li.m1 img{width: 100%; height: 299px;}
+.meitu li.m2 img{width: 100%; height: 148px;}
+.meitu li.m2 .cover{padding: 2px 10px}
+
+.phbList li {width: 100%;padding: 4px 0;height: 40px; line-height: 40px;overflow: hidden;}
+.phbList li a{width: 153px;display: block;float: left;}
+.phbNum{font-size: 22px; color: #5c5c5c;font-style: italic;font-family: Arial;text-align: right;padding-right:10px;float: left;}
+.numred{color: #cd181d;}
+.phb .phbList{display: none;}
+.phb .phbList.now{display: block;}
+.col-md-4 .banner{height:253px;overflow:hidden;}
+.banner img{ width: 380px; height:253px; }
+.pbInfor{position: absolute;right: 0;top: -5px;width:330px;}
+.spec{background: url(../images/redbg.png) no-repeat center #e93a3f;width:136px; height: 29px; color: #fff; text-align: center;line-height: 29px;}
+.topSever{border-bottom: 1px solid #eaeaea;width: 100%;padding: 8px 0;}
+.topLink {line-height: 29px; margin-left: 30px;}
+.topLink a{color: #3e3e3e}
+.topLink >a+a:before{padding: 0 30px;color: #bcbcbc;content: "|\00a0";font-family: 宋体;font-size: 10px;}
+.rlBox .rlList{display: none;}
+.rlBox .rlList.now{display: block;}
+
+.brand-bg {width: 180px;height: 450px;position: absolute;left: 2px;top: 33px;overflow: hidden;border: 1px solid #e5e5e5;z-index: 20;background: #fff;text-align: left;display: none}
+.brand-letters{width: 30px;height: 450px; float: left;border-right: 1px solid #e5e5e5;background-color: #f5f5f5;padding: 4px;}
+.brand-letters a{width: 100%;line-height: 20px; text-align: center;color: #666;display: block;}
+.brand-letters a:hover{color:#cd181d; }
+.brand-name{height: 450px;overflow-y: scroll;text-align: left;}
+.brand-name span {height: 22px;line-height: 22px;background-color: #f5f5f5;padding-left: 10px;display: block;color: #666;border-bottom: 1px solid #eee;}
+.brand-name a,.carlin a{height: 31px;line-height: 32px;margin: 0;padding-left: 10px;display: block;color: #666;border-bottom: 1px solid #eee;}
+.brand-name a.current{color: #cd181d;font-weight: bold;}
+.models_bg{left:180px;}
+.allstyle a{height: 30px; line-height: 30px;display: block;background: #f5f5f5;padding-left: 10px;font-size: 12px;color: #808080}
+.carlin p a{padding-left: 10px;font-weight: bold;height: 30px;color: #333}
+.carlin p a:hover{color: #cd181d;}
+.carlin a{padding-left: 10px;}
+.models_bg .carlin{display: block; overflow: scroll; height: 450px;}
+.models_bg {display: none}
+/*{width: 100%;line-height: 20px; text-align: center;color: #666;display: block;}*/
+.activity {position: relative;overflow:hidden;}
+.activity .cover{padding:0 10px;text-align:center;}
+.activity .cover p{font-size:14px;}
+

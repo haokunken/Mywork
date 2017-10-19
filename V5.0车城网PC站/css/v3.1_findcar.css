@@ -1,0 +1,560 @@
+.lxy_findcar_box{width: 1200px; margin: 0 auto; }
+/*.lxy_findcar_nav {margin: 24px 0 18px 0; color: #999;font-size: 13px;}
+.lxy_findcar_nav a{color: #999;}
+.lxy_findcar_nav a:hover{color: #2d72dd}
+.lxy_findcar_nav a.disabled{color: #2d72dd}
+.lxy_findcar_nav a.disabled:hover{cursor: default;color: #2d72dd}*/
+/*左侧字母品牌*/
+.lxy_findcarL_fixed{width: 280px; height: 850px; position: fixed; top: 0px;}
+.lxy_findcarL_fixed_height{height: 300px!important;}
+.lxy_findcarL{width: 280px; height: 850px; border: 1px solid #e9eef5; float: left;}
+.lxy_findcarL_letter_height{height: 300px!important}
+.lxy_findcarL_letter{width: 26px; height: 850px; border-right: 1px solid #e9eef5; background: #85beff; overflow: hidden;}
+.lxy_findcarL_letter .current{background: #fe5555;}
+.lxy_findcarL_letter a{ font-size: 14px; color: #ffffff; display: block; width: 26px; text-align: center; padding: 2.5px 0px; font-weight: bold;}
+.lxy_findcarL_letter a:hover{ background: #fe5555; }
+.lxy_findcarL_brand{background: #ffffff; overflow-y: auto; width: 253px; height: 850px;}
+.lxy_findcarL_brand ul .lxy_brand_letter{height: 40px; line-height: 40px; background: #f7f7f7; padding-left: 20px; font-size: 16px; font-weight: bold;}
+.lxy_findcarL_brand ul li .lxy_brands_show{padding: 9px 12px 9px 20px; border-bottom: 1px solid #e9eef5;}
+.lxy_findcarL_brand ul li .lxy_brands_show img{width: 30px; height: 30px; display: block; float: left; margin-right: 20px;}
+.lxy_findcarL_brand ul li .lxy_brands_show span{font-size: 14px; color: #333; margin-top: 4px; display: block; float: left; margin-right: 2px;}
+.lxy_findcarL_brand ul li .lxy_brands_show:hover span{ color: #ff1616 }
+.lxy_findcarL_brand ul li .lxy_brands_show font{font-size: 14px; color: #999999; margin-top: 4px; display: block; float: left;}
+.lxy_findcarL_brand ul li .lxy_brands_show i{background: url(../images/y_19.png) no-repeat; background-size: 100%; display: block; width: 10px; height: 6px; margin-top: 13px; cursor: pointer; float: right;}
+.lxy_findcarL_brand ul li .lxy_brands_hide{padding: 3px 10px 0px 70px; display: none;}
+.lxy_findcarL_brand ul li .lxy_brands_hideA{padding: 10px 0px 0px 0px;}
+.lxy_findcarL_brand ul li .lxy_brands_hideA i{background: url(../images/y_20.png) no-repeat; background-size: 100%; display: inline-block; width: 12px; height: 13px; margin: 0px 5px 9px 0px; }
+.lxy_findcarL_brand ul li .lxy_brands_hideA a{font-size: 14px; color: #333333; height: 20px; width: 130px; display: inline-block; white-space: nowrap; overflow: hidden; font-weight: bold;}
+.lxy_findcarL_brand ul li .lxy_brands_hideA a:hover{ color: #ff1616 }
+.lxy_findcarL_brand ul li .lxy_brands_hideB{border-bottom: 1px dashed #f7f7f7; padding: 7px 0px 7px 20px;}
+.lxy_findcarL_brand ul li .lxy_brands_hideB i{background: url(../images/y_20.png) no-repeat; background-size: 100%; display: inline-block; width: 12px; height: 13px; margin: 7px 5px 10px 0px;}
+.lxy_findcarL_brand ul li .lxy_brands_hideB a{font-size: 14px; color: #333333; height: 20px; width: 117px; display: inline-block; white-space: nowrap; overflow: hidden; }
+.lxy_findcarL_brand ul li .lxy_brands_show .lxy_brands_hideBa span{color: #ff1616;}
+.lxy_findcarL_brand ul li .lxy_brands_show .lxy_brands_hideBa font{color: #ff1616;}
+.lxy_findcarL_brand ul li .lxy_brands_hide .lxy_brands_hideBa{color: #ff1616;}
+.lxy_findcarL_brand ul li .lxy_brands_hideB a:hover{color: #ff1616}
+.lxy_findcarR{width: 880px; position: relative;}
+/*条件筛选*/
+.lxy_findcarR_filter{ margin-bottom: 40px;}
+.lxy_findcarR_filter_top{padding: 0px 20px 9px 20px; background: #f8fbfe; border-bottom: 1px solid #e9eef5; color: #0a518f; font-size: 14px; overflow: hidden;}
+.lxy_findcarR_filter_top p{display: inline-block; float: left; padding-top: 8px;}
+.lxy_findcarR_filter_top span{font-size: 14px; color: #0a518f; line-height: 18px; padding: 0px 4px 0px 10px; display: inline-block; background: #fff; border: 1px solid #277bc4; margin-right: 20px; margin-top: 9px; float: left;}
+.lxy_findcarR_filter_top span i{background: url(../images/y_21.png) no-repeat; background-size: 100%; width: 11px; height: 11px; display: inline-block; margin-left: 5px; cursor: pointer;}
+.lxy_findcarR_filter_top .lxy_findcarR_filter_topR{font-size: 14px; color: #0a518f; display: inline-block; float: right; padding-top: 9px;}
+.lxy_filter_cen{padding-top: 10px; background: #fff;}
+.lxy_filter_cen1{line-height: 45px; border-bottom: 1px dashed #ebebeb; width: 100%; height: 45px;}
+.lxy_filter_cen1_L span{font-size: 14px; color: #999999;}
+.lxy_filter_cen1_L span em{display: inline-block; width: 13px;}
+.lxy_filter_cen1_L a{font-size: 14px; color: #333; margin-right: 0px; padding: 0px 8px; height: 24px; line-height: 24px; display: inline-block;}
+.lxy_filter_cen1_L a.current{background: #558ff5; color: #fff; border-radius: 2px}
+.lxy_filter_cen1_L a:hover{background: #558ff5; color: #fff; border-radius: 2px}
+.lxy_filter_cen1_R input{width: 42px; height: 24px; line-height: 24px; border: 1px solid #dbdbdb; text-indent: 5px; border-radius: 2px}
+.lxy_filter_cen1_R font{margin: 0px 2px; width: 12px; display: inline-block; border-bottom: 1px solid #333333; margin-bottom: 4px;}
+.lxy_filter_cen1_R span{font-size: 14px; color: #333333; padding-left: 5px; margin-right: 20px;}
+.lxy_filter_cen1_R a{font-size: 14px; color: #2d72dd; line-height: 25px; border: 1px solid #558ff5; padding: 2px 7px; border-radius: 2px;}
+.lxy_filter_cen1_R a:hover{background: #558ff5; color: #fff;}
+.lxy_filter_cen1_L a span{ color: #333;}
+.lxy_filter_cen1_open{display: inline-block; position: relative; margin-right: 3px;height: 39px;  }
+.lxy_filter_cen1_open.current span{ color: #fff;background: #558ff5; border-radius: 2px; }
+.lxy_filter_cen1_open.current i{ background: url(../images/v3.1_findcar/lxy_59.png) }
+.lxy_filter_cen1_open span{color: #333; padding: 0px 4px; display: inline-block; height: 24px; line-height: 24px}
+.lxy_filter_cen1_open i{background: url(../images/v3.1_findcar/lxy_52.png) no-repeat; background-size: 100%; width: 10px; height: 6px; margin: 0px 0px 2px 2px; display: inline-block;}
+.lxy_filter_cen1_hide{ display: none; position: absolute; top: 35px; left: -3px; width: 85px; text-align: center; background: #fff; -webkit-box-shadow: 0px 3px 7px #e5e6e7; -moz-box-shadow: 0px 3px 7px #e5e6e7; box-shadow: 0px 3px 7px #e5e6e7;}
+.lxy_filter_cen1_open:hover .lxy_filter_cen1_hide{display: block;}
+.lxy_filter_cen1_hide a{display: inline-block; font-size: 14px; color: #333333; line-height: 33px; padding: 0px 0px; width: 100%; border-bottom: 1px solid #e9eef4; display: block; height: 33px}
+.lxy_filter_cen1_hide a:hover{background: #fafafa; color: #2d72dd;}
+.lxy_filter_width1{width: 420px; height: 45px; overflow: hidden;}
+.lxy_filter_width2{width: 360px; height: 45px; overflow: hidden;}
+.lxy_this_hide{display: none;}
+.lxy_click_box{ margin-top: -1px }
+.lxy_click_down{margin: 0 auto; width: 98px; line-height: 26px; font-size: 14px; color: #2d72dd; background: #f8fbfe;  border: 1px solid #e9eef5; text-align: center; cursor: pointer; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px}
+.lxy_click_down i{background: url(../images/v3.1_findcar/lxy_52.png) no-repeat; background-size: 100%; width: 10px; height: 6px; margin: 0px 0px 2px 2px; display: inline-block;}
+.lxy_click_up{margin: 0 auto; width: 98px; line-height: 26px; font-size: 14px; color: #2d72dd; background: #f8fbfe;  border: 1px solid #e9eef5; text-align: center; cursor: pointer; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; display: none;}
+.lxy_click_up i{background: url(../images/v3.1_findcar/lxy_53.png) no-repeat; background-size: 100%; width: 10px; height: 6px; margin: 0px 0px 2px 2px; display: inline-block;}
+.lxy_hot_box{ margin-bottom: 40px;}
+.lxy_hotA{background: #fff; }
+.lxy_hotA_top{border-bottom: 4px solid #e9eef4;font-size: 16px;height: 42px;}
+.lxy_hotA_top>a{display: inline-block; margin: 0px 40px -2px 0px; font-size: 22px; height: 42px; color: #333333; float: left;}
+.lxy_hotA_top>a:hover{ color: #2d72dd;}
+.lxy_hotA_top>a.current{border-bottom: 4px solid #558ff2; color: #2d72dd;}
+.lxy_hot_photo_box{margin-bottom: 0px;}
+.lxy_hot_photo{background: #fff; }
+.lxy_hot_photo ul{overflow: hidden;}
+.lxy_hot_photo ul li{text-align: center; width: 202px; margin-right: 24px; float: left;}
+/*.lxy_hot_photo ul li:nth-child(4n){ margin-right: 0px }*/
+.lxy_hot_photo ul li img{width: 202px; height: 151px; display: block; margin-bottom: 15px; margin-top: 20px;}
+.lxy_hot_photo ul li span{display: block; font-size: 16px; color: #333333; margin-bottom: 5px;}
+.lxy_hot_photo ul li:hover span{ color: #ff1616 }
+.lxy_hot_photo ul li span font{font-size: 13px; color: #666666; padding-left: 10px;}
+.lxy_hot_photo ul li p{font-size: 14px; color: #ff1616; text-align: center; }
+.lxy_new_carA{ margin-bottom: 20px }
+.lxy_new_carA_top{height: 43px; font-size: 22px; color: #333333; border-bottom: 4px solid #e9eef4;}
+.lxy_new_carA_top p{ border-bottom: 4px solid #558ff2; height: 43px; display: inline-block;}
+.lxy_new_carA_cen{padding-top: 20px}
+.lxy_new_carA_cen a{ display: inline-block; float: left; }
+.lxy_new_carA_cen ul{overflow: hidden;}
+.lxy_new_carA_cen ul li{float: left; margin-right: 24px;}
+.lxy_new_carA_cen ul li img{width: 202px; height: 151px; display: inline-block; margin-bottom: 7px}
+.lxy_new_carA_cen ul li p{font-size: 16px; color: #333333; height: 42px; width: 202px; overflow: hidden; text-align: center;}
+.lxy_new_carA_cen ul li:hover p{ color: #ff1616 }
+/*图片页底部*/
+.lxy_footer{ border-top: 2px solid #eeeeee; margin-top: 30px }
+.lxy_foot_top{  line-height: 45px; height: 45px; color: #999999; font-size: 14px;  }
+.lxy_foot_bottom{ border-top: 1px solid #eeeeee; height: 50px; line-height: 50px; font-size: 14px;color: #666666 }
+.lxy_foot_bottom a{ color: #666666;  }
+.lxy_foot_bottom a:hover{ color: #ff1616;  }
+.lxy_foot_bottom span{ margin: 0px 14px;}
+/*找车-在售*/
+.lxy_insale_car{ background: #ffffff }
+.lxy_insale_car ul li{padding: 20px 0px 26px;}
+.lxy_insaleL{ width: 160px; height: 120px; float: left; margin-right: 27px}
+.lxy_insaleL img{ width: 160px; height: 120px;  }
+.lxy_insaleM{ float: left; width: 480px; height: 120px;}
+.lxy_insaleM p{ color: #999999; font-size: 14px; height: 30px; line-height: 30px}
+.lxy_insaleM p span{ color: #333333; }
+.lxy_insaleM_top{ margin-bottom: 10px; height: 22px; }
+.lxy_insaleM_top h3{ font-size: 16px; color: #333333; font-weight: normal; }
+.lxy_insaleM_middle{ height: 50px; line-height: 25px; }
+.lxy_insaleM_middleL{ float: left; width: 180px; margin-right: 10px; }
+.lxy_insaleM_middleR{ float: left; }
+.lxy_insaleM_bottom{ margin-top: 5px }
+.lxy_insaleM_bottom p{ float: left; }
+.lxy_insaleR{ float: right; height: 88px; margin-top: 32px; line-height: 25px }
+.lxy_insaleR p{ color: #999999; font-size: 14px; height: 30px; line-height: 30px}
+.lxy_insaleR font{ color: #333333; }
+.lxy_insaleR span{ display: inline-block; width: 80px; background: url("../images/v3.1_findcar/lxy_55.png"); height: 16px; line-height: 0;}
+.lxy_insaleR span i{ display: inline-block; background: url("../images/v3.1_findcar/lxy_54.png"); height: 16px; margin-bottom: -3px }
+.lxy_insaleR em{ color: #ff1616; font-size: 14px; font-style: normal;  margin-left: 5px}
+.lxy_insaleR_bottom{ margin-top: 5px; }
+.lxy_insaleR_bottom a{ background: #f8fbfe; color: #2d72dd; border: 1px solid #e9eef5; margin: 0px 2px; font-size: 12px; display: inline-block; width: 58px; height: 24px; line-height: 24px; text-align: center; border-radius: 2px; float: left; }
+.lxy_insaleR_bottom a:hover{ border: 1px solid #558ff2 }
+.small_nav{ float: left; margin-top: -2px}
+.carcolor-more { margin: 4px 0 0 5px; color: #2d72dd; font-size: 14px; cursor: pointer;}
+.jiantou{ width: 10px; height: 6px; display: inline-block;; background: url(../images/v3.1_findcar/lxy_52.png); margin-left: 5px}
+.carcolor-pop { width: 206px; background-color: #ffffff; position: absolute; top: -5px; left: -3px; z-index: 20; padding: 3px; -webkit-box-shadow: 0px 3px 7px #e5e6e7; -moz-box-shadow: 0px 3px 7px #e5e6e7; box-shadow: 0px 3px 7px #e5e6e7;}
+.fn-clear { width: 126px; display: inline-block; float: left; margin-top: 2px}
+.jiantouUp{ background: url(../images/v3.1_findcar/lxy_53.png); }
+.l_condition{ background: #f8fbfe; font-size: 14px; color: #333333; padding: 10px 20px; border: 1px solid #f1f1f1 }
+.l_condition em{ font-style: normal; font-weight: bold; width: 230px; display: inline-block; }
+.l_condition span{ display: inline-block; font-weight: bold; width: 80px; text-align: center;}
+.l_condition .zdj{ margin-right: 75px }
+.l_condition .esbj{ margin-right: 140px }
+.l_cartype{ border: 1px solid #ffffff; font-size: 14px; border-bottom: 1px solid #f1f1f1; height: 60px; line-height: 60px; padding: 0px 20px; }
+.l_carname{ float: left; width: 230px; height: 60px}
+.l_carname a{ color: #3d3d3d; display: inline-block; width: 230px; height: 60px; line-height: 60px; overflow: hidden;}
+.l_carprice{ float: left; width: 78px; text-align: center; }
+.l_carprice span{ color: #3d3d3d }
+.l_carprice span i{ width: 15px; height: 19px; display: inline-block; background: url(../images/v3.1_canpei/js_07.png); margin-left: 6px; margin-bottom: -4px;}
+.l_baojia{ display: inline-block; margin-left: 75px; width: 84px; height: 50px; text-align: center; position: relative;}
+.l_baojia span{ margin-left: 0px ; color: #ff1616}
+.l_baojia em{ font-style: normal; color: #AEAEAE;  }
+.l_baojia i{ background: url("../images/v3.1_findcar/lxy_57.png"); width: 16px; height: 16px; display: inline-block; margin-left: 6px; margin-bottom: -3px; }
+.l_baojia p{ background: url("../images/v3.1_findcar/lxy_58.png") no-repeat; width: 178px; height: 113px; position: absolute; top: -95px; left: -20px; color: #575757; padding: 5px;display: none; line-height: 20px; font-size: 12px; color: #565656; text-align: left; z-index: 100;}
+.l_relatedinfo{ float: right; width: 300px; text-align: center;}
+.l_relatedinfo a{ margin: 0px 8px; color: #3e3e3e }
+.l_cartype:hover{ background: #f8fbfe; border: 1px solid #4b92f2 }
+.l_cartype:hover .l_xunjia a:hover{ background: #1a76dd }
+.l_xunjia{ float: right; }
+.l_xunjia a{ color: #ffffff; font-size: 14px; background: #4b92f2; display: inline-block; width: 60px; height: 28px; height: 28px; line-height: 28px; text-align: center; border-radius: 2px}
+.l_zhankai{ border-bottom: 1px dashed #EBEBEB; text-align: center; }
+.l_zhankai a{background: #f8fbfe; color: #2d72dd; padding: 5px 10px; border: 1px solid #E3E3E3; display: inline-block; font-size: 12px; margin-bottom: -1px; border-top-left-radius: 4px; border-top-right-radius: 4px;}
+.l_zhankai a span{ color: #ff1616; }
+.y_zhankai{ text-align: center; display: none;}
+.y_zhankai a{background: #f8fbfe; color: #2d72dd; padding: 5px 10px; border: 1px solid #E3E3E3; display: inline-block; font-size: 12px; margin-bottom: -1px; border-top-left-radius: 4px; border-top-right-radius: 4px;}
+.y_zhankai a span{ color: #ff1616; }
+.l_accordcar{display: none;}
+.lxy_hot_box{padding-top: 20px; background: #fff;}
+/*更多颜色*/
+.carcolor{ height: 10px; position: relative; margin-top: 8px}
+.carcolor a{ position: relative; z-index: 5; display: inline-block; float: left; margin-right: 5px; margin-bottom: 5px; width: 12px; height: 12px; outline: 0; box-sizing: content-box; border: 2px solid transparent;}
+.carcolor a:hover .tip {visibility: visible;z-index: 100;}
+.carcolor a em{ position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 2; border: 1px solid #e9eef4;}
+.carcolor a em:hover{ border: 1px solid #558ff2 }
+.carcolor a .tip{ position: absolute; left: -10px; top: -28px; z-index: 5; border: 1px solid #e6e6e6; background-color: #fff; padding: 1px 5px; font-size: 12px; white-space: nowrap; color: #2b2b2b; visibility: hidden; }
+/*找车-筛选--在售、停售*/
+.j_main_top{height: 45px; border-bottom: 4px solid #e9eef4;}
+.j_matopz a{font-size: 22px; color: #333333; height: 45px; margin-right: 40px; display: inline-block;  }
+.j_matopz a.lxy_zaishou{ border-bottom: 4px solid #558ff2; color: #2d72dd }
+.j_matopz a:hover{ color: #2d72dd }
+.j_matopy{height:40px; line-height: 40px;}
+.j_matopy a{display: block; min-height: 40px; width: 75px; margin-left: 20px; color: #333; font-size: 16px; float: left;}
+.j_matopy a:hover span{ color: #ff1616 }
+/*.j_matopy a i{display: inline-block; width: 10px; height: 5px; background: url(../images/v3.1_self_media/js_down.png) no-repeat; margin-left: 4px; margin-bottom: 2px;}
+*//*不点击朝上*/
+.j_main_top .j_matopy a.j_up i{display: inline-block; width: 10px; height: 5px; background: url(../images/v3.1_self_media/js_up.png) no-repeat; margin-left: 4px; margin-bottom: 2px;}
+/*点击朝下*/
+/*.j_main_top .j_matopy a.j_now{color: #ff1616;}
+.j_main_top .j_matopy a.j_now i{display: inline-block; width: 10px; height: 5px; background: url(../images/v3.1_self_media/js_down.png) no-repeat; margin-left: 4px; margin-bottom: 2px;}
+*/
+/*点击朝上*/
+.j_main_top .j_matopy a.j_now{color: #ff1616;}
+.j_main_top .j_matopy a.j_now i{display: inline-block; width: 10px; height: 5px; background: url(../images/v3.1_self_media/js_up.png) no-repeat; margin-left: 4px; margin-bottom: 2px;}
+
+.lxy_brand_box{ margin-bottom: 40px;}
+.lxy_brandA{background: #fff; }
+.lxy_brandA_top{border-bottom: 4px solid #e9eef4;font-size: 16px;height: 53px;}
+.lxy_brandA_top img{ width: 40px; height: 40px; float: left; margin-right: 10px}
+.lxy_brandA_top span{ font-size: 28px; color: #2b2b2b; margin-right: 40px; float: left;  }
+.lxy_brandA_top>a{display: inline-block; margin: 5px 40px -2px 0px; font-size: 22px; height: 48px; color: #333333}
+.lxy_brandA_top>a:hover{ color: #2d72dd;}
+.lxy_brandA_top>a.current{border-bottom: 4px solid #558ff2; color: #2d72dd;}
+.lxy_brandA_top>a.lxy_current{background: rgba(0, 0, 0, 0) url("../images/y_24.png") no-repeat scroll center bottom;border-bottom: 2px solid #e22222;color: #e22222;}
+.lxy_brand_photo_box{margin-bottom: 0px;}
+.lxy_brand_photo{background: #fff; }
+.lxy_brand_photo ul{overflow: hidden;}
+.lxy_brand_photo ul li{text-align: center; width: 202px; margin: 20px 24px 4px 0px; float: left;}
+/*.lxy_brand_photo ul li:nth-child(4n){margin-right: 0px}*/
+.lxy_brand_photo ul li img{width: 202px; height: 151px; display: block; margin-bottom: 15px; }
+.lxy_brand_photo ul li span{display: block; font-size: 16px; color: #333333; margin-bottom: 5px; width: 202px; height: 22px; overflow: hidden;}
+.lxy_brand_photo ul li span font{font-size: 13px; color: #666666; padding-left: 10px;}
+.lxy_brand_photo ul li p{font-size: 14px; color: #ff1616; text-align: center; }
+.lxy_brand_head{ margin-top: 25px;  }
+.lxy_brand_head p{ color: #333333; font-size: 20px;}
+.lxy_brand_head a{ color: #333333; font-size: 20px;}
+.lxy_brand_head a:hover{ color: #ff1616;}
+.lxy_brand_head a em{ display: inline-block; width: 10px; height: 18px; background: url(../images/v3.1_picture/lxy_32.png) no-repeat; margin-left: 7px; margin-bottom: -2px;}
+.lxy_brand_head a:hover em{ background: url(../images/v3.1_picture/lxy_34.png) no-repeat; }
+.lxy_brand_head span{ color: #666666; font-size: 16px; margin-left: 13px }
+
+/*找车-品牌*/
+.lxy_conditionR_more{display: inline-block; position: relative; margin-right: 3px;}
+.lxy_conditionR_more p{color: #333; font-size: 22px; height: 50px}
+.lxy_conditionR_more_hide{ display: none; position: absolute; top: 48px; left: -16px; width: 100px; text-align: center; background: #fff; -moz-box-shadow: 0px 2px 10px  #aaaaaa; -webkit-box-shadow: 0px 2px 10px #aaaaaa; box-shadow: 0px 2px 10px #aaaaaa;}
+.lxy_conditionR_more i{display: inline-block; width: 16px; height: 10px; margin: 0px 0px 2px 5px; background: url(../images/v3.1_picture/lxy_33.png) no-repeat;}
+.lxy_conditionR_more:hover .lxy_conditionR_more_hide{display: block;}
+.lxy_conditionR_more .lxy_conditionR_more_hideA{display: inline-block; font-size: 16px; color: #333333; height: 39px; line-height: 39px; padding: 0px 0px; width: 100%; border-bottom: 1px dashed #f7f7f7; display: block;}
+.lxy_conditionR_more .lxy_conditionR_more_hideA:hover{background: #fafafa; color: #2d72dd;}
+.lxy_condition_cen{padding: 30px 0px 10px;}
+.lxy_condition_cen ul{overflow: hidden;}
+.lxy_condition_cen ul li{overflow: hidden; margin-bottom: 10px;}
+.lxy_condition_cenL{line-height: 20px; width: 46px; height: 30px; overflow: hidden; text-align: left; font-size: 14px; color: #999999;}
+.lxy_condition_cenR{width: 810px; overflow: hidden;}
+.lxy_condition_cenR div{float: left; width: 270px;}
+.lxy_condition_cenR .lxy_brandA_cenR_current{background: #558ff2;}
+.lxy_condition_cenR .lxy_brandA_cenR_current:hover{background: #558ff2;}
+.lxy_condition_cenR .lxy_brandA_cenR_current span{ color: #ffffff}
+.lxy_condition_cenR .lxy_brandA_cenR_current font{color: #ffffff}
+.lxy_condition_cenR .lxy_brandA_cenR_current i{ background: url(../images/v3.1_picture/lxy_35.png); width: 11px; height: 11px; display: inline-block; margin-left: 8px; }
+.lxy_condition_cenR a{margin-bottom: 10px;; width: auto; height: 28px; line-height: 28px; padding: 0px 10px; border: 1px solid #dbdbdb; font-size: 14px; display: inline-block; overflow: hidden; color: #333333}
+.lxy_condition_cenR a:hover{background: #ecf5fe;}
+.lxy_condition_cenR a span{display: block; float: left; max-width: 165px; line-height: 24px; height: 24px; overflow: hidden; }
+.lxy_condition_cenR a font{display: block; float: left; height: 24px; line-height: 24px; color: #999999;}
+.lxy_condition_cenR_box2 a i{width: 12px; height: 12px; display: inline-block; border: 1px solid #e9eef5; float: left; margin-top: 6px; margin-right: 10px;}
+
+/*找车-品牌  点击展开/关闭筛选列表*/
+.lxy_open_shaixuan{ display: block; position: absolute; top: 6px; right: 0px}
+.lxy_open_shaixuan a{ color: #666666; font-size: 16px;  }
+.lxy_open_shaixuan a i{ width: 10px; height: 6px; display: inline-block; background: url(../images/v3.1_findcar/lxy_52.png); margin-left: 6px}
+.lxy_close_shaixuan{ display: block; position: absolute; top: 6px; right: 0px; display: none; }
+.lxy_close_shaixuan a{ color: #666666; font-size: 16px;  }
+.lxy_close_shaixuan a i{ width: 10px; height: 6px; display: inline-block; background: url(../images/v3.1_findcar/lxy_53.png); margin-left: 6px;}
+.lxy_brand_sx{ display: none; }
+.lxy_kongbai{ width: 100%; height: 40px; }
+/*找车-车系详情*/
+.lxy_chexi_insale{ margin-top: 20px;  }
+.lxy_chexi_insale .l_accordcar{ display: block;  }
+.lxy_findcar_chexiB{ background: #fff; width: 898px; margin-bottom: 40px;}
+.lxy_findcar_chexiBL{margin-right: 20px; line-height: 0}
+.lxy_findcar_chexiBL img{width: 306px; height: 230px;}
+.lxy_findcar_chexiBR{width: 496px;  height: 230px; overflow: hidden;}
+.lxy_findcar_chexiBR_top{padding: 5px 0px 20px 0px; }
+.lxy_findcar_chexiBR_topR i{background: url("../images/v3.1_findcar/lxy_55.png") repeat-x scroll 0 0px; display: inline-block; height: 16px; position: relative; vertical-align: middle; width: 80px; margin-right: 10px; overflow: hidden;}
+.lxy_findcar_chexiBR_topR em{background: url("../images/v3.1_findcar/lxy_54.png") repeat-x scroll 0 0; display: inline-block; height: 16px; position: absolute; top: 0; left: 0px;}
+.lxy_findcar_chexiBR_topL{font-size: 22px; color: #333333;}
+.lxy_findcar_chexiBR_topL a{color: #333333;}
+.lxy_findcar_chexiBR_topR{font-size: 14px; color: #999999; margin-top: 10px}
+.lxy_findcar_chexiA{padding: 20px 0px 20px 0px; border: 1px solid #e9eef5; background: #ffffff;}
+.lxy_findcar_chexiBR_cen1_p1{font-size: 16px; color: #333333; padding-bottom: 8px;}
+.lxy_findcar_chexiBR_cen1_p1 span{color: #ff1616;}
+.lxy_findcar_chexiBR_cen1_p2{font-size: 16px; color: #999999; margin-bottom: 21px;}
+.lxy_findcar_chexiBR_cen2{margin-bottom: 10px;}
+.lxy_findcar_chexiBR_cen2 ul{overflow: hidden;}
+.lxy_findcar_chexiBR_cen2 ul li{ width: 246px; height: 22px; line-height: 22px; font-size: 14px; color: #999999; float: left; margin-bottom: 10px;
+}
+.lxy_findcar_chexiBR_cen2 ul li span{color: #333333;}
+.lxy_findcar_chexiBR_cen3 ul{overflow: hidden;}
+.lxy_findcar_chexiBR_cen3 ul li{margin-right: 13px; float: left;}
+.lxy_findcar_chexiBR_cen3 ul li a{line-height: 26px; padding: 0px 25px; font-size: 14px; color: #2d72dd; display: inline-block; background: #f8fbfe; border: 1px solid #e9eef5; border-radius: 3px; }
+.lxy_findcar_chexiBR_cen3 ul li a:hover{ border: 1px solid #558ff2; }
+
+.y_findcarR_filter_top{padding: 20px 20px 9px 0px; background: #fff; border-bottom: 1px dashed #ebebeb; color: #0a518f; font-size: 14px; overflow: hidden;}
+.y_findcarR_filter_top p{display: inline-block; float: left; padding-top: 8px; color: #666;}
+.y_findcarR_filter_top span{font-size: 14px; color: #0a518f; line-height: 18px; padding: 0px 4px 0px 10px; display: inline-block; background: #fff; border: 1px solid #558ff2; border-radius: 2px; margin-right: 20px; margin-top: 9px; float: left;}
+.y_findcarR_filter_top span i{background: url(../images/v3.1_findcar/y_201.png) no-repeat; background-size: 100%; width: 11px; height: 11px; display: inline-block; margin-left: 5px; cursor: pointer;}
+.y_findcarR_filter_top .y_findcarR_filter_topR{font-size: 14px; color: #2d72dd; display: inline-block; float: left; padding-top: 9px;}
+/*修改*/
+/*找车-首页*/
+.lxy_hot_photo ul li img{ background: url(../images/v3.1_common/y_204.png) center center; }
+.lxy_new_carA_cen ul li img{ background: url(../images/v3.1_common/y_204.png) center center; }
+/*找车-品牌*/
+.lxy_brand_photo ul li img{ background: url(../images/v3.1_common/y_204.png) center center; }
+/*找车-筛选*/
+.lxy_insaleL{ background: url(../images/v3.1_common/y_206.png) center center; }
+.l_carprice a{ width: 15px; height: 16px; display: inline-block; background: url(../images/v3.1_canpei/js_07.png); margin-left: 6px; margin-bottom: -4px; position: relative;}
+.l_carprice a em{ font-style: normal; width: 100px;height: 24px;border: 1px solid #e9eef5;position: absolute;left: 5px;bottom: -29px; background: #f2f6f9;color: #333;font-size: 14px;text-align: center;line-height: 24px;z-index: 60;-webkit-box-shadow: 0 2px 3px #e3e2e2; -moz-box-shadow: 0 2px 3px #e3e2e2; box-shadow: 0 2px 3px #e3e2e2;filter: progid:DXImageTransform.Microsoft.Shadow(color='#e3e2e2', Direction=125, Strength=9);display: none; }
+.l_carprice a:hover em{ display: block; }
+/*找车-车系*/
+.lxy_findcar_chexiBL{ width: 306px; height: 230px; background: url(../images/v3.1_common/y_205.png) center center;  }
+.l_condition .esbj{margin-right: 123px;}
+.l_carprice{ width: 90px }
+.l_baojia{ margin-left: 70px; }
+.l_carname{ width: 225px; }
+.carcolor{ font-size: 14px; color: #999999 }
+.lxy_foot_bottom a:hover{ color: #ff1616 }
+.lxy_insaleM p span{ display: inline-block; width: 110px; height: 25px;overflow: hidden;margin-bottom: -4px;}
+.lxy_insaleM_bottom {margin-top: 10px;}
+/*2017/4/27 lxy*/
+.lxy_insale_car ul .brandInfor li{ padding: 20px 0px 26px; }
+/*2017/4/28 lxy*/
+.lxy_findcar_chexiBR{ height: 232px }
+.l_cartype:hover{  border: 1px solid #88adee }
+.j_zstsC3 a:hover{color: #ff1616}
+
+/*2017/5/27 yl*/
+.lxy_findcar_chexiBR_topR a{color: #999999;}
+.lxy_insaleM_top h3 a{ font-size: 16px; color: #333333; font-weight: normal; }
+/*条件选车，选中条件后，置灰其他不可选择的条件*/
+.lxy_filter_cen1 a.y_not_choose{color: #ccc;}
+.lxy_filter_cen1 a.y_not_choose:hover{color: #ccc; background: #fff;}
+/*按照车系热度排序*/
+.j_now_not{position: relative; color: #333;}
+.j_main_top .j_matopy a.j_now_not i{position: absolute; top: 15px; right: 10px; display: inline-block; width: 10px; height: 5px; background: url(../images/v3.1_self_media/js_up.png) no-repeat; margin-left: 4px; margin-bottom: 2px;}
+.j_main_top .j_matopy a.j_now_not em{position: absolute; top: 22px; right: 10px; display: inline-block; width: 10px; height: 5px; background: url(../images/v3.1_self_media/js_down.png) no-repeat; margin-left: 4px; margin-bottom: 2px;}
+.j_matopy a.y_redu:hover i{display: inline-block; width: 10px; height: 12px; background: url(../images/v3.1_findcar/y_203.png) no-repeat; margin-left: 4px; margin-bottom: -1px;}
+.j_matopy a.y_redu i{display: inline-block; width: 10px; height: 12px; background: url(../images/v3.1_findcar/y_202.png) no-repeat; margin-left: 4px; margin-bottom: -1px;}
+.j_matopy a.y_redu_current i{display: inline-block; width: 10px; height: 12px; background: url(../images/v3.1_findcar/y_203.png) no-repeat; margin-left: 4px; margin-bottom: -1px;}
+.j_matopy a.y_redu_current span{color: #ff1500;}
+.j_main_top .j_matopy a.j_now{position: relative;}
+.j_main_top .j_matopy a.j_now i{position: absolute; top: 15px; right: 10px; display: inline-block; width: 10px; height: 5px; background: url(../images/v3.1_self_media/js_up.png) no-repeat; margin-left: 4px; margin-bottom: 2px;}
+.j_main_top .j_matopy a.j_now em{position: absolute; top: 22px; right: 10px; display: inline-block; width: 10px; height: 5px; background: url(../images/v3.1_self_media/js_down.png) no-repeat; margin-left: 4px; margin-bottom: 2px;}
+.j_main_top .j_matopy a.j_now_up i{position: absolute; top: 15px; right: 10px; display: inline-block; width: 10px; height: 5px; background: url(../images/v3.1_self_media/js_up_red.png) no-repeat; margin-left: 4px; margin-bottom: 2px;}
+.j_main_top .j_matopy a.j_now_down em{position: absolute; top: 22px; right: 10px; display: inline-block; width: 10px; height: 5px; background: url(../images/v3.1_self_media/js_down_red.png) no-repeat; margin-left: 4px; margin-bottom: 2px;}
+/*找车条件筛选*/
+.l_condition em{font-weight: bold;}
+.l_condition span{font-weight: normal; color: #999999;}
+.l_relatedinfo a:hover{color: #ff1615;}
+.l_baojia i{display: none;}
+.l_carprice a:hover{ width: 15px; height: 16px; display: inline-block; background: url(../images/v3.1_canpei/js_08.png); margin-left: 6px; margin-bottom: -4px; position: relative;}
+.l_xunjia{float: none; display: inline-block;}
+.l_carname{width: 320px;}
+.l_condition em{width: 320px;}
+.l_relatedinfo{width: 140px;}
+.l_condition .zdj{margin-right: 120px;}
+.l_cartype:hover{border: 1px solid #ff8844; background: #fff8f4;}
+/*2017/5/31 新车推荐增加价格区间*/
+.yl_price{font-size: 14px; color: #ff1616; text-align: center; width: 202px; height: 42px; display:block; margin-top: -10px;}
+/*2017/6/1 增加高级筛选*/
+.yl_shaixuan .yl_shaixuanl{font-size: 14px; color: #999999; padding-top: 22px; padding-right: 20px;}
+.yl_shaixuanr{width:300px; height: 30px; margin-top: 15px;}
+.yl_shaixuanr ul li{float: left; position: relative;}
+.yl_shaixuanr .yl_open{width: 98px; height: 30px; text-align: center; line-height: 30px; border:1px solid #e9eef4; margin-right: -1px;}
+.yl_shaixuanr .yl_open_bottom{border-bottom: none;}
+.yl_shaixuanr .yl_open a{font-size: 14px; color: #333333;}
+.yl_shaixuanr .yl_hide{ width:296px;  border:1px solid #e9eef4;  background: #ffffff; border-top: none; margin-top: 1px;}
+.yl_shaixuanr .yl_hide_list1{position: absolute; z-index: 100;}
+.yl_shaixuanr .yl_hide_list2{position: absolute; z-index: 100; left: -99px;}
+.yl_shaixuanr .yl_hide_list3{position: absolute; z-index: 100; left: -198px;}
+.yl_shaixuanr .yl_open i{position: absolute;top: 16px;right: 10px;display: inline-block;width: 10px;height: 5px;background: url(../images/v3.1_self_media/js_down.png) no-repeat;margin-left: 4px;margin-bottom: 2px;}
+.yl_shaixuanr .yl_hide a{font-size: 14px; color: #5c8bf2; padding:10px 35px 15px 35px; display: inline-block;}
+.yl_hide{display: none;}
+.y_now{display: block;}
+/*2017/6/1 增加高级筛选修改padding*/
+.yl_shaixuanr .yl_hide_list1 a{padding: 10px 28px 15px 35px;}
+.yl_shaixuanr .yl_hide_list2 a{padding: 10px 19px 15px 23px;}
+.yl_shaixuanr .yl_hide a:hover{color: #ff1616; text-decoration: underline;}
+/*2017/5/31 图片、报价 底部文字间距*/
+.lxy_foot_top span{ padding-right: 40px; }
+/*V2.9*/
+/*.l_cartype{overflow: hidden;}*/
+/*V2.9*/
+.j_inforWidth {width: 870px; margin-top: 20px;}
+.j_inforWidth .twoTit{height: 55px; border-bottom: 4px solid #e9eef4; margin-bottom: 20px;}
+.j_inforWidth .twoTit h2{font-weight: normal; font-size: 22px; line-height: 60px; display: inline-block; border-bottom: 4px 
+solid #558ff2; margin-right: 60px;}
+.j_inforWidth .twoTit span{display: inline-block; font-size: 14px; color: #3d3d3d;}
+.j_inforWidth .selectcity .priceProvince{ display: block; overflow: hidden;  padding-right: 100px;
+	border-bottom: 1px dashed #ebebeb; height: 44px;}
+.j_inforWidth .priceProvince li{float: left;  height: 44px; line-height: 44px; width: 60px; text-align: left;}
+.j_inforWidth .selectcity li a{display:inline; white-space: nowrap;font-size: 14px; color: #333; padding: 2px 7px;
+	 border-radius: 3px; }
+.j_inforWidth .priceProvince li.current a{background: #558ff5; color: #fff;}
+.j_inforWidth .selectcity{position: relative;}
+.j_inforWidth .btn-mini{display: inline-block; position: absolute; right: 0; top: 7px; background: #f8fbfe; border: 1px solid #e9eef5; text-align: center;
+line-height: 26px; color: #2d72dd; font-size: 14px; width: 98px; height: 26px; border-radius: 3px;}
+.j_inforWidth .btn-mini .jiantou{display: inline-block; width:10px; height: 6px; background: url(../images/v3.1_chexi/js_down.png) 
+	no-repeat; margin-bottom: 2px; }
+.j_inforWidth .selectcityCity{display: block; overflow: hidden;  padding-right: 100px; border-bottom: 1px dashed #ebebeb;
+ height: auto;}
+.j_inforWidth .selectcityCity li{float: left;  height: 44px; line-height: 44px; width: 60px; text-align: left;}
+.j_inforWidth .selectcityCity li a{display:inline; white-space: nowrap;font-size: 14px; color: #333; padding: 2px 7px;
+	 border-radius: 3px; }
+.j_inforWidth .selectcityCity li.current a{background: #558ff5; color: #fff;}
+.j_inforWidth .selectcityCity li span{display:inline; white-space: nowrap;font-size: 14px; color: #999; padding: 2px 7px;
+	 border-radius: 3px;}
+.j_inforWidth .selectcityCity li a:hover{background: none; color: #558ff5;}
+.j_inforWidth .selectcityCity li.current a:hover{background: #558ff5; color: #fff;}
+.y_new_jsx{width: 860px;}
+.y_new_jsx ul{overflow: hidden; margin-left: -30px; margin-right: -30px; margin-bottom: 10px;}
+.y_new_jsx ul li{float: left; width: 400px; padding: 20px 30px 18px 30px;}
+.y_new_jsx ul li a.y_new_jsx_hrefA{display: block; font-size: 18px; color: #333333; width: 430px; height: 24px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-bottom: 16px; font-weight: bold;}
+.y_new_jsx ul li a.y_new_jsx_hrefA span{color: #2d72dd;}
+.y_new_jsxLA{margin-bottom: 14px;}
+.y_new_jsxLA font{display: inline-block; float: left; padding: 5px 5px; background: #ff8844; color: #fff; font-size: 12px; line-height: 12px; border-radius: 3px; margin-right: 8px;}
+.y_new_jsxLA span{font-size: 16px; color: #333333; display: block; float: left; width: 220px; height: 20px; line-height: 22px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.y_new_jsxLA a{color: #333;}
+.y_new_jsxLB{margin-bottom: 14px;}
+.y_new_jsxLB font{color: #999;}
+.y_new_jsxLB p{font-size: 14px; color: #666666; display: inline-block; width: 240px; height: 14px; line-height: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.y_new_jsxLC{}
+.y_new_jsxLC font{color: #999;}
+.y_new_jsxLC p{font-size: 14px; color: #ff1616; display: inline-block; width: 240px; height: 13px; line-height: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.y_new_jsxR p{font-size: 20px; color: #ff1616; height: 22px; line-height: 22px; padding-bottom: 16px;}
+.y_new_jsxR a{display: inline-block; padding: 8px 20px; border: 1px solid #ff6633; text-align: center; font-size: 14px; color: #ff6633; height: 14px; line-height: 14px; border-radius: 3px; float: right;}
+.y_new_jsxR a:hover{background: #ff6633; color: #fff;}
+.j_inforWidth .twoTit{margin-bottom: 10px;}
+/*v2.9调整经销商暂无数据*/
+.j_tingjxs{width: 100%; height: 260px; text-align: center; padding-top: 100px; box-sizing:border-box; }
+.j_tnews{ width: 400px; overflow: hidden; }
+.j_tnews i{display: block;height: 44px; width: 30px; background: url(../images/v3.1_chexi/js_nonews.png)
+ no-repeat; float: left;} 
+.j_tnews em{font-size: 16px; color: #999999; font-style: normal; display: block; float: left; width: 360px; height: 44px;
+  line-height: 44px;}
+.j_tingjxs{height: 120px; padding-top: 50px;}
+.j_inforWidth .selectcityCity li{width: auto;}
+/*v4.4优化*/
+.lxy_findcarL_brand ul li .lxy_brands_show i.w_change_arrow{background:url(../images/w_01.png) no-repeat; }
+.lxy_findcar_chexiBR_topR a:hover{color:#ff1616;}
+.lxy_brandA_top span{font-size:26px;font-weight: bold;}
+.lxy_brandA_top>a{font-size: 20px;height: 37px;}
+.lxy_brand_head p{font-size: 20px;font-weight: bold;}
+.lxy_brand_head{margin-top:16px;}
+.w_brand_first{margin-top:14px;}
+.lxy_brand_photo{padding-top:13px;}
+.lxy_brand_photo ul li{margin:17px 50px 4px 0;}
+.lxy_brand_photo ul li{width:182px;}
+.lxy_brand_photo ul li img{width:182px;height:136px;margin-bottom: 9px;}
+.lxy_brand_photo ul li span{margin-bottom: 5px;width:182px;font-weight: bold;font-size: 14px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.lxy_brand_photo ul li span font{font-weight: normal;font-size: 12px;}
+.lxy_footer{border-top:0;margin-top:32px;}
+.lxy_brand_box{margin-bottom: 0;}
+.lxy_foot_bottom{height: 38px;line-height: 38px;}
+.lxy_foot_top{height: 33px;line-height: 1;}
+.lxy_findcarL_brand ul li .lxy_brands_hide{padding:0px 10px 15px 52px;}
+.lxy_findcarL_brand ul li .lxy_brands_hideA{margin-bottom: -5px;}
+.lxy_findcarL_brand ul li .lxy_brands_hideB{padding:0 0 17px 20px;margin-bottom: -18px;border:none;}
+/*.lxy_findcar_nav{font-size: 12px;margin:18px 0 12px 0;}*/
+.lxy_new_carA_top{font-size: 20px;height: 38px;}
+.lxy_new_carA_top p{height: 38px;}
+.lxy_filter_cen{padding-top:0;}
+.lxy_filter_cen1_R input{border:1px solid #cccccc;}
+.lxy_filter_cen1_R font{border-bottom: 1px solid #cccccc;}
+.lxy_filter_cen1_R span{color:#999999;}
+.lxy_findcarR_filter{margin-bottom: 20px;}
+.lxy_hotA_top>a{margin:0 38px -2px 0;font-size:20px;height: 38px;}
+.lxy_hot_photo ul li img{width:182px;height: 136px;margin-top:0;margin-bottom: 11px;}
+.lxy_hot_photo ul li span{font-weight: bold;font-size:14px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.lxy_hot_photo ul li span font{font-weight: normal;font-size:12px;}
+.lxy_new_carA_cen{padding-top:13px;}
+.lxy_hot_photo ul li{width:182px;margin:17px 50px 4px 0;}
+.lxy_new_carA_cen ul li{width:182px;margin:17px 50px 4px 0;}
+.lxy_new_carA_cen ul li img{width:182px;height: 136px;}
+.lxy_foot_bottom span{color:#cccccc;}
+.lxy_hot_box{margin-bottom: 28px;}
+.lxy_new_carA_cen ul li p{width:182px;}
+.yl_price{width:182px;margin-top:-17px;height: 20px;}
+.lxy_new_carA_cen ul li p{font-size:14px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.lxy_hot_photo_box{padding-top:13px;}
+.j_matopz a{font-size:20px;}
+.lxy_brandA_top{height: 42px;}
+.lxy_findcarL_brand ul li .lxy_brands_hideB a font{color:#999999;}
+.w_bb_1{border-bottom: 1px solid #e9eef5;}
+.w_mb_20{margin-bottom: 20px;}
+.lxy_findcarL_brand ul li .lxy_brands_hideA{padding:0;}
+.l_zhankai a:hover {background-color:#e5f1fd;}
+.lxy_hotA_top{height: 38px;}
+/*询底价*/
+.y_new_jsxR a{color:#2d72dd;border:1px solid #558ff2;}
+.y_new_jsxR a:hover{background:#558ff2;color:#ffffff;}
+.y_findcarR_filter_top{padding:2px 20px 9px 0;}
+/*.lxy_findcarL_brand ul li .lxy_brands_hideA{padding:20px 0 0 0;}*/
+/*4.4优化增加配置一栏*/
+.w_lastone_select{height:auto;line-height: 1;}
+.w_lastone_select .lxy_filter_cen1_L{margin:10px 0;}
+.j_tnews i{background-image: none;}
+/*.w_lastone_select a {width:158px;padding: 0;}*/
+.w_lastone_select ul{float: right;width:817px;}
+.w_lastone_select ul li{width:158px;float: left;font-size: 14px;color: #333;margin-right: 0px;height: 24px;line-height: 24px;display: inline-block;}
+.w_lastone_select span{margin-right:17px;}
+.w_em_checkbox{background: url(../images/v3.1_xunjia/l_2.png) no-repeat;background-size: 100%;width: 16px;height: 16px;display: inline-block;margin: 0px 10px -3px 0px;cursor: pointer;}
+.w_em_checked{background: url(../images/v3.1_xunjia/l_1.png) no-repeat;background-size: 100%;width: 16px;height: 16px;display: inline-block;margin: 0px 10px -3px 0px;cursor: pointer;}
+/*V4.4修改左侧字母导航高度*/
+.lxy_findcarL_fixed{height: 100%;}
+.lxy_findcarL_fixed .lxy_findcarL_letter{height: 100%;}
+.lxy_findcarL_fixed .lxy_findcarL_brand{height: 100%;}
+/*2017/8/9*/
+.lxy_filter_cen1_hide{left: 50%;margin-left: -42px;}
+.lxy_filter_cen1_open.current i {background: url(../images/v3.1_findcar/lxy_52.png);}
+.lxy_filter_cen1_open a:hover .lxy_filter_cen1_hide{display: block;}
+.lxy_filter_cen1_open a:hover .l_current{background: url(../images/v3.1_findcar/l_01.png);}
+.lxy_filter_cen1_open i.l_top {background: url(../images/v3.1_findcar/lxy_59.png) no-repeat;}
+/*4.5修改去除tab*/
+.lxy_hotA_top>a.current{color:#333;}
+.lxy_footer{/*margin-top:4px;*/margin-top:25px;}
+.lxy_findcarR_filter{margin-bottom: 40px;}
+.lxy_new_carA_cen ul li{width: 144px;margin:17px 40px 19px 0;}
+.lxy_new_carA_cen a{width:inherit;height: inherit;}
+.lxy_new_carA_cen ul li img{width:inherit;height: 108px;margin-bottom: -4px;}
+.lxy_new_carA_cen ul li p{width: inherit;height: 50px;padding-top:6px;box-sizing: border-box;}
+.yl_price{width: inherit;font-size: 12px;margin-top:-25px;}
+.lxy_new_carA_cen ul li p{background: #f7f7f7;}
+.lxy_new_carA{margin-bottom: 23px;}
+.lxy_brand_head{margin-bottom: -3px;}
+.lxy_brand_photo{margin-bottom: 22px;padding-top:0;}
+.lxy_brand_photo ul li{width: 144px;margin:20px 40px 14px 0;}
+.lxy_brand_photo a{width:inherit;height: inherit;display: inline-block;}
+.lxy_brand_photo ul li img{width:inherit;height: 108px;margin-bottom: -2px;}
+.lxy_brand_photo ul li span{width: inherit;padding-top:7px;background: #f7f7f7;margin-bottom: 0;line-height: 22px;font-weight: normal;}
+.lxy_brand_photo ul li p{background: #f7f7f7;font-size: 12px;padding-bottom: 8px;}
+.w_brand_first{margin-top:26px;}
+.lxy_brandA{margin-bottom: 10px;}
+
+.lxy_brand_photo ul li:hover span{color:#ff1616;}
+/*底部横线对不齐*/
+.j_inforWidth .twoTit h2{line-height: 55px;}
+.y_new_jsx ul li a.y_new_jsx_hrefA span{color:#333333;}
+.y_new_jsxLA font{background: none;color:#999;padding:5px 0;font-size: 14px;margin-right: 0;}
+.y_new_jsx ul li a.y_new_jsx_hrefA:hover{color:#ff1616;}
+.y_new_jsx ul li a.y_new_jsx_hrefA:hover span{color:#ff1616;}
+.y_new_jsxLC p{color:#666;}
+.j_zwsj{display: none;}
+.w_tab_list ul li a:hover{color:#ff1616;}
+.j_zsts_top{border-top: 0;}
+.y_new_jsxLA span{width: 239px;}
+/*.j_pic a{visibility: hidden;}*/
+/*.w_color_tab2{color:#888;}*/
+/*design*/ 
+.j_CwlAr_top .j_CwlAr_top2 em, .j_CwlAr_top .j_CwlAr_top2 b{font-size: 16px;}
+/**/
+.w_more_option{float: right;}
+.w_more_option a{font-size: 16px;color: #333;}
+.w_more_option a i{width: 9px;height: 15px;display: inline-block;background: url(../images/v3.1_news/lxy_45.png) no-repeat;margin: 0px 0px -2px 9px;}
+.j_Cw300{margin-top:13px;}
+.j_Cetop{overflow: hidden;}
+/*.w_low_price{margin:0 30px 0 0;}
+.w_test_drive {margin:0;}*/
+/*chexi_c22*/
+.y_new_jsxLA a:hover {color: #ff1616;}
+/*2017.9.19*/
+.lxy_findcarL_brand ul li .lxy_brands_hideB font.hk_ts{color: #999999; font-size: 14px; height: 20px; line-height: 20px; width: 38px;display: inline-block;white-space: nowrap; overflow: hidden;}
+.lxy_findcarL_brand ul li .lxy_brands_hideB a{ white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 90px;}
+.carcolor a em {cursor:default;}
+/*yl 2017/9/22*/
+.carcolor a{cursor: default;}
+/*hk 2017-9-22*/
+.l_carname a {width: 240px;}
+.lxy_findcar_chexiBR_cen3 ul li a.hk_invalid{color: #b5d2ff;cursor: default;}
+.lxy_findcar_chexiBR_cen3 ul li a.hk_invalid:hover{border: 1px solid #e9eef5;cursor: default;}
+.lxy_findcar_chexiBR_topL .hk_cease{font-size: 14px; color: #ccc; margin-left: 15px;}
+.hk_findcar_chexiBR_topR a {color: #999999;position: relative; top: -1px;}
+.hk_findcar_chexiBR_topR i{background: url("../images/v3.1_findcar/lxy_55.png") repeat-x scroll 0 0px; display: inline-block; height: 16px; position: relative; vertical-align: middle; width: 80px; margin-right: 10px; overflow: hidden;}
+.hk_findcar_chexiBR_topR em{background: url("../images/v3.1_findcar/lxy_54.png") repeat-x scroll 0 0; display: inline-block; height: 16px; position: absolute; top: 0; left: 0px;}

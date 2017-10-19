@@ -1,0 +1,1886 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv='X-UA-Compatible' content='ie=edge, chrome=1'>
+<meta name='renderer' content='webkit'>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title></title>
+<link href="css/v3.1_common.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" href="css/v3.1_chexin.css">
+<script src="js/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+<!-- top -->
+<div class="y_top">
+    <div class="y_top_box">
+        <div class="y_topL fl">
+            <!-- 网站引导 -->
+            <div class="y_topLL fl"><a href="" title="">车城网首页</a><span></span><a href="" title="">媒体站</a><span></span><a href="" title="">车城</a></div>
+            <!-- 城市切换 -->
+            <div class="y_topLR fr">
+                <a href="javascript:void(0)"><em></em><span>南京</span><i></i></a>
+            </div>
+            <!-- 城市选择（隐藏） -->
+            <div class="y_cityA">
+                <!-- 输入选择城市 -->
+                <div class="y_cityA_top">
+                    <div class="y_cityA_topL fl"><input type="text" name="" placeholder="请输入城市名"><a href="" title=""></a></div>
+                    <div class="y_cityA_topR fl"><a href="" title="">全国</a><a href="" title="">北京</a><a href="" title="">广州</a></div>
+                    <!-- 城市列表隐藏 -->
+                    <div class="y_cityA_top_hide">
+                        <div class="y_cityA_top_hide_box">
+                            <a href="">南京</a>
+                            <a href="">南京</a>
+                            <a href="">南京</a>
+                            <a href="">南京</a>
+                            <a href="">南京</a>
+                        </div>                        
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                
+                <!-- 直辖市 -->
+                <div class="y_cityA_cenA">
+                    <span>直辖市：</span><a href="">北京</a><a href="">上海</a><a href="">天津</a><a href="">重庆</a>
+                </div>
+                <!-- 省份首字母 -->
+                <div class="y_cityA_cenB">
+                    <span>省份首字母：</span><a href="javascript:void(0);" title="" class="now">A</a><a href="javascript:void(0);" title="">B</a><a href="javascript:void(0);" title="javascript:void(0);">C</a><a href="javascript:void(0);" title="">F</a><a href="javascript:void(0);" title="">G</a><a href="javascript:void(0);" title="">H</a><a href="javascript:void(0);" title="">J</a><a href="javascript:void(0);">L</a><a href="">N</a><a href="javascript:void(0);">Q</a><a href="javascript:void(0);">S</a><a href="">T</a><a href="javascript:void(0);">Y</a><a href="">Z</a>
+                </div>
+                <!-- 城市名称列表 -->
+                <div class="y_cityA_cenC">
+                    <ul>
+                        <li>
+                            <div class="y_cityA_cenCL fl"><span class="y_cityA_cenCL_span1">A</span><span class="y_cityA_cenCL_span2">安徽</span><div class="clear"></div></div>
+                            <div class="y_cityA_cenCR fl">
+                                <a href="javascript:void(0);">合肥</a>
+                                <a href="javascript:void(0);">芜湖</a>
+                                <a href="javascript:void(0);">蚌埠</a>
+                                <a href="javascript:void(0);">淮南</a>
+                                <a href="javascript:void(0);">马鞍山</a>
+                                <a href="javascript:void(0);">淮北</a>
+                                <a href="javascript:void(0);">铜陵</a>
+                                <a href="javascript:void(0);">安庆</a>
+                                <a href="javascript:void(0);">黄山</a>
+                                <a href="javascript:void(0);">滁州</a>
+                                <a href="javascript:void(0);">阜阳</a>
+                                <a href="javascript:void(0);">宿州</a>
+                                <a href="javascript:void(0);">巢湖</a>
+                                <a href="javascript:void(0);">六安</a>
+                                <a href="javascript:void(0);">亳州</a>
+                                <a href="javascript:void(0);">池州</a>
+                                <a href="javascript:void(0);">宣城</a>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div class="y_cityA_cenCL fl"><span class="y_cityA_cenCL_span1 y_cityA_cenCL_span_now">B</span><span class="y_cityA_cenCL_span2">北京</span><div class="clear"></div></div>
+                            <div class="y_cityA_cenCR fl">
+                                <a href="javascript:void(0);">北京</a>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div class="y_cityA_cenCL fl"><span class="y_cityA_cenCL_span1">C</span><span class="y_cityA_cenCL_span2">重庆</span><div class="clear"></div></div>
+                            <div class="y_cityA_cenCR fl">
+                                <a href="javascript:void(0);">重庆</a>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div class="y_cityA_cenCL fl"><span class="y_cityA_cenCL_span1_none">F</span><span class="y_cityA_cenCL_span2">福建</span><div class="clear"></div></div>
+                            <div class="y_cityA_cenCR fl">
+                                <a href="javascript:void(0);">福州</a>
+                                <a href="javascript:void(0);">厦门</a>
+                                <a href="javascript:void(0);">莆田</a>
+                                <a href="javascript:void(0);">三明</a>
+                                <a href="javascript:void(0);">泉州</a>
+                                <a href="javascript:void(0);">漳州</a>
+                                <a href="javascript:void(0);">南平</a>
+                                <a href="javascript:void(0);">龙岩</a>
+                                <a href="javascript:void(0);">宁德</a>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div class="y_cityA_cenCL fl">
+                                <span class="y_cityA_cenCL_span1_none">G</span>
+                                <span class="y_cityA_cenCL_span2">广州</span><div class="clear"></div>
+                            </div>
+                            <div class="y_cityA_cenCR fl">
+                                <a href="javascript:void(0);">广州</a>
+                                   <a href="javascript:void(0);">韶关</a>
+                                   <a href="javascript:void(0);">深圳</a>
+                                   <a href="javascript:void(0);">珠海</a>
+                                   <a href="javascript:void(0);">汕头</a>
+                                   <a href="javascript:void(0);">佛山</a>
+                                   <a href="javascript:void(0);">江门</a>
+                                   <a href="javascript:void(0);">湛江</a>
+                                   <a href="javascript:void(0);">茂名</a>
+                                   <a href="javascript:void(0);">肇庆</a>
+                                   <a href="javascript:void(0);">惠州</a>
+                                   <a href="javascript:void(0);">梅州</a>
+                                   <a href="javascript:void(0);">汕尾</a>
+                                   <a href="javascript:void(0);">河源</a>
+                                   <a href="javascript:void(0);">阳江</a>
+                                   <a href="javascript:void(0);">清远</a>
+                                   <a href="javascript:void(0);">东莞</a>
+                                   <a href="javascript:void(0);">中山</a>
+                                   <a href="javascript:void(0);">潮州</a>
+                                   <a href="javascript:void(0);">揭阳</a>
+                                   <a href="javascript:void(0);">云浮</a>
+                            </div>
+                            <div class="y_cityA_cenCL fl">
+                                <span class="y_cityA_cenCL_span1_none"></span>
+                                <span class="y_cityA_cenCL_span2">广州</span><div class="clear"></div>
+                            </div>
+                            <div class="y_cityA_cenCR fl">
+                                <a href="javascript:void(0);">广州</a>
+                                   <a href="javascript:void(0);">韶关</a>
+                                   <a href="javascript:void(0);">深圳</a>
+                                   <a href="javascript:void(0);">珠海</a>
+                                   <a href="javascript:void(0);">汕头</a>
+                                   <a href="javascript:void(0);">佛山</a>
+                                   <a href="javascript:void(0);">江门</a>
+                                   <a href="javascript:void(0);">湛江</a>
+                                   <a href="javascript:void(0);">茂名</a>
+                                   <a href="javascript:void(0);">肇庆</a>
+                                   <a href="javascript:void(0);">惠州</a>
+                                   <a href="javascript:void(0);">梅州</a>
+                                   <a href="javascript:void(0);">汕尾</a>
+                                   <a href="javascript:void(0);">河源</a>
+                                   <a href="javascript:void(0);">阳江</a>
+                                   <a href="javascript:void(0);">清远</a>
+                                   <a href="javascript:void(0);">东莞</a>
+                                   <a href="javascript:void(0);">中山</a>
+                                   <a href="javascript:void(0);">潮州</a>
+                                   <a href="javascript:void(0);">揭阳</a>
+                                   <a href="javascript:void(0);">云浮</a>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div class="y_cityA_cenCL fl"><span class="y_cityA_cenCL_span1">H</span><span class="y_cityA_cenCL_span2">海南</span><div class="clear"></div></div>
+                            <div class="y_cityA_cenCR fl">
+                                <a href="javascript:void(0);">福州</a>
+                                <a href="javascript:void(0);">厦门</a>
+                                <a href="javascript:void(0);">莆田</a>
+                                <a href="javascript:void(0);">三明</a>
+                                <a href="javascript:void(0);">泉州</a>
+                                <a href="javascript:void(0);">漳州</a>
+                                <a href="javascript:void(0);">南平</a>
+                                <a href="javascript:void(0);">龙岩</a>
+                                <a href="javascript:void(0);">宁德</a>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div class="y_cityA_cenCL fl"><span class="y_cityA_cenCL_span1">J</span><span class="y_cityA_cenCL_span2">甘肃</span><div class="clear"></div></div>
+                            <div class="y_cityA_cenCR fl">
+                                <a href="javascript:void(0);">广州</a>
+                                   <a href="javascript:void(0);">韶关</a>
+                                   <a href="javascript:void(0);">深圳</a>
+                                   <a href="javascript:void(0);">珠海</a>
+                                   <a href="javascript:void(0);">汕头</a>
+                                   <a href="javascript:void(0);">佛山</a>
+                                   <a href="javascript:void(0);">江门</a>
+                                   <a href="javascript:void(0);">湛江</a>
+                                   <a href="javascript:void(0);">茂名</a>
+                                   <a href="javascript:void(0);">肇庆</a>
+                                   <a href="javascript:void(0);">惠州</a>
+                                   <a href="javascript:void(0);">梅州</a>
+                                   <a href="javascript:void(0);">汕尾</a>
+                                   <a href="javascript:void(0);">河源</a>
+                                   <a href="javascript:void(0);">阳江</a>
+                                   <a href="javascript:void(0);">清远</a>
+                                   <a href="javascript:void(0);">东莞</a>
+                                   <a href="javascript:void(0);">中山</a>
+                                   <a href="javascript:void(0);">潮州</a>
+                                   <a href="javascript:void(0);">揭阳</a>
+                                   <a href="javascript:void(0);">云浮</a>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div class="y_cityA_cenCL fl"><span class="y_cityA_cenCL_span1">L</span><span class="y_cityA_cenCL_span2">甘肃</span><div class="clear"></div></div>
+                            <div class="y_cityA_cenCR fl">
+                                <a href="javascript:void(0);">广州</a>
+                                   <a href="javascript:void(0);">韶关</a>
+                                   <a href="javascript:void(0);">深圳</a>
+                                   <a href="javascript:void(0);">珠海</a>
+                                   <a href="javascript:void(0);">汕头</a>
+                                   <a href="javascript:void(0);">佛山</a>
+                                   <a href="javascript:void(0);">江门</a>
+                                   <a href="javascript:void(0);">湛江</a>
+                                   <a href="javascript:void(0);">茂名</a>
+                                   <a href="javascript:void(0);">肇庆</a>
+                                   <a href="javascript:void(0);">惠州</a>
+                                   <a href="javascript:void(0);">梅州</a>
+                                   <a href="javascript:void(0);">汕尾</a>
+                                   <a href="javascript:void(0);">河源</a>
+                                   <a href="javascript:void(0);">阳江</a>
+                                   <a href="javascript:void(0);">清远</a>
+                                   <a href="javascript:void(0);">东莞</a>
+                                   <a href="javascript:void(0);">中山</a>
+                                   <a href="javascript:void(0);">潮州</a>
+                                   <a href="javascript:void(0);">揭阳</a>
+                                   <a href="javascript:void(0);">云浮</a>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>          
+        </div>
+        <div class="y_topR fr">
+            <ul>
+                <li>
+                    <div class="y_topR_open"><a href="">工具<em></em></a></div>
+                    <div class="y_topR_hide">
+                        <a href="">购车计算器</a>
+                        <a href="">贷款计算</a>
+                        <a href="">保险计算</a>
+                        <a href="">车型对比</a>
+                        <a href="">违章查询</a>
+                    </div>
+                </li>
+                <span class="y_division"></span>
+                <li>
+                    <div class="y_topR_open"><a href="">移动应用<em></em></a></div>
+                    <div class="y_topR_hide">
+                        <a href="">车城App</a>
+                        <a href="">手机违章</a>
+                    </div>
+                </li>
+                <span class="y_division"></span>
+                <li>
+                    <div class="y_topR_open"><a href="">网站导航<em></em></a></div>
+                    <div class="y_topR_hide">
+                        <a href="">首页</a>
+                        <a href="">资讯</a>
+                        <a href="">报价</a>
+                        <a href="">图片</a>
+                        <a href="">口碑</a>
+                        <a href="">经销商</a>
+                    </div>
+                </li>
+                <span class="y_division"></span>
+                <!-- 登入注册 -->
+                <div class="y_login">
+                  <a href="javascript:void(0)" title="" class="y_login_L">登录</a>
+                  <a href="javascript:void(0)" title="" class="y_login_R">注册</a>
+                </div>
+                <div class="clear"></div>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<!-- header -->
+<div class="j_header">
+    <div class="j_headerL fl">
+        <div class="j_audi_logo fl">
+          <img src="images/v3.1_chexi/j_38.png">
+          <span>雅阁 2016款 混动 2.0L锐酷版</span>
+        </div>
+        <div class="j_state fl">
+          <a href="javascript:;">+对比</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="j_headerR fr">
+        <!-- 搜索 -->
+        <input type="text" name="" placeholder="请输入关键字"><a href="" class="y_search_ico">搜索</a>
+        <!-- 搜索选择车系车型 -->
+        <div class="brand-bg" id="brandFirst">
+            <div class="brand-letters">
+                <a href="javascript:;" data-value="A">A</a>
+                <a href="javascript:;" data-value="B">B</a>
+                <a href="javascript:;" data-value="C">C</a>
+                <a href="javascript:;" data-value="D">D</a>
+                <a href="javascript:;" data-value="F">F</a>
+                <a href="javascript:;" data-value="G">G</a>
+                <a href="javascript:;" data-value="H">H</a>
+                <a href="javascript:;" data-value="J">J</a>
+                <a href="javascript:;" data-value="K">K</a>
+                <a href="javascript:;" data-value="L">L</a>
+                <a href="javascript:;" data-value="M">M</a>
+                <a href="javascript:;" data-value="N">N</a>
+                <a href="javascript:;" data-value="O">O</a>
+                <a href="javascript:;" data-value="P">P</a>
+                <a href="javascript:;" data-value="Q">Q</a>
+                <a href="javascript:;" data-value="R">R</a>
+                <a href="javascript:;" data-value="S">S</a>
+                <a href="javascript:;" data-value="T">T</a>
+                <a href="javascript:;" data-value="W">W</a>
+                <a href="javascript:;" data-value="X">X</a>
+                <a href="javascript:;" data-value="Y">Y</a>
+                <a href="javascript:;" data-value="Z">Z</a> 
+            </div>
+            <div class="brand-name" id="brand-name">
+                <span id="master-indexletters_A">A</span>
+                <a href="javascript:;" title="奥迪">奥迪</a>
+                <a href="javascript:;" title="阿斯顿·马丁">阿斯顿·马丁</a>
+                <span id="master-indexletters_B">B</span>
+                <a href="javascript:;" title="宝马">宝马</a>
+                <a href="javascript:;" title="奔驰">奔驰</a>                                     
+                <a href="javascript:;" title="别克">别克</a>                                     
+                <a href="javascript:;" title="保时捷" >保时捷</a>                                       
+                <a href="javascript:;" title="本田">本田</a>                                     
+                <a href="javascript:;" title="标致">标致</a>                                     
+                <a href="javascript:;" title="北京">北京</a>
+                <span id="master-indexletters_C">C</span>   
+                <a href="javascript:;" title="长安">长安</a>
+                <a href="javascript:;" title="长城">长城</a>
+                <a href="javascript:;" title="昌河">昌河</a>
+                <a href="javascript:;" title="长安商用">长安商用</a>
+                <span id="master-indexletters_D">D</span>
+                <a href="javascript:;" title="大众">大众</a>
+                <a href="javascript:;" title="东风">东风</a>
+                <a href="javascript:;" title="道奇">道奇</a>
+                <a href="javascript:;" title="东南">东南</a>
+            </div>                         
+        </div>
+        <div class="brand-bg models_bg">
+            <h3 class="allstyle"><a href="javascript:;">全部车型&gt;&gt;</a></h3>
+            <div class="carlin">
+                <p><a href="javascript:;">一汽奥迪</a></p>
+                <a href="http://www.baidu.com/" title="A3" target="_blank">A3</a>
+                <a href="javascript:;" title="A4L">A4L</a>
+                <a href="javascript:;" title="A6L">A6L</a>
+                <p><a href="javascript:;">进口奥迪</a></p>
+                <a href="javascript:;" title="A1">A1</a>
+                <a href="javascript:;" title="A3">A3</a>
+                <a href="javascript:;" title="A3 e-tron">A3 e-tron</a>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>    
+</div>
+<!-- nav -->
+<div class="y_nav">
+  <ul>
+    <li><a href="">车系首页</a></li>
+    <li><a href="">参数配置</a></li>
+    <li><a href="" class="now">图片</a></li>
+    <li><a href="">报价</a></li>
+    <li><a href="" class="j_disabled">口碑</a></li>
+    <li><a href="">车型详解</a></li>
+    <li><a href="">文章</a></li>
+  </ul>
+</div>
+<!--包屑导航 -->
+<div class="j_findcar_box">
+    <div class="j_findcar_nav">   
+        <a href="">首页</a>&nbsp;&nbsp;&gt;&nbsp;
+        <a href="">中型车</a>&nbsp;&nbsp;&gt;&nbsp;
+        <a href="">大众</a>&nbsp;&nbsp;&gt;&nbsp;
+        <a href="">一汽大众</a>&nbsp;&nbsp;&gt;&nbsp;
+        <a href="javascript:void(0)" class="disabled">图片</a>
+    </div>
+</div> 
+<!-- 正文 -->
+<div class="duibiFix" id="duibiFix">
+    <div class="allBack contrast">
+        <a href="javascript:;">车型对比</a>
+    </div>
+    <div class="allBack cheEwm">
+        <div class="pr evmHover">
+            <a href="javascript:;">二维码</a>
+            <div class="ewmsys j_ewmsys">
+                <img src="http://static.checheng.com/common/car/images/che.jpg">
+                <span>扫一扫，开心买车</span>
+            </div>
+        </div>
+    </div>
+    <div class="allBack" id="goToTop">
+        <a href="javascript:;" class="back"><div class="backIcon"></div></a>
+    </div>
+    <div class="pk02 j_jiaopt">
+        <ul class="j_carList cf j_jiaopt">
+          
+        </ul>
+        <ul class="selectCar cheform zhuantiForm cf" id="selectCar">
+            <li class="mt10 cf">
+                <select class="form-control choose brand_id " id="brand" name="brand_id">
+                    <option value="234">D </option>
+                    <option value="259">D 东风风光</option>
+                    <option value="101">F 丰田</option>
+                    <option value="102">F 福特</option>
+                    <option value="105">F 菲亚特</option>
+                    <option value="127">F 法拉利</option>
+                    <option value="181">F 福田</option>
+                    <option value="207">F 福迪</option>
+                    <option value="237">F 福汽启腾</option>
+                </select>
+             </li>
+            <li class="mt10 cf">
+                <select class="form-control" id="bTypeInfo" name="bTypeInfo">
+                    <option value="">选择车系</option>
+                </select>
+            </li>
+            <li class="mt10 cf">
+                <select class="form-control" id="carmm" name="bTypeSonInfo">
+                    <option value="">2016款 1.5L 手动超值型 8座</option>
+                    <option value="">2017款 2.5L 手动超值型 6座</option>
+                    <option value="">2018款 3.5L 手动超值型 4座</option>
+                </select>
+            </li>
+        </ul>
+        <div class="selectCar mt10 cf" id="box">
+            <a href="javascript:;" class="fl jrcomm">请选择</a>
+            <a href="javascript:;" class="j_shr fr tjLink">清空</a>
+        </div>
+    </div>
+</div>
+<div class="j_Cleng">
+    <div class="j_ClengBig">
+        <div class="j_Cw880">
+            <div class="j_CwlA">
+                <div class="j_CwlAl">
+                    <div class="j_CwlAl_p">
+                        <a class="j_xiahid" href=""><img src="images/v3.1_chexi/j_ce04.png" alt=""></a>
+                        <a class="j_xiahid" href=""><img src="images/v3.1_chexi/j_ce02.png" alt=""></a>
+                        <a class="j_xiahid" href=""><img src="images/v3.1_chexi/j_ce05.png" alt=""></a>
+                        <a class="j_xiahid" href=""><img src="images/v3.1_chexi/j_ce03.png" alt=""></a>
+                        <a class="j_xiahid" href=""><img src="images/v3.1_chexi/j_ce06.png" alt=""></a>
+                        <a class="j_xiahid j_xia1" href="">
+                            <img src="images/v3.1_chexi/j_n.png" alt="">
+                        </a>
+                        <p><a href="">共342张图片</a></p>
+                    </div>
+                    <div class="j_CwlAl_c">
+                        <div class="j_baoA">
+                            <div class="j_gaicol">
+                                <a class="j_color1" style="background:black" href=""></a>
+                            </div>
+                            <div class="j_gaicol">
+                                <a class="j_color2" style="background:#2100ae" href=""></a>
+                            </div>   
+                            <div class="j_gaicol"> 
+                                 <a class="j_color3" style="background:#524200" href=""></a>
+                            </div>
+                                <div class="j_gaicol">
+                            <a class="j_color4" style="background:#878787" href=""></a>
+                            </div>
+                            <div class="j_gaicol j_mar0">
+                                <a class="j_color5" style="background:#fafafa" href=""></a>
+                            </div>
+                            <div class="j_clear"></div>
+                        </div>
+                    </div>
+                    <div class="j_CwlAl_b">
+                        <div class="j_CwlAl_bp"><img src="images/v3.1_chexi/j_n1.png" alt=""><span>外观</span></div>
+                        <div class="j_CwlAl_bp j_martwo"><img src="images/v3.1_chexi/j_n2.png" alt=""><span>外观</span></div>
+                        <div class="j_CwlAl_bp"><img src="images/v3.1_chexi/j_n3.png" alt=""><span>空间</span></div>
+                    </div>
+                </div>
+                <div class="j_CwlAr">
+                    <div class="j_CwlAr_top">
+                        <ul>
+                            <li class="j_CwlAr_top1">
+                                <em>本地促销价：</em>
+                                <b>20.43万起</b>
+                            </li>
+                            <li class="j_CwlAr_top1 j_b10">
+                                <em>厂家指导价：</em>
+                                <b class="j_bianb">20.43万-43.90万</b>
+                            </li>
+                            <li class="j_CwlAr_top2">
+                                <em>排&nbsp;&nbsp;量 ：</em>
+                                <b>2.0T-3.0T </b>
+                            </li>
+                            <li class="j_CwlAr_top2">
+                                <em>车体结构：</em>
+                                <b>三厢车</b>
+                            </li>
+                            <li class="j_CwlAr_top2">
+                                <em>油&nbsp;&nbsp;耗&nbsp;：</em>
+                                <b>3.4L-8.3L</b>
+                            </li>
+                            <li class="j_CwlAr_top2">
+                                <em>变&nbsp;速&nbsp;箱&nbsp;：</em>
+                                <b>自动</b>
+                            </li>
+                            <li class="j_CwlAr_top3">
+                                <a class="j_bluess" href="">询低价</a>
+                                <a href="">试驾</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="j_CwlAr_btm">
+                        <div class="j_CwlAr_c">
+                            <span>宝马5系</span>
+                            <div class="j_starP j_starb">
+                                <div class="j_star">
+                                    <i style="width:70%"></i>
+                                </div>
+                                <b>5.52分</b>
+                                <div class="j_clear"></div>
+                            </div>
+                        </div>
+                        <div class="j_leidatu">
+                            <div id="main" style="width: 280px;height:250px; "></div>
+                            <div class="j_leidab j_xjb1">
+                                <span>性价比 </span><b>4.7分</b>
+                            </div>
+                            <div class="j_leidab j_xjb2">
+                                <span>动力</span><b>4.6分</b>
+                            </div>
+                            <div class="j_leidab j_xjb3">
+                                <span>空间</span><b>4.0分</b>
+                            </div>
+                            <div class="j_leidab j_xjb4">
+                                <span>舒适度</span><b>5.0分</b>
+                            </div>
+                            <div class="j_leidab j_xjb5">
+                                <span>舒适度</span><b>4.8分</b>
+                            </div>
+                            <div class="j_leidab j_xjb6">
+                                <span>舒适度 </span><b>4.9分</b>
+                            </div>
+                        </div> 
+                    </div>
+                    
+                </div>
+                <div class="j_clear"></div>
+            </div>
+            <div class="j_kong"></div>
+            <div class="j_canpei">
+                <div class="j_canpeiTop">
+                    <div class="j_canTL">
+                        参数配置
+                    </div>
+                    <div class="j_canTR">
+                        <p>注：&nbsp;&nbsp;&nbsp;●&nbsp; 标配&nbsp;&nbsp;&nbsp;○&nbsp; 选配&nbsp;&nbsp;&nbsp;-&nbsp; 无</p>
+                    </div>
+                </div>
+                <div class="j_canpjb">
+                    基本信息
+                </div>
+                <div class="j_canpeinan">
+                    <ul>
+                        <li>
+                            <div class="j_canpA">厂商 </div>
+                            <div class="j_canpB"><a href="">一汽-大众</a> </div>
+                            <div class="j_canpC">级别 </div>
+                            <div class="j_canpD">紧凑型车 </div>
+                        </li>
+                        <li>
+                            <div class="j_canpA">发动机</div>
+                            <div class="j_canpB">厂商</div>
+                            <div class="j_canpC">变速箱</div>
+                            <div class="j_canpD">6档手自一体 </div>
+                        </li>
+                        <li>
+                            <div class="j_canpA">长*宽*高(mm)</div>
+                            <div class="j_canpB">4348*1807*1574</div>
+                            <div class="j_canpC">车身结构  </div>
+                            <div class="j_canpD">5门5座两厢车  </div>
+                        </li>
+                        <li>
+                            <div class="j_canpA">最高车速(km/h)  </div>
+                            <div class="j_canpB">175 </div>
+                            <div class="j_canpC">官方0-100km/h加速(s)  </div>
+                            <div class="j_canpD">13.6 </div>
+                        </li>
+                        <li>
+                            <div class="j_canpA">实测0-100km/h加速(s)  </div>
+                            <div class="j_canpB">●  </div>
+                            <div class="j_canpC">实测100-0km/h制动(m)  </div>
+                            <div class="j_canpD">-   </div>
+                        </li>
+                        <li>
+                            <div class="j_canpA">实测油耗(L/100km)  </div>
+                            <div class="j_canpB">○</div>
+                            <div class="j_canpC">工信部综合油耗(L/100km) </div>
+                            <div class="j_canpD">-</div>
+                        </li>
+                        <li class="j_bodnone">
+                            <div class="j_canpA"> 实测离地间隙(mm)  </div>
+                            <div class="j_canpB">- </div>
+                            <div class="j_canpC">整车质保</div>
+                            <div class="j_canpD">三年或10万公里</div>
+                        </li>
+                        <div class="j_clear"></div>
+                    </ul>
+                </div>
+                <div class="j_canpjb j_cancang">
+                    车身
+                </div>
+                <div class="j_canpeinan j_cancang">
+                    <ul class="j_cancang">
+                            <li>
+                                <div class="j_canpA">长度(mm) </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">宽度(mm) </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">高度(mm) </div>
+                                <div class="j_canpB">厂商</div>
+                                <div class="j_canpC">轴距(mm) </div>
+                                <div class="j_canpD">6档手自一体 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">前轮距(mm)</div>
+                                <div class="j_canpB">4348*1807*1574</div>
+                                <div class="j_canpC">车身结构  </div>
+                                <div class="j_canpD">5门5座两厢车  </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">后轮距(mm)(km/h)  </div>
+                                <div class="j_canpB">175 </div>
+                                <div class="j_canpC">最小离地间隙(mm)</div>
+                                <div class="j_canpD">13.6 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">整备质量(kg)</div>
+                                <div class="j_canpB">●  </div>
+                                <div class="j_canpC">车身结构</div>
+                                <div class="j_canpD">-   </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">车门数(个)</div>
+                                <div class="j_canpB">○</div>
+                                <div class="j_canpC">座位数(个)</div>
+                                <div class="j_canpD">-</div>
+                            </li>
+                            <li class="j_bodnone">
+                                <div class="j_canpA">油箱容积(L)</div>
+                                <div class="j_canpB">- </div>
+                                <div class="j_canpC">行李厢容积(L)</div>
+                                <div class="j_canpD">三年或10万公里</div>
+                            </li>
+                            <div class="j_clear"></div>
+                    </ul>
+                </div>
+                <div class="j_canpjb j_cancang">
+                    发动机 
+                </div>
+                <div class="j_canpeinan j_cancang">
+                    <ul class="j_cancang">
+                            <li>
+                                <div class="j_canpA">发动机型号</div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">排量(mL) </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">进气形式</div>
+                                <div class="j_canpB">厂商</div>
+                                <div class="j_canpC">气缸排列形式</div>
+                                <div class="j_canpD">6档手自一体 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">气缸数(个)</div>
+                                <div class="j_canpB">4348*1807*1574</div>
+                                <div class="j_canpC">每缸气门数(个)</div>
+                                <div class="j_canpD">5门5座两厢车  </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">压缩比</div>
+                                <div class="j_canpB">175 </div>
+                                <div class="j_canpC">缸径(mm)</div>
+                                <div class="j_canpD">13.6 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">行程(mm)</div>
+                                <div class="j_canpB">●  </div>
+                                <div class="j_canpC">最大马力(Ps)</div>
+                                <div class="j_canpD">-   </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">最大功率(kW)</div>
+                                <div class="j_canpB">○</div>
+                                <div class="j_canpC">最大功率转速(rpm)</div>
+                                <div class="j_canpD">-</div>
+                            </li>
+                            <li class="j_bodnone">
+                                <div class="j_canpA">最大扭矩转速(rpm)</div>
+                                <div class="j_canpB">- </div>
+                                <div class="j_canpC">发动机特有技术</div>
+                                <div class="j_canpD">三年或10万公里</div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">燃料形式   </div>
+                                <div class="j_canpB">●  </div>
+                                <div class="j_canpC">燃油标号   </div>
+                                <div class="j_canpD">-   </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">供油方式   </div>
+                                <div class="j_canpB">○</div>
+                                <div class="j_canpC">缸盖材料   </div>
+                                <div class="j_canpD">-</div>
+                            </li>
+                            <li class="j_bodnone">
+                                <div class="j_canpA">缸体材料    </div>
+                                <div class="j_canpB">- </div>
+                                <div class="j_canpC">环保标准(参照标准表)    </div>
+                                <div class="j_canpD">三年或10万公里</div>
+                            </li>
+                            <div class="j_clear"></div>
+                    </ul>
+                </div>
+                <div class="j_canpjb j_cancang">
+                    变速箱
+                </div>
+                <div class="j_canpeinan j_cancang">
+                    <ul class="j_cancang">
+                            <li>
+                                <div class="j_canpA">简称 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">挡位个数   </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">变速箱类型   </div>
+                                <div class="j_canpB">厂商</div>
+                            </li>
+                            <div class="j_clear"></div>
+                    </ul>
+                </div>
+                <div class="j_canpjb j_cancang">
+                    底盘转向    
+                </div>
+                <div class="j_canpeinan j_cancang">
+                    <ul class="j_cancang">
+                            <li>
+                                <div class="j_canpA">驱动方式    </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">前悬架类型   </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">后悬架类型 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">助力类型    </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">车体结构   </div>
+                                <div class="j_canpB">厂商</div>
+                            </li>
+                            <div class="j_clear"></div>
+                    </ul>
+                </div>
+                <div class="j_canpjb j_cancang">
+                    车轮制动        
+                </div>
+                <div class="j_canpeinan j_cancang">
+                    <ul class="j_cancang">
+                            <li>
+                                <div class="j_canpA">前制动器类型 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">后制动器类型 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">驻车制动类型  </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">前轮胎规格  </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">后轮胎规格</div>
+                                <div class="j_canpB">厂商</div>
+                            </li>
+                            <div class="j_clear"></div>
+                    </ul>
+                </div>
+                <div class="j_canpjb j_cancang">
+                    安全装备            
+                </div>
+                <div class="j_canpeinan j_cancang">
+                    <ul class="j_cancang">
+                            <li>
+                                <div class="j_canpA">主驾驶座安全气囊 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">副驾驶座安全气囊 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">前排侧气囊</div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">后排侧气囊</div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">前排头部气囊 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">后排头部气囊  </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">膝部气囊 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">胎压监测装置 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">零胎压继续行驶 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">安全带未系提示 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">ISOFIX儿童座椅接口   </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">发动机电子防盗    </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">车内中控锁   </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">遥控钥匙 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">无钥匙启动系统</div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">无钥匙进入系统</div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <div class="j_clear"></div>
+                    </ul>
+                </div>
+                <div class="j_canpjb j_cancang">
+                    操控配置                
+                </div>
+                <div class="j_canpeinan j_cancang">
+                    <ul class="j_cancang">
+                            <li>
+                                <div class="j_canpA">ABS防抱死  </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">制动力分配(EBD/CBC等) </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">刹车辅助(EBA/BAS/BA等)  </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">牵引力控制(ASR/TCS/TRC等)</div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">车身稳定控制(ESC/ESP/DSC等)    </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">上坡辅助  </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">自动驻车  </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">陡坡缓降 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">可变悬架    </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">空气悬架    </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">可变转向比  </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">前桥限滑差速器/差速锁</div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">中央差速器锁止功能</div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">后桥限滑差速器/差速锁 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <div class="j_clear"></div>
+                    </ul>
+                </div>
+                <div class="j_canpjb j_cancang">
+                    外部配置                    
+                </div>
+                <div class="j_canpeinan j_cancang">
+                    <ul class="j_cancang">
+                            <li>
+                                <div class="j_canpA">电动天窗  </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">全景天窗   </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">运动外观套件 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">铝合金轮圈  </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">电动吸合门  </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">侧滑门    </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">电动后备厢  </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">感应后备厢  </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">车顶行李架  </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                            </li>
+                            <div class="j_clear"></div>
+                    </ul>
+                </div>
+                <div class="j_canpjb j_cancang">
+                    内部配置                        
+                </div>
+                <div class="j_canpeinan j_cancang">
+                    <ul class="j_cancang">
+                            <li>
+                                <div class="j_canpA">真皮方向盘</div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">方向盘调节  </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">方向盘电动调节     </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">多功能方向盘   </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">方向盘换挡    </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">方向盘加热      </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">方向盘记忆    </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">前驻车雷达    </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">后驻车雷达    </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">倒车视频影像     </div>
+                                <div class="j_canpD">一汽-大众 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">行车电脑显示屏 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">HUD抬头数字显示</div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">全液晶仪表盘 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                            </li>
+                            <div class="j_clear"></div>
+                    </ul>
+                </div>
+                <div class="j_canpjb j_cancang">
+                    座椅配置                            
+                </div>
+                <div class="j_canpeinan j_cancang">
+                    <ul class="j_cancang">
+                            <li>
+                                <div class="j_canpA">真皮/仿皮座椅    </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">运动风格座椅   </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">座椅高低调节</div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">腰部支撑调节    </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">肩部支撑调节</div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">主驾驶座电动调节    </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">副驾驶座电动调节 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">第二排靠背角度调节 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">第二排座椅移动 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">后排座椅电动调节 </div>
+                                <div class="j_canpD">一汽-大众 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">电动座椅记忆  </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">前排座椅加热 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">后排座椅加热  </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">前排座椅通风   </div>
+                                <div class="j_canpD">一汽-大众 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">后排座椅通风 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">前排座椅按摩 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">后排座椅按摩  </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">第三排座椅   </div>
+                                <div class="j_canpD">一汽-大众 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">后排座椅放倒方式    </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">前中央扶手   </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">后中央扶手    </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">后排杯架 </div>
+                                <div class="j_canpD">一汽-大众 </div>
+                            </li>
+                            <div class="j_clear"></div>
+                    </ul>
+                </div>
+                <div class="j_canpjb j_cancang">
+                    多媒体配置 
+                </div>
+                <div class="j_canpeinan j_cancang">
+                    <ul class="j_cancang">
+                            <li>
+                                <div class="j_canpA">GPS导航系统    </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">定位互动服务 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">中控台彩色大屏    </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">蓝牙/车载电话    </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">车载电视   </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">后排液晶屏   </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">220V/230V电源     </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">外接音源接口  </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">CD支持MP3/WMA  </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">多媒体系统   </div>
+                                <div class="j_canpD">一汽-大众 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">扬声器品牌    </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">扬声器数量   </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <div class="j_clear"></div>
+                    </ul>
+                </div>
+                <div class="j_canpjb j_cancang">
+                    灯光配置     
+                </div>
+                <div class="j_canpeinan j_cancang">
+                    <ul class="j_cancang">
+                            <li>
+                                <div class="j_canpA">近光灯 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">远光灯 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">日间行车灯 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">自适应远近光 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">自动头灯   </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">转向辅助灯  </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">转向辅助灯  </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">转向头灯 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">前雾灯 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">大灯高度可调 </div>
+                                <div class="j_canpD">一汽-大众 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">大灯清洗装置  </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">车内氛围灯   </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <div class="j_clear"></div>
+                    </ul>
+                </div>
+                <div class="j_canpjb j_cancang">
+                    玻璃/后视镜  
+                </div>
+                <div class="j_canpeinan j_cancang">
+                    <ul class="j_cancang">
+                            <li>
+                                <div class="j_canpA">前电动车窗   </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">后电动车窗   </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">车窗防夹手功能 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">防紫外线/隔热玻璃   </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">后视镜电动调节    </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">后视镜加热    </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">内后视镜自动防眩目  </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">后视镜电动折叠  </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">后视镜记忆   </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">后风挡遮阳帘  </div>
+                                <div class="j_canpD">一汽-大众 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">后排侧遮阳帘   </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">后排侧隐私玻璃 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">遮阳板化妆镜 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">后雨刷</div>
+                                <div class="j_canpD">一汽-大众 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">感应雨刷 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                            </li>
+                            <div class="j_clear"></div>
+                    </ul>
+                </div>
+                <div class="j_canpjb j_cancang">
+                    空调/冰箱       
+                </div>
+                <div class="j_canpeinan j_cancang">
+                    <ul class="j_cancang">
+                            <li>
+                                <div class="j_canpA">空调控制方式</div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">后排独立空调 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">后座出风口   </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">温度分区控制 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">车内空气调节/花粉过滤</div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">车载冰箱 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            
+                            <div class="j_clear"></div>
+                    </ul>
+                </div>
+                <div class="j_canpjb j_cancang">
+                    高科技配置          
+                </div>
+                <div class="j_canpeinan j_cancang">
+                    <ul class="j_cancang">
+                            <li>
+                                <div class="j_canpA">自动泊车入位 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">发动机启停技术 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">并线辅助 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">车道偏离预警系统</div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">主动安全系统 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">整体主动转向系统 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">夜视系统    </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">中控液晶屏分屏显示   </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">自适应巡航   </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">全景摄像头  </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">外观颜色  </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">内饰颜色 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <div class="j_clear"></div>
+                    </ul>
+                </div>
+                <div class="j_canpjb j_cancang">
+                    选包装           
+                </div>
+                <div class="j_canpeinan j_cancang">
+                    <ul class="j_cancang">
+                            <li>
+                                <div class="j_canpA">扩展包名称   </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">描述 </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <li>
+                                <div class="j_canpA">价格 </div>
+                                <div class="j_canpB">一汽-大众 </div>
+                                <div class="j_canpC">扩展包值   </div>
+                                <div class="j_canpD">紧凑型车 </div>
+                            </li>
+                            <div class="j_clear"></div>
+                    </ul>
+                </div>
+
+
+                <div class="j_canpeimore">
+                    <a href="javascript:;">更多参数设置<i></i></a>
+                </div>
+            </div>
+            <!-- 相关经销商报价 -->
+          <div class="j_inforWidth">
+            <div class="col-showLeft">
+              <div class="cf mt20">
+                  <div class="twoTit">
+                      <h2>江苏经销商</h2>
+                      <span class="priceFutit">迈腾2017款280TSI   DSG舒适型</span>
+                  </div>
+                  <div class="selectcity">
+                      <ul class="priceProvince">
+                          <li><a href="javascript:;">全部</a></li>
+                          <li><a href="javascript:;">北京</a></li>
+                          <li><a href="javascript:;">上海</a></li>
+                          <li><a href="javascript:;">广东</a></li>
+                          <li><a href="javascript:;">天津</a></li>
+                          <li><a href="javascript:;">辽宁</a></li>
+                          <li><a href="javascript:;">浙江</a></li>
+                          <li class="current"><a href="javascript:;">江苏</a></li>
+                          <li><a href="javascript:;">山西</a></li>
+                          <li><a href="javascript:;">吉林</a></li>
+                          <li><a href="javascript:;">河北</a></li>
+                          <li><a href="javascript:;">安徽</a></li>
+                          <li><a href="javascript:;">福建</a></li>
+                          <li><a href="javascript:;">江西</a></li>
+                          <li><a href="javascript:;">山东</a></li>
+                          <li><a href="javascript:;">海南</a></li>
+                          <li><a href="javascript:;">河南</a></li>
+                          <li><a href="javascript:;">湖北</a></li>
+                          <li><a href="javascript:;">陕西</a></li>
+                          <li><a href="javascript:;">四川</a></li>
+                          <li><a href="javascript:;">甘肃</a></li>
+                          <li><a href="javascript:;">陕西</a></li>
+                      </ul>
+                      <a href="javascript:;" class="btn-mini" id="zhankai-new">
+                          <span id="nrNew">展开全部</span>
+                          <em id="jtNew" class="jiantou"></em>
+                      </a>
+                      <div class="selectcityCity">
+                          <ul class="cf">
+                              <li><span class="fontw">江苏：</span></li>
+                              <li><a href="javascript:;">全部</a></li>
+                              <li class="current"><a href="javascript:;">南京</a></li>
+                              <li><a href="javascript:;">苏州</a></li>
+                              <li><a href="javascript:;">南通</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <!-- <div class="cf mt20">
+                  <div class="j_twoTit cf">
+                      <h2>相关经销商</h2>
+                  </div>
+              </div> -->
+              <div class=" cxJxs">
+                  <table class=" ztTable-new">
+                      <tbody>
+                          <tr class="newjxs cf">
+                              <td class=" widthOne">
+                                  <div class=" fw">
+                                      <a href="javascript:;" class=" newjxsName"><span class=" mainred">[4s店]</span>北京中汽华世田大兴分公司</a>
+                                  </div>
+                                  <div class=" mt5">
+                                      <p><strong>电话：</strong><em> 400-868-1902</em></p>
+                                      <p><strong>地址：</strong><span>南京市江宁区汤山街道汤山大道与天润路交叉口</span></p>
+                                      <p><strong>促销：</strong><a href="javascript:;" class="disabled">宝马5系协众麒宝优惠高达11.18万</a></p>
+                                  </div>
+                              </td>
+                              <td class=" widthTwo">
+                                  <div class=" xdjOne"><i class=" ti">促销</i><span>29.59万</span></div>
+                                  <div class=" xdjTwo"><span>32.59万</span></div>
+                              </td>
+                              <td class="widthThree">
+                                  <div class="xdj-new">
+                                      <div class="cf xdjThree"><a href="javascript:;">询底价</a></div>
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr class="newjxs cf">
+                              <td class=" widthOne">
+                                  <div class=" fw">
+                                      <a href="javascript:;" class=" newjxsName"><span class=" mainred">[4s店]</span>北京中汽华世田大兴分公司</a>
+                                  </div>
+                                  <div class=" mt5">
+                                      <p><strong>电话：</strong><em> 400-868-1902</em></p>
+                                      <p><strong>地址：</strong><span>南京市江宁区汤山街道汤山大道与天润路交叉口</span></p>
+                                      <p><strong>促销：</strong><a href="javascript:;" class="disabled">宝马5系协众麒宝优惠高达11.18万</a></p>
+                                  </div>
+                              </td>
+                              <td class=" widthTwo">
+                                  <div class=" xdjOne"><i class=" ti">促销</i><span>29.59万</span></div>
+                                  <div class=" xdjTwo"><span>32.59万</span></div>
+                              </td>
+                              <td class="widthThree">
+                                  <div class="xdj-new">
+                                      <div class="cf xdjThree"><a href="javascript:;">询底价</a></div>
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr class="newjxs cf">
+                              <td class=" widthOne">
+                                  <div class=" fw">
+                                      <a href="javascript:;" class=" newjxsName"><span class=" mainred">[4s店]</span>北京中汽华世田大兴分公司</a>
+                                  </div>
+                                  <div class=" mt5">
+                                      <p><strong>电话：</strong><em> 400-868-1902</em></p>
+                                      <p><strong>地址：</strong><span>南京市江宁区汤山街道汤山大道与天润路交叉口</span></p>
+                                      <p><strong>促销：</strong><a href="javascript:;" class="disabled">宝马5系协众麒宝优惠高达11.18万</a></p>
+                                  </div>
+                              </td>
+                              <td class=" widthTwo">
+                                  <div class=" xdjOne"><i class=" ti">促销</i><span>29.59万</span></div>
+                                  <div class=" xdjTwo"><span>32.59万</span></div>
+                              </td>
+                              <td class="widthThree">
+                                  <div class="xdj-new">
+                                      <div class="cf xdjThree"><a href="javascript:;">询底价</a></div>
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr class="newjxs cf">
+                              <td class=" widthOne">
+                                  <div class=" fw">
+                                      <a href="javascript:;" class=" newjxsName"><span class=" mainred">[4s店]</span>北京中汽华世田大兴分公司</a>
+                                  </div>
+                                  <div class=" mt5">
+                                      <p><strong>电话：</strong><em> 400-868-1902</em></p>
+                                      <p><strong>地址：</strong><span>南京市江宁区汤山街道汤山大道与天润路交叉口</span></p>
+                                      <p><strong>促销：</strong><a href="javascript:;" class="disabled">宝马5系协众麒宝优惠高达11.18万</a></p>
+                                  </div>
+                              </td>
+                              <td class=" widthTwo">
+                                  <div class=" xdjOne"><i class=" ti">促销</i><span>29.59万</span></div>
+                                  <div class=" xdjTwo"><span>32.59万</span></div>
+                              </td>
+                              <td class="widthThree">
+                                  <div class="xdj-new">
+                                      <div class="cf xdjThree"><a href="javascript:;">询底价</a></div>
+                                  </div>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+              <div class="j_tingjxs">
+                <div class="j_tnews">
+                  <i></i><em>当前城市下没有相关经销商，您可以切换城市尝试~</em>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="j_kong"></div>
+            <div class="j_bigtu">
+                <div class="j_bigtu_top">
+                    <div class="j_bigtu_topL">
+                        宝马5系
+                    </div>
+                    <div class="j_bigtu_topR">
+                        <div class="j_bigtu_topRL">
+                            选择颜色
+                            <div class="j_bigtu_xiao">
+                                <a class="j_xiao1" href=""></a>
+                                <a class="j_xiao2" href=""></a>
+                                <a class="j_xiao3" href=""></a>
+                                <a class="j_xiao4" href=""></a>
+                                <a class="j_xiao5" href=""></a>
+                                <a href="">
+                                    <em style="background-color:#000000;" class="em-top"></em>
+                                    <em style="background-color:#A8AAA9;" class="em-bottom"></em>
+                                </a>
+                                <a href="">
+                                    <em style="background-color:#e22222;" class="em-top"></em>
+                                    <em style="background-color:#cccccc;" class="em-bottom"></em>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="j_picmax">
+                    <div class="j_picmax_top">
+                      <div class="j_picmax_topL">
+                        <a href="" target="_blank">
+                          外观<i></i>
+                        </a>
+                        <span>（90张）</span>
+                      </div>
+                    </div>
+                    <div class="j_pics">
+                        <div class="j_pic">
+                            <a href=""><img src="images/v3.1_chexi/js_l1.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_pic">
+                            <a href=""><img src="images/v3.1_chexi/js_l1.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_pic">
+                            <a href=""><img src="images/v3.1_chexi/js_l1.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_pic j_picNo">
+                            <a href=""><img src="images/v3.1_chexi/js_l1.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_clear"></div>
+                    </div>
+                </div>
+                <div class="j_picmax">
+                    <div class="j_picmax_top">
+                      <div class="j_picmax_topL">
+                        <a href="" target="_blank">
+                          空间<i></i>
+                        </a>
+                        <span>（120张）</span>
+                      </div>
+                    </div>
+                    <div class="j_pics">
+                        <div class="j_pic">
+                            <a href=""><img src="images/v3.1_chexi/js_l2.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_pic">
+                            <a href=""><img src="images/v3.1_chexi/js_l3.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_pic">
+                            <a href=""><img src="images/v3.1_chexi/js_l4.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_pic j_picNo">
+                            <a href=""><img src="images/v3.1_chexi/js_l5.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_clear"></div>
+                    </div>
+                </div>
+                <div class="j_picmax">
+                    <div class="j_picmax_top">
+                      <div class="j_picmax_topL">
+                        <a href="" target="_blank">
+                          中控<i></i>
+                        </a>
+                        <span>（120张）</span>
+                      </div>
+                    </div>
+                    <div class="j_pics">
+                        <div class="j_pic">
+                            <a href=""><img src="images/v3.1_chexi/js_l2.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_pic">
+                            <a href=""><img src="images/v3.1_chexi/js_l3.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_pic">
+                            <a href=""><img src="images/v3.1_chexi/js_l4.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_pic j_picNo">
+                            <a href=""><img src="images/v3.1_chexi/js_l5.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_clear"></div>
+                    </div>
+                </div>
+                <div class="j_picmax">
+                    <div class="j_picmax_top">
+                      <div class="j_picmax_topL">
+                        <a href="" target="_blank">
+                          细节<i></i>
+                        </a>
+                        <span>（120张）</span>
+                      </div>
+                    </div>
+                    <div class="j_pics">
+                        <div class="j_pic">
+                            <a href=""><img src="images/v3.1_chexi/js_l2.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_pic">
+                            <a href=""><img src="images/v3.1_chexi/js_l3.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_pic">
+                            <a href=""><img src="images/v3.1_chexi/js_l4.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_pic j_picNo">
+                            <a href=""><img src="images/v3.1_chexi/js_l5.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_clear"></div>
+                    </div>
+                </div>
+                <div class="j_picmax">
+                    <div class="j_picmax_top">
+                      <div class="j_picmax_topL">
+                        <a href="" target="_blank">
+                          重要特点<i></i>
+                        </a>
+                        <span>（120张）</span>
+                      </div>
+                    </div>
+                    <div class="j_pics">
+                        <div class="j_pic">
+                            <a href=""><img src="images/v3.1_chexi/js_l2.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_pic">
+                            <a href=""><img src="images/v3.1_chexi/js_l3.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_pic">
+                            <a href=""><img src="images/v3.1_chexi/js_l4.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_pic j_picNo">
+                            <a href=""><img src="images/v3.1_chexi/js_l5.jpg" alt=""></a>
+                            <span><a href="">370TURBO 四驱至尊版</a> </span>
+                        </div>
+                        <div class="j_clear"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="j_kong"></div>
+            <div class="j_hkyll">
+                <div class="j_hkyTop">
+                    <span>您还可以浏览</span>                             
+                </div>
+                <div class="j_hkymore">
+                    <a href="">宝马X5参数配置</a>
+                    <a href="">宝马X5图片</a>
+                    <a href="">宝马X5报价</a>
+                    <a href="">宝马X5车型详解</a>
+                    <a href="">宝马X5口碑</a>
+                    <a href="">宝马X5文章</a>
+                    <div class="j_clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="j_Cw300">
+            <div class="j_Cetop">
+                <div class="j_CetopA">大家都在看</div>
+                <div class="j_CetopBs">
+                    <ul>
+                        <li class="fl">
+                            <a href="">
+                                <img src="images/v3.1_chexi/js_l6.jpg" alt="">
+                                <span>宝马X1</span>
+                                <p>20.75万起</p>
+                            </a>
+                        </li>
+                        <li class="fr">
+                            <a href="">
+                                <img src="images/v3.1_chexi/js_l7.jpg" alt="">
+                                <span>宝马X1</span>
+                                <p>20.75万起</p>
+                            </a>
+                        </li>
+                        <li class="fl">
+                            <a href="">
+                                <img src="images/v3.1_chexi/js_l8.jpg" alt="">
+                                <span>宝马X1</span>
+                                <p>20.75万起</p>
+                            </a>
+                        </li>
+                        <li class="fr">
+                            <a href="">
+                                <img src="images/v3.1_chexi/js_l7.jpg" alt="">
+                                <span>宝马X1</span>
+                                <p>20.75万起</p>
+                            </a>
+                        </li>
+                        <li class="fl">
+                            <a href="">
+                                <img src="images/v3.1_chexi/js_l7.jpg" alt="">
+                                <span>宝马X1</span>
+                                <p>20.75万起</p>
+                            </a>
+                        </li>
+                        <li class="fr">
+                            <a href="">
+                                <img src="images/v3.1_chexi/js_l7.jpg" alt="">
+                                <span>宝马X1</span>
+                                <p>20.75万起</p>
+                            </a>
+                        </li>
+                        <div class="j_clear"></div>
+                    </ul> 
+                </div>    
+            </div>
+            <div class="j_Cetop">
+                <div class="j_CetopA">同价位推荐</div>
+                <div class="j_CetopBs">
+                    <ul>
+                        <li class="fl">
+                            <a href="">
+                                <img src="images/v3.1_chexi/js_l6.jpg" alt="">
+                                <span>宝马X1</span>
+                                <p>20.75万起</p>
+                            </a>
+                        </li>
+                        <li class="fr">
+                            <a href="">
+                                <img src="images/v3.1_chexi/js_l7.jpg" alt="">
+                                <span>宝马X1</span>
+                                <p>20.75万起</p>
+                            </a>
+                        </li>
+                        <li class="fl">
+                            <a href="">
+                                <img src="images/v3.1_chexi/js_l6.jpg" alt="">
+                                <span>宝马X1</span>
+                                <p>20.75万起</p>
+                            </a>
+                        </li>
+                        <li class="fr">
+                            <a href="">
+                                <img src="images/v3.1_chexi/js_l7.jpg" alt="">
+                                <span>宝马X1</span>
+                                <p>20.75万起</p>
+                            </a>
+                        </li>
+                        <div class="j_clear"></div>
+                    </ul>
+                   
+                    
+                </div>    
+            </div>
+            <div class="j_Cebtm">
+                <div class="j_CebtmT">
+                    <div class="j_CebtmTL">
+                        经销商推荐
+                    </div>
+                    <a href="" target="_blank">
+                        <div class="j_CebtmTR">
+                            更多
+                            <i></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="j_CebtmTA">
+                    <div class="j_jia1">    
+                        <div class="j_pLet">
+                            <p>南京宁宝宝马</p>
+                            <div class="j_Ycao">
+                                <em>促销价：</em>
+                                <b>20.38万起</b>
+                            </div>
+                        </div>
+                        <div class="j_xdjR">
+                            <a href="">询低价</a>
+                        </div>
+                        <div class="j_clear"></div>
+                    </div>
+                    <div class="j_onlyR">地  址：南京市秦淮区大明路278号</div>
+                </div>
+                <div class="j_CebtmTA">
+                    <div class="j_jia1">    
+                        <div class="j_pLet">
+                            <p>南京宁宝宝马</p>
+                            <div class="j_Ycao">
+                                <em>促销价：</em>
+                                <b>20.38万起</b>
+                            </div>
+                        </div>
+                        <div class="j_xdjR">
+                            <a href="">询低价</a>
+                        </div>
+                        <div class="j_clear"></div>
+                    </div>
+                    <div class="j_onlyR">地  址：南京市秦淮区大明路278号</div>
+                </div>
+                <div class="j_CebtmTA j_bordnone">
+                    <div class="j_jia1">    
+                        <div class="j_pLet">
+                            <p>南京宁宝宝马</p>
+                            <div class="j_Ycao">
+                                <em>促销价：</em>
+                                <b>20.38万起</b>
+                            </div>
+                        </div>
+                        <div class="j_xdjR">
+                            <a href="">询低价</a>
+                        </div>
+                        <div class="j_clear"></div>
+                    </div>
+                    <div class="j_onlyR">地  址：南京市秦淮区大明路278号</div>
+                </div>
+            </div>
+        </div>
+        <div class="j_clear"></div>
+    </div>
+</div>
+<!-- 热门车型 热门车系 友情链接 -->
+<div class="y_friendship">
+  <div class="y_friendship_top">
+    <a href="" target="_blank" class="y_current">热门车型</a>
+    <a href="" target="_blank">热门车系</a>
+    <div class="clear"></div>
+  </div>  
+  <div class="y_friendship_cen">     
+    <a target="_blank" href="http://www.checheng.com/2561">观致3</a>
+    <a target="_blank" href="http://www.checheng.com/3126">东南DX7</a>
+    <a target="_blank" href="http://www.checheng.com/3248">众泰芝麻</a>
+    <a target="_blank" href="http://www.checheng.com/3347">铃木Baleno</a>
+    <a target="_blank" href="http://www.checheng.com/3412">现代HND-12 Enduro</a>
+    <a target="_blank" href="http://www.checheng.com/3462">北汽幻速H6EV</a>
+    <a target="_blank" href="http://www.checheng.com/3465">大众Ameo</a>
+    <a target="_blank" href="http://www.checheng.com/3582">比速汽车比速T3</a>
+    <a target="_blank" href="http://www.checheng.com/3751">AC Schnitzer i8</a>
+    <a target="_blank" href="http://www.checheng.com/2561">观致3</a>
+    <a target="_blank" href="http://www.checheng.com/3126">东南DX7</a>
+    <a target="_blank" href="http://www.checheng.com/3248">众泰芝麻</a>
+    <a target="_blank" href="http://www.checheng.com/3347">铃木Baleno</a>
+    <a target="_blank" href="http://www.checheng.com/3412">现代HND-12 Enduro</a>
+    <a target="_blank" href="http://www.checheng.com/3462">北汽幻速H6EV</a>
+    <a target="_blank" href="http://www.checheng.com/3465">大众Ameo</a>
+    <a target="_blank" href="http://www.checheng.com/3582">比速汽车比速T3</a>
+    <a target="_blank" href="http://www.checheng.com/3751">AC Schnitzer i8</a>
+    <div class="clear"></div>
+  </div>
+  <div class="y_friendship_cen">     
+    <a target="_blank" href="http://www.checheng.com/2561">22观致3</a>
+    <a target="_blank" href="http://www.checheng.com/3126">东南DX7</a>
+    <a target="_blank" href="http://www.checheng.com/3248">众泰芝麻</a>
+    <a target="_blank" href="http://www.checheng.com/3347">铃木Baleno</a>
+    <a target="_blank" href="http://www.checheng.com/3412">现代HND-12 Enduro</a>
+    <a target="_blank" href="http://www.checheng.com/3462">北汽幻速H6EV</a>
+    <a target="_blank" href="http://www.checheng.com/3465">大众Ameo</a>
+    <a target="_blank" href="http://www.checheng.com/3582">比速汽车比速T3</a>
+    <a target="_blank" href="http://www.checheng.com/3751">AC Schnitzer i8</a>
+    <a target="_blank" href="http://www.checheng.com/2561">观致3</a>
+    <a target="_blank" href="http://www.checheng.com/3126">东南DX7</a>
+    <a target="_blank" href="http://www.checheng.com/3248">众泰芝麻</a>
+    <a target="_blank" href="http://www.checheng.com/3347">铃木Baleno</a>
+    <a target="_blank" href="http://www.checheng.com/3412">现代HND-12 Enduro</a>
+    <a target="_blank" href="http://www.checheng.com/3462">北汽幻速H6EV</a>
+    <a target="_blank" href="http://www.checheng.com/3465">大众Ameo</a>
+    <a target="_blank" href="http://www.checheng.com/3582">比速汽车比速T3</a>
+    <a target="_blank" href="http://www.checheng.com/3751">AC Schnitzer i8</a>
+    <div class="clear"></div>
+  </div>
+  <div class="y_friendship_cen">     
+    <a target="_blank" href="http://www.checheng.com/2561">汽车之家</a>
+    <div class="clear"></div>
+  </div>
+</div>
+<!-- footer -->
+<div class="y_footer">
+    <div class="y_footer_box">
+        <div class="y_footerA">
+            <div class="y_footerA_top">
+                <p>服务热线：</p>
+                <span>4000-888-888</span>
+            </div>
+            <div class="y_footerA_btm">
+                <p>服务时间：</p>
+                <p>9:00-21:00 (法定节假日除外)</p>
+            </div>
+        </div>
+        <div class="y_footerB">
+            <a href="">公司简介</a>
+            <a href="">联系我们</a>
+            <a href="">诚聘英才</a>
+            <a href="">法律声明</a>
+            <a href="">商务合作</a>
+            <a href="">意见反馈</a>
+            <a href="">手机版</a>
+        </div>
+        <div class="y_footerC">
+            <div class="y_footerCL fl"><img src="images/v3.1_common/y_115.jpg" /></div>
+            <div class="y_footerCR fl">
+                <p>扫描下载客户端</p>
+                <span><em></em>Android</span>
+                <span><em class="y_iphone"></em>Iphone</span>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/v3.1_common.js"></script>
+<script src="js/Yeffect16_0627.min.js"></script>
+<script src="js/v3.1_chexin.js"></script>
+<script src="js/echarts.js"></script>
+<script src="js/j-leida.js"></script>
+</body>
+</html>
+

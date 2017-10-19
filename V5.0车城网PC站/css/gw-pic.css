@@ -1,0 +1,61 @@
+.pictop{height: 30px;margin-bottom: 20px; background: #323233;}
+.pictop .breadStyle{color: #808080;}
+.pictop .breadStyle a{line-height: 30px;color: #808080;}
+.pictop .breadStyle a:hover{color: #fff;}
+.pictop .right .xlk-box{position: relative;margin-top: 5px;}
+.pictop .right .choose-link{padding: 1px 8px;border: 1px solid #474748;background: #3b3b3c;font-size: 12px;font-weight: bold;color: #808080}
+.pictop .right .choose-link:hover{background: #0c61ac;color: #fff;}
+.pictop .right .xlk-word {position: absolute;left: -98px;top: 29px;z-index: 100;width: 288px;background: #fff;border: 1px solid #a4a4a4;box-shadow: 0px 0px 3px #a4a4a4;display: none;}
+.pictop .right .xlk-word:after {content: "";position: absolute;left: -1px;top: -17px;background: url(../images/picicon.png) no-repeat center;width: 288px;height: 17px;}
+.pictop .right .list{border-bottom: 1px dashed #e9eef5;padding-bottom: 10px;}
+.pictop .right .list i {display: inline-block; padding: 2px 8px;margin: 10px 0 8px 0;background: #f8fbfe;color: #0c61ac;border: 1px solid #d9ecfc;font-size: 13px;}
+.pictop .right .xlk-hover {height: 300px;overflow-y: scroll;padding: 0px 10px 10px 10px;}
+.pictop .right .list li {padding: 3px 0;overflow: hidden;}
+.pictop .right .list li span {display: block;float: left;margin-top: 5px;background: url(../images/dot.png) no-repeat center;width: 5px;height: 5px;}
+.pictop .right .list li a {display: block;padding-left: 10px;font-size: 13px;}
+.pictop .right .list li em{color: #999} 
+.pictop .right .xlk-box .tingchan{text-align: right;margin-top: 8px; }
+.pictop .right .xlk-box .tingchan a{font-size: 13px; color: #094c86;}
+.pictop .right .xlk-box:hover .xlk-word{display: block;}
+.pictop .right .pindaoword{margin:0 10px;}	
+.pictop .right .pindaoword a{color: #808080;font-weight: bold; line-height: 30px;}
+.pictop .right .piclink{color: #808080}	
+.pictop .right .piclink a{line-height: 30px;font-size: 12px;color: #808080}
+.pictop .right .piclink span{font-family: 宋体;font-size: 12px;}
+.pictop .right .pindaoword a:hover,.pictop .right .piclink a:hover{color: #fff}
+/*正文*/
+.w995{width: 995px;}
+.w180{width: 180px;}
+.modcar .pic-box {position: relative;overflow: hidden;}
+.modcar .abs-style {position: absolute;top: 0;background: rgba(250,250,250,0.75);z-index: 99;color: #333;width: 300px;left: 50%;margin-left: -150px;text-align: center;padding: 10px 0;}
+.modcar .abs-style .xunjia{padding: 4px 12px;margin-left: 5px; border-radius: 2px;background: #eb2e3b;color: #fff;font-size: 13px;}
+.modcar .abs-style .xunjia:hover{background: #e22222}
+.modcar .pic {position: relative;width: 995px;}
+.modcar .pic .prebtn{display: block;position: absolute;left: 0;top: 0;width: 50%;height: 100%;cursor: url(../images/left.cur),auto;background: #000;opacity: 0;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);opacity: 0;}
+.modcar .pic .nextbtn{display: block;position: absolute;right: 0;top: 0;width: 50%;height: 100%;cursor: url(../images/right.cur),auto;background: #000;opacity: 0;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);opacity: 0;}
+.modcar .pic img{max-width: 100%}
+.modcar .tit{margin: 10px 0;}
+.modcar .tit p{font-size: 16px;font-weight: bold;color: #fff}
+.modcar .list {position: relative;}
+.modcar .list ul {margin-left: 47px;width: 907px;height: 70px;position: absolute;}
+.modcar .list ul li {float: left; width: 100px;height: 70px;cursor: pointer;}
+.modcar .list ul li img {width: 100px;height: 70px;border: 3px solid #202021}
+.modcar .list ul li.on img {border-color: #0c61ac}
+.modcar .list .btn{position: absolute;top: 1px;width: 44px;height: 67px;border: 1px solid #4d4d4d;background-color: #363637;cursor: pointer;}
+.modcar .list .prebtn {background:url(../images/prevBtn.png) no-repeat center;left: 0}
+.modcar .list .nextbtn {background:url(../images/nextBtn.png) no-repeat center;right: 0}
+.modcar .list .prebtn:hover{background:url(../images/prevBtnhover.png) no-repeat center #0c61ac;border-color: #0c61ac}
+.modcar .list .nextbtn:hover{background:url(../images/nextBtnhover.png) no-repeat center #0c61ac;border-color: #0c61ac}
+.modmenu .paddbox{padding: 10px;padding-bottom: 1px; background: #29292a}
+.modmenu .lbms{display: block;padding: 8px 12px;margin-bottom: 10px;border: 1px solid #373738;background: #2b2b2c;font-size: 12px;color: #adadae;}
+.modmenu .lbms:hover{border-color:#0a77db }
+.modmenu .tuicon {background: url(../images/tuIcon.png) no-repeat center;display: inline-block;width: 11px;height: 11px;margin-right: 5px;vertical-align: -1px;}
+.modmenu .tulb{background-position: 0px 0;}
+.modmenu .list{margin-bottom: 10px;padding:7px 10px 4px 10px; border: 1px solid #3f3f40;background: #333334;}
+.modmenu .listother{margin-bottom: 10px;background: #333334; }
+.modmenu .listother li{float: left;width: 79px;height: 55px;text-align: center;box-sizing:content-box;}
+.modmenu .listother li a{display: block;width: 78px;height: 45px;padding-top: 10px;background: #333334;color: #adadae;border: 1px solid #3f3f40;font-size: 12px;box-sizing:content-box;}
+
+.modmenu .listother li a:hover,.modmenu .listother li a.current{position: relative;border-color: #0a77db;color: #fff;}
+.modmenu .list p {margin-bottom: 8px;color: #adadae;}
+.modmenu .list .fw{font-size: 18px; font-weight: bold;color: #fff;}

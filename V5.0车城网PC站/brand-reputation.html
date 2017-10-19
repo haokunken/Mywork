@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1, user-scalable=no"> -->
+<meta name="applicable-device" content="pc,mobile">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>金陵汽车</title>
+<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="css/simple-line-icons.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/zhuanti.css" rel="stylesheet" media="screen">
+<link href="css/common.css" rel="stylesheet" media="screen">
+<script src="js/jquery.min.js"></script>
+<!--[if lt IE 9]>
+  <script src="js/xys.js"></script>
+  <link href="css/xys.css" rel="stylesheet" >
+<![endif]-->
+</head>
+<body>
+<div class="topBox cf">
+    <div class="topGrey">
+        <div class="inforWidth">
+            <div class="indexWel fl">
+                <span>您好！欢迎来到车城社</span>
+            </div>
+            <div class="topWord fr">
+                <a href="javascript:;">首页</a>
+                <a href="javascript:;">新闻</a>
+                <a href="javascript:;">汽车</a>
+                <a href="javascript:;">教育</a>
+                <a href="javascript:;">旅游</a>
+                <a href="javascript:;">财经</a>
+                <a href="javascript:;">房产</a>
+                <a href="javascript:;">生活</a>
+                <a href="javascript:;">爆料</a>
+            </div>
+        </div>
+    </div>
+    <div class="topHead">
+        <div class="inforWidth">
+            <div class="pr">
+                <div class="logo fl"><a href=""><img src="images/logo-xin.jpg" alt="金陵汽车"></a></div>
+                <div class="city indexcity">
+                    <div class="change indexchange" data-toggle="dropdown"><span>南京</span><b class="caret caret-first"></b></div>
+                    <div class="dropdown-menu dropdown-place-height">
+                        <div class="stopP">
+                            <div class="fastNum cf" id="mainFn">
+                                <a href="javascript:;" data-value="A">A</a>
+                                <a href="javascript:;" data-value="F">F</a>
+                                <a href="javascript:;" data-value="G">G</a>
+                                <a href="javascript:;" data-value="H">H</a>
+                                <a href="javascript:;" data-value="J">J</a>
+                                <a href="javascript:;" data-value="L">L</a>
+                                <a href="javascript:;" data-value="N">N</a>
+                                <a href="javascript:;" data-value="Q">Q</a>
+                                <a href="javascript:;" data-value="S">S</a>
+                                <a href="javascript:;" data-value="X">X</a>
+                                <a href="javascript:;" data-value="Y">Y</a>
+                                <a href="javascript:;" data-value="Z">Z</a>
+                            </div>
+                            <div class="fnClose"></div>
+                        </div>                       
+                        <ul class="dropdown-place" id="fastroad">
+                            <li>
+                                <em class="zimu"></em>
+                                <div class="pl45">
+                                    <p class="fl sheng">直辖市</p>
+                                    <div class="fl shi"><a href="javascript:;">北京</a><a href="javascript:;">上海</a><a href="javascript:;">深圳</a><a href="javascript:;">重庆</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeA">A</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">安徽</p>
+                                    <div class="fl shi"><a href="javascript:;">安庆</a><a href="javascript:;">蚌埠</a><a href="javascript:;">滁州</a><a href="javascript:;">阜阳</a><a href="javascript:;">马鞍山</a><a href="javascript:;">六安</a><a href="javascript:;">宿州</a><a href="javascript:;">合肥</a><a href="javascript:;">石家庄</a><a href="javascript:;">安庆</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeF">F</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">福建</p>
+                                    <div class="fl shi"><a href="javascript:;">福州</a><a href="javascript:;">泉州</a><a href="javascript:;">厦门</a><a href="javascript:;">漳州</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeG">G</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">广东</p>
+                                    <div class="fl shi"><a href="javascript:;">东莞</a><a href="javascript:;">佛山</a><a href="javascript:;">广州</a><a href="javascript:;">惠州</a><a href="javascript:;">深圳</a><a href="javascript:;">粤东</a><a href="javascript:;">珠海</a><a href="javascript:;">中山</a><a href="javascript:;">江门</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeH">H</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeJ">J</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeL">L</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeN">N</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeQ">Q</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeS">S</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeX">X</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeY">Y</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeZ">Z</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu fr">
+                    <a href="javascript:;" class="current">汽车首页</a>
+                    <a href="javascript:;">新闻</a>
+                    <a href="javascript:;">报价</a>
+                    <a href="javascript:;">图片</a>
+                    <a href="javascript:;">车型对比</a>
+                    <a href="javascript:;">口碑</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row mt15 cf">
+        <div class="col-md-7">
+            <ol class="breadcrumb breadcrumb-grey">
+              <li><a href="javascript:;">首页</a></li>
+              <li><a href="javascript:">中型车</a></li>
+              <li><a href="javascript:">大众</a></li>
+              <li><a href="javascript:">一汽大众</a></li>
+              <li><a href="javascript:">高尔夫</a></li>
+            </ol>
+        </div>
+        <div class="col-md-5">
+            <form action="" class="cheform zhuantiForm mt-5">
+                <div class="row mg-5">
+                    <div class="col-md-5 pd-5">
+                        <select class="form-control">
+                            <option>选择品牌</option>
+                            <option>2</option>
+                        </select>
+                    </div> 
+                    <div class="col-md-5 pd-5">
+                        <select class="form-control">
+                            <option>选择车系</option>
+                            <option>2</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 pd-5">
+                        <button class="btn btn-like red-btn" type="submit">搜索</button>
+                    </div>
+                </div>            
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container mt15">
+    <div class="row">
+        <div class="col-md-7">
+            <div class="cf">
+                <div class="fl canshuimg"><img src="images/canshu.png" alt=""></div>
+                <div class="fl canshuTit ml15"><span>一汽大众</span></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt5">
+	<div class="menuBox">
+		<ul class="canshuMenu fl">
+			<li><a href="javascript:;">品牌首页</a></li>
+			<li><a href="javascript:;">文章</a></li>
+			<li><a href="javascript:;">图片</a></li>
+			<li><a href="javascript:;">报价</a></li>
+			<li><a href="javascript:;" class="current">口碑</a></li>
+		</ul>
+		<a href="javascript:;" class="xunjia fr"><i class="xjIcon"></i>询价</a>
+	</div>
+</div>
+<div class="container mt15">
+	<div class="">
+		<div class="col-showLeft">
+			<div class="artTab cf">
+                <ul>
+                  <li><a href="javascript:;" class="now">全部</a></li>
+                  <li><a href="javascript:;">紧凑型车</a></li>
+                  <li><a href="javascript:;">SUV</a></li>
+                  <li><a href="javascript:;">中型车</a></li>
+                  <li><a href="javascript:;">中大型车</a></li>
+                  <li><a href="javascript:;">MPV</a></li>
+                </ul>
+            </div>
+			<div class="cf">
+				<p class="brandName cf mt10">华晨宝马</p>
+				 <div class="kbztList cf">
+                    <ul class="row">
+                        <li class="col-md-3">
+                            <a href="javascript:;" class="tc">
+                                <img src="images/pic02.png" alt="">
+                                <p class="mt5 fw fz16">雪佛兰迈锐宝</p>
+                            </a>
+                            <div class="pfclas mt5 cf">
+                                <span class="starbox fl">
+                                    <span class="starw" style="width: 89.8%;"></span>
+                                </span>   
+                                <span class="pinfen redone fl">0.0分</span>
+                            </div>
+                            <div class="tc mt5"><a href="javascript:;" class="fz12 c999">2204篇口碑</a></div>
+                        </li>
+                        <li class="col-md-3">
+                            <a href="javascript:;" class="tc">
+                                <img src="images/pic02.png" alt="">
+                                <p class="mt10 fw fz16">雪佛兰迈锐宝</p>
+                            </a>
+                            <div class="pfclas mt5 cf">
+                                <span class="starbox fl">
+                                    <span class="starw" style="width: 89.8%;"></span>
+                                </span>   
+                                <span class="pinfen redone fl">0.0分</span>
+                            </div>
+                            <div class="tc mt5"><a href="javascript:;" class="fz12 c999">2204篇口碑</a></div>
+                        </li>
+                        <li class="col-md-3">
+                            <a href="javascript:;" class="tc">
+                                <img src="images/pic02.png" alt="">
+                                <p class="mt10 fw fz16">雪佛兰迈锐宝</p>
+                            </a>
+                            <div class="pfclas mt5 cf">
+                                <span class="starbox fl">
+                                    <span class="starw" style="width: 89.8%;"></span>
+                                </span>   
+                                <span class="pinfen redone fl">0.0分</span>
+                            </div>
+                            <div class="tc mt5"><a href="javascript:;" class="fz12 c999">2204篇口碑</a></div>
+                        </li>
+                        <li class="col-md-3">
+                            <a href="javascript:;" class="tc">
+                                <img src="images/pic02.png" alt="">
+                                <p class="mt10 fw fz16">雪佛兰迈锐宝</p>
+                            </a>
+                            <div class="pfclas mt5 cf">
+                                <span class="starbox fl">
+                                    <span class="starw" style="width: 89.8%;"></span>
+                                </span>   
+                                <span class="pinfen redone fl">0.0分</span>
+                            </div>
+                            <div class="tc mt5"><a href="javascript:;" class="fz12 c999">2204篇口碑</a></div>
+                        </li>   
+                    </ul>
+                </div> 
+	            <p class="brandName cf mt10">进口别克</p>
+				 <div class="kbztList cf">
+                    <ul class="row">
+                        <li class="col-md-3">
+                            <a href="javascript:;" class="tc">
+                                <img src="images/pic02.png" alt="">
+                                <p class="mt10 fw fz16">雪佛兰迈锐宝</p>
+                            </a>
+                            <div class="pfclas mt5 cf">
+                                <span class="starbox fl">
+                                    <span class="starw" style="width: 89.8%;"></span>
+                                </span>   
+                                <span class="pinfen redone fl">0.0分</span>
+                            </div>
+                            <div class="tc mt5"><a href="javascript:;" class="fz12 c999">2204篇口碑</a></div>
+                        </li>
+                        <li class="col-md-3">
+                            <a href="javascript:;" class="tc">
+                                <img src="images/pic02.png" alt="">
+                                <p class="mt10 fw fz16">雪佛兰迈锐宝</p>
+                            </a>
+                            <div class="pfclas mt5 cf">
+                                <span class="starbox fl">
+                                    <span class="starw" style="width: 89.8%;"></span>
+                                </span>   
+                                <span class="pinfen redone fl">0.0分</span>
+                            </div>
+                            <div class="tc mt5"><a href="javascript:;" class="fz12 c999">2204篇口碑</a></div>
+                        </li>
+                        <li class="col-md-3">
+                            <a href="javascript:;" class="tc">
+                                <img src="images/pic02.png" alt="">
+                                <p class="mt10 fw fz16">雪佛兰迈锐宝</p>
+                            </a>
+                            <div class="pfclas mt5 cf">
+                                <span class="starbox fl">
+                                    <span class="starw" style="width: 89.8%;"></span>
+                                </span>   
+                                <span class="pinfen redone fl">0.0分</span>
+                            </div>
+                            <div class="tc mt5"><a href="javascript:;" class="fz12 c999">2204篇口碑</a></div>
+                        </li>
+                        <li class="col-md-3">
+                            <a href="javascript:;" class="tc">
+                                <img src="images/pic02.png" alt="">
+                                <p class="mt10 fw fz16">雪佛兰迈锐宝</p>
+                            </a>
+                            <div class="pfclas mt5 cf">
+                                <span class="starbox fl">
+                                    <span class="starw" style="width: 89.8%;"></span>
+                                </span>   
+                                <span class="pinfen redone fl">0.0分</span>
+                            </div>
+                            <div class="tc mt5"><a href="javascript:;" class="fz12 c999">2204篇口碑</a></div>
+                        </li>  
+                        <li class="col-md-3">
+                            <a href="javascript:;" class="tc">
+                                <img src="images/pic02.png" alt="">
+                                <p class="mt10 fw fz16">雪佛兰迈锐宝</p>
+                            </a>
+                            <div class="pfclas mt5 cf">
+                                <span class="starbox fl">
+                                    <span class="starw" style="width: 89.8%;"></span>
+                                </span>   
+                                <span class="pinfen redone fl">0.0分</span>
+                            </div>
+                            <div class="tc mt5"><a href="javascript:;" class="fz12 c999">2204篇口碑</a></div>
+                        </li> 
+                    </ul>
+                </div>
+			</div>
+            <div class="mt30 cf">
+                <div class="twoTit cf">
+                    <h2>活动资讯</h2>
+                </div>
+                <div class="news cf mt5">
+                    <ul>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                    </ul>
+                </div>
+            </div>
+		</div>
+		<div class="col-showRight">
+			<div class="cf mt15">
+				<div class="twoTit cf">
+	                <h2>热门品牌</h2> 
+	            </div>
+	            <div class="brandList">
+	                <ul>
+	                    <li><a href="javascript"><img src="images/brand.png" alt=""> <span>马自达</span></a></li>
+	                    <li><a href="javascript"><img src="images/brand.png" alt=""> <span>马自达</span></a></li>
+	                    <li><a href="javascript"><img src="images/brand.png" alt=""> <span>马自达</span></a></li>
+	                    <li><a href="javascript"><img src="images/brand.png" alt=""> <span>马自达</span></a></li>
+	                    <li><a href="javascript"><img src="images/brand.png" alt=""> <span>马自达</span></a></li>
+	                    <li><a href="javascript"><img src="images/brand.png" alt=""> <span>马自达</span></a></li>
+	                    <li><a href="javascript"><img src="images/brand.png" alt=""> <span>马自达</span></a></li>
+	                    <li><a href="javascript"><img src="images/brand.png" alt=""> <span>马自达</span></a></li>
+	                    <li><a href="javascript"><img src="images/brand.png" alt=""> <span>马自达</span></a></li>
+	                    <li><a href="javascript"><img src="images/brand.png" alt=""> <span>马自达</span></a></li>
+	                    <li><a href="javascript"><img src="images/brand.png" alt=""> <span>马自达</span></a></li>
+	                    <li><a href="javascript"><img src="images/brand.png" alt=""> <span>马自达</span></a></li>
+	                </ul>
+	            </div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="inforWidth cf mt20">
+    <div class="tabTop cf">
+        <ul id="hotTab">
+            <li><a href="javascript:;" class="current">热门车系</a></li>
+            <li><a href="javascript:;">热门标签</a></li>
+            <li><a href="javascript:;">友情链接</a></li>
+        </ul>
+    </div>
+    <div class="hotTag mt10" id="hotTag">
+        <ul>
+            <li class="now">
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯福克斯福克斯福克斯福克斯</a>
+            </li>
+            <li>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+            </li>
+            <li>
+                <a href="javascript:;">111</a>
+                <a href="javascript:;">222</a>
+                <a href="javascript:;">333</a>
+                <a href="javascript:;">444</a>
+                <a href="javascript:;">111</a>
+                <a href="javascript:;">222</a>
+                <a href="javascript:;">333</a>
+                <a href="javascript:;">444</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="footer" id="footer">
+    <div class="footmenu">
+        <div class="container">
+            <div class="footLink tc"><a href="jieshao.html">网站介绍</a><a href="banquan.html">版权说明</a><a href="contact.html">联系我们</a><a href="shuoming.html">网站说明(xml)</a><span>广告服务：025-84260006  投稿热线：15301587888</span></div>
+        </div>
+    </div>   
+    <div class="container">
+        <div class="cf f-cleft mt20">
+            <div class="logo"></div>
+            <div class="f-cright">
+                <p>免责声明：本（栏目、频道等）内容由SP提供。欢迎大家对侵犯版权等不合法和不健康的内容进行监督和举报。</p>
+                <p>[增值电信业务经营许可证A2.B1.B2-20090001]&nbsp;[文网文[2008]053号]&nbsp;[国新网许可证：3212006005]&nbsp;<a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">[苏ICP备07021571号]</a></p>
+                <p>版权所有：中国电信股份有限公司南京分公司&nbsp;&nbsp;技术支持：江苏知能邮电通信技术有限公司</p>
+            </div>
+        </div>
+        <div class="f-pic mt15">
+            <a href="http://www.wenming.cn/" target="_blank"><img src="images/ft-img1.jpg" alt="中国文明网传播文明"></a>
+            <a href="http://www.cyberpolice.cn/wfjb/" target="_blank"><img src="images/ft-img2.jpg" alt="南京网络警察报警平台"></a>
+            <a href="http://www.cyberpolice.cn/wfjb/" target="_blank"><img src="images/ft-img3.jpg" alt="公安信息安全网络监察"></a>
+            <a href="http://www.miibeian.gov.cn/" target="_blank"><img src="images/ft-img4.jpg" alt="经营性网站备案信息"></a>
+            <a href="http://net.china.cn/" target="_blank"><img src="images/ft-img5.jpg" alt="不良信息举报中心"></a>
+        </div>
+    </div>
+</div>
+<script src="js/bootstrap.js"></script>
+<script src="js/zhuanti.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>
+

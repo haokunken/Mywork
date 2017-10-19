@@ -1,0 +1,315 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+div{margin:0 auto;}
+a{text-decoration:none;}
+img{border:0px;}
+.clear{clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+:focus {OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: 0px;}
+ul,li{ list-style:none; margin:0; padding:0;}
+body{margin:0px;font-family:Arial,"微软雅黑",Helvetica, sans-serif; min-width:1200px; background-position:center top; background-repeat:no-repeat; background-attachment:fixed; }
+
+/*宝骏专题页*/
+.y_top{width: 1200px; height: 60px;}
+.y_topL a img{width: 222px; height: 60px;}
+.y_topR{font-size: 16px; height: 60px; line-height: 60px; color: #242424; }
+.y_topR a{color: #242424; display: inline-block;  padding: 0 20px;}
+.y_topR a:hover{color: #242424; color: #fe7134;}
+.y_Banner{width: 100%; height: 784px; position: relative; overflow: hidden;}
+.y_Banner ul{overflow: hidden;}
+.y_Banner ul li{float: left; height: 784px; overflow: hidden;}
+.y_Banner ul li p img{height: 784px; }
+.y_Banner ul li p{height: 784px; width:3000px; position: absolute; left: 50%; margin-left: -1500px; z-index: 20; display:block; text-align:center;}
+/*一键分享*/
+.y_shareA{position: absolute; left: 50%; margin-left: 360px; z-index: 30; overflow: hidden; top: 8px; font-size: 12px; color: #fff;}
+.shareTo{padding-top: 5px;}
+.bdshare-button-style0-16 a, .bdshare-button-style0-16 .bds_more{float: left;font-size: 12px;background-image: url(../images/share.png) !important;padding-left: 0 !important;
+	background-repeat: no-repeat;cursor: pointer;margin:0 2px!important;width: 26px; height: 26px !important;}
+.bdshare-button-style0-16 .bds_tsina {background-position: 0px  0px !important;}
+.bdshare-button-style0-16 .bds_tqq{background-position: -26px  0px !important;}
+.bdshare-button-style0-16 .bds_sqq {background-position: -52px  0px !important;}
+.bdshare-button-style0-16 .bds_qzone {background-position: -78px  0px !important;}
+.bdshare-button-style0-16 .bds_weixin {background-position: -104px  0px !important;}
+.bdshare-button-style0-16 .bds_more {background-position: -130px  0px !important;}
+.bdshare-button-style0-16 .bds_count{width:auto!important;padding: 0 10px!important; background: #fff!important; color: #000!important;  height: 26px!important;line-height: 26px; border: 1px solid #bbb;border-radius: 3px; font-size: 12px; margin-top: 0px!important;}
+.y_body_bgA{background: #14141e; padding-bottom: 200px;}
+.y_bjcarA{width: 1220px; padding: 30px 0px 20px 0px; font-size: 18px; color: #fff;}
+.y_bjcarA a{color: #fff; background: #af2026; display: block; float: left; border-radius: 10px; width: 183px; text-align: center; line-height: 42px; margin: 0px 10px;}
+.y_bjcarA a:hover{background: #911218;}
+.y_starA_top{text-align: center; padding: 30px 0px; font-size: 16px; color: #b21a1d;}
+.y_starA_top a{display: inline-block; border: 1px solid #b21a1d; color: #b21a1d; padding: 0px 26px; line-height: 42px; background: #000;}
+.y_starA_top span{display: inline-block; border: 1px solid #b21a1d; color: #b21a1d; padding: 0px 26px; line-height: 42px; background: #000;}
+.y_starA_cen{width: 1220px; margin-bottom: 45px;}
+.y_starA_cen img{width: 285px; height: 190px;}
+.y_starA_cen ul{overflow: hidden;}
+.y_starA_cen ul li{float: left; margin: 0px 10px; width: 285px; height: 190px; position: relative; font-size: 14px; color: #fff;}
+.y_starA_cen ul li p{background: url(../images/y_01.png) no-repeat; width: 67px; height: 58px; z-index: 10; position: absolute; top: 0px; left: 0px; line-height: 30px; padding-left: 5px;}
+.y_starA_btm{width: 1200px; height: 425px; border: 5px solid #ae1f24; margin-bottom: 15px; position: relative;}
+.y_starA_btm_img img{width: 1200px; height: 425px;}
+.y_starA_btm_txt{position: absolute; top: 25px; left: 46px; color: #fff; width: 446px;}
+.y_starA_btm_txt h4{font-size: 32px; color: #fff; line-height: 46px; padding-bottom: 10px;}
+.y_starA_btm_txt font{color: #ce3037;}
+.y_starA_btm_txt p{font-size: 14px; color: #ebebeb; line-height: 24px;}
+.y_starA_btm_txt a{color: #ce3037;}
+.y_jbcsA{width: 1200px; font-size: 14px; color: #fff; margin-bottom: 15px;}
+.y_trbgA{background: #0c0c0c;}
+.y_trbgB{background: #1c1c1c;}
+.y_tdsolid{border-right: 1px solid #2b2b2b;}
+.y_jbcsA table tbody tr{text-align: center; line-height: 42px;}
+.y_jbcsA table tbody tr td{width: 200px;}
+.y_mediaA{width: 1200px; height: 500px;/* overflow-y: auto; overflow-x: hidden;*/}
+.y_mediaAL{width: 1200px;}
+.y_mediaAL ul li{float: left; width: 50%; height: 126px; padding: 0 10px;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;margin-bottom: 15px; }
+.y_mediaAL_A{width: 189px;}
+.y_mediaAL_A img{width: 189px; height: 126px;}
+.y_mediaAL_B{background: #0c0c0c; padding: 5px 10px; width: 370px; height: 116px; overflow: hidden;}
+.y_mediaAL_B p{line-height: 26px; font-size: 16px; color: #bfbfbf;}
+.y_mediaAL_B span{font-size: 14px; color: #676767; line-height: 22px;}
+.y_titleA{width: 1200px; text-align: center;}
+.y_titleA span{background: url(../images/y_08.png) no-repeat center center; font-size: 18px; color: #ffffff; width: 217px; height: 49px; line-height: 49px; display: inline-block; margin: 10px 0px 96px 0px;}
+.y_titleB{width: 1200px;}
+/*第一个选项卡*/
+.y_titleB_A{width: 1200px; text-align: center; height: 249px; position: relative;}
+.y_titleB_A_txtA{font-size: 18px; color: #fff;}
+.y_titleB_A_imgB{width: 13px; height: 13px; position: absolute; left: 420px; top: 78px; z-index: 200; -webkit-animation: page 2s infinite ease-in-out; 
+    animation: page 2s infinite ease-in-out;}
+.y_titleB_A_imgC{width: 269px; height: 52px; position: absolute; left: 158px; top: 19px; z-index: 200;}
+.y_titleB_A_txtA p{width: 50px; position: absolute; left: 107px; top: 5px; z-index: 200; }
+.y_titleB_A_txtA a{color: #fff;}
+/*第二个选项卡*/
+.B_titleB_A_txtA{font-size: 18px; color: #fff;}
+.B_titleB_A_imgB{width: 13px; height: 13px; position: absolute; left: 447px; top: 84px; z-index: 200; -webkit-animation: page 2s infinite ease-in-out; 
+    animation: page 2s infinite ease-in-out;}
+.B_titleB_A_imgC{width: 269px; height: 52px; position: absolute; left: 185px; top: 30px; z-index: 200;}
+.B_titleB_A_txtA p{width: 50px; position: absolute; left: 133px; top: 15px; z-index: 200; }
+.B_titleB_A_txtA a{color: #fff;}
+.B_titleB_B_imgB{width: 13px; height: 13px; position: absolute; left: 632px; top: 36px; z-index: 200; -webkit-animation: page 2s infinite ease-in-out; 
+    animation: page 2s infinite ease-in-out;}
+.B_titleB_B_imgC{width: 259px; height: 55px; position: absolute; left: 639px; top: -15px; z-index: 200;}
+.B_titleB_A_txtB p{width: 50px; position: absolute; right: 245px; top: -26px; z-index: 200; }
+.B_titleB_A_txtB a{color: #fff;}
+/*第四个选项卡*/
+.D_titleB_A_txtA{font-size: 18px; color: #fff;}
+.D_titleB_A_imgB{width: 13px; height: 13px; position: absolute; left: 448px; top: 98px; z-index: 200; -webkit-animation: page 2s infinite ease-in-out; 
+    animation: page 2s infinite ease-in-out;}
+.D_titleB_A_imgC{width: 269px; height: 52px; position: absolute; left: 185px; top: 45px; z-index: 200;}
+.D_titleB_A_txtA p{width: 50px; position: absolute; left: 124px; top: 31px; z-index: 200; }
+.D_titleB_A_txtA a{color: #fff;}
+.y_titleB_A_txtB{font-size: 18px; color: #fff;}
+.y_titleB_B_imgB{width: 13px; height: 13px; position: absolute; left: 632px; top: 36px; z-index: 200; -webkit-animation: page 2s infinite ease-in-out; 
+    animation: page 2s infinite ease-in-out;}
+.y_titleB_B_imgC{width: 259px; height: 55px; position: absolute; left: 639px; top: -15px; z-index: 200;}
+.y_titleB_A_txtB p{width: 50px; position: absolute; right: 245px; top: -26px; z-index: 200; }
+.y_titleB_A_txtB a{color: #fff;}
+.y_titleB_A_txtC{font-size: 18px; color: #fff;}
+.y_titleB_C_imgB{width: 13px; height: 13px; position: absolute; left: 717px; top: 150px; z-index: 200; -webkit-animation: page 2s infinite ease-in-out; 
+    animation: page 2s infinite ease-in-out;}
+.y_titleB_C_imgC{width: 256px; height: 1px; position: absolute; left: 730px; top: 156px; z-index: 200;}
+.y_titleB_A_txtC p{width: 50px; position: absolute; right: 161px; top: 143px; z-index: 200; }
+.y_titleB_A_txtC a{color: #fff;}
+@keyframes page {
+	0% { transition: All 2s ease-in-out; -webkit-transition: All 2s ease-in-out; }
+	50% { transform: scale(1.1); -webkit-transform: scale(1.1); }
+	100% { transition: All 2s ease-in-out; -webkit-transition: All 2s ease-in-out; }
+}
+@-webkit-keyframes page {
+	0% { transition: All 2 ease-in-out; -webkit-transition: All 2 ease-in-out; }
+	50% { transform: scale(1.1); -webkit-transform: scale(1.1); }
+	100% { transition: All 2 ease-in-out; -webkit-transition: All 2 ease-in-out; }
+}
+.y_bjcarB{width: 1220px; padding: 30px 0px 20px 0px; font-size: 18px; color: #fff;}
+.y_bjcarB a{color: #fff; background: #af2026; display: block; float: left; border-radius: 10px; width: 224px; text-align: center; line-height: 42px; margin: 0px 10px;}
+.y_bjcarB a:hover{background: #911218;}
+.y_bjcarB .y_bjcarBmr{background: #911218;}
+.y_foot{background: #ececec; height: 24px; text-align: center; line-height: 24px; font-size: 12px;}
+.y_floatA{position: fixed; top: 115px; right: 0px;  width: 227px; height: 416px; z-index: 1000;}
+.y_floatA_box{ padding: 14px; width: 170px; height: 272px; background: url(../images/y_18.png) no-repeat; position: relative;}
+.y_floatA_boxtop{text-align: center; font-size: 28px; color: #000; border-bottom: 2px solid #af2026; line-height: 46px; margin-bottom: 10px;}
+.y_floatA_boxcen{margin-bottom: 10px;}
+.y_floatA_boxcen input{width: 168px; height: 31px; border: 1px solid #d2d2d2; text-indent: 15px; line-height: 32px; color: #666;}
+.y_floatA_boxcen .y_noneA{border: none;}
+.y_floatA_cityA{margin-bottom: 10px;}
+.y_floatA_cityA select{width: 78px; height: 30px; border: 1px solid #d2d2d2; color: #666;}
+.y_floatA_btm a{line-height: 35px; background: url(../images/y_16.png) no-repeat left; width: 153px; height: 35px; text-align: center; font-size: 16px; color:  #fff; display: block;}
+.y_close{position: absolute; top: 0px; right: 0px;}
+.y_close img{width: 20px; height: 20px;}
+/*意向车型*/
+.pbInfor{position: absolute;right: 19px;bottom: 69px;width:168px;}
+.pr{position: relative;}
+.pd-2{padding-left:2px;padding-right: 2px;}
+.col-md-9{width: 168px;}
+.cheform .form-control{border: 1px solid #d2d2d2 box-shadow: none; color: #666; padding: 5px 8px;}
+.form-control{background-color: #fff; background-image: none; color: #555; display: block; font-size: 14px; height: 20px; padding: 6px 12px; border: 1px solid #d2d2d2; color: #666; line-height: 32px; text-indent: 15px; width: 155px;}
+.brand-bg{background: #fff none repeat scroll 0 0; border: 1px solid #e5e5e5; display: none; height: 450px; left: 2px; overflow: hidden; position: absolute; text-align: left; top: 33px; width: 180px; z-index: 20000;}
+.brand-letters{background-color: #f5f5f5; border-right: 1px solid #e5e5e5; float: left; height: 450px; padding: 4px; width: 30px;}
+.brand-letters a{color: #666; display: block; line-height: 20px; text-align: center; width: 100%;}
+.models_bg{display: none;}
+.models_bg{left: 180px;}
+.brand-bg{background: #fff none repeat scroll 0 0; border: 1px solid #e5e5e5; display: none; height: 297px; left: -184px; overflow: hidden; position: absolute; text-align: left; top: -198px; width: 171px; z-index: 20000;}
+.allstyle a{background: #f5f5f5 none repeat scroll 0 0; color: #808080; display: block; font-size: 12px; height: 30px; line-height: 30px; padding-left: 10px;}
+.models_bg .carlin{display: block; height: 450px; overflow: scroll;}
+.brand-name a, .carlin a{border-bottom: 1px solid #eee; color: #666; display: block; height: 31px; line-height: 32px; margin: 0; padding-left: 10px; font-size: 14px;}
+.carlin a{padding-left: 10px;}
+.carlin p a{color: #333; height: 32px; padding-left: 10px; font-size: 14px;}
+.models_bg .carlin{display: block; height: 450px; overflow: scroll;}
+.brand-name{height: 450px; overflow-y: scroll; text-align: left;}
+.brand-name>span{padding: 5px 5px 0px 5px; display: block; text-align: center;}
+/*原生滚动条*/
+#sucai{width:1200px;height:417px;margin:10px auto;padding-right:12px;overflow-y:auto;}
+.nicescroll-rails{background: #54545b;}
+
+/*底部弹框*/
+/*弹出第一个选项卡的外观图片*/
+.yj_phototanBox{width: 100%; height: 100%; background: #000; opacity: 0.8; position: fixed; left: 0px; bottom: 22px; z-index: 2000; display: none;}
+.yj_phototan{width: 500px; height: 332px; position: fixed; left: 50%; margin-left: -236px; z-index: 3000; top: 50%; margin-top: -250px; display: none;}
+.yj_phototanimgA{position: relative;}
+.yj_phototanimgA ul{overflow:hidden;position: absolute; width: 500px; height: 332px;}
+.yj_phototanimgA ul li{width: 500px; height: 332px; position: relative; overflow:hidden;}
+.yj_phototanimgA ul li img{width: 500px; height: 332px;}
+.yj_phototanimgA ul li p{background: url(../images/y_25.png) repeat-x; width: 165px; height: 35px; text-align: center; line-height: 35px; font-size: 16px; color: #fff; position: absolute; left: 13px; bottom: 13px;}
+.yj_qiehuan .yj_leftLL{position: fixed; left: 50%; margin-left: -224px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_qiehuan .yj_leftRR{position: fixed; left: 50%; margin-left: 197px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_phototan a .y_over{ position: fixed; left: 50%; margin-left: -4px; z-index: 3000; top: 50%; margin-top: 123px;}
+/*弹出第一个选项卡的内饰图片*/
+.yj_phototan2{width: 500px; height: 332px; position: fixed; left: 50%; margin-left: -236px; z-index: 3000; top: 50%; margin-top: -250px; display: none;}
+.yj_phototanimgA2{position: relative;}
+.yj_phototanimgA2 ul{overflow:hidden;position: absolute; width: 500px; height: 332px;}
+.yj_phototanimgA2 ul li{width: 500px; height: 332px; position: relative; overflow:hidden;}
+.yj_phototanimgA2 ul li img{width: 500px; height: 332px;}
+.yj_phototanimgA2 ul li p{background: url(../images/y_25.png) repeat-x; width: 165px; height: 35px; text-align: center; line-height: 35px; font-size: 16px; color: #fff; position: absolute; left: 13px; bottom: 13px;}
+.yj_qiehuan .yj_leftLL2{position: fixed; left: 50%; margin-left: -224px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_qiehuan .yj_leftRR2{position: fixed; left: 50%; margin-left: 197px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_phototan2 a .y_over2{ position: fixed; left: 50%; margin-left: -4px; z-index: 3000; top: 50%; margin-top: 123px;}
+/*弹出第一个选项卡的细节图片*/
+.yj_phototan3{width: 500px; height: 332px; position: fixed; left: 50%; margin-left: -236px; z-index: 3000; top: 50%; margin-top: -250px; display: none;}
+.yj_phototanimgA3{position: relative;}
+.yj_phototanimgA3 ul{overflow:hidden;position: absolute; width: 500px; height: 332px;}
+.yj_phototanimgA3 ul li{width: 500px; height: 332px; position: relative; overflow:hidden;}
+.yj_phototanimgA3 ul li img{width: 500px; height: 332px;}
+.yj_phototanimgA3 ul li p{background: url(../images/y_25.png) repeat-x; width: 165px; height: 35px; text-align: center; line-height: 35px; font-size: 16px; color: #fff; position: absolute; left: 13px; bottom: 13px;}
+.yj_qiehuan .yj_leftLL3{position: fixed; left: 50%; margin-left: -224px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_qiehuan .yj_leftRR3{position: fixed; left: 50%; margin-left: 197px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_phototan3 a .y_over3{ position: fixed; left: 50%; margin-left: -4px; z-index: 3000; top: 50%; margin-top: 123px;}
+/*弹出第二个选项卡的外观图片*/
+.yj_phototan4{width: 500px; height: 332px; position: fixed; left: 50%; margin-left: -236px; z-index: 3000; top: 50%; margin-top: -250px; display: none;}
+.yj_phototanimgA4{position: relative;}
+.yj_phototanimgA4 ul{overflow:hidden;position: absolute; width: 500px; height: 332px;}
+.yj_phototanimgA4 ul li{width: 500px; height: 332px; position: relative; overflow:hidden;}
+.yj_phototanimgA4 ul li img{width: 500px; height: 332px;}
+.yj_phototanimgA4 ul li p{background: url(../images/y_25.png) repeat-x; width: 165px; height: 35px; text-align: center; line-height: 35px; font-size: 16px; color: #fff; position: absolute; left: 13px; bottom: 13px;}
+.yj_qiehuan .yj_leftLL4{position: fixed; left: 50%; margin-left: -224px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_qiehuan .yj_leftRR4{position: fixed; left: 50%; margin-left: 197px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_phototan4 a .y_over4{ position: fixed; left: 50%; margin-left: -4px; z-index: 3000; top: 50%; margin-top: 123px;}
+/*弹出第二个选项卡的内饰图片*/
+.yj_phototan5{width: 500px; height: 332px; position: fixed; left: 50%; margin-left: -236px; z-index: 3000; top: 50%; margin-top: -250px; display: none;}
+.yj_phototanimgA5{position: relative;}
+.yj_phototanimgA5 ul{overflow:hidden;position: absolute; width: 500px; height: 332px;}
+.yj_phototanimgA5 ul li{width: 500px; height: 332px; position: relative; overflow:hidden;}
+.yj_phototanimgA5 ul li img{width: 500px; height: 332px;}
+.yj_phototanimgA5 ul li p{background: url(../images/y_25.png) repeat-x; width: 165px; height: 35px; text-align: center; line-height: 35px; font-size: 16px; color: #fff; position: absolute; left: 13px; bottom: 13px;}
+.yj_qiehuan .yj_leftLL5{position: fixed; left: 50%; margin-left: -224px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_qiehuan .yj_leftRR5{position: fixed; left: 50%; margin-left: 197px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_phototan5 a .y_over5{ position: fixed; left: 50%; margin-left: -4px; z-index: 3000; top: 50%; margin-top: 123px;}
+/*弹出第二个选项卡的细节图片*/
+.yj_phototan6{width: 500px; height: 332px; position: fixed; left: 50%; margin-left: -236px; z-index: 3000; top: 50%; margin-top: -250px; display: none;}
+.yj_phototanimgA6{position: relative;}
+.yj_phototanimgA6 ul{overflow:hidden;position: absolute; width: 500px; height: 332px;}
+.yj_phototanimgA6 ul li{width: 500px; height: 332px; position: relative; overflow:hidden;}
+.yj_phototanimgA6 ul li img{width: 500px; height: 332px;}
+.yj_phototanimgA6 ul li p{background: url(../images/y_25.png) repeat-x; width: 165px; height: 35px; text-align: center; line-height: 35px; font-size: 16px; color: #fff; position: absolute; left: 13px; bottom: 13px;}
+.yj_qiehuan .yj_leftLL6{position: fixed; left: 50%; margin-left: -224px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_qiehuan .yj_leftRR6{position: fixed; left: 50%; margin-left: 197px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_phototan6 a .y_over6{ position: fixed; left: 50%; margin-left: -4px; z-index: 3000; top: 50%; margin-top: 123px;}
+/*弹出第三个选项卡的外观图片*/
+.yj_phototan7{width: 500px; height: 332px; position: fixed; left: 50%; margin-left: -236px; z-index: 3000; top: 50%; margin-top: -250px; display: none;}
+.yj_phototanimgA7{position: relative;}
+.yj_phototanimgA7 ul{overflow:hidden;position: absolute; width: 500px; height: 332px;}
+.yj_phototanimgA7 ul li{width: 500px; height: 332px; position: relative; overflow:hidden;}
+.yj_phototanimgA7 ul li img{width: 500px; height: 332px;}
+.yj_phototanimgA7 ul li p{background: url(../images/y_25.png) repeat-x; width: 165px; height: 35px; text-align: center; line-height: 35px; font-size: 16px; color: #fff; position: absolute; left: 13px; bottom: 13px;}
+.yj_qiehuan .yj_leftLL7{position: fixed; left: 50%; margin-left: -224px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_qiehuan .yj_leftRR7{position: fixed; left: 50%; margin-left: 197px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_phototan7 a .y_over7{ position: fixed; left: 50%; margin-left: -4px; z-index: 3000; top: 50%; margin-top: 123px;}
+/*弹出第三个选项卡的内饰图片*/
+.yj_phototan8{width: 500px; height: 332px; position: fixed; left: 50%; margin-left: -236px; z-index: 3000; top: 50%; margin-top: -250px; display: none;}
+.yj_phototanimgA8{position: relative;}
+.yj_phototanimgA8 ul{overflow:hidden;position: absolute; width: 500px; height: 332px;}
+.yj_phototanimgA8 ul li{width: 500px; height: 332px; position: relative; overflow:hidden;}
+.yj_phototanimgA8 ul li img{width: 500px; height: 332px;}
+.yj_phototanimgA8 ul li p{background: url(../images/y_25.png) repeat-x; width: 165px; height: 35px; text-align: center; line-height: 35px; font-size: 16px; color: #fff; position: absolute; left: 13px; bottom: 13px;}
+.yj_qiehuan .yj_leftLL8{position: fixed; left: 50%; margin-left: -224px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_qiehuan .yj_leftRR8{position: fixed; left: 50%; margin-left: 197px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_phototan8 a .y_over8{ position: fixed; left: 50%; margin-left: -4px; z-index: 3000; top: 50%; margin-top: 123px;}
+/*弹出第三个选项卡的细节图片*/
+.yj_phototan9{width: 500px; height: 332px; position: fixed; left: 50%; margin-left: -236px; z-index: 3000; top: 50%; margin-top: -250px; display: none;}
+.yj_phototanimgA9{position: relative;}
+.yj_phototanimgA9 ul{overflow:hidden;position: absolute; width: 500px; height: 332px;}
+.yj_phototanimgA9 ul li{width: 500px; height: 332px; position: relative; overflow:hidden;}
+.yj_phototanimgA9 ul li img{width: 500px; height: 332px;}
+.yj_phototanimgA9 ul li p{background: url(../images/y_25.png) repeat-x; width: 165px; height: 35px; text-align: center; line-height: 35px; font-size: 16px; color: #fff; position: absolute; left: 13px; bottom: 13px;}
+.yj_qiehuan .yj_leftLL9{position: fixed; left: 50%; margin-left: -224px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_qiehuan .yj_leftRR9{position: fixed; left: 50%; margin-left: 197px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_phototan9 a .y_over9{ position: fixed; left: 50%; margin-left: -4px; z-index: 3000; top: 50%; margin-top: 123px;}
+/*弹出第四个选项卡的外观图片*/
+.yj_phototan10{width: 500px; height: 332px; position: fixed; left: 50%; margin-left: -236px; z-index: 3000; top: 50%; margin-top: -250px; display: none;}
+.yj_phototanimgA10{position: relative;}
+.yj_phototanimgA10 ul{overflow:hidden;position: absolute; width: 500px; height: 332px;}
+.yj_phototanimgA10 ul li{width: 500px; height: 332px; position: relative; overflow:hidden;}
+.yj_phototanimgA10 ul li img{width: 500px; height: 332px;}
+.yj_phototanimgA10 ul li p{background: url(../images/y_25.png) repeat-x; width: 165px; height: 35px; text-align: center; line-height: 35px; font-size: 16px; color: #fff; position: absolute; left: 13px; bottom: 13px;}
+.yj_qiehuan .yj_leftLL10{position: fixed; left: 50%; margin-left: -224px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_qiehuan .yj_leftRR10{position: fixed; left: 50%; margin-left: 197px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_phototan10 a .y_over10{ position: fixed; left: 50%; margin-left: -4px; z-index: 3000; top: 50%; margin-top: 123px;}
+/*弹出第四个选项卡的内饰图片*/
+.yj_phototan11{width: 500px; height: 332px; position: fixed; left: 50%; margin-left: -236px; z-index: 3000; top: 50%; margin-top: -250px; display: none;}
+.yj_phototanimgA11{position: relative;}
+.yj_phototanimgA11 ul{overflow:hidden;position: absolute; width: 500px; height: 332px;}
+.yj_phototanimgA11 ul li{width: 500px; height: 332px; position: relative; overflow:hidden;}
+.yj_phototanimgA11 ul li img{width: 500px; height: 332px;}
+.yj_phototanimgA11 ul li p{background: url(../images/y_25.png) repeat-x; width: 165px; height: 35px; text-align: center; line-height: 35px; font-size: 16px; color: #fff; position: absolute; left: 13px; bottom: 13px;}
+.yj_qiehuan .yj_leftLL11{position: fixed; left: 50%; margin-left: -224px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_qiehuan .yj_leftRR11{position: fixed; left: 50%; margin-left: 197px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_phototan11 a .y_over11{ position: fixed; left: 50%; margin-left: -4px; z-index: 3000; top: 50%; margin-top: 123px;}
+/*弹出第四个选项卡的细节图片*/
+.yj_phototan12{width: 500px; height: 332px; position: fixed; left: 50%; margin-left: -236px; z-index: 3000; top: 50%; margin-top: -250px; display: none;}
+.yj_phototanimgA12{position: relative;}
+.yj_phototanimgA12 ul{overflow:hidden;position: absolute; width: 500px; height: 332px;}
+.yj_phototanimgA12 ul li{width: 500px; height: 332px; position: relative; overflow:hidden;}
+.yj_phototanimgA12 ul li img{width: 500px; height: 332px;}
+.yj_phototanimgA12 ul li p{background: url(../images/y_25.png) repeat-x; width: 165px; height: 35px; text-align: center; line-height: 35px; font-size: 16px; color: #fff; position: absolute; left: 13px; bottom: 13px;}
+.yj_qiehuan .yj_leftLL12{position: fixed; left: 50%; margin-left: -224px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_qiehuan .yj_leftRR12{position: fixed; left: 50%; margin-left: 197px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_phototan12 a .y_over12{ position: fixed; left: 50%; margin-left: -4px; z-index: 3000; top: 50%; margin-top: 123px;}
+
+/*弹出第五个选项卡的外观图片*/
+.yj_phototan13{width: 500px; height: 332px; position: fixed; left: 50%; margin-left: -236px; z-index: 3000; top: 50%; margin-top: -250px; display: none;}
+.yj_phototanimgA13{position: relative;}
+.yj_phototanimgA13 ul{overflow:hidden;position: absolute; width: 500px; height: 332px;}
+.yj_phototanimgA13 ul li{width: 500px; height: 332px; position: relative; overflow:hidden;}
+.yj_phototanimgA13 ul li img{width: 500px; height: 332px;}
+.yj_phototanimgA13 ul li p{background: url(../images/y_25.png) repeat-x; width: 165px; height: 35px; text-align: center; line-height: 35px; font-size: 16px; color: #fff; position: absolute; left: 13px; bottom: 13px;}
+.yj_qiehuan .yj_leftLL13{position: fixed; left: 50%; margin-left: -224px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_qiehuan .yj_leftRR13{position: fixed; left: 50%; margin-left: 197px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_phototan13 a .y_over13{ position: fixed; left: 50%; margin-left: -4px; z-index: 3000; top: 50%; margin-top: 123px;}
+/*弹出第五个选项卡的内饰图片*/
+.yj_phototan14{width: 500px; height: 332px; position: fixed; left: 50%; margin-left: -236px; z-index: 3000; top: 50%; margin-top: -250px; display: none;}
+.yj_phototanimgA14{position: relative;}
+.yj_phototanimgA14 ul{overflow:hidden;position: absolute; width: 500px; height: 332px;}
+.yj_phototanimgA14 ul li{width: 500px; height: 332px; position: relative; overflow:hidden;}
+.yj_phototanimgA14 ul li img{width: 500px; height: 332px;}
+.yj_phototanimgA14 ul li p{background: url(../images/y_25.png) repeat-x; width: 165px; height: 35px; text-align: center; line-height: 35px; font-size: 16px; color: #fff; position: absolute; left: 13px; bottom: 13px;}
+.yj_qiehuan .yj_leftLL14{position: fixed; left: 50%; margin-left: -224px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_qiehuan .yj_leftRR14{position: fixed; left: 50%; margin-left: 197px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_phototan14 a .y_over14{ position: fixed; left: 50%; margin-left: -4px; z-index: 3000; top: 50%; margin-top: 123px;}
+/*弹出第五个选项卡的细节图片*/
+.yj_phototan15{width: 500px; height: 332px; position: fixed; left: 50%; margin-left: -236px; z-index: 3000; top: 50%; margin-top: -250px; display: none;}
+.yj_phototanimgA15{position: relative;}
+.yj_phototanimgA15 ul{overflow:hidden;position: absolute; width: 500px; height: 332px;}
+.yj_phototanimgA15 ul li{width: 500px; height: 332px; position: relative; overflow:hidden;}
+.yj_phototanimgA15 ul li img{width: 500px; height: 332px;}
+.yj_phototanimgA15 ul li p{background: url(../images/y_25.png) repeat-x; width: 165px; height: 35px; text-align: center; line-height: 35px; font-size: 16px; color: #fff; position: absolute; left: 13px; bottom: 13px;}
+.yj_qiehuan .yj_leftLL15{position: fixed; left: 50%; margin-left: -224px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_qiehuan .yj_leftRR15{position: fixed; left: 50%; margin-left: 197px; z-index: 3000; top: 50%; margin-top: -124px;}
+.yj_phototan15 a .y_over15{ position: fixed; left: 50%; margin-left: -4px; z-index: 3000; top: 50%; margin-top: 123px;}

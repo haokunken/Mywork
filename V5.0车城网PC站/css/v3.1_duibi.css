@@ -1,0 +1,40 @@
+
+/*左侧栏参数对比*/
+.j_duibifix{position: fixed; right: 0; top: 200px; z-index: 99;}
+.j_duifix{display: block; width: 50px; height: 50px; line-height: 20px; font-size: 14px; color: #fff; background: #ff8839;
+	text-align: center; padding: 5px 10px; box-sizing:border-box; text-decoration: none;  z-index: 99;}
+.j_duice{ position: absolute; left: -280px; top: 0; width: 278px; border:1px solid #ff8839; border-top: 4px solid #ff8839;
+ background: #fff; display: none; }
+.j_carlist li {display: block; width: 100%;border-bottom: 1px solid #e9eef5; height: 46px; line-height: 46px; padding: 0 20px; box-sizing:border-box; }
+.j_carlist li .j_span{display: block; float: left;  font-size: 16px; color: #333; width: 207px; overflow: hidden;}
+.j_carlist li .j_em{display: block;float: left; width: 18px; height: 18px; background: url(../images/v3.1_canpei/js_gule.jpg) no-repeat; margin: 13px 0 0 7px;}
+.j_carlist li:hover .j_span{color: #ff0d00;}
+.j_carlist li:hover .j_em{display: block;float: left; width: 18px; height: 18px; background: url(../images/v3.1_canpei/js_red.jpg) no-repeat; margin: 13px 0 0 7px;}
+.j_selectCar li{margin-top: 16px; padding: 0 20px; box-sizing:border-box;}
+.j_selectCar li select{width: 100%; border: 1px solid #e9eef5; padding-left: 10px; font-size: 14px; color: #999999; height: 32px; line-height: 32px; outline: none; border-radius: 3px;}
+.j_selectCar li select option{outline: none; color: #333;}
+.j_sbylx{padding: 0 20px; box-sizing:border-box; margin: 20px 0;}
+.j_sbylx a{display: block; margin: 0 auto; background: #ff8839; width: 100%; border-radius: 25px; height: 36px; line-height: 36px; text-align: center; color: #fff;}
+.j_duibib_top .j_interchang .add a.j_non{color: #e3e3e3;}
+
+.j_btmnews i{display: block; width: 21px; height: 10px; background: url(../images/v3.1_canpei/js_bai.png) no-repeat; 
+	margin: 0 auto; position: absolute; top: -10px; left: 43%; }
+.j_duibib_top tr.j_clck{background: #fffff8;}
+/*对比栏目限制修改*/
+.j_carlist li .j_span{height: 46px;}
+.j_duibib_top tr.j_first:hover{background: #fff;}
+tr td p{width: 230px; height: 20px; overflow: hidden; }
+.j_taodib td.j_start p{width: 180px; height: 20px; overflow: hidden;}
+.mt10{width: 193px; height: 27px;}
+.j_selectCar .mt10 {width: auto;}
+.j_tc .counter{position: relative;}
+/*修改*/
+.j_form-control option{ border-radius: 0px;}
+.j_gaoliang{background: #fff9ea;}
+.j_duibib_top  .j_gaoliang:hover{background: #fff9ea;}
+.j_inforWidth .bread-style a:hover{color: #2d72dd;}
+.j_selectCar {height: 118px;}
+/*common*/
+.j_duibifix #goToTop{margin-top: 5px; overflow: hidden; top: 165px;}
+#goToTop a.back{background: #c2c2c2; color: #fff; width: 50px; height: 50px; text-align: center; display: block;}
+.j_duifix{background:#3b5998;}

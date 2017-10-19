@@ -1,0 +1,114 @@
+.checkbox-inline input[type="checkbox"] {margin-top: 2px;}
+.tjBox{border-bottom: 1px solid #e8e8e8;}
+.tiaojianTit{height: 38px;line-height: 36px; background: #f8f8f8;border-bottom: 1px solid #f1f0f0;border-top: 2px solid #d6d5d6;color: #3d3d3d;font-size: 16px;padding: 0 15px;}
+.control-label{font-weight: normal;width: 77px;float: left;text-align: right; }
+.tjList{margin: 4px 0;font-size: 12px}
+.tjBox{padding: 10px 0;color: #545454}
+
+.csBox{font-size: 12px;width: 100%;position: relative;}
+.table-head {width: 100%}
+.table-head .topKind {width: 1200px;margin: 0 auto;position: relative;}
+.table-head table{ background: #fff;}
+.table-head td{ padding:14px; text-align: center;  border: 1px solid #e8e8e8;}
+.table-head td.title{font-size: 16px; font-weight: bold;}
+.table-head tr.first td.title{text-align: left;position: inherit;font-size: 12px;font-weight: normal;}
+.table-head tr.first td.title .firms{width: 145px;}
+.table-head tr.first td.title .firms .checkbox-inline{margin-top: 5px;}
+.table-head tr.first td .tdbox{width: 176px; position: relative;}
+.table-head tr.first td .layer {width: 20px;height: 20px;position: absolute;top: -14px;right: -14px;}
+.table-head tr.first td .btnNum{display: block;background: url(../images/btnicon.png) center no-repeat;width: 20px;height: 20px;text-indent: -9999px;overflow: hidden;cursor: pointer;background-color: #dadada;}
+.table-head tr.first td .btnNum:hover{background-color: #e93a3f;}
+.table-head tr.first td .layer .closebtn{background-position: 0px 0px;}
+.table-head tr.first td .layer .gbBtn{background-position: -56px 0px;}
+.table-head tr.first td .tdsecond {line-height: 18px;height: 52px;overflow: hidden;}
+.table-head tr.first td .tdsecond .tit {font-weight: bold;}
+.table-head tr.first td .tdsecond .subtit{height: 36px;overflow: hidden;}
+.table-head tr.first td .tdsecond .guide {display: none;color: #8a8a8a;}
+.table-head tr.first td .tdsecond .guide span {color: #e71f19;}
+.table-head tr.first td .interchang {margin-top: 12px;}
+.table-head tr.first td .interchang li {margin-left: 9px;}
+.table-head tr.first td .interchang li a {width: 30px;height: 30px;display: block;font-size: 14px;line-height: 30px;text-align: center;background: url(../images/compare.png)center no-repeat;}
+.table-head tr.first td .interchang li.prev a {text-indent: -99999px;overflow: hidden;background-position: 0 -30px;}
+.table-head tr.first td .interchang li.prev a.non {background-position: 0 -60px;cursor: default;}
+.table-head tr.first td .interchang li.next a.non {background-position: -130px -60px; cursor: default;}
+.table-head tr.first td .interchang li.add a {width: 80px;padding-left: 33px;text-align: left;background-position: -40px -30px;}
+.table-head tr.first td .interchang li.next a {text-indent:-99999px;overflow: hidden;background-position: -130px -30px;}
+.table-head tr.first td .interchang li.prev a:hover {background-position: 0 0px;}
+.table-head tr.first td .interchang li.add a:hover {background-position: -40px 0px;}
+.table-head tr.first td .interchang li.next a:hover {background-position: -130px 0px;}
+.table-head tr.first td .interchang li.prev a.non:hover{ background-position: 0px -60px; cursor: default;}
+.table-head tr.first td .interchang li.next a.non:hover{ background-position: -130px -60px; cursor: default;}
+.table-head tr.first td .interchang li.add a.non {background-position: -40px -60px;cursor: default;color: #e3e3e3}
+.table-head tr.first td .interchang li.add a.non:hover {background-position: -40px -60px; cursor: default; color: #e3e3e3}
+.table-head tr.second td .btn-cs{padding: 2px 13px;}
+.table-head tr.second td .num {font-size: 16px;font-weight: bold;vertical-align: middle;}
+.table-head tr .price {color: #e94740;}
+.table-head tr.second td .counter {width: 19px;height: 21px;margin: 0px 5px;text-indent: -99999px;display: inline-block;
+background: url(../images/jsq.png)center no-repeat;}
+.table-head tr td.hover{ background: #f8f8f8;}
+/*¿ªÊ¼*/
+.table-head td .appendtd{width:176px;}
+
+.table-body h4.h4-tit{font-size: 16px;font-weight: bold; padding: 0 35px;height: 50px;line-height: 50px;}
+.table-body {/*width: 1200px;*/margin: 0 auto;background: #fff;}
+.table-body td.title {width: 175px;text-align: right;background: #f8f8f8;}
+.table-body td {width: 204px;padding: 8px 14px;text-align: center;border: 1px solid #e8e8e8;}
+.table-body tr:hover{background: #f8f8f8}
+.table-body tr:hover td.title{background: #f0f0f0;}
+.table-body td p{ width: 176px;}
+.table-body td.title p{ width: 145px;}
+
+/*.followcon{width: 1500px;margin: 0 auto; position: relative;z-index: 1;}*/
+.followBox{width: 122px;background-color: #fff;text-align: center;position: absolute;left: 50%;margin-left: -750px; }
+.followBox li {float: none;}
+.followBox li a{display: block;border: 1px solid #e6e6e6;height: 32px; line-height: 32px; margin-top: -1px;color: #747474;position: relative;}
+.followBox li a:hover{background: #f3f3f3;}
+.followBox li a.on{background: #e93a3f;color: #fff;border-color:#e93a3f; }
+.followBox li a.on:after{content: "";display: block;position: absolute;width: 0;height: 0;border-bottom: 16px solid transparent;border-top: 16px solid transparent; border-left: 16px solid #e93a3f;right: -16px; top: 50%; margin-top: -16px;background: }  
+
+.table-head .air-b{ width: 100%;  height: 139px; background: #f3f3f3; border-bottom: 1px solid #bcbcbc; box-shadow: #bcbcbc 0 1px 3px; opacity: 0.95; position: absolute; top: 0; left: 0; display: none;}
+.head-follow{ height: 140px; position: fixed; top: 0;z-index: 1;}
+.head-follow table{ background: none;}
+.head-follow .air-b{ display: block;}
+.head-follow tr.first td{padding: 0 14px; border-top: 0; border-bottom: 0;}
+.head-follow tr.first td .tdbox{ height: 138px;}
+.head-follow tr.first td .tdsecond{ height: 82px;padding-top: 10px;}
+.head-follow tr.first td .tdsecond .guide{ display: block;}
+.head-follow tr.first td .layer{ top: 0;}
+.head-follow tr.second{ display: none;}
+/*å¯¹æ¯”*/
+.duibi{background: #e93a3f;padding: 0 25px;font-size: 16px;color: #fff;}
+.carInfor{background: #f9f9f9}
+.tablecity{cursor: pointer;}
+.table-head tr.second td.title .shi a{font-weight: normal; }
+.csTit{font-size: 16px;font-weight: bold;}
+.csForm .form-group{margin-bottom: 6px;}
+.csForm .form-control{color: #808080;}
+.csPic{width: 158px; height: 102px;background: url(../images/nocar.png) center center no-repeat; display: inline-block;font-size: 0;line-height: 0;vertical-align: middle;}
+.csPic img{width: 158px; height: 102px;}
+.cs-check{margin-top: 70px;}
+
+.table-head tr.first td .interchang li.change a {width: 80px;background-position: 0px -120px;}
+.table-head tr.first td .interchang li.change a:hover {background-position: 0px -90px;}
+.table-head tr.first td .interchang li.change a.non {background-position: 0 -150px;cursor: default;color: #e3e3e3}
+.table-head tr.first td .interchang li.change a.non:hover {background-position: 0px -150px; cursor: default; color: #e3e3e3}
+.changeCar{position: absolute;z-index: 99;background: #fff;width: 210px;left: -65px;top:8px; padding: 16px;box-shadow: 0px 1px  3px #bbb;border: 1px solid #e9e9e9;display: none}
+.pt8{padding-top: 8px;}
+.changeCar:before{content: "";display: block;position: absolute;width: 0;height: 0;background: url(../images/shadow.png) center center no-repeat;width: 11px; height: 6px;  left: 50%;top:-6px; margin-left: -3px;}
+.table-head tr.first td .interchang li.change a:hover .changeCar {display: block;}
+.reputation a{background: #f00; height: 30px; line-height: 30px;background: #fffdf4;display: block;text-align: center;border: 1px solid #e8e8e8;margin-top: -1px;color: #004276;font-weight: bold;}
+
+.head-add{height: 60px; position: fixed; top: 0;z-index: 1;left: 0}
+.head-add table{ background: none;}
+.head-add tr.first td .tdbox{ height: 60px;}
+.duibi-bar{width: 100%;  height: 60px; background: #f3f3f3; border-bottom: 1px solid #bcbcbc; box-shadow: #bcbcbc 0 1px 3px; opacity: 0.95; position: absolute; top: 0; left: 0; display: none;}
+.head-add tr.first td{padding: 0 14px; border-top: 0; border-bottom: 0;}
+.head-add .duibi-bar,.head-add #inforCar{display: block;}
+.head-add .second,.head-add #firstNone,.head-add .reputation{ display: none;}
+#inforCar{display: none;}
+.inforTit{font-size: 16px;font-weight: bold;}
+.pluscar{line-height: 60px;cursor: pointer;}
+.tianjia{background: #fff; padding: 10px 20px;width: 204px;position: absolute;box-shadow: 0px 2px 6px #ccc;left: -14px;display: none;}
+
+.topKind tr.car-highlight td{color: #E93A3F}
+/*.tbcs tr.highlight td*/

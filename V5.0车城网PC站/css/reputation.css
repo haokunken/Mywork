@@ -1,0 +1,27 @@
+.repSearch{margin-top: 3px;}
+.repName{width: 7%;text-align:right;float: left;}
+.listMore{ width: 5.5%;}
+.listMore a{font-size: 12px;color: #999;}
+.repWord{color: #8b8b8b;font-size: 13px;line-height: 22px;}
+.repPic img{width: 100%; height: 156px;margin-bottom: 10px;}
+.repCover{position: absolute;}
+.manyiList li{width: 20%;padding: 0 15px;margin-top: 20px;}
+.repCover{background: url(../images/repcover.png) no-repeat center;left: 0;top: 0;width: 38px; height: 36px; line-height: 30px; text-indent: 6px;}
+.repCover span{font-size: 20px; font-weight: bold;font-style: italic;color: #fff;}
+.repCover span.num01{color: #fe1016;}
+.repCover span.num02{color: #f4971f;}
+.repCover span.num03{color: #fac330;}
+#manyiBox .manyiList{display: none}
+#manyiBox .manyiList.current{display: block}
+#findBox .findList{display: none}
+#findBox .findList.current{display: block}
+.repChoose{padding-left: 70px;}
+.repChoose a{border: 1px solid transparent;padding: 10px 12px;position: relative;margin-right: 5px;display: inline-block;margin-bottom: 5px;}
+.repChoose a.current,.repChoose a:hover{border-color:#eb2b3b;}
+.repChoose a.current:after{content: "";background: url(../images/on.png) no-repeat center; position: absolute;width:16px; height: 16px; right: -1px;bottom: 0 }
+.findList li{width: 20%;padding: 0 15px;margin-top: 20px;}
+.findList li p{text-align: center; }
+.findTop{margin-top: -8px;}
+.findFen{display: inline-block;margin: 4px 0}
+.repWord{color: #8b8b8b;font-size: 13px;line-height: 22px;}
+.repPic img{width: 216px; height: 144px;margin-bottom: 10px;}

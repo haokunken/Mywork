@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document by YangJun */ 
+.y_media_head{border-bottom: 4px solid #558fea;}
+.y_media_headA{width: 1200px; height: 70px; line-height: 70px; margin: 0 auto;}
+.y_media_headR{font-size: 24px; color: #333333; line-height: 70px;}
+.y_media_headR span{color: #e9eef4; padding: 0px 20px;}
+.y_media_headR a{color: #333;}
+.y_media_headR a.y_now{color: #2d72dd;}
+.y_media_headR a:hover{color: #2d72dd;}

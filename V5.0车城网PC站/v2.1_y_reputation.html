@@ -1,0 +1,1407 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1, user-scalable=no"> -->
+<meta name="applicable-device" content="pc,mobile">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>金陵汽车</title>
+<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="css/reputation.css" rel="stylesheet" media="screen">
+<link href="css/common.css" rel="stylesheet" media="screen">
+<link href="css/zhuanti.css" rel="stylesheet" media="screen">
+<script src="js/jquery.min.js"></script>
+<!--[if lt IE 9]>
+  <script src="js/xys.js"></script>
+  <link href="css/xys.css" rel="stylesheet" >
+<![endif]-->
+</head>
+<body>
+<div class="topBox cf">
+    <div class="topGrey">
+        <div class="inforWidth">
+            <div class="indexWel fl">
+                <span>您好！欢迎来到车城社</span>
+            </div>
+            <div class="topWord fr">
+                <a href="javascript:;">首页</a>
+                <a href="javascript:;">新闻</a>
+                <a href="javascript:;">汽车</a>
+                <a href="javascript:;">教育</a>
+                <a href="javascript:;">旅游</a>
+                <a href="javascript:;">财经</a>
+                <a href="javascript:;">房产</a>
+                <a href="javascript:;">生活</a>
+                <a href="javascript:;">爆料</a>
+            </div>
+        </div>
+    </div>
+    <div class="topHead">
+        <div class="inforWidth">
+            <div class="pr">
+                <div class="logo fl"><a href=""><img src="images/logo-xin.jpg" alt="金陵汽车"></a></div>
+                <div class="city indexcity">
+                    <div class="change indexchange" data-toggle="dropdown"><span>南京</span><b class="caret caret-first"></b></div>
+                    <div class="dropdown-menu dropdown-place-height">
+                        <div class="stopP">
+                            <div class="fastNum cf" id="mainFn">
+                                <a href="javascript:;" data-value="A">A</a>
+                                <a href="javascript:;" data-value="F">F</a>
+                                <a href="javascript:;" data-value="G">G</a>
+                                <a href="javascript:;" data-value="H">H</a>
+                                <a href="javascript:;" data-value="J">J</a>
+                                <a href="javascript:;" data-value="L">L</a>
+                                <a href="javascript:;" data-value="N">N</a>
+                                <a href="javascript:;" data-value="Q">Q</a>
+                                <a href="javascript:;" data-value="S">S</a>
+                                <a href="javascript:;" data-value="X">X</a>
+                                <a href="javascript:;" data-value="Y">Y</a>
+                                <a href="javascript:;" data-value="Z">Z</a>
+                            </div>
+                            <div class="fnClose"></div>
+                        </div>                       
+                        <ul class="dropdown-place" id="fastroad">
+                            <li>
+                                <em class="zimu"></em>
+                                <div class="pl45">
+                                    <p class="fl sheng">直辖市</p>
+                                    <div class="fl shi"><a href="javascript:;">北京</a><a href="javascript:;">上海</a><a href="javascript:;">深圳</a><a href="javascript:;">重庆</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeA">A</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">安徽</p>
+                                    <div class="fl shi"><a href="javascript:;">安庆</a><a href="javascript:;">蚌埠</a><a href="javascript:;">滁州</a><a href="javascript:;">阜阳</a><a href="javascript:;">马鞍山</a><a href="javascript:;">六安</a><a href="javascript:;">宿州</a><a href="javascript:;">合肥</a><a href="javascript:;">石家庄</a><a href="javascript:;">安庆</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeF">F</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">福建</p>
+                                    <div class="fl shi"><a href="javascript:;">福州</a><a href="javascript:;">泉州</a><a href="javascript:;">厦门</a><a href="javascript:;">漳州</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeG">G</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">广东</p>
+                                    <div class="fl shi"><a href="javascript:;">东莞</a><a href="javascript:;">佛山</a><a href="javascript:;">广州</a><a href="javascript:;">惠州</a><a href="javascript:;">深圳</a><a href="javascript:;">粤东</a><a href="javascript:;">珠海</a><a href="javascript:;">中山</a><a href="javascript:;">江门</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeH">H</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeJ">J</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeL">L</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeN">N</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeQ">Q</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeS">S</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeX">X</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeY">Y</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeZ">Z</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu fr">
+                    <a href="javascript:;" class="current">汽车首页</a>
+                    <a href="javascript:;">新闻</a>
+                    <a href="javascript:;">报价</a>
+                    <a href="javascript:;">图片</a>
+                    <a href="javascript:;">车型对比</a>
+                    <a href="javascript:;">口碑</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="inforWidth mt15 cf">
+    <div class="breadStyle fl">
+        <span>当前位置：</span><a href="javascript:;">首页</a> &gt; <a href="javascript:;">中型车</a> &gt; <a href="javascript:;">大众</a> &gt; <a href="javascript:;" class="disabled">一汽大众 </a>
+    </div>
+</div>
+<div class="container mt20">
+	<div class="row">
+		<div class="col-md-12 cf">
+			<div class="commonTit cf">
+				<div class="col-md-8">
+					<p class="fw fl mr15">热门车型口碑</p>
+					<div class="tabMenu ml10">
+						<ul id="repTab">
+							<li><a href="javascript:;" class="current">SUV </a></li>
+	                        <li><a href="javascript:;">紧凑型车</a></li>
+	                        <li><a href="javascript:;">中型车</a></li>
+	                        <li><a href="javascript:;">小型车</a></li>
+	                        <li><a href="javascript:;">大型车</a></li>
+	                        <li><a href="javascript:;">其他</a></li>
+						</ul>	
+					</div>
+				</div>
+				<div class="col-md-4 fr">
+					<form action="" class="cheform repSearch">
+						<div class="row mg-5">
+							 <div class="col-md-5 pd-5">
+								<select class="form-control">
+									<option>选择品牌</option>
+									<option>2</option>
+								</select>
+							</div> 
+							<div class="col-md-4 pd-5">
+								<select class="form-control">
+									<option>选择车系</option>
+									<option>2</option>
+								</select>
+							</div>
+							<div class="col-md-3 pd-5">
+					            <button class="btn btn-like red-btn" type="submit" style="margin-top:-10px;">找车</button>
+				        	</div>
+						</div>
+	  				</form>
+				</div>
+			</div>
+			<div class="cheList">
+				<div class="listStyle now">
+					<ul>
+						<li> 
+							<div class="listKind">
+								<div class="repName"><a href="javascript:;">SUV：</a></div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listMore fl tc"><a href="javascript:;">更多>></a></div>
+							</div>
+						</li>
+						<li>
+							<div class="listKind">
+								<div class="repName"><a href="javascript:;">中型车：</a></div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>	
+								</div>
+								<div class="listMore fl tc"><a href="javascript:;">更多>></a></div>
+							</div>
+						</li>
+						<li>
+							<div class="listKind">
+								<div class="repName"><a href="javascript:;">小型车：</a></div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>	
+								</div>
+								<div class="listMore fl tc"><a href="javascript:;">更多>></a></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="listStyle speclistStyle">
+					<ul>
+						<li style="border:none;padding:0"> 
+							<div class="listKind">
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<a href="javascript:;" class="carname">荣威RX5</a>
+									<div class="fz12 c999">3375人 评 <em class="mainred">4.48 </em>分</div>
+								</div>
+								<div class="listKindWord">
+									<div class="listMore" style="width:100%;padding:11px 0"><a href="javascript:;">更多>></a></div>
+								</div>
+								
+							</div>
+							
+						</li>
+					</ul>
+				</div>
+				<div class="listStyle">
+					<ul>
+						<li>333</li>
+					</ul>
+				</div>
+				<div class="listStyle">
+					<ul>
+						<li>444</li>
+					</ul>
+				</div>
+				<div class="listStyle">
+					<ul>
+						<li>555</li>
+					</ul>
+				</div>
+				<div class="listStyle">
+					<ul>
+						<li>666</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container mt20">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="twoTit cf">
+                <h2>单项满意度排行榜</h2>
+                <p class="fr">仅显示单项评分排行前10名</p>
+            </div>
+            <div class="mt20 cf">
+            	<span class="c999 fl">选价格：</span>
+            	<div class="repChoose">
+            		<a href="javascript:;" class="current">2万-5万</a>
+	            	<a href="javascript:;">2万-5万</a>
+	            	<a href="javascript:;">2万-5万</a>
+	            	<a href="javascript:;">2万-5万</a>
+	            	<a href="javascript:;">2万-5万</a>
+	            	<a href="javascript:;">2万-5万</a>
+	            	<a href="javascript:;">2万-5万</a>
+	            	<a href="javascript:;">2万-5万</a>
+	            	<a href="javascript:;">2万-5万</a>
+	            	<a href="javascript:;">2万-5万</a>
+	            	<a href="javascript:;">2万-5万</a>
+	            	<a href="javascript:;">2万-5万</a>
+	            	<a href="javascript:;">2万-5万</a>
+            	</div>
+            </div>
+			<div class="commonTit mt20 cf">
+                <div class="tabMenu fl">
+                    <ul id="myTbb">
+                        <li><a href="javascript:;" class="current">最省油排行 </a></li>
+                        <li><a href="javascript:;">空间满意度排行</a></li>
+                        <li><a href="javascript:;">动力满意度排行</a></li>
+                        <li><a href="javascript:;">操控性满意度排行</a></li>
+                        <li><a href="javascript:;">性价比满意度排行</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="manyiBox" id="manyiBox">
+            	<div class="manyiList current">
+            		<ul class="row">
+            			<li>
+            				<div class="pr">
+            					<a href="javascript:;" class="repPic tc">
+	            					<img src="images/pic02.png" alt="">
+	            					<p>众泰Z100 2013款 1.0L 舒适型</p>
+	            				</a>
+								<div class="repWord mt5">
+									<p>厂商指导价：<em class="mainred">3.2</em>万元</p>
+									<p>平 均 油 耗：<em class="mainred">5.4</em>升/百公里</p>
+									<p>（<em class="mainred">33 </em>人平均值）</p>
+								</div>	
+								<div class="repCover"><span class="num01">1</span></div>
+            				</div>
+            			</li>
+						<li>
+            				<div class="pr">
+            					<a href="javascript:;" class="repPic tc">
+	            					<img src="images/pic02.png" alt="">
+	            					<p>众泰Z100 2013款 1.0L 舒适型</p>
+	            				</a>
+								<div class="repWord mt5">
+									<p>厂商指导价：<em class="mainred">3.2</em>万元</p>
+									<p>平 均 油 耗：<em class="mainred">5.4</em>升/百公里</p>
+									<p>（<em class="mainred">33 </em>人平均值）</p>
+								</div>	
+								<div class="repCover"><span class="num02">2</span></div>
+            				</div>
+            			</li>
+            			<li>
+            				<div class="pr">
+            					<a href="javascript:;" class="repPic tc">
+	            					<img src="images/pic02.png" alt="">
+	            					<p>众泰Z100 2013款 1.0L 舒适型</p>
+	            				</a>
+								<div class="repWord mt5">
+									<p>厂商指导价：<em class="mainred">3.2</em>万元</p>
+									<p>平 均 油 耗：<em class="mainred">5.4</em>升/百公里</p>
+									<p>（<em class="mainred">33 </em>人平均值）</p>
+								</div>	
+								<div class="repCover"><span class="num03">3</span></div>
+            				</div>
+            			</li>
+            			<li>
+            				<div class="pr">
+            					<a href="javascript:;" class="repPic tc">
+	            					<img src="images/pic02.png" alt="">
+	            					<p>众泰Z100 2013款 1.0L 舒适型</p>
+	            				</a>
+								<div class="repWord mt5">
+									<p>厂商指导价：<em class="mainred">3.2</em>万元</p>
+									<p>平 均 油 耗：<em class="mainred">5.4</em>升/百公里</p>
+									<p>（<em class="mainred">33 </em>人平均值）</p>
+								</div>	
+								<div class="repCover"><span>1</span></div>
+            				</div>
+            			</li>
+            			<li>
+            				<div class="pr">
+            					<a href="javascript:;" class="repPic tc">
+	            					<img src="images/pic02.png" alt="">
+	            					<p>众泰Z100 2013款 1.0L 舒适型</p>
+	            				</a>
+								<div class="repWord mt5">
+									<p>厂商指导价：<em class="mainred">3.2</em>万元</p>
+									<p>平 均 油 耗：<em class="mainred">5.4</em>升/百公里</p>
+									<p>（<em class="mainred">33 </em>人平均值）</p>
+								</div>	
+								<div class="repCover"><span>1</span></div>
+            				</div>
+            			</li>
+            			<li>
+            				<div class="pr">
+            					<a href="javascript:;" class="repPic tc">
+	            					<img src="images/pic02.png" alt="">
+	            					<p>众泰Z100 2013款 1.0L 舒适型</p>
+	            				</a>
+								<div class="repWord mt5">
+									<p>厂商指导价：<em class="mainred">3.2</em>万元</p>
+									<p>平 均 油 耗：<em class="mainred">5.4</em>升/百公里</p>
+									<p>（<em class="mainred">33 </em>人平均值）</p>
+								</div>	
+								<div class="repCover"><span>1</span></div>
+            				</div>
+            			</li>
+            			<li>
+            				<div class="pr">
+            					<a href="javascript:;" class="repPic tc">
+	            					<img src="images/pic02.png" alt="">
+	            					<p>众泰Z100 2013款 1.0L 舒适型</p>
+	            				</a>
+								<div class="repWord mt5">
+									<p>厂商指导价：<em class="mainred">3.2</em>万元</p>
+									<p>平 均 油 耗：<em class="mainred">5.4</em>升/百公里</p>
+									<p>（<em class="mainred">33 </em>人平均值）</p>
+								</div>	
+								<div class="repCover"><span>1</span></div>
+            				</div>
+            			</li>
+            			<li>
+            				<div class="pr">
+            					<a href="javascript:;" class="repPic tc">
+	            					<img src="images/pic02.png" alt="">
+	            					<p>众泰Z100 2013款 1.0L 舒适型</p>
+	            				</a>
+								<div class="repWord mt5">
+									<p>厂商指导价：<em class="mainred">3.2</em>万元</p>
+									<p>平 均 油 耗：<em class="mainred">5.4</em>升/百公里</p>
+									<p>（<em class="mainred">33 </em>人平均值）</p>
+								</div>	
+								<div class="repCover"><span>1</span></div>
+            				</div>
+            			</li>
+            			<li>
+            				<div class="pr">
+            					<a href="javascript:;" class="repPic tc">
+	            					<img src="images/pic02.png" alt="">
+	            					<p>众泰Z100 2013款 1.0L 舒适型</p>
+	            				</a>
+								<div class="repWord mt5">
+									<p>厂商指导价：<em class="mainred">3.2</em>万元</p>
+									<p>平 均 油 耗：<em class="mainred">5.4</em>升/百公里</p>
+									<p>（<em class="mainred">33 </em>人平均值）</p>
+								</div>	
+								<div class="repCover"><span>1</span></div>
+            				</div>
+            			</li>
+            			<li>
+            				<div class="pr">
+            					<a href="javascript:;" class="repPic tc">
+	            					<img src="images/pic02.png" alt="">
+	            					<p>众泰Z100 2013款 1.0L 舒适型</p>
+	            				</a>
+								<div class="repWord mt5">
+									<p>厂商指导价：<em class="mainred">3.2</em>万元</p>
+									<p>平 均 油 耗：<em class="mainred">5.4</em>升/百公里</p>
+									<p>（<em class="mainred">33 </em>人平均值）</p>
+								</div>	
+								<div class="repCover"><span>10</span></div>
+            				</div>
+            			</li>
+            		</ul>
+            	</div>	
+            	<div class="manyiList">
+            		111
+            	</div>
+            	<div class="manyiList">
+            		222
+            	</div>
+            	<div class="manyiList">
+            		333
+            	</div>
+            	<div class="manyiList">
+            		444
+            	</div>
+            </div>
+            </div>
+		</div>
+	</div>	
+</div>
+<div class="container mt20">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="twoTit cf">
+                <h2>精华口碑推荐</h2>
+            </div>
+			<div class="koubei">
+				<ul class="row">
+					<li class="col-md-4">
+						<div class="cf">
+						    <a href="javascript:;" class="koubeicarTit">宝来 / 宝来经典  2014款 1.8T 自动尊贵</a>
+							<div class="kbLeft"><a href="javascript:;"><img src="images/pic02.png" alt=""></a></div>
+							<div class="kbRight">
+							    <p><span>购车价：</span><em>12.89万</em></p>
+							    <p><span>购车时间：</span><em>2016年8月</em></p>
+								<p><span>油耗：</span><em>10.6L</em></p>
+								<p><span>行驶：</span><em>9000公里</em></p>
+								<p>
+									<span>评分：</span>
+									<span class="starbox">
+										<span class="starw" style="width: 89.8%;"></span>
+									</span>
+									<span class="pinfen">5.0分</span>
+								</p>
+							</div>
+						</div>
+						<div class="cf">
+							<div class="pinjia lovely cf">
+								<span class="col-md-2"><a href="" target="_blank">最满意</a></span>
+								<p class="col-md-10"><a href="" target="_blank">性价比高!在12万的车里，内饰和配置相对于，感觉很好...</a></p>
+							</div>
+							<div class="pinjia nasty cf">
+								<span class="col-md-2"><a href="" target="_blank">最不满意</a></span>
+								<p class="col-md-10"><a href="" target="_blank">性价比高!在12万的车里，内饰和配置。</a></p>
+							</div>
+						</div>
+					</li>
+					<li class="col-md-4">
+						<div class="cf">
+						    <a href="javascript:;" class="koubeicarTit">宝来 / 宝来经典  2014款 1.8T 自动尊贵</a>
+							<div class="kbLeft"><a href="javascript:;"><img src="images/pic02.png" alt=""></a></div>
+							<div class="kbRight">
+							    <p><span>购车价：</span><em>12.89万</em></p>
+							    <p><span>购车时间：</span><em>2016年8月</em></p>
+								<p><span>油耗：</span><em>10.6L</em></p>
+								<p><span>行驶：</span><em>9000公里</em></p>
+								<p>
+									<span>评分：</span>
+									<span class="starbox">
+										<span class="starw" style="width: 89.8%;"></span>
+									</span>
+									<span class="pinfen">5.0分</span>
+								</p>
+							</div>
+						</div>
+						<div class="cf">
+							<div class="pinjia lovely cf">
+								<span class="col-md-2"><a href="" target="_blank">最满意</a></span>
+								<p class="col-md-10"><a href="" target="_blank">性价比高!在12万的车里，内饰和配置相对于，感觉很好...</a></p>
+							</div>
+							<div class="pinjia nasty cf">
+								<span class="col-md-2"><a href="" target="_blank">最不满意</a></span>
+								<p class="col-md-10"><a href="" target="_blank">性价比高!在12万的车里，内饰和配置。</a></p>
+							</div>
+						</div>
+					</li>
+					<li class="col-md-4">
+						<div class="cf">
+						    <a href="javascript:;" class="koubeicarTit">宝来 / 宝来经典  2014款 1.8T 自动尊贵</a>
+							<div class="kbLeft"><a href="javascript:;"><img src="images/pic02.png" alt=""></a></div>
+							<div class="kbRight">
+							    <p><span>购车价：</span><em>12.89万</em></p>
+							    <p><span>购车时间：</span><em>2016年8月</em></p>
+								<p><span>油耗：</span><em>10.6L</em></p>
+								<p><span>行驶：</span><em>9000公里</em></p>
+								<p>
+									<span>评分：</span>
+									<span class="starbox">
+										<span class="starw" style="width: 89.8%;"></span>
+									</span>
+									<span class="pinfen">5.0分</span>
+								</p>
+							</div>
+						</div>
+						<div class="cf">
+							<div class="pinjia lovely cf">
+								<span class="col-md-2"><a href="" target="_blank">最满意</a></span>
+								<p class="col-md-10"><a href="" target="_blank">性价比高!在12万的车里，内饰和配置相对于，感觉很好...</a></p>
+							</div>
+							<div class="pinjia nasty cf">
+								<span class="col-md-2"><a href="" target="_blank">最不满意</a></span>
+								<p class="col-md-10"><a href="" target="_blank">性价比高!在12万的车里，内饰和配置。</a></p>
+							</div>
+						</div>
+					</li>
+					<li class="col-md-4">
+						<div class="cf">
+						    <a href="javascript:;" class="koubeicarTit">宝来 / 宝来经典  2014款 1.8T 自动尊贵</a>
+							<div class="kbLeft"><a href="javascript:;"><img src="images/pic02.png" alt=""></a></div>
+							<div class="kbRight">
+							    <p><span>购车价：</span><em>12.89万</em></p>
+							    <p><span>购车时间：</span><em>2016年8月</em></p>
+								<p><span>油耗：</span><em>10.6L</em></p>
+								<p><span>行驶：</span><em>9000公里</em></p>
+								<p>
+									<span>评分：</span>
+									<span class="starbox">
+										<span class="starw" style="width: 89.8%;"></span>
+									</span>
+									<span class="pinfen">5.0分</span>
+								</p>
+							</div>
+						</div>
+						<div class="cf">
+							<div class="pinjia lovely cf">
+								<span class="col-md-2"><a href="" target="_blank">最满意</a></span>
+								<p class="col-md-10"><a href="" target="_blank">性价比高!在12万的车里，内饰和配置相对于，感觉很好...</a></p>
+							</div>
+							<div class="pinjia nasty cf">
+								<span class="col-md-2"><a href="" target="_blank">最不满意</a></span>
+								<p class="col-md-10"><a href="" target="_blank">性价比高!在12万的车里，内饰和配置。</a></p>
+							</div>
+						</div>
+					</li>
+					<li class="col-md-4">
+						<div class="cf">
+						    <a href="javascript:;" class="koubeicarTit">宝来 / 宝来经典  2014款 1.8T 自动尊贵</a>
+							<div class="kbLeft"><a href="javascript:;"><img src="images/pic02.png" alt=""></a></div>
+							<div class="kbRight">
+							    <p><span>购车价：</span><em>12.89万</em></p>
+							    <p><span>购车时间：</span><em>2016年8月</em></p>
+								<p><span>油耗：</span><em>10.6L</em></p>
+								<p><span>行驶：</span><em>9000公里</em></p>
+								<p>
+									<span>评分：</span>
+									<span class="starbox">
+										<span class="starw" style="width: 89.8%;"></span>
+									</span>
+									<span class="pinfen">5.0分</span>
+								</p>
+							</div>
+						</div>
+						<div class="cf">
+							<div class="pinjia lovely cf">
+								<span class="col-md-2"><a href="" target="_blank">最满意</a></span>
+								<p class="col-md-10"><a href="" target="_blank">性价比高!在12万的车里，内饰和配置相对于，感觉很好...</a></p>
+							</div>
+							<div class="pinjia nasty cf">
+								<span class="col-md-2"><a href="" target="_blank">最不满意</a></span>
+								<p class="col-md-10"><a href="" target="_blank">性价比高!在12万的车里，内饰和配置。</a></p>
+							</div>
+						</div>
+					</li>
+					<li class="col-md-4">
+						<div class="cf">
+						    <a href="javascript:;" class="koubeicarTit">宝来 / 宝来经典  2014款 1.8T 自动尊贵</a>
+							<div class="kbLeft"><a href="javascript:;"><img src="images/pic02.png" alt=""></a></div>
+							<div class="kbRight">
+							    <p><span>购车价：</span><em>12.89万</em></p>
+							    <p><span>购车时间：</span><em>2016年8月</em></p>
+								<p><span>油耗：</span><em>10.6L</em></p>
+								<p><span>行驶：</span><em>9000公里</em></p>
+								<p>
+									<span>评分：</span>
+									<span class="starbox">
+										<span class="starw" style="width: 89.8%;"></span>
+									</span>
+									<span class="pinfen">5.0分</span>
+								</p>
+							</div>
+						</div>
+						<div class="cf">
+							<div class="pinjia lovely cf">
+								<span class="col-md-2"><a href="" target="_blank">最满意</a></span>
+								<p class="col-md-10"><a href="" target="_blank">性价比高!在12万的车里，内饰和配置相对于，感觉很好...</a></p>
+							</div>
+							<div class="pinjia nasty cf">
+								<span class="col-md-2"><a href="" target="_blank">最不满意</a></span>
+								<p class="col-md-10"><a href="" target="_blank">性价比高!在12万的车里，内饰和配置。</a></p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>	
+</div>
+
+<!-- 新增模块 -->
+<div class="xz_mainA">
+	<div class="xz_mainA_top">
+		<div class="j_view_top"><h2>热门排行</h2></div>
+	</div>
+	<div class="xz_mainA_cen j_mouthRB_block">
+		<div class="xz_mainA_cenL fl">
+			<h2 class="xz_mainA_cenL_h2">国产新秀排行榜</h2>
+			<div>
+				<div class="j_mouthRB_cen2">
+				    <ul>
+				        <li>
+				            <a href="javascript:void(0)" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2 style="background:#eb2e3b;">1</h2><span>宝马X5</span><em style="display:none">3.28分</em><i style="display:none"></i>
+				                </div>
+				                <div class="j_mouthRB_cenB" style="display:block">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="javascript:void(0)" title="">
+				                <div class="j_mouthRB_cenA j_mouthRB_cenA_xia"><!-- j_mouthRB_cenA_xia 加上此class 箭头往下 -->
+				                    <h2 style="background:#eb2e3b;">2</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR j_mouthRB_cenBR_xia"><!-- j_mouthRB_cenBR_xia 加上此class 箭头往下 -->
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2 style="background:#eb2e3b;">3</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>4</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>5</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>6</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>7</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>8</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>9</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>10</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				    </ul>
+				</div>
+			</div>
+		</div>
+		<img src="images/j_14.png" alt="" class="xz_mainA_cen_img fl" />
+		<div class="xz_mainA_cenL fl">
+			<h2 class="xz_mainA_cenL_h2">都市白领必备排行榜</h2>
+			<div>
+				<div class="j_mouthRB_cen2">
+				    <ul>
+				        <li>
+				            <a href="javascript:void(0)" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2 style="background:#eb2e3b;">1</h2><span>宝马X5</span><em style="display:none">3.28分</em><i style="display:none"></i>
+				                </div>
+				                <div class="j_mouthRB_cenB" style="display:block">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="javascript:void(0)" title="">
+				                <div class="j_mouthRB_cenA j_mouthRB_cenA_xia"><!-- j_mouthRB_cenA_xia 加上此class 箭头往下 -->
+				                    <h2 style="background:#eb2e3b;">2</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR j_mouthRB_cenBR_xia"><!-- j_mouthRB_cenBR_xia 加上此class 箭头往下 -->
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2 style="background:#eb2e3b;">3</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>4</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>5</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>6</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>7</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>8</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>9</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>10</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				    </ul>
+				</div>
+			</div>
+		</div>
+		<img src="images/j_14.png" alt="" class="xz_mainA_cen_img fl" />
+		<div class="xz_mainA_cenL fl">
+			<h2 class="xz_mainA_cenL_h2">高富帅最爱排行榜</h2>
+			<div>
+				<div class="j_mouthRB_cen2">
+				    <ul>
+				        <li>
+				            <a href="javascript:void(0)" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2 style="background:#eb2e3b;">1</h2><span>宝马X5</span><em style="display:none">3.28分</em><i style="display:none"></i>
+				                </div>
+				                <div class="j_mouthRB_cenB" style="display:block">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="javascript:void(0)" title="">
+				                <div class="j_mouthRB_cenA j_mouthRB_cenA_xia"><!-- j_mouthRB_cenA_xia 加上此class 箭头往下 -->
+				                    <h2 style="background:#eb2e3b;">2</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR j_mouthRB_cenBR_xia"><!-- j_mouthRB_cenBR_xia 加上此class 箭头往下 -->
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2 style="background:#eb2e3b;">3</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>4</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>5</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>6</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>7</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>8</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>9</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				        <li>
+				            <a href="" title="">
+				                <div class="j_mouthRB_cenA">
+				                    <h2>10</h2><span>宝马X5</span><em>3.28分</em><i></i>
+				                </div>
+				                <div class="j_mouthRB_cenB">
+				                    <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+				                    <div class="j_mouthRB_cenBR">
+				                        <p>用户评分</p>
+				                        <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </a>
+				        </li>
+				    </ul>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+
+<div class="inforWidth cf mt20">
+    <div class="tabTop cf">
+        <ul id="hotTab">
+            <li><a href="javascript:;" class="current">热门车系</a></li>
+            <li><a href="javascript:;">热门标签</a></li>
+            <li><a href="javascript:;">友情链接</a></li>
+        </ul>
+    </div>
+    <div class="hotTag mt10" id="hotTag">
+        <ul>
+            <li class="now">
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯福克斯福克斯福克斯福克斯</a>
+            </li>
+            <li>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+            </li>
+            <li>
+                <a href="javascript:;">111</a>
+                <a href="javascript:;">222</a>
+                <a href="javascript:;">333</a>
+                <a href="javascript:;">444</a>
+                <a href="javascript:;">111</a>
+                <a href="javascript:;">222</a>
+                <a href="javascript:;">333</a>
+                <a href="javascript:;">444</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="footer" id="footer">
+    <div class="footmenu">
+        <div class="container">
+            <div class="footLink tc"><a href="jieshao.html">网站介绍</a><a href="banquan.html">版权说明</a><a href="contact.html">联系我们</a><a href="shuoming.html">网站说明(xml)</a><span>广告服务：025-84260006  投稿热线：15301587888</span></div>
+        </div>
+    </div>   
+    <div class="container">
+        <div class="cf f-cleft mt20">
+            <div class="logo"></div>
+            <div class="f-cright">
+                <p>免责声明：本（栏目、频道等）内容由SP提供。欢迎大家对侵犯版权等不合法和不健康的内容进行监督和举报。</p>
+                <p>[增值电信业务经营许可证A2.B1.B2-20090001]&nbsp;[文网文[2008]053号]&nbsp;[国新网许可证：3212006005]&nbsp;<a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">[苏ICP备07021571号]</a></p>
+                <p>版权所有：中国电信股份有限公司南京分公司&nbsp;&nbsp;技术支持：江苏知能邮电通信技术有限公司</p>
+            </div>
+        </div>
+        <div class="f-pic mt15">
+            <a href="http://www.wenming.cn/" target="_blank"><img src="images/ft-img1.jpg" alt="中国文明网传播文明"></a>
+            <a href="http://www.cyberpolice.cn/wfjb/" target="_blank"><img src="images/ft-img2.jpg" alt="南京网络警察报警平台"></a>
+            <a href="http://www.cyberpolice.cn/wfjb/" target="_blank"><img src="images/ft-img3.jpg" alt="公安信息安全网络监察"></a>
+            <a href="http://www.miibeian.gov.cn/" target="_blank"><img src="images/ft-img4.jpg" alt="经营性网站备案信息"></a>
+            <a href="http://net.china.cn/" target="_blank"><img src="images/ft-img5.jpg" alt="不良信息举报中心"></a>
+        </div>
+    </div>
+</div>
+<!-- <script src="js/jquery.min.js"></script> -->
+<script src="js/bootstrap.js"></script>
+<script src="js/common.js"></script>
+<!-- 新增 -->
+<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="js/Yeffect16_0627.min.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>
+

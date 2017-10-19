@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1, user-scalable=no">
+<meta name="applicable-device" content="pc,mobile">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>金陵汽车</title>
+<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="css/news.css" rel="stylesheet" media="screen">
+<link href="css/xunjia.css" rel="stylesheet" media="screen">
+<link href="css/common.css" rel="stylesheet" media="screen">
+<script src="js/jquery.min.js"></script>
+<!--[if lt IE 9]>
+  <script src="js/xys.js"></script>
+  <link href="css/xys.css" rel="stylesheet" >
+<![endif]-->
+</head>
+<body>
+<div class="topBox cf">
+    <div class="topGrey">
+        <div class="inforWidth">
+            <div class="indexWel fl">
+                <span>您好！欢迎来到车城社</span>
+            </div>
+            <div class="topWord fr">
+                <a href="javascript:;">首页</a>
+                <a href="javascript:;">新闻</a>
+                <a href="javascript:;">汽车</a>
+                <a href="javascript:;">教育</a>
+                <a href="javascript:;">旅游</a>
+                <a href="javascript:;">财经</a>
+                <a href="javascript:;">房产</a>
+                <a href="javascript:;">生活</a>
+                <a href="javascript:;">爆料</a>
+            </div>
+        </div>
+    </div>
+    <div class="topHead">
+        <div class="inforWidth">
+            <div class="pr">
+                <div class="logo fl"><a href=""><img src="images/logo-xin.jpg" alt="金陵汽车"></a></div>
+                <div class="city indexcity">
+                    <div class="change indexchange" data-toggle="dropdown"><span>南京</span><b class="caret caret-first"></b></div>
+                    <div class="dropdown-menu dropdown-place-height">
+                        <div class="stopP">
+                            <div class="fastNum cf" id="mainFn">
+                                <a href="javascript:;" data-value="A">A</a>
+                                <a href="javascript:;" data-value="F">F</a>
+                                <a href="javascript:;" data-value="G">G</a>
+                                <a href="javascript:;" data-value="H">H</a>
+                                <a href="javascript:;" data-value="J">J</a>
+                                <a href="javascript:;" data-value="L">L</a>
+                                <a href="javascript:;" data-value="N">N</a>
+                                <a href="javascript:;" data-value="Q">Q</a>
+                                <a href="javascript:;" data-value="S">S</a>
+                                <a href="javascript:;" data-value="X">X</a>
+                                <a href="javascript:;" data-value="Y">Y</a>
+                                <a href="javascript:;" data-value="Z">Z</a>
+                            </div>
+                            <div class="fnClose"></div>
+                        </div>                       
+                        <ul class="dropdown-place" id="fastroad">
+                            <li>
+                                <em class="zimu"></em>
+                                <div class="pl45">
+                                    <p class="fl sheng">直辖市</p>
+                                    <div class="fl shi"><a href="javascript:;">北京</a><a href="javascript:;">上海</a><a href="javascript:;">深圳</a><a href="javascript:;">重庆</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeA">A</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">安徽</p>
+                                    <div class="fl shi"><a href="javascript:;">安庆</a><a href="javascript:;">蚌埠</a><a href="javascript:;">滁州</a><a href="javascript:;">阜阳</a><a href="javascript:;">马鞍山</a><a href="javascript:;">六安</a><a href="javascript:;">宿州</a><a href="javascript:;">合肥</a><a href="javascript:;">石家庄</a><a href="javascript:;">安庆</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeF">F</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">福建</p>
+                                    <div class="fl shi"><a href="javascript:;">福州</a><a href="javascript:;">泉州</a><a href="javascript:;">厦门</a><a href="javascript:;">漳州</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeG">G</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">广东</p>
+                                    <div class="fl shi"><a href="javascript:;">东莞</a><a href="javascript:;">佛山</a><a href="javascript:;">广州</a><a href="javascript:;">惠州</a><a href="javascript:;">深圳</a><a href="javascript:;">粤东</a><a href="javascript:;">珠海</a><a href="javascript:;">中山</a><a href="javascript:;">江门</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeH">H</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeJ">J</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeL">L</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeN">N</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeQ">Q</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeS">S</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeX">X</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeY">Y</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeZ">Z</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu fr">
+                    <a href="javascript:;" class="current">汽车首页</a>
+                    <a href="javascript:;">新闻</a>
+                    <a href="javascript:;">报价</a>
+                    <a href="javascript:;">图片</a>
+                    <a href="javascript:;">车型对比</a>
+                    <a href="javascript:;">口碑</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt20">
+	<div class="cf">
+        <ol class="breadcrumb breadcrumb-grey fl">
+          <li><a href="javascript:;">新闻</a></li>
+          <li><a href="javascript:">标志308</a></li>
+          <li><a href="javascript:">文章详情页</a></li>
+        </ol>
+        <div class="col-md-5 fr">
+	        <form action="" class="cheform mt-5">
+		        <div class="cf">
+					<div class="row mg-5">
+						<div class="col-md-5 pd-5">
+							<select class="form-control">
+								<option>选择品牌</option>
+								<option>2</option>
+							</select>
+						</div> 
+						<div class="col-md-5 pd-5">
+							<select class="form-control">
+								<option>选择车系</option>
+								<option>2</option>
+							</select>
+						</div>
+						<div class="col-md-2 pd-5">
+				            <button class="btn btn-like red-btn" type="submit">搜索</button>
+			        	</div>
+					</div>
+		        </div>
+			</form>
+		</div>
+    </div>
+</div>
+<div class="container mt15">
+	<div class="row">
+		<div class="col-md-7 y_widthdz">
+			<div class="cf">
+				<div class="fl canshuimg"><img src="images/canshu.png" alt=""></div>
+				<div class="fl canshuTit ml15"><span>高尔夫</span></div>
+                <div class="y_cxA fl">
+                    <a href="" title="">全部在售 </a><span class="y_spanA">丨</span>
+                    <a href="" title="">2017款 </a><span class="y_spanA">丨</span>
+                    <a href="" title="">2016款 </a><span class="y_spanA">丨</span>
+                    <a href="" title="">2015款 </a><span class="y_spanA">丨</span>
+                </div>
+				<div class="fl canshuMore">
+                    
+                    <div class="y_showstscx">
+    					<a href="javascript:;" class="canshuKind y_dingweiA">停售年款<b class="caret caret-first"></b></a>
+    					<div class="carKind y_hidestscx">
+    						<a href="javascript:;">2016款</a>
+    						<a href="javascript:;">2015款</a>
+    						<a href="javascript:;">2014款</a>
+    					</div>	
+                    </div>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="col-md-5">
+			<div class="fr mt20">
+				<a href="javacript:;" class="m8">车系首页</a>
+				<a href="javacript:;" class="m8">参数配置</a>
+				<a href="javacript:;" class="m8">文章</a>
+				<a href="javacript:;" class="m8">图片</a>
+				<a href="javacript:;" class="m8">报价</a>
+				<a href="javacript:;" class="m8">口碑</a>
+				<a href="javacript:;" class="m8">车型详解</a>
+			</div>
+		</div> -->
+	</div>
+</div>
+<div class="container">
+    <div class="menuBox">
+        <ul class="canshuMenu fl">
+            <li><a href="/qiche/3248">首页</a></li>
+            <li><a href="/qiche/3248/param.html">参数配置</a></li>
+            <li><a target="_blank" href="/qiche/pic/list-36-3248-0-0-0-0">图片</a></li>
+            <li><a href="/qiche/3248/price.html">报价</a></li>
+            <li><a href="/qiche/3248/koubei.html">口碑</a></li>
+            <li><a href="/qiche/3248/section.html">车型详解</a></li>
+            <li><a href="javascript:;" class="current">文章</a></li>
+        </ul>
+        <a href="/qiche/dealer/order-3248.html" class="xunjia fr"><i class="xjIcon"></i>询价</a>
+    </div>
+</div>
+<div class="container mt20">
+	<div class="row">
+		<div class="col-md-9">
+			<div class="content">
+		        <div class="item-top tc mt20">
+		           <h1>大众柴油车韩国市场停售 需重新申请认证</h1>
+		           <p class="mt15"><span>来源：<a href="javascript:;">汽车之家</a></span><span>类型：<a href="javascript:;">原创</a></span><span>编辑：<a href="javascript:;">李伊文 </a></span><span>2015年12月01日</span></p>
+		        </div>
+		        <div class="item-show cf mt15">
+		          <p>2016年6月6日，奔驰新一代E级旅行版及梅赛德斯-AMG E 43 4MATIC旅行版车型正式发布。新车在前脸部分基本延续了轿车版车型的设计，尾部造型也融入了更加优雅的线条，其动力系统提供多款汽油和柴油发动机供选。</p>
+		          <p style="text-align: center;"><img src="images/pic02.png" alt=""></p>
+		          <p>2016年6月6日，奔驰新一代E级旅行版及梅赛德斯-AMG E 43 4MATIC旅行版车型正式发布。新车在前脸部分基本延续了轿车版车型的设计，尾部造型也融入了更加优雅的线条，其动力系统提供多款汽油和柴油发动机供选。2016年6月6日，奔驰新一代E级旅行版及梅赛德斯-AMG E 43 4MATIC旅行版车型正式发布。新车在前脸部分基本延续了轿车版车型的设计，尾部造型也融入了更加优雅的线条，其动力系统提供多款汽油和柴油发动机供选。</p>
+		          <p>6月4日至6月12日，2016深港澳国际车展在会展中心举行。程先生6月6日在会展中心预订了一辆英菲尼迪Q 50L汽车，全包价格在28.8万元。程先生向记者提供了《乘用车买卖合同》</p>
+		          <p style="text-align: center;"><img src="images/pic02.png" alt=""></p>
+		          <p>程先生称，13、14日联系经销店客服，对方告诉有车，让去店内看车。15日去到店内后，却被告知没有车了，要在合同价上加6000元才可购车。程先生提供了与销售客服的微信及对话录音。15日在经销店内，程先生问对方为何前一晚说有“两台车”，该工作人员则称，“是客户已经订了，还没过来付钱。”程又反问对方为何当初说有现车，该工作人员则称，“是有现车啊……降了太低了，亏了一万多，公司不愿意卖，现在就是您加6000，给您办理购车，或者给您办理退款。”</p>
+		          <div class="mt30">
+		            <em class="c999">相关标签：</em>
+		            <span><a href="javascrpt:;" class="mainred m8">新闻</a><a href="javascrpt:;" class="mainred m8">导购</a></span>
+		          </div>
+		          <div class="next-news mt35">
+		            <p><span>上一篇：</span><a href="javascript:;">几块钱就能轻松解决这些汽车故障，一定要当心被坑！</a></p>
+		            <p><span>下一篇：</span><a href="javascript:;">太惊魂了，几块钱轻松解决这些汽车故障！</a></p>
+		          </div>
+		        </div>
+		    </div>
+		    <div class="cf mt20">
+		    	<div class="twoTit cf">
+                    <h2>相关文章</h2>
+                </div>
+                <div class="news cf mt5">
+                    <ul>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                        <li><span class="fr ml15">2016-07-29</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询</a></li>
+                    </ul>
+                </div>
+		    </div>
+		</div>
+		<div class="col-md-3">
+			<div class="mt10 cf">
+				<div class="twoTit cf">
+					<h2>一汽大众高尔夫</h2>
+				</div>
+				<div class="zhPric mt10">
+	            	<div class="fl zhImge"><a href="javascript:;"><img src="images/pic02.png" alt=""></a></div> 
+	            	<div class="cf">
+	            		<p>指导价：10.39万</p>
+	            		<p>级别：紧凑型SUV</p>
+	            		<p>发动机：1.3T 133马力</p>
+	            		<p>变速箱：CVT无级变速</p>
+	            	</div> 
+	            </div>
+			</div>
+			<div class="mt30 cf">
+				<div class="twoTit cf">
+					<h2>相关图片</h2>
+				</div>
+				<div class="brandList ztTime">
+	                <ul>
+	                    <li><a href="javascript:;"><img src="images/pic02.png" alt=""><p class="mt5">马自达</p></a></li>
+	                    <li><a href="javascript:;"><img src="images/pic02.png" alt=""><p class="mt5">马自达</p></a></li>
+	                    <li><a href="javascript:;"><img src="images/pic02.png" alt=""><p class="mt5">马自达</p></a></li>
+	                    <li><a href="javascript:;"><img src="images/pic02.png" alt=""><p class="mt5">马自达</p></a></li>
+	                    <li><a href="javascript:;"><img src="images/pic02.png" alt=""><p class="mt5">马自达</p></a></li>
+	                    <li><a href="javascript:;"><img src="images/pic02.png" alt=""><p class="mt5">马自达</p></a></li>
+	                </ul>
+	            </div>
+			</div>
+			<div class="mt30 cf">
+				<div class="twoTit cf">
+					<h2>看过大众的还看过</h2>
+				</div>
+				<div class="brandList ztTime">
+	                <ul>
+	                    <li><a href="javascript:;"><img src="images/bm.png" alt=""><p>马自达</p><span class="c999 fz12">13.3万-16.9万</span></a></li>
+	                    <li><a href="javascript:;"><img src="images/bm.png" alt=""><p>马自达</p><span class="c999 fz12">13.3万-16.9万</span></a></li>
+	                    <li><a href="javascript:;"><img src="images/bm.png" alt=""><p>马自达</p><span class="c999 fz12">13.3万-16.9万</span></a></li>
+	                    <li><a href="javascript:;"><img src="images/bm.png" alt=""><p>马自达</p><span class="c999 fz12">13.3万-16.9万</span></a></li>
+	                    <li><a href="javascript:;"><img src="images/bm.png" alt=""><p>马自达</p><span class="c999 fz12">13.3万-16.9万</span></a></li>
+	                    <li><a href="javascript:;"><img src="images/bm.png" alt=""><p>马自达</p><span class="c999 fz12">13.3万-16.9万</span></a></li>
+	                </ul>
+	            </div>
+			</div>
+			<div class="mt30 cf">
+				<div class="twoTit cf">
+					<h2>小编推荐</h2>
+				</div>
+				<ul class="news indexNews mt10">
+            		<li><a href="javascript:;">购菲亚特500让利2万 欢迎垂询购菲亚特500购菲亚特500 ...</a></li>
+            		<li><a href="javascript:;">购菲亚特500让利2万 欢迎垂询购菲亚特500购菲亚特500 ...</a></li>
+            		<li><a href="javascript:;">购菲亚特500让利2万 欢迎垂询购菲亚特500购菲亚特500 ...</a></li>
+            		<li><a href="javascript:;">购菲亚特500让利2万 欢迎垂询购菲亚特500购菲亚特500 ...</a></li>
+            		<li><a href="javascript:;">购菲亚特500让利2万 欢迎垂询购菲亚特500购菲亚特500 ...</a></li>
+            	</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container mt20">
+	<div class="cheTab cf">
+		<ul id="hotTab">
+			<li class="now">热门车系</li>
+			<li>热门标签</li>
+		</ul>
+	</div>
+	<div class="hotTag mt10" id="hotTag">
+		<ul>
+			<li class="now">
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯福克斯福克斯福克斯福克斯</a>
+			</li>
+			<li>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+				<a href="javascript:;">福克斯</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="xj-xunjia">
+    <div class="ina_pirce">
+        <div class="ina_ina_priceboxbtn"></div>
+        <div class="ina_pricebox">
+            <ul>
+                <li>
+                    <div class="ina_xzpp1 ml100" data-toggle="dropdown"><span>奥迪</span></div>
+                    <div class="dropdown-menu ina_pp">
+                        <p class="ina_hot"> &lt;<em>热门：</em><a href="http://carbarn.che.com/price/brand-1" target="_blank">大众</a><a href="http://carbarn.che.com/price/brand-3" target="_blank">丰田</a><a href="http://carbarn.che.com/price/brand-63" target="_blank">日产</a><a href="http://carbarn.che.com/price/brand-12" target="_blank">现代</a><a href="http://carbarn.che.com/price/brand-71" target="_blank">雪佛兰</a><a href="http://carbarn.che.com/price/brand-14" target="_blank">本田</a></p>
+                        <ul>
+                        <li><b>A</b><p><a data-brandid="33" data-brandname="奥迪">奥迪</a><a data-brandid="34" data-brandname="阿尔法罗密欧">阿尔法罗密欧</a><a data-brandid="35" data-brandname="阿斯顿·马丁">阿斯顿·马丁</a><a data-brandid="221" data-brandname="安凯客车">安凯客车</a><a data-brandid="243" data-brandname="AC Schnitzer">AC Schnitzer</a><a data-brandid="244" data-brandname="Arash">Arash</a></p></li></ul>
+                    </div>
+                    <input type="hidden" name="brand_id" id="brand_id" value="33">
+                </li>
+                <li>
+                    <div class="ina_xzpp1 brandtype" data-toggle="dropdown"><span>A6L</span></div>
+                    <div class="dropdown-menu ina_cxtk">
+                        <div class="noheight">
+                            <div class="ina_cxtk_left">
+                            <div class="ina_cxtk_bt"><a>一汽-大众奥迪</a></div><ul><li><a data-brandtypeid="9" data-brandtypename="A6L">A6L</a></li><li><a data-brandtypeid="9" data-brandtypename="A4">A4</a></li><li><a data-brandtypeid="9" data-brandtypename="A6">A6</a></li><li><a data-brandtypeid="9" data-brandtypename="A4L">A4L</a></li><li><a data-brandtypeid="9" data-brandtypename="Q5">Q5</a></li><li><a data-brandtypeid="9" data-brandtypename="Q3">Q3</a></li><li><a data-brandtypeid="9" data-brandtypename="A3">A3</a></li></ul><div class="ina_cxtk_bt"><a>奥迪(进口)</a></div><ul><li><a data-brandtypeid="79" data-brandtypename="A8">A8</a></li><li><a data-brandtypeid="79" data-brandtypename="TT">TT</a></li><li><a data-brandtypeid="79" data-brandtypename="A3(进口)">A3(进口)</a></li><li><a data-brandtypeid="79" data-brandtypename="Q7">Q7</a></li><li><a data-brandtypeid="79" data-brandtypename="A4(进口)">A4(进口)</a></li><li><a data-brandtypeid="79" data-brandtypename="A6(进口)">A6(进口)</a></li><li><a data-brandtypeid="79" data-brandtypename="R8">R8</a></li><li><a data-brandtypeid="79" data-brandtypename="A5">A5</a></li><li><a data-brandtypeid="79" data-brandtypename="Q5(进口)">Q5(进口)</a></li><li><a data-brandtypeid="79" data-brandtypename="A1">A1</a></li><li><a data-brandtypeid="79" data-brandtypename="A7">A7</a></li><li><a data-brandtypeid="79" data-brandtypename="Q3(进口)">Q3(进口)</a></li><li><a data-brandtypeid="79" data-brandtypename="S3">S3</a></li><li><a data-brandtypeid="79" data-brandtypename="S5">S5</a></li><li><a data-brandtypeid="79" data-brandtypename="S6">S6</a></li><li><a data-brandtypeid="79" data-brandtypename="S7">S7</a></li><li><a data-brandtypeid="79" data-brandtypename="S8">S8</a></li><li><a data-brandtypeid="79" data-brandtypename="TTS">TTS</a></li><li><a data-brandtypeid="79" data-brandtypename="SQ5">SQ5</a></li></ul><div class="ina_cxtk_bt"><a>奥迪RS</a></div><ul><li><a data-brandtypeid="346" data-brandtypename="RS 5">RS 5</a></li><li><a data-brandtypeid="346" data-brandtypename="RS 7">RS 7</a></li></ul></div>
+                            <div class="ina_cxtk_right">
+                                <div class="ina_cxtk_right_bt">
+                                    推荐车型
+                                </div>
+                                <div class="ina_cxtk_right_nr">
+                                    <a href="">
+                                        <img src="">
+                                        <span>宝马5系</span>
+                                    </a>
+                                </div>
+                                <div class="ina_cxtk_right_nr">
+                                    <a href="">
+                                        <img src="">
+                                        <span>奥迪A6L</span>
+                                    </a>
+                                </div>
+                                <div class="ina_cxtk_right_nr">
+                                    <a href="" target="_blank">
+                                        <img src="">
+                                        <span>马自达CX-5</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="hidden" name="brand_type_id" id="brand_type_id" value="9">
+                </li>
+                <li><input class="bmxm" type="text" placeholder="姓名"></li>
+                <li><input class="telnum" type="text" placeholder="手机号"></li>
+                <li><input class="cxbtn" type="button" value="询价"></li>
+                <li><div class="xj-closebtn"></div></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="footer" id="footer">
+    <div class="footmenu">
+        <div class="container">
+            <div class="footLink tc"><a href="jieshao.html">网站介绍</a><a href="banquan.html">版权说明</a><a href="contact.html">联系我们</a><a href="shuoming.html">网站说明(xml)</a><span>广告服务：025-84260006  投稿热线：15301587888</span></div>
+        </div>
+    </div>   
+    <div class="container">
+        <div class="cf f-cleft mt20">
+            <div class="logo"></div>
+            <div class="f-cright">
+                <p>免责声明：本（栏目、频道等）内容由SP提供。欢迎大家对侵犯版权等不合法和不健康的内容进行监督和举报。</p>
+                <p>[增值电信业务经营许可证A2.B1.B2-20090001]&nbsp;[文网文[2008]053号]&nbsp;[国新网许可证：3212006005]&nbsp;<a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">[苏ICP备07021571号]</a></p>
+                <p>版权所有：中国电信股份有限公司南京分公司&nbsp;&nbsp;技术支持：江苏知能邮电通信技术有限公司</p>
+            </div>
+        </div>
+        <div class="f-pic mt15">
+            <a href="http://www.wenming.cn/" target="_blank"><img src="images/ft-img1.jpg" alt="中国文明网传播文明"></a>
+            <a href="http://www.cyberpolice.cn/wfjb/" target="_blank"><img src="images/ft-img2.jpg" alt="南京网络警察报警平台"></a>
+            <a href="http://www.cyberpolice.cn/wfjb/" target="_blank"><img src="images/ft-img3.jpg" alt="公安信息安全网络监察"></a>
+            <a href="http://www.miibeian.gov.cn/" target="_blank"><img src="images/ft-img4.jpg" alt="经营性网站备案信息"></a>
+            <a href="http://net.china.cn/" target="_blank"><img src="images/ft-img5.jpg" alt="不良信息举报中心"></a>
+        </div>
+    </div>
+</div>
+<!-- <script src="js/jquery.min.js"></script> -->
+<script src="js/bootstrap.js"></script>
+<script src="js/common.js"></script>
+<script src="js/xunjia.js"></script>
+</body>
+</html>
+

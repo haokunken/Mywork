@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1, user-scalable=no"> -->
+<meta name="applicable-device" content="pc,mobile">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>金陵汽车</title>
+<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="css/other.css" rel="stylesheet" media="screen">
+<link href="css/common.css" rel="stylesheet" media="screen">
+<script src="js/jquery.min.js"></script>
+<!--[if lt IE 9]>
+  <script src="js/xys.js"></script>
+  <link href="css/xys.css" rel="stylesheet" >
+<![endif]-->
+</head>
+<body>
+<div class="topBox cf">
+    <div class="topGrey">
+        <div class="inforWidth">
+            <div class="indexWel fl">
+                <span>您好！欢迎来到车城社</span>
+            </div>
+            <div class="topWord fr">
+                <a href="javascript:;">首页</a>
+                <a href="javascript:;">新闻</a>
+                <a href="javascript:;">汽车</a>
+                <a href="javascript:;">教育</a>
+                <a href="javascript:;">旅游</a>
+                <a href="javascript:;">财经</a>
+                <a href="javascript:;">房产</a>
+                <a href="javascript:;">生活</a>
+                <a href="javascript:;">爆料</a>
+            </div>
+        </div>
+    </div>
+    <div class="topHead">
+        <div class="inforWidth">
+            <div class="pr">
+                <div class="logo fl"><a href=""><img src="images/logo-xin.jpg" alt="金陵汽车"></a></div>
+                <div class="city indexcity">
+                    <div class="change indexchange" data-toggle="dropdown"><span>南京</span><b class="caret caret-first"></b></div>
+                    <div class="dropdown-menu dropdown-place-height">
+                        <div class="stopP">
+                            <div class="fastNum cf" id="mainFn">
+                                <a href="javascript:;" data-value="A">A</a>
+                                <a href="javascript:;" data-value="F">F</a>
+                                <a href="javascript:;" data-value="G">G</a>
+                                <a href="javascript:;" data-value="H">H</a>
+                                <a href="javascript:;" data-value="J">J</a>
+                                <a href="javascript:;" data-value="L">L</a>
+                                <a href="javascript:;" data-value="N">N</a>
+                                <a href="javascript:;" data-value="Q">Q</a>
+                                <a href="javascript:;" data-value="S">S</a>
+                                <a href="javascript:;" data-value="X">X</a>
+                                <a href="javascript:;" data-value="Y">Y</a>
+                                <a href="javascript:;" data-value="Z">Z</a>
+                            </div>
+                            <div class="fnClose"></div>
+                        </div>                       
+                        <ul class="dropdown-place" id="fastroad">
+                            <li>
+                                <em class="zimu"></em>
+                                <div class="pl45">
+                                    <p class="fl sheng">直辖市</p>
+                                    <div class="fl shi"><a href="javascript:;">北京</a><a href="javascript:;">上海</a><a href="javascript:;">深圳</a><a href="javascript:;">重庆</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeA">A</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">安徽</p>
+                                    <div class="fl shi"><a href="javascript:;">安庆</a><a href="javascript:;">蚌埠</a><a href="javascript:;">滁州</a><a href="javascript:;">阜阳</a><a href="javascript:;">马鞍山</a><a href="javascript:;">六安</a><a href="javascript:;">宿州</a><a href="javascript:;">合肥</a><a href="javascript:;">石家庄</a><a href="javascript:;">安庆</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeF">F</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">福建</p>
+                                    <div class="fl shi"><a href="javascript:;">福州</a><a href="javascript:;">泉州</a><a href="javascript:;">厦门</a><a href="javascript:;">漳州</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeG">G</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">广东</p>
+                                    <div class="fl shi"><a href="javascript:;">东莞</a><a href="javascript:;">佛山</a><a href="javascript:;">广州</a><a href="javascript:;">惠州</a><a href="javascript:;">深圳</a><a href="javascript:;">粤东</a><a href="javascript:;">珠海</a><a href="javascript:;">中山</a><a href="javascript:;">江门</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeH">H</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeJ">J</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeL">L</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeN">N</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeQ">Q</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeS">S</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeX">X</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeY">Y</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeZ">Z</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu fr">
+                    <a href="javascript:;" class="current">汽车首页</a>
+                    <a href="javascript:;">新闻</a>
+                    <a href="javascript:;">报价</a>
+                    <a href="javascript:;">图片</a>
+                    <a href="javascript:;">车型对比</a>
+                    <a href="javascript:;">口碑</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt20">
+    <div class="twoTit twoTitnoline cf">
+        <h2>宝马3系   咨询最低价</h2>
+        <div class="">
+            <form action="" class="cheform zhuantiForm fr col-md-5 mt-5">                
+                <div class="row mg-5">
+                    <div class="col-md-5 pd-5">
+                        <select class="form-control">
+                            <option>选择品牌</option>
+                            <option>2</option>
+                        </select>
+                    </div> 
+                    <div class="col-md-5 pd-5">
+                        <select class="form-control">
+                            <option>选择车系</option>
+                            <option>2</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 pd-5">
+                        <button class="btn btn-like red-btn" type="submit">搜索</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="inquiry">
+        <p class="inqLine">获取 <em class="fw">宝马3系</em> 最低价，请填写以下信息给经销商<em class="c999">（信息保密，不对外公开）</em></p>
+        <div class="row mt35 pr">
+            <div class="col-md-12">
+                <form action="" class="cheform">    
+                    <div class="form-group cf">
+                        <div class="pdName"><div class="formright"><em class="mainred">*</em> 车   款：</div></div>
+                        <div class="col-md-4">
+                            <select class="form-control">
+                                <option>2016款 1.5L 尊享款</option>
+                                <option>2</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group cf">
+                        <div class="pdName"><div class="formright"><em class="mainred">*</em> 姓   名：</div></div>
+                        <div class="col-md-2">
+                            <input class="form-control" placeholder=""> 
+                        </div>
+                        <div class="col-md-2 mt5">
+                            <label class="checkbox-inline">
+                                <input type="radio" name="optionsRadiosinline" id="optionsRadios3" value="option1" checked> 先生
+                            </label>
+                            <label class="checkbox-inline">
+                                <input type="radio" name="optionsRadiosinline" id="optionsRadios4" value="option2"> 女士
+                            </label> 
+                        </div>
+                    </div>
+                    <div class="form-group cf">
+                        <div class="pdName"><div class="formright"><em class="mainred">*</em> 手机号：</div></div>
+                        <div class="col-md-4">
+                            <input class="form-control" placeholder=""> 
+                        </div>
+                    </div>
+                    <div class="form-group cf">
+                        <div class="pdName"><div class="formright"><em class="mainred">*</em>所在城市：</div></div>
+                        <div class="col-md-4 inqBox">
+                            <p class="pointstyle" data-toggle="dropdown">南京[ <em class="mainred" >换城市</em> ]</p>
+                            <div class="dropdown-menu dropdown-place-height">
+                                <div class="stopP">
+                                    <div class="fastNum cf" id="smallFn">
+                                        <a href="javascript:;" data-value="A">A</a>
+                                        <a href="javascript:;" data-value="F">F</a>
+                                        <a href="javascript:;" data-value="G">G</a>
+                                        <a href="javascript:;" data-value="H">H</a>
+                                        <a href="javascript:;" data-value="J">J</a>
+                                        <a href="javascript:;" data-value="L">L</a>
+                                        <a href="javascript:;" data-value="N">N</a>
+                                        <a href="javascript:;" data-value="Q">Q</a>
+                                        <a href="javascript:;" data-value="S">S</a>
+                                        <a href="javascript:;" data-value="X">X</a>
+                                        <a href="javascript:;" data-value="Y">Y</a>
+                                        <a href="javascript:;" data-value="Z">Z</a>
+                                    </div>
+                                    <div class="fnClose"></div>
+                                </div> 
+                                <ul class="dropdown-place" id="smallPlace">
+                                    <li>
+                                        <em class="zimu"></em>
+                                        <div class="pl45">
+                                            <p class="fl sheng">直辖市</p>
+                                            <div class="fl shi"><a href="javascript:;">北京</a><a href="javascript:;">上海</a><a href="javascript:;">深圳</a><a href="javascript:;">重庆</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em class="zimu" id="smallRdA">A</em>
+                                        <div class="pl45">
+                                            <p class="fl sheng">安徽</p>
+                                            <div class="fl shi"><a href="javascript:;">安庆</a><a href="javascript:;">蚌埠</a><a href="javascript:;">滁州</a><a href="javascript:;">阜阳</a><a href="javascript:;">马鞍山</a><a href="javascript:;">六安</a><a href="javascript:;">宿州</a><a href="javascript:;">合肥</a><a href="javascript:;">石家庄</a><a href="javascript:;">安庆</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em class="zimu" id="smallRdF">F</em>
+                                        <div class="pl45">
+                                            <p class="fl sheng">福建</p>
+                                            <div class="fl shi"><a href="javascript:;">福州</a><a href="javascript:;">泉州</a><a href="javascript:;">厦门</a><a href="javascript:;">漳州</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em class="zimu" id="smallRdG">G</em>
+                                        <div class="pl45">
+                                            <p class="fl sheng">广东</p>
+                                            <div class="fl shi"><a href="javascript:;">东莞</a><a href="javascript:;">佛山</a><a href="javascript:;">广州</a><a href="javascript:;">惠州</a><a href="javascript:;">深圳</a><a href="javascript:;">粤东</a><a href="javascript:;">珠海</a><a href="javascript:;">中山</a><a href="javascript:;">江门</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em class="zimu" id="smallRdH">H</em>
+                                        <div class="pl45">
+                                            <p class="fl sheng">湖南</p>
+                                            <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em class="zimu" id="smallRdJ">J</em>
+                                        <div class="pl45">
+                                            <p class="fl sheng">湖南</p>
+                                            <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em class="zimu" id="smallRdL">L</em>
+                                        <div class="pl45">
+                                            <p class="fl sheng">湖南</p>
+                                            <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em class="zimu" id="smallRdN">N</em>
+                                        <div class="pl45">
+                                            <p class="fl sheng">湖南</p>
+                                            <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em class="zimu" id="smallRdQ">Q</em>
+                                        <div class="pl45">
+                                            <p class="fl sheng">湖南</p>
+                                            <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em class="zimu" id="smallRdS">S</em>
+                                        <div class="pl45">
+                                            <p class="fl sheng">湖南</p>
+                                            <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em class="zimu" id="smallRdX">X</em>
+                                        <div class="pl45">
+                                            <p class="fl sheng">湖南</p>
+                                            <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em class="zimu" id="smallRdY">Y</em>
+                                        <div class="pl45">
+                                            <p class="fl sheng">湖南</p>
+                                            <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em class="zimu" id="smallRdZ">Z</em>
+                                        <div class="pl45">
+                                            <p class="fl sheng">湖南</p>
+                                            <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group cf">
+                        <div class="pdName"><div class="formright"><em class="mainred">*</em> 留言：</div></div>
+                        <div class="col-md-5">
+                            <textarea class="form-control" rows="6" placeholder="请填写你想要的需求，字数限制100字以内"></textarea>
+                            <p class="mt5">
+                                <label class="checkbox-inline"><input type="checkbox" id="" value="">申请车贷</label>
+                                <label class="checkbox-inline"><input type="checkbox" id="" value="">考虑二手车</label>
+                                <label class="checkbox-inline"><input type="checkbox" id="" value="">考虑平行进口车</label>
+                                <label class="checkbox-inline"><input type="checkbox" id="" value="">考虑新车</label>
+                            </p>
+                        </div>
+                    </div>
+                     <div class="form-group cf">
+                        <div class="pdName"><div class="formright"><em class="mainred">*</em> 经销商推荐：</div></div>
+                        <div class="col-md-10">
+                           <p>奥迪经销商  江苏南京地区 </p>
+                           <ul class="stoList Distributor">
+                               <li>                         
+                                    <h3><span class="mainred">4S店</span><a href="javascript:;" class="fw">-江苏天奥汽车</a><span class="mainred">【推荐】</span></h3>
+                                    <p><span class="c999">促销：</span>江苏天奥汽车奥迪A4L优惠高达10.24万元</p>
+                                    <p><span class="c999">地址：</span>南京江宁区东麒路汽车4s园1号</p>
+                                    <p><span class="c999">电话：</span>4006063182</p>
+                                    <i class="current"></i>
+                               </li>
+                               <li>                         
+                                    <h3><span class="mainred">4S店</span><span class="fw">-江苏**汽车</span></h3>
+                                    <p><span class="c999">促销：</span>江苏天奥汽车奥迪A4L优惠高达10.24万元</p>
+                                    <p><span class="c999">地址：</span>南京江宁区***</p>
+                                    <p><span class="c999">电话：</span>4006063182</p>
+                                    <i></i>
+                               </li>
+                               <li>                         
+                                    <h3><span class="mainred">4S店</span><span class="fw">-江苏**汽车</span></h3>
+                                    <p><span class="c999">促销：</span>江苏天奥汽车奥迪A4L优惠高达10.24万元</p>
+                                    <p><span class="c999">地址：</span>南京江宁区***</p>
+                                    <p><span class="c999">电话：</span>4006063182</p>
+                                    <i></i>
+                               </li>
+                               <li>                         
+                                    <h3><span class="mainred">4S店</span><span class="fw">-江苏**汽车</span></h3>
+                                    <p><span class="c999">促销：</span>江苏天奥汽车奥迪A4L优惠高达10.24万元</p>
+                                    <p><span class="c999">地址：</span>南京江宁区***</p>
+                                    <p><span class="c999">电话：</span>4006063182</p>
+                                    <i></i>
+                               </li>
+                               <li>                         
+                                    <h3><span class="mainred">4S店</span><span class="fw">-江苏**汽车</span></h3>
+                                    <p><span class="c999">促销：</span>江苏天奥汽车奥迪A4L优惠高达10.24万元</p>
+                                    <p><span class="c999">地址：</span>南京江宁区***</p>
+                                    <p><span class="c999">电话：</span>4006063182</p>
+                                    <i></i>
+                               </li>
+                               <li>                         
+                                    <h3><span class="mainred">4S店</span><span class="fw">-江苏**汽车</span></h3>
+                                    <p><span class="c999">促销：</span>江苏天奥汽车奥迪A4L优惠高达10.24万元</p>
+                                    <p><span class="c999">地址：</span>南京江宁区***</p>
+                                    <p><span class="c999">电话：</span>4006063182</p>
+                                    <i></i>
+                               </li>
+                               <li>                         
+                                    <h3><span class="mainred">4S店</span><span class="fw">-江苏**汽车</span></h3>
+                                    <p><span class="c999">促销：</span>江苏天奥汽车奥迪A4L优惠高达10.24万元</p>
+                                    <p><span class="c999">地址：</span>南京江宁区***</p>
+                                    <p><span class="c999">电话：</span>4006063182</p>
+                                    <i></i>
+                               </li>
+                               <li>                         
+                                    <h3><span class="mainred">4S店</span><span class="fw">-江苏**汽车</span></h3>
+                                    <p><span class="c999">促销：</span>江苏天奥汽车奥迪A4L优惠高达10.24万元</p>
+                                    <p><span class="c999">地址：</span>南京江宁区***</p>
+                                    <p><span class="c999">电话：</span>4006063182</p>
+                                    <i></i>
+                               </li>
+                               <li>                         
+                                    <h3><span class="mainred">4S店</span><span class="fw">-江苏**汽车</span></h3>
+                                    <p><span class="c999">促销：</span>江苏天奥汽车奥迪A4L优惠高达10.24万元</p>
+                                    <p><span class="c999">地址：</span>南京江宁区***</p>
+                                    <p><span class="c999">电话：</span>4006063182</p>
+                                    <i></i>
+                               </li>
+                               <li>                         
+                                    <h3><span class="mainred">4S店</span><span class="fw">-江苏**汽车</span></h3>
+                                    <p><span class="c999">促销：</span>江苏天奥汽车奥迪A4L优惠高达10.24万元</p>
+                                    <p><span class="c999">地址：</span>南京江宁区***</p>
+                                    <p><span class="c999">电话：</span>4006063182</p>
+                                    <i></i>
+                               </li>
+                           </ul>
+                        </div>
+                    </div>
+                    <div class="form-group cf">
+                      <div class="pl100 col-md-8">
+                        <button type="submit" class="btn btn-like fz16">获取底价</button>
+                        <span class="fz12 c999 ml15">本车已有<em class="c666">222</em>人询价成功！（实际购车价格还有议价空间）</span>
+                      </div>
+                    </div>
+                </form>
+            </div>
+            <div class="poab">
+                <div class="canshuimgs"><img src="images/canshu.png" alt=""><span class="fw fz16 ml15">宝马3系</span></div>
+                <div class="bigPic mt10"><img src="images/bm.png" alt=""></div>
+                <div class="pza fz12 tc mt10 cf">
+                    <a href="javascript:;">图片</a>
+                    <a href="javascript:;">参数配置</a>
+                    <a href="javascript:;">优惠资讯</a>
+                    <a href="javascript:;">口碑</a>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<div class="inforWidth cf mt20">
+    <div class="tabTop cf">
+        <ul id="hotTab">
+            <li><a href="javascript:;" class="current">热门车系</a></li>
+            <li><a href="javascript:;">热门标签</a></li>
+            <li><a href="javascript:;">友情链接</a></li>
+        </ul>
+    </div>
+    <div class="hotTag mt10" id="hotTag">
+        <ul>
+            <li class="now">
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯福克斯福克斯福克斯福克斯</a>
+            </li>
+            <li>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+            </li>
+            <li>
+                <a href="javascript:;">111</a>
+                <a href="javascript:;">222</a>
+                <a href="javascript:;">333</a>
+                <a href="javascript:;">444</a>
+                <a href="javascript:;">111</a>
+                <a href="javascript:;">222</a>
+                <a href="javascript:;">333</a>
+                <a href="javascript:;">444</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="footer" id="footer">
+    <div class="footmenu">
+        <div class="container">
+            <div class="footLink tc"><a href="jieshao.html">网站介绍</a><a href="banquan.html">版权说明</a><a href="contact.html">联系我们</a><a href="shuoming.html">网站说明(xml)</a><span>广告服务：025-84260006  投稿热线：15301587888</span></div>
+        </div>
+    </div>   
+    <div class="container">
+        <div class="cf f-cleft mt20">
+            <div class="logo"></div>
+            <div class="f-cright">
+                <p>免责声明：本（栏目、频道等）内容由SP提供。欢迎大家对侵犯版权等不合法和不健康的内容进行监督和举报。</p>
+                <p>[增值电信业务经营许可证A2.B1.B2-20090001]&nbsp;[文网文[2008]053号]&nbsp;[国新网许可证：3212006005]&nbsp;<a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">[苏ICP备07021571号]</a></p>
+                <p>版权所有：中国电信股份有限公司南京分公司&nbsp;&nbsp;技术支持：江苏知能邮电通信技术有限公司</p>
+            </div>
+        </div>
+        <div class="f-pic mt15">
+            <a href="http://www.wenming.cn/" target="_blank"><img src="images/ft-img1.jpg" alt="中国文明网传播文明"></a>
+            <a href="http://www.cyberpolice.cn/wfjb/" target="_blank"><img src="images/ft-img2.jpg" alt="南京网络警察报警平台"></a>
+            <a href="http://www.cyberpolice.cn/wfjb/" target="_blank"><img src="images/ft-img3.jpg" alt="公安信息安全网络监察"></a>
+            <a href="http://www.miibeian.gov.cn/" target="_blank"><img src="images/ft-img4.jpg" alt="经营性网站备案信息"></a>
+            <a href="http://net.china.cn/" target="_blank"><img src="images/ft-img5.jpg" alt="不良信息举报中心"></a>
+        </div>
+    </div>
+</div>
+<!-- <script src="js/jquery.min.js"></script> -->
+<script src="js/bootstrap.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>
+

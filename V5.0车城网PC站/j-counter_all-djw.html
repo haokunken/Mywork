@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>金陵汽车</title>
+    <link href="css/common.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/v2.3counterA.css">
+    <!-- 新增 -->
+    <script src="js/jquery-1.9.1.min.js"></script>
+
+    <script type="text/javascript" src="js/calculate.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/xys.js"></script>
+    <link href="css/xys.css" rel="stylesheet">
+    <![endif]-->
+</head>
+<body>
+<!-- 头部 -->
+<div class="j_headerbg">
+    <div class="j_header">
+        <div class="j_header_topL">
+            <a href="">
+                <div class="j_header_img"></div>
+                <span class="j_header_img_shopqi">•&nbsp;&nbsp;购车计算器</span>
+            </a>
+        </div>
+        <div class="j_header_topR">
+            <form action="">
+                <input class="j_topsearch fl" type="text" value="请输入关键字">
+                <input class="j_topsearzi fr" type="submit" value="搜索">
+            </form>
+        </div>
+    </div>
+</div>
+<!-- 计算器部位 -->
+<input type="hidden" id="page-type" value="full">
+<div class="j_content">
+    <div class="j_cont_tab">
+        <a class="current" href="javascript:;">全款</a>
+        <a href="j-counter_loan-djw.html">贷款</a>
+        <a href="j-counter_insurance-djw.html">保险</a>
+    </div>
+    <div class="j_contC">
+        <div class="j_contC_top">
+            <span>选择车款</span>
+            <select>
+                <option value="">请选择品牌</option>
+                <option value="">宝马</option>
+                <option value="">奔驰</option>
+                <option value="">路虎</option>
+            </select>
+            <select>
+                <option value="">请选择车系</option>
+                <option value="">宝马</option>
+                <option value="">奔驰</option>
+                <option value="">路虎</option>
+            </select>
+            <select>
+                <option value="">请选择车型</option>
+                <option value="">宝马</option>
+                <option value="">奔驰</option>
+                <option value="">路虎</option>
+            </select>
+        </div>
+        <div class="j_contC_btm">
+            <span>裸车价格</span>
+            <input class="price" id="carPrice" type="text" maxlength="8" value=""
+                   onkeyup="this.value=this.value.replace(/[^0-9]/g,'')"
+                   onafterpaste="this.value=this.value.replace(/[^0-9]/g,'')">
+            <b>元</b>
+        </div>
+    </div>
+    <div class="j_fakong"></div>
+    <div class="j_NewzdjB">
+        <div class="j_Newzdj">
+            <span>全款购车价&nbsp;:&nbsp;</span>
+            <b><span class="total-price">0</span>元</b>
+        </div>
+    </div>
+    <div class="j_fakong"></div>
+    <div class="j_xmA">项目一：必要花费</div>
+    <div class="j_xmA1">
+        <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+            <tr>
+                <td class="j_xmA1_td1">购置税</td>
+                <td class="j_xmA1_td2"><input id="purchase" class="price need j_xyhf" type="text" name="" placeholder="0"
+                                              value="0" readonly><span>元</span></td>
+                <td class="j_xmA1_td3"></td>
+                <td class="j_xmA1_td4">购置税＝购车款/(1+17%)×购置税率(10%)</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="j_xmA2">
+        <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+            <tr>
+                <td class="j_xmA2_td1">上牌费</td>
+                <td class="j_xmA2_td2 j_jiabtm"><input id="license" class="price need" type="text" name=""
+                                                       placeholder="0"
+                                                       onkeyup="this.value=this.value.replace(/[^0-9]/g,'')"
+                                                       onafterpaste="this.value=this.value.replace(/[^0-9]/g,'')"
+                                                       value="0"><span>元</span></td>
+                <td class="j_xmA2_td3"></td>
+                <td class="j_xmA2_td4">不同地区上牌费用可能有所差异，可手动调节</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="j_xmA3">
+        <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+            <tr>
+                <td class=" j_xmA3_td1"><span>车船使用费</span></td>
+                <td class=" j_xmA3_td2"><input id="useTag" class="price need" type="text" name="" value="0"
+                                               ><span>元</span></td>
+                <td class=" j_xmA3_td3">
+                    <div class=" j_xmA3_td3_cots">
+                        <div class="j_xmA3_td3_radio">
+                            <input type="radio" name="useTag" class="radio-useTag" data-key="1"><span>1.0l（含）以下</span>
+                        </div>
+                        <div class="j_xmA3_td3_radio">
+                            <input type="radio" name="useTag" class="radio-useTag"
+                                   data-key="1.6"><span>1.0-1.6l（含）</span>
+                        </div>
+                        <div class="j_xmA3_td3_radio">
+                            <input type="radio" name="useTag" class="radio-useTag" checked
+                                   data-key="2.0"><span>1.6-2.0l（含）</span>
+                        </div>
+                        <div class="j_xmA3_td3_radio">
+                            <input type="radio" name="useTag" class="radio-useTag"
+                                   data-key="2.5"><span>2.0-2.5（含）</span>
+                        </div>
+                        <div class="j_xmA3_td3_radio">
+                            <input type="radio" name="useTag" class="radio-useTag"
+                                   data-key="3.0"><span>2.5-3.0l（含）</span>
+                        </div>
+                        <div class="j_xmA3_td3_radio">
+                            <input type="radio" name="useTag" class="radio-useTag"
+                                   data-key="4.0"><span>3.0-4.0l（含）</span>
+                        </div>
+                        <div class="j_xmA3_td3_radio">
+                            <input type="radio" name="useTag" class="radio-useTag" data-key="4.1"><span>4.0以上</span>
+                        </div>
+
+                    </div>
+                </td>
+                <td class=" j_xmA3_td4">
+                    <div class=" j_xmA2_td1_conts">各省不统一，以北京为例(单位/年)。<br/>1.0L(含)以下300元；1.0-1.6L(含)420元；<br/>1.6-2.0L(含)以下480元；2.0-2.5L(含)900元；<br/>2.5-3.0L(含)以下1,920元；3.0-4.0L(含)3,480元；<br/>4.0以上5,280元；不足一年按当年剩余月算。
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="j_xmA1 j_xmA4">
+        <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+            <tr>
+                <td class="j_xmA1_td1">交强险</td>
+                <td class="j_xmA1_td2"><input id="force" class="price need j_xyhf" type="text" name="" value="0" readonly>&nbsp;&nbsp;<span>元</span>
+                </td>
+                <td class="j_xmA1_td3">
+                    <div class="j_xmA3_td3_radio">
+                        <input type="radio" name="force" class="radio-force" data-key="5" checked><span>6座以下</span>
+                    </div>
+                    <div class="j_xmA3_td3_radio">
+                        <input type="radio" name="force" class="radio-force" data-key="6"><span>6座及以上</span>
+                    </div>
+                </td>
+                <td class="j_xmA1_td4">国家强制保险</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="j_xmA5">
+        <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+            <tr>
+                <td class="j_xmA5_td1">汇总</td>
+                <td class="j_xmA5_td2">必要花费共需要<span id="need-price">0</span>元</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="j_xmA j_xmB">项目三：商业保险</div>
+    <div class="j_xmB1">
+        <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+            <tr>
+                <td class="j_xmB1_td1">
+                    <div class="j_nei">
+                        <input class="checkbox-insurance" checked type="checkbox" name="" data-id="other"> 第三者责任险
+                    </div>
+                </td>
+                <td class="j_xmB1_td2">
+                    <div class="j_nei">
+                        <input id="other" class="price insurance j_xyhfM" type="text" name=""
+                               value="0">&nbsp;&nbsp;<span>元</span>
+                    </div>
+                </td>
+                <td class="j_xmB1_td3">
+                    <div class="j_xmB1_pcje">赔付金额</div>
+                    <div class="j_xmB1_radios">
+                        <div class="j_xmB1_radio">
+                            <input type="radio" name="other" class="radio-other" data-key="5">
+                            <span>5万</span>
+                        </div>
+                        <div class="j_xmB1_radio">
+                            <input type="radio" name="other" class="radio-other" data-key="10" checked>
+                            <span>10万</span>
+                        </div>
+                        <div class="j_xmB1_radio">
+                            <input type="radio" name="other" class="radio-other" data-key="20">
+                            <span>20万</span>
+                        </div>
+                        <div class="j_xmB1_radio">
+                            <input type="radio" name="other" class="radio-other" data-key="50">
+                            <span>50万</span>
+                        </div>
+                        <div class="j_xmB1_radio">
+                            <input type="radio" name="other" class="radio-other" data-key="100">
+                            <span>100万</span>
+                        </div>
+                        <div class="j_clear"></div>
+                    </div>
+                </td>
+                <td class="j_xmA1_td4">
+                    <div class="j_nei">
+                        第三者责任险
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="j_xmB2">
+        <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+            <tr>
+                <td class="j_xmA1_td1"><input class="checkbox-insurance" checked type="checkbox" name=""
+                                              data-id="carDestroy">车辆损失险
+                </td>
+                <td class="j_xmA1_td2"><input id="carDestroy" class="price insurance j_xyhf" type="text" name="" value="0"
+                                              readonly>&nbsp;&nbsp;<span>元</span></td>
+                <td class="j_xmA1_td3"></td>
+                <td class="j_xmA1_td4">基础保费+裸车价格*1.088%</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="j_xmB2">
+        <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+            <tr>
+                <td class="j_xmA1_td1"><input class="checkbox-insurance" checked type="checkbox" name=""
+                                              data-id="carSteal">全车盗抢险
+                </td>
+                <td class="j_xmA1_td2"><input id="carSteal" class="price insurance j_xyhf" type="text" name="" value="0">&nbsp;&nbsp;<span>元</span>
+                </td>
+                <td class="j_xmA1_td3"></td>
+                <td class="j_xmA1_td4">基础保费+裸车价格*费率</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="j_xmB2">
+        <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+            <tr>
+                <td class="j_xmA1_td1"><input class="checkbox-insurance " checked type="checkbox" name=""
+                                              data-id="carGlass"/>玻璃单独破碎险
+                </td>
+                <td class="j_xmA1_td2"><input id="carGlass" class="price insurance j_xyhf" type="text" name="" value="0">&nbsp;&nbsp;<span>元</span>
+                </td>
+                <td class="j_xmA1_td3">
+                    <div class="j_xmA3_td3_radio">
+                        <input type="radio" name="carGlass" class="radio-carGlass" data-key="import"><span>进口</span>
+                    </div>
+                    <div class="j_xmA3_td3_radio">
+                        <input type="radio" name="carGlass" class="radio-carGlass" data-key="domestic"
+                               checked><span>国产</span>
+                    </div>
+                </td>
+                <td class="j_xmA1_td4">进口车：裸车价*0.25%； 国产车：裸车价*0.15%</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="j_xmB2">
+        <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+            <tr>
+                <td class="j_xmA1_td1"><input class="checkbox-insurance" checked type="checkbox" name="" data-id="fire">自燃损失险
+                </td>
+                <td class="j_xmA1_td2"><input id="fire" class="price insurance j_xyhf" type="text" name="" value="0" readonly>&nbsp;&nbsp;<span>元</span>
+                </td>
+                <td class="j_xmA1_td3"></td>
+                <td class="j_xmA1_td4">新车购置价×0.15%</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="j_xmB2">
+        <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+            <tr>
+                <td class="j_xmA1_td1"><input class="checkbox-insurance" checked type="checkbox" name="" data-id="ext"/>不计免赔特约险
+                </td>
+                <td class="j_xmA1_td2"><input id="ext" class="price insurance j_xyhf" type="text" name="" value="0" readonly>&nbsp;&nbsp;<span>元</span>
+                </td>
+                <td class="j_xmA1_td3"></td>
+                <td class="j_xmA1_td4">(车辆损失险+第三者责任险)×20%</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="j_xmA2">
+        <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+            <tr>
+                <td class="j_xmA2_td1"><input class="checkbox-insurance " checked type="checkbox" name=""
+                                              data-id="noDuty">无过责任险
+                </td>
+                <td class="j_xmA2_td2"><input id="noDuty" class="price insurance j_daikN" type="text" name=""
+                                              value="0"<span>元</span></td>
+                <td class="j_xmA2_td3"></td>
+                <td class="j_xmA2_td4">第三者责任险保险费×20%</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="j_xmA2">
+        <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+            <tr>
+                <td class="j_xmA1_td1"><input class="checkbox-insurance" checked type="checkbox" name=""
+                                              data-id="people"/>车上人员责任险
+                </td>
+                <td class="j_xmA1_td2"><input id="people" class="price insurance j_xyhf j_daik" type="text" name="" value="0">&nbsp;&nbsp;<span>元</span>
+                </td>
+                <td class="j_xmA2_td3"></td>
+                <td class="j_xmA2_td4">每人保费50元，可根据车辆的实际座位数填写</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="j_xmB2 j_xmB2_gai">
+        <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+            <tr>
+                <td class="j_xmA1_td1"><input class="checkbox-insurance" checked type="checkbox" name=""
+                                              data-id="carScratch">车身划痕险
+                </td>
+                <td class="j_xmA1_td2"><input id="carScratch" class="price insurance j_xyhf" type="text" value="0" readonly>&nbsp;&nbsp;<span>元</span>
+                </td>
+                <td class="j_xmA1_td3">
+                    <div class="j_xmB1_radios">
+                        <div class="j_xmB1_radio">
+                            <input type="radio" name="carScratch" class="radio-carScratch" data-key="2000" checked>
+                            <span>2千</span>
+                        </div>
+                        <div class="j_xmB1_radio">
+                            <input type="radio" name="carScratch" class="radio-carScratch" data-key="5000">
+                            <span>5千</span>
+                        </div>
+                        <div class="j_xmB1_radio">
+                            <input type="radio" name="carScratch" class="radio-carScratch" data-key="10000">
+                            <span>1万</span>
+                        </div>
+                        <div class="j_xmB1_radio">
+                            <input type="radio" name="carScratch" class="radio-carScratch" data-key="20000">
+                            <span>2万</span>
+                        </div>
+                        <div class="j_clear"></div>
+                    </div>
+                </td>
+                <td class="j_xmA1_td4">车身划痕险</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="j_xmA5">
+        <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+            <tr>
+                <td class="j_xmA5_td1">汇总</td>
+                <td class="j_xmA5_td2">商业保险共需要<span id="insurance-price">0</span>元</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="j_fakong"></div>
+    <div class="j_xcbxpice">
+        <span>全款购车价：</span>
+        <b><span class="total-price">0</span>元</b>
+    </div>
+    <div class="j_fakong"></div>
+</div>
+<div class="j_footerbg">
+    <div class="j_footer j_footerbo">
+        <a href="">公司简介</a><span>|</span>
+        <a href="">联系我们</a><span>|</span>
+        <a href="">诚聘英才</a><span>|</span>
+        <a href="">免责声明</a><span>|</span>
+        <a href="">商务合作</a><span>|</span>
+        <a href="">意见反馈</a><span>|</span>
+        <a href="">手机版</a>
+    </div>
+</div>
+<script>
+    $().ready(function () {
+        var price = parseInt($('#carPrice').getPrice());
+        dealPrice(price);
+        calculatePrice(price);
+    });
+
+    $('.price').keyup(function () {
+        var price = parseInt($('#carPrice').getPrice());
+        dealPrice(price);
+        calculatePrice(price);
+
+    });
+    $('input[type=radio]').click(function () {
+        var price = parseInt($('#carPrice').getPrice());
+        dealPrice(price);
+        calculatePrice(price);
+    });
+    $('.checkbox-insurance').click(function () {
+        var price = parseInt($('#carPrice').getPrice());
+        dealPrice(price);
+        //没有第三者责任险不可以计算
+        if ($('input[data-id=other]').is(':checked')) {
+            $('input[data-id=ext]').attr('disabled', false);
+            $('input[data-id=noDuty]').attr('disabled', false);
+        } else {
+            $('input[data-id=ext]').removeAttr('checked');
+            $('input[data-id=noDuty]').removeAttr('checked');
+            $('input[data-id=ext]').attr('disabled', 'disabled');
+            $('input[data-id=noDuty]').attr('disabled', 'disabled');
+        }
+        //车辆损失险
+        if ($('input[data-id=carDestroy]').is(':checked')) {
+            $('input[data-id=carSteal]').attr('disabled', false);
+            $('input[data-id=carGlass]').attr('disabled', false);
+            $('input[data-id=ext]').attr('disabled', false);
+            $('input[data-id=carScratch]').attr('disabled', false);
+            $('input[data-id=fire]').attr('disabled', false);
+        } else {
+            $('input[data-id=carSteal]').removeAttr('checked');
+            $('input[data-id=carGlass]').removeAttr('checked');
+            $('input[data-id=ext]').removeAttr('checked');
+            $('input[data-id=carScratch]').removeAttr('checked');
+            $('input[data-id=fire]').removeAttr('checked');
+            $('input[data-id=carSteal]').attr('disabled', 'disabled');
+            $('input[data-id=carGlass]').attr('disabled', 'disabled');
+            $('input[data-id=ext]').attr('disabled', 'disabled');
+            $('input[data-id=carScratch]').attr('disabled', 'disabled');
+            $('input[data-id=fire]').attr('disabled', 'disabled');
+        }
+        $('.checkbox-insurance').each(function () {
+            if (!$(this).is(':checked')) {
+                $("#" + $(this).attr('data-id')).attr('value', 0);
+            }
+        });
+        calculatePrice(price);
+    });
+    function calculatePrice(price) {
+        if (price == 0 || isNaN(price)) {
+            return false;
+        }
+        var total_price = 0;
+        var insurance_price = 0;
+        var need_price = 0;
+        $('.need').each(function () {
+            if (!isNaN(parseInt($(this).getPrice()))) {
+                need_price += parseInt($(this).getPrice());
+            }
+        });
+        $('.checkbox-insurance').each(function () {
+            if ($(this).is(':checked') && !isNaN(parseInt($("#" + $(this).attr('data-id')).getPrice()))) {
+                insurance_price += parseInt($("#" + $(this).attr('data-id')).getPrice());
+            }
+        });
+        total_price = price + insurance_price + need_price;
+
+        var a = 0;
+        if ($('#page-type').val() == 'loan') {
+            var first_pay = parseInt($('#first-pay').getPrice());
+            var month = parseInt($('#loan-return-month').val());
+            a = calculateLoanPrice(price, first_pay, month);
+            total_price += a;
+            $('#first-pay-final').changeFormat(insurance_price + need_price + first_pay);
+        }
+
+        $('#total-price').changeFormat(total_price);
+        $('#need-price').changeFormat(need_price);
+        $('#insurance-price').changeFormat(insurance_price);
+
+        if (price > 0) {
+            $('.total-price').changeFormat(total_price);
+        }
+    }
+
+    function calculateLoanPrice(price, first_pay, month) {
+        if (0 == month) {
+            return false;
+        }
+        var loan_price = price - first_pay;//贷款总数
+        var total_return = 0;//还款总数
+        var year_percent = 0; //年利率
+        var month_payment = 0;//月供
+        var interest = 0;//利息
+
+        if (12 == month) {
+            year_percent = 0.0435;
+        } else {
+            year_percent = 0.0475;
+        }
+        month_payment = parseInt(loan_price * year_percent / 12 * Math.pow((1 + year_percent / 12), month) / (Math.pow(1 + year_percent / 12, month) - 1));
+        total_return = month_payment * month;
+        interest = total_return - loan_price;
+
+        $('.loan-return-month').changeFormat(month);
+        $('#loan-price').setPrice(loan_price);
+        $('.month-pay').changeFormat(month_payment);
+        $('.first-pay').changeFormat(first_pay);
+
+        return interest;
+    }
+
+    function dealPrice(price) {
+        if (price == 0 || isNaN(price)) {
+            $('.price').attr('value', 0);
+            $('#carPrice').attr('value', '');
+            $('#total-price').html(0);
+            $('#need-price').html(0);
+            $('#insurance-price').html(0);
+            return false;
+        }
+        var k = 0;
+        if ($('#page-type').val() == 'loan') {
+            var first_pay = 0;
+            var month = 0;
+            var year = 0;
+            $('input[name=first-pay-radio]').each(function () {
+                if ($(this).is(':checked')) {
+                    k = parseInt($(this).attr('data-key'));
+                }
+            });
+            if (k == 0) {
+                $('#first-pay').removeAttr('readonly');
+            } else {
+                first_pay = parseInt(price * k / 100);
+                $('.first-pay').setPrice(first_pay);
+                $('#first-pay').attr('readonly', 'readonly');
+
+            }
+
+            $('input[name=month]').each(function () {
+                if ($(this).is(':checked')) {
+                    month = parseInt($(this).attr('data-key'));
+                }
+            });
+
+            $('#loan-return-month').setPrice(month);
+        }
+        var needprice = new NeedPrice(price);
+        var index = 0;
+        $('.radio-other').each(function () {
+            if ($(this).is(':checked')) {
+                index = $(this).attr('data-key');
+            }
+        });
+        $('#purchase').setPrice(needprice.purchase);
+        if (parseInt($('#license').getPrice()) == 0) {
+            $('#license').setPrice(needprice.license);
+        }
+        var key = 0;
+        var key1 = 0;
+        var key2 = '';
+        $('.radio-useTag').each(function () {
+            if ($(this).is(':checked')) {
+                key = parseFloat($(this).attr('data-key'));
+            }
+        });
+        $('#useTag').setPrice(needprice.useTag[key]);
+        $('.radio-force').each(function () {
+            if ($(this).is(':checked')) {
+                key1 = $(this).attr('data-key');
+            }
+        });
+        $('#force').setPrice(needprice.force[key1]);
+        var insurance = new Insurance(price, index, key1);
+        $('#other').setPrice(insurance.other);
+        $('#carDestroy').setPrice(insurance.carDestroy);
+        $('#carSteal').setPrice(insurance.carSteal);
+        $('.radio-carGlass').each(function () {
+            if ($(this).is(':checked')) {
+                key2 = $(this).attr('data-key');
+            }
+        });
+        $('#carGlass').setPrice(insurance.carGlass[key2]);
+        $('#fire').setPrice(insurance.fire);
+        $('#ext').setPrice(insurance.ext);
+        $('#noDuty').setPrice(insurance.noDuty);
+        $('.radio-carScratch').each(function () {
+            if ($(this).is(':checked')) {
+                key = $(this).attr('data-key');
+            }
+        });
+        $('#carScratch').setPrice(insurance.carScratch[key]);
+    }
+</script>
+
+
+
+</body>
+</html>
+

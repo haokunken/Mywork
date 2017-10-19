@@ -1,0 +1,156 @@
+.topMinekind{height: 20px;line-height: 20px;margin-top: 3px;}
+.cjHome{background: url(../../../common/car/images/home.png) no-repeat center; width: 12px; height: 12px;display: inline-block;margin-right: 5px;}
+.topMinekind a{font-size: 12px;color: #666;}
+.topMinekind>a+a:before{padding: 0 18px 0 12px;color: #d4d4d4;content:"|";font-family: "宋体";font-size: 10px;}
+.topMinekind a:hover{color: #0082a0}
+.pr{position: relative;}
+.topGrey {background: #eee;height: 37px;}
+.inforWidth {width: 1200px;margin-right: auto;margin-left: auto;}
+.indexWel {color: #666;font-size: 12px;line-height: 26px;padding-left: 10px;}
+.topWord a{font-size: 12px;color: #666;line-height: 35px;}
+.topWord>a+a:before{padding: 0 18px 0 12px;color: #d4d4d4;content:"|";font-family: "宋体";font-size: 10px;}
+.topWord a:hover{color: #0082a0}
+.logo img{width: 324px; height: 60px;}
+.menu{height: 60px;line-height: 60px;}
+.menu a{color: #fff;font-size: 16px;padding: 0 17px;line-height:60px;display: block;float: left;margin-left:17px;}
+.topHead{background: #0082a0;height: 60px;}/*menu背景改变颜色*/
+.menu a.current{background: #1198ba;}/*menu当前状态改变颜色*/
+.fastNum a:hover{background: #0082a0;color: #fff;}
+.shi a:hover{color:#0082a0;}
+@media (max-width: 1366px) {.inforWidth{width: 1050px;}}
+.topWordLeft a{line-height: 26px;}
+.topWordLeft>a+a:before{padding: 0 10px 0 8px;}
+
+/*蓝色版*/
+a:hover{text-decoration: underline;color: #0082a0}
+.menu a:hover{color: #fff;}
+.canshu a:hover,.listKindWord .carname:hover,.topWord a:hover,.ThreeTit em,.alist a:hover,.ThreeTit em,.changeList ul li .canshu-new a:hover,.rightTop-new h2,.pageState span,.indexTop-new h2,.phbkind-new .phb-top{color:#0082a0;}
+
+.topHead,.btn-like:hover,.minPrice2 .btn-like:hover,.askpr:hover,.ztBtn:hover{background: #0082a0;}
+.page_box .page_now a{background:#0082a0;border: 1px solid #0082a0;}
+.page_box .page_now a:hover{background:#0082a0;}
+.cheTab li.now,.artTab li a.now{color: #0082a0;border-color:#0082a0;}
+.listTab a.now{color: #0082a0;border-bottom: 1px solid #0082a0;}
+.tabMenu li a.current{background: #fff;border-top: 2px solid #0082a0;}
+.twoTit h2{border-left: 3px solid #0082a0;}
+.btn-like{border-radius: 2px;background: #0082a0;}
+.zhuantiForm .btn-like,.listmenu li a{color: #0082a0;border: 1px solid #0082a0;}
+.zhuantiForm .btn-like:hover,.minPrice2 .btn-like,.rxcx-top,.indexTop-new h2:after,.fastNum a:hover,.duibi,.listmenu li a.current,.canshulist .fourKind.current, .canshulist .fourKind:hover,.askpr,.ztBtn,.lbms:hover,.rightTop-new h2:after{background: #0082a0;}
+.kind .rightlist a.current{background: #0082a0;color: #fff;}
+.secaiKind .rightlist a.current,.secaiKind .rightlist a.current span {background: none;color: #0082a0;font-weight: bold;}
+.tabTop li a.current,.canshuMenu li a.current{border-top: 2px solid #0082a0;}
+.tagCloudOverflow li :hover,.followBox li a.on{background: #0082a0;border-color:#0082a0 }
+.hotSeaLeft li a.current{color: #0082a0;border-left: 2px solid #0082a0;}
+.table-head tr.first td .btnNum:hover{background-color: #0082a0;}
+.followBox li a.on:after{border-left: 16px solid #0082a0;}
+.oneTit{border-bottom: 3px solid #0082a0;}
+.letter-list li.current a{background: #0082a0;border: 1px solid #0082a0;}
+.letter-list li:hover a{border: 1px solid #0082a0}
+.treemenu .toggler,.tree li .current{color: #0082a0;}
+.tree li a.active:hover {color:#0082a0;}
+.minPrice2 .btn-like{color: #fff;}
+.minPrice2 .btn-like:hover{background: #0082a0;}
+.dijiao{color: #0082a0}
+.minPrice2{border-left: #0082a0 2px solid;}
+.duibiFix .contrast.on a{background: #0082a0;}
+.pk02,.ewmsys{border-top: 2px solid #0082a0;}
+.selectCar .jrcomm{border: 1px solid #0082a0;color: #0082a0;}
+.selectCar .jrcomm:hover{background:#0082a0;}
+.kantu:hover{background: #0082a0;color: #fff;}
+.ktwordList i,.new_banner .rslides_tabs .rslides_here a,.numberUl li.night{background: #0082a0;}
+.ktwordList li a:hover b,.openBtn .font-number,.table-head tr .price{color:#0082a0 }
+.icon-new{background: url(../../../common/car/images/qiche-blue.png) no-repeat center;}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active,.priceBnenr .rslides_tabs .rslides_here a{background: #0082a0}
+.modCar .listBox img:hover,.modCar .listBox .on img{border:3px solid #0082a0;}
+.table-head tr.first td .interchang li a {background: url(../../../common/car/images/compare-peacock-blue.png) center no-repeat;}
+.table-style > tbody > tr:hover td{border-top:1px solid #0082a0;}
+.tableLink a:hover:hover{color:#0082a0}
+.table-style > tbody > tr:hover{border: 1px solid #0082a0;background-color: #f9fdff;}
+.table-style > tbody > tr:hover .tableDuibi{border-color: #0082a0;background: #f9fdff;color: #0082a0}
+.tableDuibi .duibiIcon{background: url(../../../common/car/images/jiaduibi-peacock-blue.png) no-repeat center;}
+.repChoose a.current,.repChoose a:hover{border-color:#0082a0;}
+.repChoose a.current:after{content: "";background: url(../../../common/car/images/on-peacock-blue.png) no-repeat center;}
+.icon-new{background: url(../../../common/car/images/index-new/qiche-peacock-blue.png) no-repeat center;}
+/*资讯新增*/
+.newsdH{border-bottom: 2px solid #0082a0;}
+.newsdH li a.current{background: #0082a0;}
+.newsWord h5{color: #0082a0;}
+.newsBanner .rslides_tabs .rslides_here a{background: #0082a0;}
+
+/*v2.1*/
+.menuBox{background: #0082a0}
+.canshuMenu{border-left: 1px solid #118eab;border-right: 1px solid #01738e;}
+.canshuMenu li a {border-left: 1px solid #01738e;border-right: 1px solid #118eab;}
+.input-new{border: 1px solid #0082a0;}
+.ss-new{background: #0082a0;}
+.ss-new:hover{background: #0082a0;}
+.y_showstscx:hover .ztjiantou-new{background-color:#0082a0;}
+.active-new .zhuantiForm .btn-like{border: 1px solid #eb2e3b;}
+.cx-newRight .zhuantiForm .btn-like{border: 1px solid #0082a0;}
+.cx-newRight .btn-like{background: #0082a0;color: #fff;}
+.xdjThree a {color: #0082a0;border: 1px solid #0082a0;}
+.xdjThree a:hover{background: #0082a0}
+.priceProvince li.current a {color: #fff;background-color: #0082a0;}
+.selectcityCity ul li.current a {background-color: #0082a0;}
+.stopDuibi:hover {border-color: #0082a0}
+.canshuimg .j_gcjsq_span,.j_jsqA2 p,.j_jsqA3 span{color: #0082a0;}
+.j_mouthLB_CL ul .j_mouthLB_CLmr{background: #0082a0}
+.j_mouthLA_fr ul .j_mouthLA_frmr span,.j_mouthLD ul .j_mouthLDmr a{color: #0082a0;border-bottom: 1px solid #0082a0;}
+.j_mouthLB_CR ul .j_mouthLB_CRe a{background: #0082a0;}
+.j_mouthLA h2{border-left: 3px solid #0082a0;}
+.j_view_top h2{border-left: 3px solid #0082a0;}
+
+.headerCity.active .cityName,.zhixiashi span, .zhixiashi a{color: #0082a0}
+.headerCity.active .caretNew{color: #0082a0;}
+.searchBox .search,.searchMini-content{border: 1px solid #0082a0; }
+.y_topicB ul li p:hover{color: #0082a0;}
+.csName a:hover,.fastSea a:hover{color: #0082a0;}
+.ccTop-new a:hover{color: #0082a0}
+.checkBtn-new a.queding{border-color: #0082a0;color: #0082a0}
+.checkBtn-new a.queding:hover{background: #0082a0}
+.breadStyle a:hover{color: #0082a0}
+/*下划线处理*/
+.xbtjSPc a:hover p{text-decoration:none;}
+/*.topWord>a+a:before:hover{text-decoration: none;}*/
+
+/**/
+.new-header .cityCho .city-now{color: #0082a0;}
+.new-header .cityCho .caret-fff{color:#0082a0 }
+.new-header .searchBox .search{border: 1px solid #0082a0; }
+.new-header .zhixiashi span,.zhixiashi a{color: #0082a0}
+.new-header .new-menu a.current,.new-header .new-menu a:hover{color: #0082a0}
+.new-header .searchMini-content{border: 1px solid #0082a0;}
+.new-header .sousuo{background: url(../../../common/car/images/gw-sousuo.png) no-repeat center;width: 31px;height: 26px;}
+.new-header .zhixiashi span, .new-header .zhixiashi a{color:#0082a0}
+
+/*品牌页*/
+.kind02 .caricon-list .current span{background: #0082a0;border-color: #0082a0;}
+.irs-from, .irs-to, .irs-single{background: #0082a0}
+.irs-line-mid,
+.irs-line-left,
+.irs-line-right,
+.irs-diapason,
+.irs-slider {background: url(../../../common/car/images/peacock-sprite-skin-flat.png) repeat-x;}
+.irs {height: 40px;}
+.irs-with-grid {height: 60px;}
+.irs-line {height: 10px;top: 25px;cursor: pointer;}
+.irs-line-left {height: 10px;background-position: 0 -30px;}
+.irs-line-mid {height: 10px;background-position: 0 0;}
+.irs-line-right {height: 10px;background-position: 100% -30px;}
+.irs-diapason {height: 6px;top: 27px;background-position: 0 -60px;z-index: 2;cursor: pointer;}
+.irs-slider {width: 18px;height: 18px;top: 20px;background-position: -9px -90px;cursor: pointer;}
+.irs-from:after, .irs-to:after, .irs-single:after{border-top-color: #0082a0}
+.kind02 .ullist a.current {background: #0082a0;}
+.morekind{color: #0082a0;}
+.morekind:hover{border-color: #0082a0;}
+.jiantou{border-color: #0082a0 #fff;}
+.base-brand .tab-nav a.current{background: #0082a0;border-color: #0082a0;}
+.base-brand .tit h2{border-left: 3px solid #0082a0;}
+.brandLetter a.current,.numgrey{color: #0082a0;}
+.brandTit .curConditions li a{border: 1px solid #0082a0;color: #0082a0;}
+.brandTit .curConditions li i{background: url(../../../common/car/images/peacock-del.png) no-repeat center;}
+.sug_form .sug-control{border:1px solid #0082a0;}
+.sug_form .sug_submit{background: #0082a0;}
+.brand-letters a:hover{color:#0082a0;}
+.curConditions li a{color: #0082a0;border: 1px solid #0082a0;}
+.curConditions li i{background: url(../../../common/car/images/peacock-del.png) no-repeat center;}

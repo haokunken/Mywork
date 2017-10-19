@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<meta name="applicable-device" content="pc,mobile">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>金陵汽车</title>
+<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="css/simple-line-icons.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/common.css" rel="stylesheet" media="screen">
+<link href="css/zhuanti.css" rel="stylesheet" media="screen">
+<!-- 新增 -->
+<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="js/Yeffect16_0627.min.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+<!--[if lt IE 9]>
+  <script src="js/xys.js"></script>
+  <link href="css/xys.css" rel="stylesheet" >
+<![endif]-->
+</head>
+<body>
+<div class="topBox cf">
+    <div class="topGrey">
+        <div class="inforWidth">
+            <div class="indexWel fl">
+                <span>您好！欢迎来到车城社</span>
+            </div>
+            <div class="topWord fr">
+                <a href="javascript:;">首页</a>
+                <a href="javascript:;">新闻</a>
+                <a href="javascript:;">汽车</a>
+                <a href="javascript:;">教育</a>
+                <a href="javascript:;">旅游</a>
+                <a href="javascript:;">财经</a>
+                <a href="javascript:;">房产</a>
+                <a href="javascript:;">生活</a>
+                <a href="javascript:;">爆料</a>
+            </div>
+        </div>
+    </div>
+    <div class="topHead">
+        <div class="inforWidth">
+            <div class="pr">
+                <div class="logo fl"><a href=""><img src="images/logo-xin.jpg" alt="金陵汽车"></a></div>
+                <div class="city indexcity">
+                    <div class="change indexchange" data-toggle="dropdown"><span>南京</span><b class="caret caret-first"></b></div>
+                    <div class="dropdown-menu dropdown-place-height">
+                        <div class="stopP">
+                            <div class="fastNum cf" id="mainFn">
+                                <a href="javascript:;" data-value="A">A</a>
+                                <a href="javascript:;" data-value="F">F</a>
+                                <a href="javascript:;" data-value="G">G</a>
+                                <a href="javascript:;" data-value="H">H</a>
+                                <a href="javascript:;" data-value="J">J</a>
+                                <a href="javascript:;" data-value="L">L</a>
+                                <a href="javascript:;" data-value="N">N</a>
+                                <a href="javascript:;" data-value="Q">Q</a>
+                                <a href="javascript:;" data-value="S">S</a>
+                                <a href="javascript:;" data-value="X">X</a>
+                                <a href="javascript:;" data-value="Y">Y</a>
+                                <a href="javascript:;" data-value="Z">Z</a>
+                            </div>
+                            <div class="fnClose"></div>
+                        </div>                       
+                        <ul class="dropdown-place" id="fastroad">
+                            <li>
+                                <em class="zimu"></em>
+                                <div class="pl45">
+                                    <p class="fl sheng">直辖市</p>
+                                    <div class="fl shi"><a href="javascript:;">北京</a><a href="javascript:;">上海</a><a href="javascript:;">深圳</a><a href="javascript:;">重庆</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeA">A</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">安徽</p>
+                                    <div class="fl shi"><a href="javascript:;">安庆</a><a href="javascript:;">蚌埠</a><a href="javascript:;">滁州</a><a href="javascript:;">阜阳</a><a href="javascript:;">马鞍山</a><a href="javascript:;">六安</a><a href="javascript:;">宿州</a><a href="javascript:;">合肥</a><a href="javascript:;">石家庄</a><a href="javascript:;">安庆</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeF">F</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">福建</p>
+                                    <div class="fl shi"><a href="javascript:;">福州</a><a href="javascript:;">泉州</a><a href="javascript:;">厦门</a><a href="javascript:;">漳州</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeG">G</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">广东</p>
+                                    <div class="fl shi"><a href="javascript:;">东莞</a><a href="javascript:;">佛山</a><a href="javascript:;">广州</a><a href="javascript:;">惠州</a><a href="javascript:;">深圳</a><a href="javascript:;">粤东</a><a href="javascript:;">珠海</a><a href="javascript:;">中山</a><a href="javascript:;">江门</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeH">H</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeJ">J</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeL">L</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeN">N</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeQ">Q</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeS">S</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeX">X</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeY">Y</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeZ">Z</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu fr">
+                    <a href="javascript:;" class="current">汽车首页</a>
+                    <a href="javascript:;">新闻</a>
+                    <a href="javascript:;">报价</a>
+                    <a href="javascript:;">图片</a>
+                    <a href="javascript:;">车型对比</a>
+                    <a href="javascript:;">口碑</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="inforWidth mt20 cf"><div class="gg03"><a href="javascript:;"><img src="images/gg03.png" alt="" width="1200"></a></div></div>
+<div class="inforWidth mt15 cf">
+    <div class="breadStyle fl">
+        <span>当前位置：</span><a href="javascript:;">首页</a> &gt; <a href="javascript:;">中型车</a> &gt; <a href="javascript:;">大众</a> &gt; <a href="javascript:;" class="disabled">一汽大众 </a>
+    </div>
+</div>
+<div class="inforWidth mt15 cf">
+    <div class="ztTop-new cf">
+        <div class="fl">
+            <div class="fl canshuimg"><img src="images/canshu.png" alt=""></div>
+            <div class="fl canshuTit ml15"><span>一汽大众</span></div>
+            <div class="fl canshuXing">2016款 328i xDrive M运动型</div>
+        </div>
+        <div class="fr">
+            <div class="sousuo-new mt10">
+                <input type="text" class="input-new"placeholder="请输入关键字">
+                <input type="submit" class="ss-new" value="搜车">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt15">
+	<div class="menuBox">
+		<ul class="canshuMenu fl">
+			<li><a href="javascript:;">首页</a></li>
+			<li><a href="javascript:;">参数配置</a></li>
+			<li><a href="javascript:;">图片</a></li>
+			<li><a href="javascript:;">报价</a></li>
+			<li><a href="javascript:;" class="current">口碑</a></li>
+			<li><a href="javascript:;" class="l_noclick">车型详解</a></li>
+		</ul>
+		<a href="javascript:;" class="xunjia fr"><i class="xjIcon"></i>询价</a>	
+	</div>
+</div>
+<!-- 新版口碑 -->
+<div class="j_mouth">
+    <div class="j_mouthL fl">
+
+        <!-- 一汽-大众-高尔夫  口碑 -->
+        <div class="j_mouthLC">
+           <div class="j_mouthLA">
+                <div class="j_mouthLA_h2 fl"><h2>一汽-大众-高尔夫  口碑 </h2></div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!-- 全部    最满意    最不满意    空间    动力    操控    油耗    舒适性    外观    内饰    性价比  -->
+        <div class="j_mouthLD">
+            <ul>
+                <li class="j_mouthLDmr"><a href="" title="">全部</a></li>
+                <li><a href="" title="">最满意</a></li>
+                <li><a href="" title="">最不满意</a></li>
+                <li><a href="" title="">空间</a></li>
+                <li><a href="" title="">动力</a></li>
+                <li><a href="" title="">操控</a></li>
+                <li><a href="" title="">油耗</a></li>
+                <li><a href="" title="">舒适性</a></li>
+                <li><a href="" title="">外观</a></li>
+                <li><a href="" title="">内饰</a></li>
+                <li><a href="" title="">性价比</a></li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+        <!-- 车系信息 -->
+        <div class="j_mouthLE">
+            <div class="j_mouthLEL fl">
+                <img src="images/j_08.jpg" alt="" class="j_mouthLELimg fl" />
+                <div class="j_mouthLELa"><p>2015款 经典 2.4L 自动领先版</p></div>
+                <div class="j_mouthLELb"><i><em style="width:90%;"></em></i><font>4.08分</font><span>(189人参与)</span></div>
+                <div class="j_mouthLELc">厂商指导价：<font>12.08-18.49</font>万</div>
+            </div>
+            <img src="images/j_09.jpg" alt="" class="j_mouthLEcen fl">
+            <div class="j_mouthLER fl">
+                <div class="j_mouthLER_top">
+                    <a href="javascript:void(0)" title="" class="j_mouthLER_topmr">1.2L</a>
+                    <a href="javascript:void(0)" title="">1.2L</a>
+                </div>
+                <div class="j_mouthLER_cen">
+                    <ul>
+                        <li><font>[ 手动 ]</font> 平均油耗 <font style="font-size:16px; font-weight: bold;">7</font> L/100KM <span>（71人平均值）</span> </li>
+                    </ul>
+                </div>
+                <div class="j_mouthLER_cen">
+                    <ul>
+                        <li>2<font>[ 手动 ]</font> 平均油耗 <font style="font-size:16px; font-weight: bold;">7</font> L/100KM <span>（71人平均值）</span> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!-- 评论内容 -->
+        <div id="reputation_list" class="list-view">
+            <div class="items">
+                <div class="j_mouthLF">
+                    <div class="j_mouthLFL fl"><img src="images/j_10.jpg" alt="" /><p>用户名</p></div>
+                    <div class="j_mouthLFR fl">
+                        <div class="j_mouthLFR_top">
+                            <h2>合作才有未来 —— 昆仑润滑油杯汽车拉力赛开</h2><span>2016-7-21   </span>
+                        </div>
+                        <!-- 图片滚动 -->
+                        <div class="j_mouthLFR_cenA">
+                            <ul>
+                                <li><img src="images/j_08.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                            </ul>
+                            <!-- 左右切换按钮 -->
+                            <div class="j_mouthLFR_btmL"><a href="javascript:void(0)" title=""><i></i></a></div>
+                            <div class="j_mouthLFR_btmR"><a href="javascript:void(0)" title=""><i></i></a></div>
+                        </div>
+                        <!-- 文字 -->
+                        <div class="j_mouthLFR_txt">
+                            <p><font> 【最满意一点】</font>2.5L排量综合油耗能做到8.7L\100KM 可赞！静音效果优秀！2.5L排量综合油耗能做到8.7L\100KM 可赞！静音效果优秀！2.5LL排量综合油</p>
+                            <p><font>【最不满意一点】</font>冷车加油门过大的话 会有异响</p>
+                        </div>
+                        <!-- 可收起展开 -->
+                        <div class="j_mouthLFR_txtA">
+                            <p><font>【空间】</font>虽然座椅是固定不可调的，但是我1米75坐上去感觉正合适而且头部空间不错，后排空间也很满意。唯一不足就是后备箱进深短了点，逢年过节回家运东西不给力，实战情况如下：放一个标准婴儿洗澡盆、一个费雪婴儿摇椅、一个20寸登机箱、2个背包、一些水果和小东西，只要是7天以上的远程出门还是够用的，当然只是3个人的行李，5个人的话最多3天内的行程吧。</p>
+                            <p><font>【动力】</font>这套混合动力在城市里加速超车得心应手，地板油起步推背感也是明显的，当然比起高尔夫六的1.4T涡轮增压的推背感要弱些。不过优势是油门踩下去动力马上到，相比涡轮延迟顺心很多，因为城市中超车，如果是涡轮增压，从你想超车，然后踩下油门再到车子加速力矩到位至少要1秒，可是1秒里在复杂的行车状况下能发生很多事情，例如说前车突然变道或者后侧有车加速靠近，所以超车信心不足。但是双擎是直流电机无延时瞬间输出力矩，基本做到心到动力到，那超车就是有信心多了，当然这只是说在城市路面速度在80km/h以下的情况，高速下电机的加速弱了，高速100公里以上速度超车该是不如1.8自然吸气的车子。这套ECVT变速箱确。</p>
+                            <p><font>【操控】</font>方向盘有点轻，我不喜欢！高速的稳定性不错。转弯时整车的一体性不行！可能日系车主打的是舒适的原因吧！</p>
+                            <p><font>【油耗】</font>方向盘有点轻，我不喜欢！高速的稳定性不错。转弯时整车的一体性不行！可能日系车主打的是舒适的原因吧！</p>
+                            <p><font>【舒适性】</font>很不错，开车时我都睡着了！</p>
+                            <p><font>【外观】</font>虽然座椅是固定运东西不给力，实战情况如下：放一个标准婴儿洗澡盆、一个费雪婴儿摇椅、个背包、一些水果和小东西，只要是7天以上的远程出门还是够用的，当然只是3个人的行李，5个人的话最多3天内的行程吧。</p>
+                            <p><font>【内饰】</font>做工很不错，座椅很舒服，皮质很显档次。</p>
+                            <p><font>【其它描述】</font><br/>除了驾驶室，其它车窗没有一键升降玻璃按钮！</p>
+                            <p><font>【外观】</font>虽然座椅是固定运东西不给力，实战情况如下：放一个标准婴儿洗澡盆、一个费雪婴儿摇椅、个背包、一些水果和小东西，只要是7天以上的远程出门还是够用的，当然只是3个人的行李，5个人的话最多3天内的行程吧。</p>
+                        </div>                
+                    </div>
+                    <div class="clear"></div>
+                    <!-- 收起展开按钮 -->
+                    <div class="j_mouthLFR_txt_btm">
+                        <div class="j_mouthLFR_txt_btmA"><a href="javascript:void(0)" title="">展开更多车型<i></i></a></div>
+                        <div class="j_mouthLFR_txt_btmB"><a href="javascript:void(0)" title="">收起全部口碑<i></i></a></div>
+                    </div>
+                </div>
+                <div class="j_mouthLF">
+                    <div class="j_mouthLFL fl"><img src="images/j_10.jpg" alt="" /><p>用户名</p></div>
+                    <div class="j_mouthLFR fl">
+                        <div class="j_mouthLFR_top">
+                            <h2>合作才有未来 —— 昆仑润滑油杯汽车拉力赛开</h2><span>2016-7-21   </span>
+                        </div>
+                        <!-- 图片滚动 -->
+                         <div class="j_mouthLFR_cenA">
+                            <ul>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                            </ul>
+                            <!-- 左右切换按钮 -->
+                            <div class="j_mouthLFR_btmL"><a href="javascript:void(0)" title=""><i></i></a></div>
+                            <div class="j_mouthLFR_btmR"><a href="javascript:void(0)" title=""><i></i></a></div>
+                        </div>
+                        <!-- 文字 -->
+                        <div class="j_mouthLFR_txt">
+                            <p><font> 【最满意一点】</font>2.5L排量综合油耗能做到8.7L\100KM 可赞！静音效果优秀！2.5L排量综合油耗能做到8.7L\100KM 可赞！静音效果优秀！2.5LL排量综合油</p>
+                            <p><font>【最不满意一点】</font>冷车加油门过大的话 会有异响</p>
+                        </div>
+                        <!-- 可收起展开 -->
+                        <div class="j_mouthLFR_txtA">
+                            <p><font>【空间】</font>虽然座椅是固定不可调的，但是我1米75坐上去感觉正合适而且头部空间不错，后排空间也很满意。唯一不足就是后备箱进深短了点，逢年过节回家运东西不给力，实战情况如下：放一个标准婴儿洗澡盆、一个费雪婴儿摇椅、一个20寸登机箱、2个背包、一些水果和小东西，只要是7天以上的远程出门还是够用的，当然只是3个人的行李，5个人的话最多3天内的行程吧。</p>
+                            <p><font>【动力】</font>这套混合动力在城市里加速超车得心应手，地板油起步推背感也是明显的，当然比起高尔夫六的1.4T涡轮增压的推背感要弱些。不过优势是油门踩下去动力马上到，相比涡轮延迟顺心很多，因为城市中超车，如果是涡轮增压，从你想超车，然后踩下油门再到车子加速力矩到位至少要1秒，可是1秒里在复杂的行车状况下能发生很多事情，例如说前车突然变道或者后侧有车加速靠近，所以超车信心不足。但是双擎是直流电机无延时瞬间输出力矩，基本做到心到动力到，那超车就是有信心多了，当然这只是说在城市路面速度在80km/h以下的情况，高速下电机的加速弱了，高速100公里以上速度超车该是不如1.8自然吸气的车子。这套ECVT变速箱确。</p>
+                            <p><font>【操控】</font>方向盘有点轻，我不喜欢！高速的稳定性不错。转弯时整车的一体性不行！可能日系车主打的是舒适的原因吧！</p>
+                            <p><font>【油耗】</font>方向盘有点轻，我不喜欢！高速的稳定性不错。转弯时整车的一体性不行！可能日系车主打的是舒适的原因吧！</p>
+                            <p><font>【舒适性】</font>很不错，开车时我都睡着了！</p>
+                            <p><font>【外观】</font>虽然座椅是固定运东西不给力，实战情况如下：放一个标准婴儿洗澡盆、一个费雪婴儿摇椅、个背包、一些水果和小东西，只要是7天以上的远程出门还是够用的，当然只是3个人的行李，5个人的话最多3天内的行程吧。</p>
+                            <p><font>【内饰】</font>做工很不错，座椅很舒服，皮质很显档次。</p>
+                            <p><font>【其它描述】</font><br/>除了驾驶室，其它车窗没有一键升降玻璃按钮！</p>
+                            <p><font>【外观】</font>虽然座椅是固定运东西不给力，实战情况如下：放一个标准婴儿洗澡盆、一个费雪婴儿摇椅、个背包、一些水果和小东西，只要是7天以上的远程出门还是够用的，当然只是3个人的行李，5个人的话最多3天内的行程吧。</p>
+                        </div>                
+                    </div>
+                    <div class="clear"></div>
+                    <!-- 收起展开按钮 -->
+                    <div class="j_mouthLFR_txt_btm">
+                        <div class="j_mouthLFR_txt_btmA"><a href="javascript:void(0)" title="">展开更多车型<i></i></a></div>
+                        <div class="j_mouthLFR_txt_btmB"><a href="javascript:void(0)" title="">收起全部口碑<i></i></a></div>
+                    </div>
+                </div>
+                <div class="j_mouthLF">
+                    <div class="j_mouthLFL fl"><img src="images/j_10.jpg" alt="" /><p>用户名</p></div>
+                    <div class="j_mouthLFR fl">
+                        <div class="j_mouthLFR_top">
+                            <h2>合作才有未来 —— 昆仑润滑油杯汽车拉力赛开</h2><span>2016-7-21   </span>
+                        </div>
+                        <!-- 图片滚动 -->
+                         <div class="j_mouthLFR_cenA">
+                            <ul>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                            </ul>
+                            <!-- 左右切换按钮 -->
+                            <div class="j_mouthLFR_btmL"><a href="javascript:void(0)" title=""><i></i></a></div>
+                            <div class="j_mouthLFR_btmR"><a href="javascript:void(0)" title=""><i></i></a></div>
+                        </div>
+                        <!-- 文字 -->
+                        <div class="j_mouthLFR_txt">
+                            <p><font> 【最满意一点】</font>2.5L排量综合油耗能做到8.7L\100KM 可赞！静音效果优秀！2.5L排量综合油耗能做到8.7L\100KM 可赞！静音效果优秀！2.5LL排量综合油</p>
+                            <p><font>【最不满意一点】</font>冷车加油门过大的话 会有异响</p>
+                        </div>
+                        <!-- 可收起展开 -->
+                        <div class="j_mouthLFR_txtA">
+                            <p><font>【空间】</font>虽然座椅是固定不可调的，但是我1米75坐上去感觉正合适而且头部空间不错，后排空间也很满意。唯一不足就是后备箱进深短了点，逢年过节回家运东西不给力，实战情况如下：放一个标准婴儿洗澡盆、一个费雪婴儿摇椅、一个20寸登机箱、2个背包、一些水果和小东西，只要是7天以上的远程出门还是够用的，当然只是3个人的行李，5个人的话最多3天内的行程吧。</p>
+                            <p><font>【动力】</font>这套混合动力在城市里加速超车得心应手，地板油起步推背感也是明显的，当然比起高尔夫六的1.4T涡轮增压的推背感要弱些。不过优势是油门踩下去动力马上到，相比涡轮延迟顺心很多，因为城市中超车，如果是涡轮增压，从你想超车，然后踩下油门再到车子加速力矩到位至少要1秒，可是1秒里在复杂的行车状况下能发生很多事情，例如说前车突然变道或者后侧有车加速靠近，所以超车信心不足。但是双擎是直流电机无延时瞬间输出力矩，基本做到心到动力到，那超车就是有信心多了，当然这只是说在城市路面速度在80km/h以下的情况，高速下电机的加速弱了，高速100公里以上速度超车该是不如1.8自然吸气的车子。这套ECVT变速箱确。</p>
+                            <p><font>【操控】</font>方向盘有点轻，我不喜欢！高速的稳定性不错。转弯时整车的一体性不行！可能日系车主打的是舒适的原因吧！</p>
+                            <p><font>【油耗】</font>方向盘有点轻，我不喜欢！高速的稳定性不错。转弯时整车的一体性不行！可能日系车主打的是舒适的原因吧！</p>
+                            <p><font>【舒适性】</font>很不错，开车时我都睡着了！</p>
+                            <p><font>【外观】</font>虽然座椅是固定运东西不给力，实战情况如下：放一个标准婴儿洗澡盆、一个费雪婴儿摇椅、个背包、一些水果和小东西，只要是7天以上的远程出门还是够用的，当然只是3个人的行李，5个人的话最多3天内的行程吧。</p>
+                            <p><font>【内饰】</font>做工很不错，座椅很舒服，皮质很显档次。</p>
+                            <p><font>【其它描述】</font><br/>除了驾驶室，其它车窗没有一键升降玻璃按钮！</p>
+                            <p><font>【外观】</font>虽然座椅是固定运东西不给力，实战情况如下：放一个标准婴儿洗澡盆、一个费雪婴儿摇椅、个背包、一些水果和小东西，只要是7天以上的远程出门还是够用的，当然只是3个人的行李，5个人的话最多3天内的行程吧。</p>
+                        </div>                
+                    </div>
+                    <div class="clear"></div>
+                    <!-- 收起展开按钮 -->
+                    <div class="j_mouthLFR_txt_btm">
+                        <div class="j_mouthLFR_txt_btmA"><a href="javascript:void(0)" title="">展开更多车型<i></i></a></div>
+                        <div class="j_mouthLFR_txt_btmB"><a href="javascript:void(0)" title="">收起全部口碑<i></i></a></div>
+                    </div>
+                </div>
+                <div class="j_mouthLF">
+                    <div class="j_mouthLFL fl"><img src="images/j_10.jpg" alt="" /><p>用户名</p></div>
+                    <div class="j_mouthLFR fl">
+                        <div class="j_mouthLFR_top">
+                            <h2>合作才有未来 —— 昆仑润滑油杯汽车拉力赛开</h2><span>2016-7-21   </span>
+                        </div>
+                        <!-- 图片滚动 -->
+                         <div class="j_mouthLFR_cenA">
+                            <ul>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                                <li><img src="images/j_11.jpg" alt="" /></li>
+                            </ul>
+                            <!-- 左右切换按钮 -->
+                            <div class="j_mouthLFR_btmL"><a href="javascript:void(0)" title=""><i></i></a></div>
+                            <div class="j_mouthLFR_btmR"><a href="javascript:void(0)" title=""><i></i></a></div>
+                        </div>
+                        <!-- 文字 -->
+                        <div class="j_mouthLFR_txt">
+                            <p><font> 【最满意一点】</font>2.5L排量综合油耗能做到8.7L\100KM 可赞！静音效果优秀！2.5L排量综合油耗能做到8.7L\100KM 可赞！静音效果优秀！2.5LL排量综合油</p>
+                            <p><font>【最不满意一点】</font>冷车加油门过大的话 会有异响</p>
+                        </div>
+                        <!-- 可收起展开 -->
+                        <div class="j_mouthLFR_txtA">
+                            <p><font>【空间】</font>虽然座椅是固定不可调的，但是我1米75坐上去感觉正合适而且头部空间不错，后排空间也很满意。唯一不足就是后备箱进深短了点，逢年过节回家运东西不给力，实战情况如下：放一个标准婴儿洗澡盆、一个费雪婴儿摇椅、一个20寸登机箱、2个背包、一些水果和小东西，只要是7天以上的远程出门还是够用的，当然只是3个人的行李，5个人的话最多3天内的行程吧。</p>
+                            <p><font>【动力】</font>这套混合动力在城市里加速超车得心应手，地板油起步推背感也是明显的，当然比起高尔夫六的1.4T涡轮增压的推背感要弱些。不过优势是油门踩下去动力马上到，相比涡轮延迟顺心很多，因为城市中超车，如果是涡轮增压，从你想超车，然后踩下油门再到车子加速力矩到位至少要1秒，可是1秒里在复杂的行车状况下能发生很多事情，例如说前车突然变道或者后侧有车加速靠近，所以超车信心不足。但是双擎是直流电机无延时瞬间输出力矩，基本做到心到动力到，那超车就是有信心多了，当然这只是说在城市路面速度在80km/h以下的情况，高速下电机的加速弱了，高速100公里以上速度超车该是不如1.8自然吸气的车子。这套ECVT变速箱确。</p>
+                            <p><font>【操控】</font>方向盘有点轻，我不喜欢！高速的稳定性不错。转弯时整车的一体性不行！可能日系车主打的是舒适的原因吧！</p>
+                            <p><font>【油耗】</font>方向盘有点轻，我不喜欢！高速的稳定性不错。转弯时整车的一体性不行！可能日系车主打的是舒适的原因吧！</p>
+                            <p><font>【舒适性】</font>很不错，开车时我都睡着了！</p>
+                            <p><font>【外观】</font>虽然座椅是固定运东西不给力，实战情况如下：放一个标准婴儿洗澡盆、一个费雪婴儿摇椅、个背包、一些水果和小东西，只要是7天以上的远程出门还是够用的，当然只是3个人的行李，5个人的话最多3天内的行程吧。</p>
+                            <p><font>【内饰】</font>做工很不错，座椅很舒服，皮质很显档次。</p>
+                            <p><font>【其它描述】</font><br/>除了驾驶室，其它车窗没有一键升降玻璃按钮！</p>
+                            <p><font>【外观】</font>虽然座椅是固定运东西不给力，实战情况如下：放一个标准婴儿洗澡盆、一个费雪婴儿摇椅、个背包、一些水果和小东西，只要是7天以上的远程出门还是够用的，当然只是3个人的行李，5个人的话最多3天内的行程吧。</p>
+                        </div>                
+                    </div>
+                    <div class="clear"></div>
+                    <!-- 收起展开按钮 -->
+                    <div class="j_mouthLFR_txt_btm">
+                        <div class="j_mouthLFR_txt_btmA"><a href="javascript:void(0)" title="">展开更多车型<i></i></a></div>
+                        <div class="j_mouthLFR_txt_btmB"><a href="javascript:void(0)" title="">收起全部口碑<i></i></a></div>
+                    </div>
+                </div>
+                <div class="j_mouthLF">
+                    <div class="j_mouthLFL fl"><img src="images/j_10.jpg" alt="" /><p>用户名</p></div>
+                    <div class="j_mouthLFR fl">
+                        <div class="j_mouthLFR_top">
+                            <h2>合作才有未来 —— 昆仑润滑油杯汽车拉力赛开</h2><span>2016-7-21   </span>
+                        </div>
+                        <!-- 文字 -->
+                        <div class="j_mouthLFR_txt">
+                            <p><font> 【最满意一点】</font>2.5L排量综合油耗能做到8.7L\100KM 可赞！静音效果优秀！2.5L排量综合油耗能做到8.7L\100KM 可赞！静音效果优秀！2.5LL排量综合油</p>
+                            <p><font>【最不满意一点】</font>冷车加油门过大的话 会有异响</p>
+                        </div>
+                        <!-- 可收起展开 -->
+                        <div class="j_mouthLFR_txtA">
+                            <p><font>【空间】</font>虽然座椅是固定不可调的，但是我1米75坐上去感觉正合适而且头部空间不错，后排空间也很满意。唯一不足就是后备箱进深短了点，逢年过节回家运东西不给力，实战情况如下：放一个标准婴儿洗澡盆、一个费雪婴儿摇椅、一个20寸登机箱、2个背包、一些水果和小东西，只要是7天以上的远程出门还是够用的，当然只是3个人的行李，5个人的话最多3天内的行程吧。</p>
+                            <p><font>【动力】</font>这套混合动力在城市里加速超车得心应手，地板油起步推背感也是明显的，当然比起高尔夫六的1.4T涡轮增压的推背感要弱些。不过优势是油门踩下去动力马上到，相比涡轮延迟顺心很多，因为城市中超车，如果是涡轮增压，从你想超车，然后踩下油门再到车子加速力矩到位至少要1秒，可是1秒里在复杂的行车状况下能发生很多事情，例如说前车突然变道或者后侧有车加速靠近，所以超车信心不足。但是双擎是直流电机无延时瞬间输出力矩，基本做到心到动力到，那超车就是有信心多了，当然这只是说在城市路面速度在80km/h以下的情况，高速下电机的加速弱了，高速100公里以上速度超车该是不如1.8自然吸气的车子。这套ECVT变速箱确。</p>
+                            <p><font>【操控】</font>方向盘有点轻，我不喜欢！高速的稳定性不错。转弯时整车的一体性不行！可能日系车主打的是舒适的原因吧！</p>
+                            <p><font>【油耗】</font>方向盘有点轻，我不喜欢！高速的稳定性不错。转弯时整车的一体性不行！可能日系车主打的是舒适的原因吧！</p>
+                            <p><font>【舒适性】</font>很不错，开车时我都睡着了！</p>
+                            <p><font>【外观】</font>虽然座椅是固定运东西不给力，实战情况如下：放一个标准婴儿洗澡盆、一个费雪婴儿摇椅、个背包、一些水果和小东西，只要是7天以上的远程出门还是够用的，当然只是3个人的行李，5个人的话最多3天内的行程吧。</p>
+                            <p><font>【内饰】</font>做工很不错，座椅很舒服，皮质很显档次。</p>
+                            <p><font>【其它描述】</font><br/>除了驾驶室，其它车窗没有一键升降玻璃按钮！</p>
+                            <p><font>【外观】</font>虽然座椅是固定运东西不给力，实战情况如下：放一个标准婴儿洗澡盆、一个费雪婴儿摇椅、个背包、一些水果和小东西，只要是7天以上的远程出门还是够用的，当然只是3个人的行李，5个人的话最多3天内的行程吧。</p>
+                        </div>                
+                    </div>
+                    <div class="clear"></div>
+                    <!-- 收起展开按钮 -->
+                    <div class="j_mouthLFR_txt_btm">
+                        <div class="j_mouthLFR_txt_btmA"><a href="javascript:void(0)" title="">展开更多车型<i></i></a></div>
+                        <div class="j_mouthLFR_txt_btmB"><a href="javascript:void(0)" title="">收起全部口碑<i></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 翻页 -->
+        <div class="page_box cf mt20">
+            <ul> 
+                <li class="page_now"><a href="javascript:;">1</a></li>
+                <li><a href="javascript:;">2</a></li>
+                <li><a href="javascript:;">3</a></li>
+                <li><a href="javascript:;">4</a></li>
+                <li><a href="javascript:;">5</a></li>
+                <li><a href="javascript:;">6</a></li>
+                <li><a href="javascript:;">下一页</a></li>
+                <li><a href="javascript:;">尾页</a></li>
+                <li><span>共 <strong>245</strong>页<strong>2935</strong>条</span></li>
+            </ul>
+        </div> 
+    </div>
+
+
+
+    <div class="j_mouthR fr">
+        <!-- 广告 -->
+        <div class="j_ADa">
+            <a href="" title=""><img src="images/j_23.png" alt="" /></a>
+        </div>
+        <!-- 相关推荐 -->
+        <div class="j_mouthRA">
+            <div class="j_mouthRA_top"><h2>相关推荐</h2><a href="" title="" class="fr">更多</a><div class="clear"></div></div>
+            <div class="j_mouthRA_cen">
+                <ul>
+                    <li><a href="" title=""><span>评测<font>|</font>购菲亚特500让2万购菲亚特500让2万 欢迎垂询</span><em>2016-11-12</em></a></li>
+                    <li><a href="" title=""><span>评测<font>|</font>购菲亚特500让2万购菲亚特500让2万 欢迎垂询</span><em>2016-11-12</em></a></li>
+                    <li><a href="" title=""><span>评测<font>|</font>购菲亚特500让2万购菲亚特500让2万 欢迎垂询</span><em>2016-11-12</em></a></li>
+                    <li><a href="" title=""><span>评测<font>|</font>购菲亚特500让2万购菲亚特500让2万 欢迎垂询</span><em>2016-11-12</em></a></li>
+                    <li><a href="" title=""><span>评测<font>|</font>购菲亚特500让2万购菲亚特500让2万 欢迎垂询</span><em>2016-11-12</em></a></li>
+                    <li><a href="" title=""><span>评测<font>|</font>购菲亚特500让2万购菲亚特500让2万 欢迎垂询</span><em>2016-11-12</em></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 同级别口碑榜 口碑总榜 -->
+        <div class="j_mouthRB">
+            <div class="j_mouthRB_top">
+                <a href="javascript:void(0)" title="" class="j_mouthRB_topmr">同级别口碑榜</a>
+                <a href="javascript:void(0)" title="">口碑总榜</a>
+            </div>
+            <div class="j_mouthRB_cen">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)" title="">
+                            <div class="j_mouthRB_cenA">
+                                <h2 style="background:#eb2e3b;">1</h2><span>宝马X5</span><em style="display:none">3.28分</em><i style="display:none"></i>
+                            </div>
+                            <div class="j_mouthRB_cenB" style="display:block">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR">
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="">
+                            <div class="j_mouthRB_cenA j_mouthRB_cenA_xia"><!-- j_mouthRB_cenA_xia 加上此class 箭头往下 -->
+                                <h2 style="background:#eb2e3b;">2</h2><span>宝马X5</span><em>3.28分</em><i></i>
+                            </div>
+                            <div class="j_mouthRB_cenB">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR j_mouthRB_cenBR_xia"><!-- j_mouthRB_cenBR_xia 加上此class 箭头往下 -->
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <div class="j_mouthRB_cenA">
+                                <h2 style="background:#eb2e3b;">3</h2><span>宝马X5</span><em>3.28分</em><i></i>
+                            </div>
+                            <div class="j_mouthRB_cenB">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR">
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <div class="j_mouthRB_cenA">
+                                <h2>4</h2><span>宝马X5</span><em>3.28分</em><i></i>
+                            </div>
+                            <div class="j_mouthRB_cenB">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR">
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <div class="j_mouthRB_cenA">
+                                <h2>5</h2><span>宝马X5</span><em>3.28分</em><i></i>
+                            </div>
+                            <div class="j_mouthRB_cenB">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR">
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <div class="j_mouthRB_cenA">
+                                <h2>6</h2><span>宝马X5</span><em>3.28分</em><i></i>
+                            </div>
+                            <div class="j_mouthRB_cenB">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR">
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <div class="j_mouthRB_cenA">
+                                <h2>7</h2><span>宝马X5</span><em>3.28分</em><i></i>
+                            </div>
+                            <div class="j_mouthRB_cenB">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR">
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <div class="j_mouthRB_cenA">
+                                <h2>8</h2><span>宝马X5</span><em>3.28分</em><i></i>
+                            </div>
+                            <div class="j_mouthRB_cenB">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR">
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <div class="j_mouthRB_cenA">
+                                <h2>9</h2><span>宝马X5</span><em>3.28分</em><i></i>
+                            </div>
+                            <div class="j_mouthRB_cenB">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR">
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <div class="j_mouthRB_cenA">
+                                <h2>10</h2><span>宝马X5</span><em>3.28分</em><i></i>
+                            </div>
+                            <div class="j_mouthRB_cenB">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR">
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="j_mouthRB_cen">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)" title="">
+                            <div class="j_mouthRB_cenA">
+                                <h2 style="background:#eb2e3b;">1</h2><span>222宝马X5</span><em style="display:none">3.28分</em><i style="display:none"></i>
+                            </div>
+                            <div class="j_mouthRB_cenB" style="display:block">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR">
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" title="">
+                            <div class="j_mouthRB_cenA j_mouthRB_cenA_xia"><!-- j_mouthRB_cenA_xia 加上此class 箭头往下 -->
+                                <h2 style="background:#eb2e3b;">2</h2><span>宝马X5</span><em>3.28分</em><i></i>
+                            </div>
+                            <div class="j_mouthRB_cenB">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR j_mouthRB_cenBR_xia"><!-- j_mouthRB_cenBR_xia 加上此class 箭头往下 -->
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <div class="j_mouthRB_cenA">
+                                <h2 style="background:#eb2e3b;">3</h2><span>宝马X5</span><em>3.28分</em><i></i>
+                            </div>
+                            <div class="j_mouthRB_cenB">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR">
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <div class="j_mouthRB_cenA">
+                                <h2>4</h2><span>宝马X5</span><em>3.28分</em><i></i>
+                            </div>
+                            <div class="j_mouthRB_cenB">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR">
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <div class="j_mouthRB_cenA">
+                                <h2>5</h2><span>宝马X5</span><em>3.28分</em><i></i>
+                            </div>
+                            <div class="j_mouthRB_cenB">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR">
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <div class="j_mouthRB_cenA">
+                                <h2>6</h2><span>宝马X5</span><em>3.28分</em><i></i>
+                            </div>
+                            <div class="j_mouthRB_cenB">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR">
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <div class="j_mouthRB_cenA">
+                                <h2>7</h2><span>宝马X5</span><em>3.28分</em><i></i>
+                            </div>
+                            <div class="j_mouthRB_cenB">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR">
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <div class="j_mouthRB_cenA">
+                                <h2>8</h2><span>宝马X5</span><em>3.28分</em><i></i>
+                            </div>
+                            <div class="j_mouthRB_cenB">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR">
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <div class="j_mouthRB_cenA">
+                                <h2>9</h2><span>宝马X5</span><em>3.28分</em><i></i>
+                            </div>
+                            <div class="j_mouthRB_cenB">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR">
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <div class="j_mouthRB_cenA">
+                                <h2>10</h2><span>宝马X5</span><em>3.28分</em><i></i>
+                            </div>
+                            <div class="j_mouthRB_cenB">
+                                <div class="j_mouthRB_cenBL fl"><img src="images/j_06.png" alt="" /></div>
+                                <div class="j_mouthRB_cenBR">
+                                    <p>用户评分</p>
+                                    <i><em style="width:90%;"></em></i><font>4.08分</font><span></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 用户还浏览了 -->
+        <div class="j_view">
+            <div class="j_view_top"><h2>用户还浏览了</h2></div>
+            <div class="j_view_cen">
+                <ul>
+                    <li>
+                        <a href="" title="">
+                            <img src="images/j_07.jpg" alt="" />
+                            <p>车系名称</p>
+                            <span>13.3万-16.9万</span>
+                        </a>
+                    </li>
+                     <li>
+                        <a href="" title="">
+                            <img src="images/j_07.jpg" alt="" />
+                            <p>车系名称</p>
+                            <span>13.3万-16.9万</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <img src="images/j_07.jpg" alt="" />
+                            <p>车系名称</p>
+                            <span>13.3万-16.9万</span>
+                        </a>
+                    </li>
+                     <li>
+                        <a href="" title="">
+                            <img src="images/j_07.jpg" alt="" />
+                            <p>车系名称</p>
+                            <span>13.3万-16.9万</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <img src="images/j_07.jpg" alt="" />
+                            <p>车系名称</p>
+                            <span>13.3万-16.9万</span>
+                        </a>
+                    </li>
+                     <li>
+                        <a href="" title="">
+                            <img src="images/j_07.jpg" alt="" />
+                            <p>车系名称</p>
+                            <span>13.3万-16.9万</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!-- 大图浏览 -->
+<div class="j_bigphotoA">
+    <div class="j_bigphotoB">
+        <img src="images/j_15.png" alt="" class="j_bigphotoA_img" />
+        <!-- 大图 -->
+        <div class="j_bp_imgA"><img src="images/j_16.jpg" alt="" /></div>
+        <!-- 列表小图 -->
+        <div class="j_bp_imgB">
+            <ul>
+                <li><img src="images/j_21.jpg" alt="" /><em></em></li>
+                <li><img src="images/j_21.jpg" alt="" /><em></em></li>
+                <li><img src="images/j_21.jpg" alt="" /><em></em></li>
+                <li><img src="images/j_21.jpg" alt="" /><em></em></li>
+                <li class="j_bp_imgBmr"><img src="images/j_21.jpg" alt="" /><em></em></li>
+                <li><img src="images/j_21.jpg" alt="" /><em></em></li>
+                <li><img src="images/j_21.jpg" alt="" /><em></em></li>
+                <li><img src="images/j_21.jpg" alt="" /><em></em></li>
+                <li><img src="images/j_21.jpg" alt="" /><em></em></li>
+                <li><img src="images/j_21.jpg" alt="" /><em></em></li>
+            </ul>
+        </div>        
+        <!-- 左右按钮 -->
+        <div class="j_bp_imgBL"><i></i></div>
+        <div class="j_bp_imgBR"><i></i></div>
+    </div>
+</div>
+<!-- 阴影图层 -->
+<div class="j_hideA"></div>
+
+<div class="inforWidth cf mt20">
+    <div class="tabTop cf">
+        <ul id="hotTab">
+            <li><a href="javascript:;" class="current">热门车系</a></li>
+            <li><a href="javascript:;">热门标签</a></li>
+            <li><a href="javascript:;">友情链接</a></li>
+        </ul>
+    </div>
+    <div class="hotTag mt10" id="hotTag">
+        <ul>
+            <li class="now">
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯福克斯福克斯福克斯福克斯</a>
+            </li>
+            <li>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+            </li>
+            <li>
+                <a href="javascript:;">111</a>
+                <a href="javascript:;">222</a>
+                <a href="javascript:;">333</a>
+                <a href="javascript:;">444</a>
+                <a href="javascript:;">111</a>
+                <a href="javascript:;">222</a>
+                <a href="javascript:;">333</a>
+                <a href="javascript:;">444</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="footer" id="footer">
+    <div class="footmenu">
+        <div class="container">
+            <div class="footLink tc"><a href="jieshao.html">网站介绍</a><a href="banquan.html">版权说明</a><a href="contact.html">联系我们</a><a href="shuoming.html">网站说明(xml)</a><span>广告服务：025-84260006  投稿热线：15301587888</span></div>
+        </div>
+    </div>   
+    <div class="container">
+        <div class="cf f-cleft mt20">
+            <div class="logo"></div>
+            <div class="f-cright">
+                <p>免责声明：本（栏目、频道等）内容由SP提供。欢迎大家对侵犯版权等不合法和不健康的内容进行监督和举报。</p>
+                <p>[增值电信业务经营许可证A2.B1.B2-20090001]&nbsp;[文网文[2008]053号]&nbsp;[国新网许可证：3212006005]&nbsp;<a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">[苏ICP备07021571号]</a></p>
+                <p>版权所有：中国电信股份有限公司南京分公司&nbsp;&nbsp;技术支持：江苏知能邮电通信技术有限公司</p>
+            </div>
+        </div>
+        <div class="f-pic mt15">
+            <a href="http://www.wenming.cn/" target="_blank"><img src="images/ft-img1.jpg" alt="中国文明网传播文明"></a>
+            <a href="http://www.cyberpolice.cn/wfjb/" target="_blank"><img src="images/ft-img2.jpg" alt="南京网络警察报警平台"></a>
+            <a href="http://www.cyberpolice.cn/wfjb/" target="_blank"><img src="images/ft-img3.jpg" alt="公安信息安全网络监察"></a>
+            <a href="http://www.miibeian.gov.cn/" target="_blank"><img src="images/ft-img4.jpg" alt="经营性网站备案信息"></a>
+            <a href="http://net.china.cn/" target="_blank"><img src="images/ft-img5.jpg" alt="不良信息举报中心"></a>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/zhuanti.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>
+

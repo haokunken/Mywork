@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1, user-scalable=no"> -->
+<meta name="applicable-device" content="pc,mobile">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>金陵汽车</title>
+<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="css/news.css" rel="stylesheet" media="screen">
+<link href="css/common.css" rel="stylesheet" media="screen">
+<script src="js/jquery.min.js"></script>
+<!--[if lt IE 9]>
+  <script src="js/xys.js"></script>
+  <link href="css/xys.css" rel="stylesheet" >
+<![endif]-->
+</head>
+<body>
+<div class="topBox cf">
+    <div class="topGrey">
+        <div class="inforWidth">
+            <div class="indexWel fl">
+                <span>您好！欢迎来到车城社</span>
+            </div>
+            <div class="topWord fr">
+                <a href="javascript:;">首页</a>
+                <a href="javascript:;">新闻</a>
+                <a href="javascript:;">汽车</a>
+                <a href="javascript:;">教育</a>
+                <a href="javascript:;">旅游</a>
+                <a href="javascript:;">财经</a>
+                <a href="javascript:;">房产</a>
+                <a href="javascript:;">生活</a>
+                <a href="javascript:;">爆料</a>
+            </div>
+        </div>
+    </div>
+    <div class="topHead">
+        <div class="inforWidth">
+            <div class="pr">
+                <div class="logo fl"><a href=""><img src="images/logo-xin.jpg" alt="金陵汽车"></a></div>
+                <div class="city indexcity">
+                    <div class="change indexchange" data-toggle="dropdown"><span>南京</span><b class="caret caret-first"></b></div>
+                    <div class="dropdown-menu dropdown-place-height">
+                        <div class="stopP">
+                            <div class="fastNum cf" id="mainFn">
+                                <a href="javascript:;" data-value="A">A</a>
+                                <a href="javascript:;" data-value="F">F</a>
+                                <a href="javascript:;" data-value="G">G</a>
+                                <a href="javascript:;" data-value="H">H</a>
+                                <a href="javascript:;" data-value="J">J</a>
+                                <a href="javascript:;" data-value="L">L</a>
+                                <a href="javascript:;" data-value="N">N</a>
+                                <a href="javascript:;" data-value="Q">Q</a>
+                                <a href="javascript:;" data-value="S">S</a>
+                                <a href="javascript:;" data-value="X">X</a>
+                                <a href="javascript:;" data-value="Y">Y</a>
+                                <a href="javascript:;" data-value="Z">Z</a>
+                            </div>
+                            <div class="fnClose"></div>
+                        </div>                       
+                        <ul class="dropdown-place" id="fastroad">
+                            <li>
+                                <em class="zimu"></em>
+                                <div class="pl45">
+                                    <p class="fl sheng">直辖市</p>
+                                    <div class="fl shi"><a href="javascript:;">北京</a><a href="javascript:;">上海</a><a href="javascript:;">深圳</a><a href="javascript:;">重庆</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeA">A</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">安徽</p>
+                                    <div class="fl shi"><a href="javascript:;">安庆</a><a href="javascript:;">蚌埠</a><a href="javascript:;">滁州</a><a href="javascript:;">阜阳</a><a href="javascript:;">马鞍山</a><a href="javascript:;">六安</a><a href="javascript:;">宿州</a><a href="javascript:;">合肥</a><a href="javascript:;">石家庄</a><a href="javascript:;">安庆</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeF">F</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">福建</p>
+                                    <div class="fl shi"><a href="javascript:;">福州</a><a href="javascript:;">泉州</a><a href="javascript:;">厦门</a><a href="javascript:;">漳州</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeG">G</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">广东</p>
+                                    <div class="fl shi"><a href="javascript:;">东莞</a><a href="javascript:;">佛山</a><a href="javascript:;">广州</a><a href="javascript:;">惠州</a><a href="javascript:;">深圳</a><a href="javascript:;">粤东</a><a href="javascript:;">珠海</a><a href="javascript:;">中山</a><a href="javascript:;">江门</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeH">H</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeJ">J</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeL">L</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeN">N</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeQ">Q</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeS">S</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeX">X</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeY">Y</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="zimu" id="fastchangeZ">Z</em>
+                                <div class="pl45">
+                                    <p class="fl sheng">湖南</p>
+                                    <div class="fl shi"><a href="javascript:;">长沙</a></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu fr">
+                    <a href="javascript:;" class="current">汽车首页</a>
+                    <a href="javascript:;">新闻</a>
+                    <a href="javascript:;">报价</a>
+                    <a href="javascript:;">图片</a>
+                    <a href="javascript:;">车型对比</a>
+                    <a href="javascript:;">口碑</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="inforWidth mt15 cf">
+    <div class="breadStyle fl">
+        <span>当前位置：</span><a href="javascript:;">首页</a> &gt; <a href="javascript:;">中型车</a> &gt; <a href="javascript:;">大众</a> &gt; <a href="javascript:;" class="disabled">一汽大众 </a>
+    </div>
+    <div class="fr">
+        <div class="sousuo-new">
+            <input type="text" class="input-new" placeholder="请输入关键字">
+            <input type="submit" class="ss-new" value="搜车">
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="tag-specil">
+    	<div class="col-showLeft">
+    		<div class="cf">
+                <p class="fz20 fw mt10">标签名称</p>
+    	        <div class="newsList-new cf">
+    	            <ul>
+    	                <li class="specilTop">
+                            <div class="newsListWord fl">
+                                <h3><a href="javascript:;">evoNEWS  合作才有未来 —— 昆仑润滑油杯汽车拉力赛开幕</a></h3>
+                                <p>去年，网易音乐的用户突破了1亿。为什么要做网易云音乐呢?网易的创始人丁磊是一个非常资深的音乐发烧友，资源分享比较匮乏。去年，网易音乐的用户突破了1亿。为什么要做网易云音乐呢?网易的创始人丁磊是一个非常资深的音乐发烧友，资源分享比较匮乏。音乐的用户突破了1亿。为什么要做网易云音乐呢?网易的创始人丁磊是一个非常资深的音乐发烧友，资源分享比较匮乏。</p>
+                                <div class="feedItem">
+                                    <div class="fl feed-tag">
+                                        <a href="javascript:;">宝马</a>
+                                        <a href="javascript:;">三厢车版车型</a>
+                                        <a href="javascript:;">手自一体变速箱</a>
+                                    </div>
+                                    <div class="fr feed-from">
+                                        <span>来源：车城社</span>
+                                        <span>2016-09-13</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="newsListPic"><a href="javascript:;"><img src="images/pic02.png" alt=""></a></div>
+    	                </li>
+    	                 <li>
+    	                    <div class="fl newsListPic"><a href="javascript:;"><img src="images/pic02.png" alt=""></a></div>
+    	                    <div class="newsListWord">
+    	                        <h3><a href="javascript:;">evoNEWS  合作才有未来 —— 昆仑润滑油杯汽车拉力赛开幕</a></h3>
+    	                        <p>去年，网易音乐的用户突破了1亿。为什么要做网易云音乐呢?网易的创始人丁磊是一个非常资深的音乐发烧友，资源分享比较匮乏。</p>
+    	                        <div class="feedItem">
+    	                            <div class="fl feed-tag">
+    	                                <a href="javascript:;">宝马</a>
+    	                                <a href="javascript:;">三厢车版车型</a>
+    	                                <a href="javascript:;">手自一体变速箱</a>
+    	                            </div>
+    	                            <div class="fr feed-from">
+    	                                <span>来源：车城社</span>
+    	                                <span>2016-09-13</span>
+    	                            </div>
+    	                        </div>
+    	                    </div>
+    	                </li>
+    	                 <li>
+    	                    <div class="fl newsListPic"><a href="javascript:;"><img src="images/pic02.png" alt=""></a></div>
+    	                    <div class="newsListWord">
+    	                        <h3><a href="javascript:;">evoNEWS  合作才有未来 —— 昆仑润滑油杯汽车拉力赛开幕</a></h3>
+    	                        <p>去年，网易音乐的用户突破了1亿。为什么要做网易云音乐呢?网易的创始人丁磊是一个非常资深的音乐发烧友，资源分享比较匮乏。</p>
+    	                        <div class="feedItem">
+    	                            <div class="fl feed-tag">
+    	                                <a href="javascript:;">宝马</a>
+    	                                <a href="javascript:;">三厢车版车型</a>
+    	                                <a href="javascript:;">德系新车</a>
+    	                                <a href="javascript:;">保养润滑油</a>
+    	                                <a href="javascript:;">手自一体变速箱</a>
+    	                            </div>
+    	                            <div class="fr feed-from">
+    	                                <span>来源：车城社</span>
+    	                                <span>2016-09-13</span>
+    	                            </div>
+    	                        </div>
+    	                    </div>
+    	                </li>
+    	                 <li>
+    	                    <div class="fl newsListPic"><a href="javascript:;"><img src="images/pic02.png" alt=""></a></div>
+    	                    <div class="newsListWord">
+    	                        <h3><a href="javascript:;">evoNEWS  合作才有未来 —— 昆仑润滑油杯汽车拉力赛开幕</a></h3>
+    	                        <p>去年，网易音乐的用户突破了1亿。为什么要做网易云音乐呢?网易的创始人丁磊是一个非常资深的音乐发烧友，资源分享比较匮乏。</p>
+    	                        <div class="feedItem">
+    	                            <div class="fl feed-tag">
+    	                                <a href="javascript:;">宝马</a>
+    	                                <a href="javascript:;">三厢车版车型</a>
+    	                                <a href="javascript:;">德系新车</a>
+    	                                <a href="javascript:;">保养润滑油</a>
+    	                            </div>
+    	                            <div class="fr feed-from">
+    	                                <span>来源：车城社</span>
+    	                                <span>2016-09-13</span>
+    	                            </div>
+    	                        </div>
+    	                    </div>
+    	                </li>
+    	                 <li>
+    	                    <div class="fl newsListPic"><a href="javascript:;"><img src="images/pic02.png" alt=""></a></div>
+    	                    <div class="newsListWord">
+    	                        <h3><a href="javascript:;">evoNEWS  合作才有未来 —— 昆仑润滑油杯汽车拉力赛开幕</a></h3>
+    	                        <p>去年，网易音乐的用户突破了1亿。为什么要做网易云音乐呢?网易的创始人丁磊是一个非常资深的音乐发烧友，资源分享比较匮乏。</p>
+    	                        <div class="feedItem">
+    	                            <div class="fl feed-tag">
+    	                                <a href="javascript:;">德系新车</a>
+    	                                <a href="javascript:;">保养润滑油</a>
+    	                                <a href="javascript:;">手自一体变速箱</a>
+    	                            </div>
+    	                            <div class="fr feed-from">
+    	                                <span>来源：车城社</span>
+    	                                <span>2016-09-13</span>
+    	                            </div>
+    	                        </div>
+    	                    </div>
+    	                </li>
+    	            </ul>
+    	        </div>
+    			<div class="page_box cf mt20">
+    				<ul> 
+    					<li class="page_now"><a href="javascript:;">1</a></li>
+    					<li><a href="javascript:;">2</a></li>
+    					<li><a href="javascript:;">3</a></li>
+    					<li><a href="javascript:;">4</a></li>
+    					<li><a href="javascript:;">5</a></li>
+    					<li><a href="javascript:;">6</a></li>
+    					<li><a href="javascript:;">下一页</a></li>
+    					<li><a href="javascript:;">尾页</a></li>
+    					<li><span>共 <strong>245</strong>页<strong>2935</strong>条</span></li>
+    				</ul>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="col-showRight">
+    		<div class="cf">
+    			<div class="twoTit cf">
+                    <h2>试试其他标签</h2> 
+                    <a href="javascript:;" class="more fr">更多></a>
+                </div>
+                <div class="tagCloud mt15">
+    	            <div class="tagCloudOverflow">
+    	                <ul>
+    	                    <li class="li_0"><a href="javascript:;">标签</a></li>
+    	                    <li class="li_1"><a href="javascript:;">标签内容</a></li>
+    	                    <li class="li_2"><a href="javascript:;">标签内容标内容内</a></li>
+    	                    <li class="li_3"><a href="javascript:;">标签内容</a></li>
+    	                    <li class="li_4"><a href="javascript:;">标签内容标内容内</a></li>
+    	                    <li class="li_5"><a href="javascript:;">标签</a></li>
+    	                    <li class="li_6"><a href="javascript:;">混合涡流控制燃烧发动机（CVCC）</a></li>
+    	                    <li class="li_7"><a href="javascript:;">混合涡流控制燃烧发动机</a></li>
+    	                    <li class="li_8"><a href="javascript:;">标签内容标</a></li>
+    	                    <li class="li_9"><a href="javascript:;">标签内容标签</a></li>
+    	                    <li class="li_10"><a href="javascript:;">标签内</a></li>
+    	                    <li class="li_11"><a href="javascript:;">标签内容标内容内</a></li>
+    	                    <li class="li_12"><a href="javascript:;">标签内容</a></li>
+    	                    <li class="li_13"><a href="javascript:;">标签</a></li>
+    	                </ul>
+    	            </div>                  
+    	        </div>
+    		</div>
+            <div class="cf mt20">
+                <div class="twoTit cf">
+                    <h2>推荐阅读</h2> 
+                </div>
+                <div class="allnews mt5 cf">
+                    <div><span>2016-11-11</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询购菲亚特500购菲亚特500</a></div>
+                    <div><span>2016-11-11</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询购菲亚特500购菲亚特500</a></div>
+                    <div><span>2016-11-11</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询购菲亚特500购菲亚特500</a></div>
+                    <div><span>2016-11-11</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询购菲亚特500购菲亚特500</a></div>
+                    <div><span>2016-11-11</span><a href="javascript:;">购菲亚特500让利2万 欢迎垂询购菲亚特500购菲亚特500</a></div>
+                </div>
+            </div>
+    	</div>
+    </div>
+</div>
+<div class="inforWidth cf mt20">
+    <div class="tabTop cf">
+        <ul id="hotTab">
+            <li><a href="javascript:;" class="current">热门车系</a></li>
+            <li><a href="javascript:;">热门标签</a></li>
+            <li><a href="javascript:;">友情链接</a></li>
+        </ul>
+    </div>
+    <div class="hotTag mt10" id="hotTag">
+        <ul>
+            <li class="now">
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯福克斯福克斯福克斯福克斯</a>
+            </li>
+            <li>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+                <a href="javascript:;">福克斯</a>
+            </li>
+            <li>
+                <a href="javascript:;">111</a>
+                <a href="javascript:;">222</a>
+                <a href="javascript:;">333</a>
+                <a href="javascript:;">444</a>
+                <a href="javascript:;">111</a>
+                <a href="javascript:;">222</a>
+                <a href="javascript:;">333</a>
+                <a href="javascript:;">444</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="footer" id="footer">
+    <div class="footmenu">
+        <div class="container">
+            <div class="footLink tc"><a href="jieshao.html">网站介绍</a><a href="banquan.html">版权说明</a><a href="contact.html">联系我们</a><a href="shuoming.html">网站说明(xml)</a><span>广告服务：025-84260006  投稿热线：15301587888</span></div>
+        </div>
+    </div>   
+    <div class="container">
+        <div class="cf f-cleft mt20">
+            <div class="logo"></div>
+            <div class="f-cright">
+                <p>免责声明：本（栏目、频道等）内容由SP提供。欢迎大家对侵犯版权等不合法和不健康的内容进行监督和举报。</p>
+                <p>[增值电信业务经营许可证A2.B1.B2-20090001]&nbsp;[文网文[2008]053号]&nbsp;[国新网许可证：3212006005]&nbsp;<a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">[苏ICP备07021571号]</a></p>
+                <p>版权所有：中国电信股份有限公司南京分公司&nbsp;&nbsp;技术支持：江苏知能邮电通信技术有限公司</p>
+            </div>
+        </div>
+        <div class="f-pic mt15">
+            <a href="http://www.wenming.cn/" target="_blank"><img src="images/ft-img1.jpg" alt="中国文明网传播文明"></a>
+            <a href="http://www.cyberpolice.cn/wfjb/" target="_blank"><img src="images/ft-img2.jpg" alt="南京网络警察报警平台"></a>
+            <a href="http://www.cyberpolice.cn/wfjb/" target="_blank"><img src="images/ft-img3.jpg" alt="公安信息安全网络监察"></a>
+            <a href="http://www.miibeian.gov.cn/" target="_blank"><img src="images/ft-img4.jpg" alt="经营性网站备案信息"></a>
+            <a href="http://net.china.cn/" target="_blank"><img src="images/ft-img5.jpg" alt="不良信息举报中心"></a>
+        </div>
+    </div>
+</div>
+<!-- <script src="js/jquery.min.js"></script> -->
+<script src="js/bootstrap.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>
+

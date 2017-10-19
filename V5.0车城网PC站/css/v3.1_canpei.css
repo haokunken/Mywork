@@ -1,0 +1,401 @@
+
+/*居中样式*/
+.j_inforWidth,.j_container,.j_duibibox{width: 1200px; margin: 0 auto;  }
+.j_inforWidth{margin-top: 10px;}
+/*面包屑*/
+.j_inforWidth{background: #fff; height: 55px; line-height: 55px;}
+.j_inforWidth .bread-style a{font-size: 13px; color: #999;}
+.j_inforWidth .bread-style span{font-size: 13px; color: #558ff2;}
+/*参数对比内*/
+/*边框颜色#e9eef5*/
+.j_container{border: 1px solid #e9eef5; margin-bottom: 13px;}
+.j_container h3{line-height: 50px; padding-left: 10px;font-size: 20px; color: #333333; background: #f8fbfe; border-bottom: 1px solid #e9eef5; font-weight: normal;}
+.j_con_btm{padding-left: 10px;}
+.j_yeark{border-bottom: 1px dashed #e9eef5; font-size: 14px; color: #333; height: 60px; line-height: 60px;}
+.j_yeark .checkbox-inline{width: 96px; display: inline-block;}
+.j_yeark .checkbox-inline input{margin-bottom: -2px; margin-right: 9px; cursor: pointer;}
+.j_fadweis{height: 95px;width: 100%; padding: 12px 0; box-sizing:border-box;}
+.j_fadwei{width: 33%; float: left; line-height: 36px; height: 36px; font-size: 14px; color: #333; float: left;}
+.j_fadwei .checkbox-inline{display: inline-block; margin-right: 8px;}
+.j_fadwei .checkbox-inline input{margin-bottom: -2px; margin-right: 3px; cursor: pointer;}
+/*参数对比*/
+.j_taodib{ width: 1200px;}
+.j_duibib_top{ width: 100%;}
+.j_duibib_top table{border-collapse: collapse; border: none;  }
+.j_duibib_top td{ border: 1px solid #e9eef5; box-sizing:border-box; padding: 5px 28px; padding-bottom: 0;  box-sizing:border-box;}
+.j_tdbox{width: 153px;}
+.j_duibib_top .j_title{padding: 10px; font-size: 14px; color: #333333; background: #fff;}
+.j_title .firms{width: 180px; border-left: none;}
+.j_duibib_top .j_title input{margin-right: 11px; cursor: pointer;}
+.j_duibib_top .j_title .cf{/*line-height:24px; */}
+.j_duibib_top .j_title .mt10{line-height:24px; text-align: left;}
+.j_duibib_top .j_title span{display: inline-block; font-size: 20px; margin-right: 3px;}
+.j_tdsecond{display: inline-block;}
+.j_tdsecond p{font-size: 16px; color: #333; line-height: 20px; text-align: center; }
+.j_duibib_top .j_interchang{ margin-top: 10px; display: inline-block;}
+.j_interchang li a{display: block; border: 1px solid #e9eef5; border-radius: 5px; background: #fff; width: 28px; height: 28px; line-height: 28px; font-size: 26px; text-align: center; line-height: 23px; border-radius: 5px;}
+.j_duibib_top .j_interchang .add a{margin: 0 6px; width: 78px; text-align: center; font-size: 14px; line-height: 30px;}
+
+.j_duibib_top .j_interchang .add a{ color: #2d72dd;}
+.j_duibib_top .j_interchang .add:hover {color: #fff;}
+/*.j_duibib_top .j_interchang a:hover{background: #2d72dd; color: #fff;}*/
+.j_interchang .prev{font-size: 26px;  text-align: center; line-height: 23px;}
+.j_interchang .prev a{color: #e3e3e3; }
+.j_interchang .next{font-size: 26px; text-align: center; line-height: 23px;}
+.j_interchang .next a{color: #e3e3e3; }
+.j_interchang .j_current a{color: #2d72dd;}
+.j_interchang .j_current:hover{background:#558ff2;}
+.j_interchang .j_current:hover a{color: #fff;}
+.j_duibib_top .j_interchang .j_non{/*background: #fff;*/ color: #e3e3e3;}
+.j_duibib_top .j_interchang .j_non:hover{/*background: #fff;*/ color: #e3e3e3;}
+.j_elet{position: absolute; width: 20px; height: 20px; line-height: 16px; text-align: center; right: -10px; top: -12px; color: #fff; background: #e3e3e3; font-size: 26px; }
+.j_duibibox tr:hover{background: #fafafa;}
+.j_elet:hover{/*background: #558ff2;*/ cursor: pointer;}
+.j_second tr{position: relative;}
+.j_second td{padding: 15px; line-height: 20px; font-size: 14px; color: #333333; text-align: center; background: center;
+border-bottom: 1px solid #e9eef5; }
+.j_second td em{font-style: normal;}
+.j_tc a{display: inline-block; width: 15px; height: 18px; background: url(../images/v3.1_canpei/js_count.png) no-repeat; margin-bottom: -4px; margin-left: 6px; }
+.j_tc a:hover span{display: block;}
+.j_tc a span{display: block; width: 100px; height: 24px; border: 1px solid #e9eef5; position: absolute;
+ right: -101px;bottom: -31px; background: #f2f6f9; color: #333; font-size:14px; text-align: center; line-height: 24px; z-index: 60;
+webkit-box-shadow:0 2px 3px #e3e2e2; -moz-box-shadow:0 2px 3px #e3e2e2;  box-shadow:0 2px 3px #e3e2e2;
+filter: progid:DXImageTransform.Microsoft.Shadow(color='#e3e2e2', Direction=125, Strength=9); display: none;}
+.j_price{font-size: 16px; color: #ff1616;}
+.j_mt5{margin-top: 5px;}
+.j_mt5 a{display: inline-block; width: 46px; /*height: 26px;*/ border-radius: 3px; border: 1px solid #4372d5; color: #4372d5;/*background:-moz-linear-gradient(top,#619efa,#3d7ee2);火狐   
+   			 background:-webkit-gradient(linear,0% 0%, 100% 0%,from(#619efa), to(#3d7ee2));谷歌   
+   			 background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, #619efa),color-stop(1, #3d7ee2)); Safari & Chrome *//*background: linear-gradient(to right,#619efa,#3d7ee2);*/ }
+.j_mt5 a:hover{background:#375eb2;}
+/*基本参数*/
+
+.j_duibib_top td{padding: 10px; border: 1px solid #e9eef5;}
+.j_duibib_top td p{ text-align: center; line-height: 20px; font-size: 14px; color: #333; }
+.j_duibib_top td.j_start p{width: 180px; text-align: right; color: #2d72dd;}
+.j_duibib_top tr:hover{background: #fafafa;}
+.j_duibib_top .j_bgyou{background: #f8fbfe;}	
+.j_duibib_top .j_bgyou:hover{background: #f8fbfe;}
+.j_params-carbody{width: 100%;}
+.j_params-carbody td{padding: 0; border-right: none;}
+.j_params-carbody h3{line-height: 50px; padding-left: 10px;font-size: 20px; color: #333333; background: #f8fbfe; border: 1px solid #e9eef5;border-top:none; border-bottom: none;  border-left: none; font-weight: normal;}
+.j_duibib_top td p span{font-size: 20px; font-weight: lighter;}
+.j_td-tips{margin-top: 15px;}
+.j_td-tips p{line-height: 30px; font-size: 14px; color: #ff6633; padding-left: 10px;}
+
+.j_duibibox {position: relative;}
+.j_left_nav{position: absolute; left: -70px; top: 250px; background: #fff;}
+.j_left_nav li a{display: block; width: 60px; height: 30px; line-height: 30px; font-size: 12px; color: #666666; text-align: center;
+ border: 1px solid #e9eef5; position: relative; border-bottom: none; }
+ .j_left_nav li.j_hasbod{border-bottom: 1px solid #e9eef5;}
+.j_left_nav li a.on{background: #ff8844; color: #fff; border-color: #ff8844;}
+.j_left_nav li a:hover{background: #fafafa;}
+/*.j_left_nav li a.on:hover{background: #ff8844;}*/
+.j_tdsecond a:hover p{color: #ff1616;}
+.j_duibib_top .j_second:hover{background: #fff;}
+.j_second .j_price{font-size: 16px; color: #ff1616;}
+
+.j_mask{position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #000; opacity: 0.6; z-index: 99; display: none;}
+.j_box{width: 420px; height: 180px; position: fixed; left: 50%; top: 50%; margin-left: -210px; margin-top: -90px;
+ background: #fff; z-index: 9999; opacity: 1; text-align: center; line-height: 180px; color: #333333; font-size: 20px;
+  border-radius: 5px; display: none;}
+/*.j_box a{display: block; width: 30px; height: 30px; border: 2px solid #fff; position: absolute; right: 0; top: -60px; border-radius: 50%; background: url(images/);}*/
+.j_tu{position: absolute; width: 30px; height: 50px; right: 0; top: -50px; background: url(../images/v3.1_canpei/js_close.png) no-repeat;}
+.j_tu a{display: block; width: 30px; height: 30px;}
+.j_tdbox .j_interchang li a{background : #fff; color: #2d72dd;}
+
+
+
+/*j_first吸顶阴影*/
+.j_fixed{position: fixed; top: 0; z-index: 50;}
+.j_fixed .j_tdbox{}
+.j_bgi{width: 100%; height: 121px; background: #fff; position: fixed; top: 0; z-index: 40; webkit-box-shadow:0 0 25px 2px #e3e2e2; -moz-box-shadow:0 0 25px 2px #e3e2e2; box-shadow:0 0 25px 2px #e3e2e2;
+filter: progid:DXImageTransform.Microsoft.Shadow(color='#e3e2e2', Direction=125, Strength=9); display: none;}
+
+/*车型对比页面*/
+.j_first .j_bipic{padding: 15px 10px; position: relative;}
+.j_tdbox{width: 230px; text-align: center; }
+.j_csPic{display: inline-block; width:120px; height: 90px; margin-bottom: 10px; background: url(../images/v3.1_canpei/j_cai02.jpg) no-repeat 100%;}
+.j_csPic img{display: block; width:120px; height: 90px;}
+.j_csChoose{width: 100%;}
+.j_form-group{margin-bottom: 10px; height: 30px; border-radius: 5px; border: 1px solid #e9eef5;}
+.j_form-control{width: 100%; height: 30px; border: none; cursor: pointer; border-radius: 5px;}
+.j_form-control{width: 100%; text-align: left; overflow: hidden; white-space:nowrap; font-size: 14px; line-height: 31px; color: #333; cursor: pointer;	}
+.j_form-control option{ cursor: pointer;width: 100%; height: 30px; border: none; cursor: pointer; border-radius: 5px; font-size: 14px;}
+.j_bipic .j_interchang{display: inline-block;}
+.j_bipic .j_interchang { margin-top: 5px;}
+.j_bipic .j_interchang .delet{width: 78px; height: 28px;  text-align: center; margin: 0 6px;}
+.j_bipic .j_interchang .delet a{ font-size: 14px; width: 78px; height: 28px; border: 1px solid #e9eef5; text-align: center; line-height: 28px;}
+.j_delet{position: absolute; width: 20px; height: 20px; line-height: 16px; text-align: center; right: 0; top: 0; color: #fff; background: #e3e3e3; font-size: 26px; }
+.j_delet:hover{background: #558ff2; cursor: pointer; color: #fff;}
+.j_canxin{padding: 10px; padding-top: 0;}
+/*修改表格内宽度*/
+.j_canxin .firms{height: 240px;}
+.j_canxin .firms p{text-align: left;}
+.j_canxin .firms .mt10{margin: 30px 0;}
+.j_duibib_top td{padding: 10px; -moz-box-sizing:border-box;}
+.j_bgyou .j_tdbox{width: 230px; position: relative;}
+.j_second p{width: 180px;}
+.j_params-carbody td{padding: 0;}
+.j_second .j_price{width:230px;}
+.j_second .j_mt5{width: 230px; height: 35px;}
+.j_tdsecond{width: 230px;}
+.j_tdsecond a{display: block;}
+.j_duibib_top .j_tdsecond p{width: 230px;}
+.j_csChoose{padding: 0 15px; box-sizing:border-box;}
+.j_form-group{width: 200px;}
+/*车型对比页面*/
+
+.j_kuang{width:230px;padding: 5px 0; }
+.j_second .j_kuang p{width: 230px; font-size: 16px;}
+.j_second .j_kuang a:hover p{color: #ff1616;}
+.j_second .j_tc{font-size: 16px;}
+.j_starP{width: 100%; text-align: center;}
+.j_starall{display: inline-block; width: 125px}
+.j_starP .j_star{width: 68px; height: 13px; background: url(../images/v3.1_canpei/js_06.png) repeat-x; float: left; display: inline-block; margin-top: 3px;}
+.j_star i{display: block; height: 13px; width: 71px ; background: url(../images/v3.1_canpei/js_05.png)  repeat-x; }
+.j_starall b{font-size: 14px; font-weight: normal;}
+/*车系图片*/
+.j_header{width: 1200px; height: 108px; }
+.j_audi_logo{ margin-top: 26px; height: 58px; line-height: 58px}
+.j_audi_logo img{float: left; width: 56px; height: 56px; margin-right: 20px; }
+.j_audi_logo em{ color: #2b2b2b; font-size: 36px; font-style: normal; }
+
+.j_headerR{ margin-top: 32px; width: 400px; height: 38px; position: relative; }
+.j_headerR input{box-sizing: content-box; border: 2px solid #ffad5c; width: 286px; line-height: 38px; height: 38px; box-sizing:border-box;  padding-left: 10px; display: block; float: left; overflow: hidden;}
+.j_headerR .y_search_ico{width: 100px; height: 42px; display: block;  float: left;line-height: 40px; text-align: center; font-size: 20px; color: #ffffff;background: #ffad5c; background: -moz-linear-gradient(left, #ffad5c 0%, #ff8844 100%); background: -webkit-linear-gradient(left, #ffad5c 0%,#ff8844 100%); background: -o-linear-gradient(left, #ffad5c 0%,#ff8844 100%); background: -ms-linear-gradient(left, #ffad5c 0%,#ff8844 100%); background: linear-gradient(to right, #ffad5c 0%,#ff8844 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr=#ffad5c, endColorstr=#ff8844);/*IE<9>*/ -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=1, startColorstr=#ffad5c, endColorstr=#ff8844)";/*IE8+*/ 
+}
+.j_audicar{ width: 280px; }
+.j_audicar_list{ margin-bottom: 35px;  }
+.j_audicar_listhead{ border-bottom: 4px solid #e9eef4; height: 45px }
+.j_audicar_listhead h3{ color: #333333; font-size: 24px; font-weight: normal;  }
+.j_audicar_listcontent ul li{float:left; float: left; margin: 20px 20px 0px 0px; width: 130px; text-align: center; }
+.j_audicar_listcontent ul li:nth-child(2n){ margin-right: 0px }
+.j_audicar_listcontent ul li img{ width: 130px; height: 97px; float: left; margin-bottom: 13px }
+.j_audicar_listcontent ul li span{ color: #333333; font-size: 16px; margin-bottom: 3px; width: 100%; height: 22px; overflow: hidden; display: block;}
+.j_audicar_listcontent ul li:hover span{color: #ff1616}
+.j_audicar_listcontent ul li p{ color: #f61622; font-size: 14px; width: 100%; height: 19px; overflow: hidden;}
+.y_nav ul li .j_disabled{ color: #8daffe; }
+.y_nav ul li .j_disabled:hover{background: #5183de;}
+.j_state{ margin-left: 50px; color: #bbbbbb; font-size: 14px; margin-top: 57px; position: relative;}
+.j_state a{ color: #333333; font-size: 14px}
+.j_state a i{ width: 9px; height: 6px; display: inline-block; background: url(../images/v3.1_chexi/js_39.png) no-repeat; margin-left: 7px }
+.j_state span{ margin: 0px 15px; float: left;}
+.j_state_ts a{ color: #999999; cursor: pointer; height: 40px; display: inline-block;}
+.j_state_zs a{ height: 40px; display: inline-block; }
+.j_state_zs a:hover{ color: #ff1616; }
+.j_zaishou_hide{ display: none; position: absolute; top: 20px; left: -15px; width: 100px; text-align: center; background: #fff; -moz-box-shadow: 0px 2px 10px  #aaaaaa; -webkit-box-shadow: 0px 2px 10px #aaaaaa; box-shadow: 0px 2px 10px #aaaaaa; z-index: 20}
+.j_zaishou_hideA{display: inline-block; font-size: 16px; color: #333333; height: 39px; line-height: 39px; padding: 0px 0px; width: 100%; border-bottom: 1px dashed #f7f7f7; display: block;}
+.j_zaishou_hide .j_zaishou_hideA:hover{background: #fafafa; color: #2d72dd;}
+.j_tingshou_hide{ display: none; position: absolute; top: 20px; left: 90px; width: 100px; text-align: center; background: #fff; -moz-box-shadow: 0px 2px 10px  #aaaaaa; -webkit-box-shadow: 0px 2px 10px #aaaaaa; box-shadow: 0px 2px 10px #aaaaaa; z-index: 20}
+.j_tingshou_hide a{ color: #333333 }
+.j_tingshou_hide a:hover{ color: #2d72dd }
+.j_header input{box-sizing: content-box;}
+/*对比固定*/
+.lxy_blank{ height: 119.5px; display: none; width: 100%; }
+.lxy_fixed{ position: fixed;}
+.j_first{ z-index: 20 }
+/*车型上拉*/
+.j_shangla{ display: none; background:#fff ; position: fixed; top: 0; z-index: 99;}
+.j_duoli{position: relative;}
+.j_duoli a{display: block;width: 78px; height: 28px; line-height: 28px; border: 1px solid #e9eef4; border-radius: 5px; text-align: center;
+ line-height: 28px; font-size: 14px; color: #2d72dd; margin: 0 auto; background: #fff; margin-top: 15px;}
+ .j_duoli a:hover{ background: #2d72dd; color: #fff;}
+ .j_btmnews{position: absolute; z-index: 999; background: #fff; width: 228px; top: 47px; padding-top: 10px;
+  border: 1px solid #e9eef4; border-radius: 5px; display: none; -webkit-box-shadow:0 0 5px #e3e2e2; -moz-box-shadow:0 0 5px #e3e2e2; box-shadow:0 0 5px #e3e2e2;
+filter: progid:DXImageTransform.Microsoft.Shadow(color='#e3e2e2', Direction=125, Strength=9);}
+.j_duoli a i{display: inline-block; width: 10px; height: 6px; background: url(../images/v3.1_canpei/js_huan.png) no-repeat;
+margin-left: 5px;}
+/*左侧栏参数对比*/
+.j_duibifix{position: fixed; right: 0; top: 300px; z-index: 99;}
+.j_duifix{display: block; width: 50px; height: 50px; line-height: 20px; font-size: 12px; color: #fff; background: #ff8839;
+	text-align: center; padding: 5px 10px; box-sizing:border-box; text-decoration: none;  z-index: 99;}
+.j_duice{ position: absolute; left: -257px; top: 0; width: 255px; border:1px solid #ff8839; border-top: 4px solid #ff8839;
+ background: #fff; display: none;}
+.j_carlist li {display: block; width: 100%;border-bottom: 1px solid #e9eef5; height: 36px; line-height: 36px; padding: 0 20px; box-sizing:border-box; }
+.j_carlist li .j_span{display: block; float: left;  font-size: 12px; color: #333; width: 190px; overflow: hidden;}
+.j_carlist li .j_em{display: block;float: left; width: 18px; height: 18px; background: url(../images/v3.1_canpei/js_gule.jpg) no-repeat; margin: 10px 0 0 7px;}
+.j_carlist li:hover .j_span{color: #ff0d00;}
+.j_carlist li:hover .j_em{display: block;float: left; width: 18px; height: 18px; background: url(../images/v3.1_canpei/js_red.jpg) no-repeat; margin: 10px 0 0 7px;}
+.j_selectCar li{margin-top: 16px; padding: 0 20px; box-sizing:border-box;}
+.j_selectCar li select{width: 100%; border: 1px solid #e9eef5; padding-left: 10px; font-size: 12px; color: #999999; height: 30px; line-height: 28px; outline: none; border-radius: 3px;}
+.j_selectCar li select option{outline: none; color: #333;}
+.j_sbylx{padding: 0 20px; box-sizing:border-box; margin: 20px 0;}
+.j_sbylx a{display: block; margin: 0 auto; background: #ff8839;font-size:12px; width: 100%; border-radius: 25px; height: 30px; line-height: 30px; text-align: center; color: #fff;}
+.j_duibib_top .j_interchang .add a.j_non{color: #e3e3e3;}
+
+.j_btmnews i{display: block; width: 21px; height: 10px; background: url(../images/v3.1_canpei/js_bai.png) no-repeat; 
+	margin: 0 auto; position: absolute; top: -10px; left: 43%; }
+.j_duibib_top tr.j_clck{background: #fffff8;}
+/*对比栏目限制修改*/
+/*.j_carlist li .j_span{height: 46px;}*/
+.j_duibib_top tr.j_first:hover{background: #fff;}
+tr td p{width: 230px; height: 20px; overflow: hidden; }
+.j_taodib td.j_start p{width: 180px; height: 20px; overflow: hidden;}
+.mt10{width: 193px; height: 27px;}
+.j_selectCar .mt10 {width: auto;}
+.j_tc .counter{position: relative;}
+/*修改*/
+.j_form-control option{ border-radius: 0px;}
+.j_gaoliang{background: #fff9ea;}
+.j_duibib_top  .j_gaoliang:hover{background: #fff9ea;}
+.j_inforWidth .bread-style a:hover{color: #2d72dd;}
+/*2017/4/28 字体修改 lxy*/
+/*.j_mt5 a:hover{ border: #ffffff }*/
+/*V4.2优化 左侧定位*/
+.y_table{position: fixed; left: 0px; top: 0px; z-index: 1000; background: #fff; }
+#trimArglist{position: fixed; left: 0px; top: 120px; z-index: 500; }
+#trimArglist .yj_title{height: 80px;}
+.fixed-table { position: fixed; top: 0px; /*top: 119.5px;*/ left: 0px; display: none; /*background-color: #fff;*/ z-index: 20; width: 203px; bottom: 0px; overflow: hidden; z-index: 50;}
+.j_title .firms{text-align: left;}
+/***********6月9号参配页面修改样式*************/
+.l_container,.l_duibib_top td{border: 1px solid #dae4f3;}
+.l_container .l_shaixuan{font-size: 12px;color: #666666;line-height: 30px;border-bottom: 1px solid #dae4f3;}
+.l_yeark {height: 38px;line-height: 38px;}
+.l_yeark,.l_fadwei{font-size: 12px;color: #666666;}
+.l_yeark label,.l_fadwei label{color:#264c99;}
+.l_yeark label input{background: #4372d5;}
+.l_topR ul li .l_topR_open a em{margin-right: 26px;}
+.l_state_ts a{color: #333333;}
+.l_fadweis{height: 65px;padding-top: 10px;}
+.l_duibib_top .l_title{font-size: 12px;color: #264c99;width: 201px;}
+.l_gudingwidth{width: 211px;}
+.l_duibib_top .l_title .firms .mt10{font-size: 12px;color: #333333;}
+.l_duibib_top td p{font-size: 12px;color: #333333;}
+.l_tdsecond a p{color: #264c99;}
+.l_second td{padding: 5px;font-size: 12px;}
+.l_second td.title{text-align: right;}
+.l_second .j_tc {font-size: 12px;}
+.l_elet{color: #264c99;background: none;position: absolute;right: -8px;top: -8px;}
+.l_duibib_top .l_bgyou {background: #f1f5fc;}
+.l_duibib_top .l_tdsecond p {padding-left: 40px;padding-right: 40px;width: 150px;}
+.j_duibib_top .j_interchang .fl{color: #000;}
+.j_duibib_top .j_interchang{position: relative;}
+.l_leftmove,.l_rightmove{display: none;font-size: 12px;color: #333333;	}
+.j_duibib_top .j_interchang .l_leftmove{position: absolute;left: -27px;top: -1px;}
+.j_duibib_top .j_interchang .l_rightmove{position: absolute;right: -27px;top: 0px;}
+.j_duibib_top .j_interchang li{float: left;}
+.clear_float{clear: both;}
+.j_tdbox .l_interchang li{height: 17px;}
+.j_tdbox .l_interchang li a{height: 17px;border-radius: 3px;line-height: 17px;border: none;color: #c7dcff;width: 17px;	background: none;}
+.j_tdbox .l_interchang li a img{position: relative;top: -1px;}
+.l_tdbox .l_interchang li.add a {width: 45px;font-size: 12px ;line-height: 17px;color: #fff;background: #4372d5;}
+.l_mt5 a{background: #4372d5;color: #fff;margin-left: 5px;}
+.l_params-carbody h3{height: 36px;color: #b20303;font-size: 12px;line-height: 36px;}
+.l_params-carbody h3{background: #f1f5fc;}
+.l_duibib_top td.j_start p {/*width: 200px;*/color: #264c99;background: none;}
+.l_duibib_top td{padding: 5px;}
+.l_params-carbody td{padding: 0;}
+.j_taodib td.j_start p{width: 200px;}
+.l_gudingwidth .firms{width: 189px;}
+#trimArglist tr{width: 230px;}
+#trimArglist .j_start{background: #fff}
+.l_second td.title{background: #fff;;}
+.j_td-tips p {font-size: 12px;color: #f61622;}
+.j_left_nav li a.on {background: #517bdb;border-color: #517bdb;}
+#trimArglist .l_second .l_changshang{padding: 4px;}
+#trimArglist .l_second .l_jingxiao{padding: 6px;}
+.l_xuanzhong{font-weight: 600;}
+.j_fadwei {line-height: 22px;height: 22px;}
+/*左上角固定的小table*/
+.l_fixedtable{color: #264c99;font-size:12px;padding:6px 10px 12px 20px;background:#fff;display: none;position: fixed;top: 0;left: 0;z-index: 99999;border:1px solid #dae4f3;width: 192px;height: 99px;box-sizing: border-box;}
+/*左上角固定的小table的高度兼容狐火*/
+@-moz-document url-prefix(){.l_fixedtable { height: 101px;}}
+.l_fixedtable>.cf>.checkbox-inline>input{margin-right: 8px;}
+.l_fixedtable .l_three{color: #333333;}
+.l_fixedtable .l_three span{font-size:20px;padding-right: 6px;}
+/*******车型对比*********/
+.l_compareTdbox .j_interchang li a{color: #264c99;}
+.l_compareTop .j_title{color: #264c99;font-size: 12px;}
+.l_compareTop .j_title .mt10{font-size: 12px;color: #333;}
+.j_title .l_compareFirms {width: 190px;}
+.l_compareTop td p {font-size: 12px;color: #333333;}
+.j_start{color: #264c99;}
+.l_compareDuoli a{font-size: 12px;}
+.l_compareSecond .j_kuang p{font-size: 12px;}
+.l_compareSecond .j_tc {font-size: 12px;}
+.l_compareSecond .j_tc{font-size: 12px;}
+.l_compareStarall b{font-size: 12px;}
+.l_compareTop td.j_start p{color: #264c99;}
+.l_compareElet {top: -10px;right: -8px;background: none;}
+.l_compareDelet {top: -4px;right: -2px;background: none;}
+.l_compareTop td {padding: 5px;}
+.l_params-carbody td{padding: 0;}
+.l_compareTop .j_title{padding: 5px;}
+.l_compareBgyou .j_tdbox {width: 240px;}
+.l_second .j_kuangs .j_kuang p{font-size: 12px;}
+.l_duibib_top .j_bgyou{width: 176px; overflow: hidden; }
+.l_duibib_top .j_bgyou .j_tdbox{width: 176px;}
+.l_duibib_top .l_tdsecond{width: 176px; text-align: center;}
+.l_duibib_top .l_tdsecond p{padding-left: 0px; padding-right: 0px; width: 146px; margin: 0 auto;word-wrap : break-word ;}
+.l_duibib_top td{width: 186px;}
+.lsd tr td p{width: 176px;}
+.l_gudingwidth .firms{width: 180px;}
+.l_gudingwidth{width: 180px; padding: 10px 0px;}
+.j_taodib td.j_start p{width: 190px;}
+#trimArglist .l_second .l_changshang{height: 20px;}
+.j_bgyou .j_tdbox .commpare-btn:hover {background: #375eb2;}/*对比按钮鼠标滑过的样式*/
+/*高亮的样式*/
+.j_duibib_top .l_gaoliang td p{color: #ff6633;}
+#trimArglist .l_gaoliang .j_start td p{color: #ff6633;}
+.l_bgyou .j_interchang .add .l_duibi{background: #d9e5f2;color: #fff;}
+.l_bgyou .j_interchang .add .l_duibi:hover{background: #d9e5f2;color: #fff;}
+/*高亮之后鼠标滑过的样式*/
+/*tr.l_gaoliang:hover{background: #ff6633;}*/
+/*车型对比删除鼠标滑过样式*/
+.j_bipic .l_compareTdbox .j_interchang .fl a:hover{background: #4372d5;color: #fff;}
+.j_bipic .l_compareTdbox .j_interchang .fl .j_non:hover{background: #fff;color: #bbb;}
+.j_audi_logo em{font-size: 20px;color: #2b2b2b;}
+.j_audi_logo a em{font-size: 20px;color: #2b2b2b;}
+.l_bgyou .l_tdbox .l_tdsecond{margin-top: 12px;}
+.j_audi_logo a span{font-size: 20px;color: #2b2b2b;}
+.fixed-table{background: none}
+.j_duibib_top tr:hover{background: #fefaf2;}
+.j_duibib_top .j_interchang .j_non {background: none;}
+/*V4.4*/
+.j_state{margin-left: 20px; margin-top: 47px;}
+.j_audi_logo em{display: inline-block; font-size: 26px; height: 48px; overflow: hidden; max-width: 470px;}
+.l_container, .l_duibib_top td{border: 1px solid #d9e5f3;}
+.l_duibib_top .l_bgyou{background: #f0f3f8;}
+.j_canxin .firms p{color:#d60000;font-size:14px;font-weight: 700;}
+.j_td-tips p{padding-left:0;}
+/*V4.4*/
+.j_tc a{display: inline-block; width: 15px; height: 16px; background: url(../images/v3.1_canpei/js_07_1.png) no-repeat; margin-bottom: -4px; margin-left: 6px; }
+.j_tc a:hover{background: url(../images/v3.1_canpei/js_07_1.png) no-repeat;}
+.j_duifix{background: #3b5998;}
+.j_duifix:hover{background: #57b;}
+/*2017/7/21 yl V4.4参数*/
+.j_yeark .checkbox-inline{width:78px; }
+.l_yeark label, .l_fadwei label{color: #3b5998;}
+.l_duibib_top .l_title{color: #3b5998;}
+/*.l_bgyou .j_interchang .add .l_duibi{background: #f87812;}*/
+.l_tdsecond a p{color: #3b5998;}
+.l_mt5 a{background: #3e5698; border:1px solid #3e5698;}
+.j_mt5 a:hover{background:#5a76bb;border:1px solid #5a76bb;}
+.j_tc a{ background: url(../images/v3.1_canpei/js_07_1.png) no-repeat;}
+.j_tc a:hover { background: url(../images/v3.1_canpei/js_07_1.png) no-repeat;}
+.l_params-carbody h3{background: #f0f3f8;color: #993000;}
+.j_left_nav li a.on{background: #2d72dd; border-color: #2d72dd;}
+.j_left_nav li a{border:none;color: #5c6962;}
+.j_left_nav{background: #eef3f9;}
+.l_tdbox .l_interchang li.add a{background: #3e5698;}
+.l_tdbox .l_interchang li.add a:hover{background: #f87812;}
+.j_tdbox .l_interchang li a img{top: -3px; left: -1px;}
+.j_duibib_top .l_gaoliang td p{color: #f55e00;}
+.j_left_nav li a:hover{background: #cfe0f4;}
+.j_tc a span{font-size: 12px;}
+.l_duibib_top .l_tdsecond .yl_price{color: #d60000; display: none; margin-top:-20px;}
+.l_duibib_top .l_tdsecond .yl_price:hover{color: #d60000;}
+.j_duibib_top .j_bgyou:hover{background: #f0f3f8;}
+.j_left_nav li a.on:hover{background: #2d72dd;}
+.j_duibib_top .j_interchang .j_non{display: none;}
+.j_delet:hover{background: none;}
+.l_compareDelet{top:-3px; right: -3px;}
+.j_td-tips{ margin-top: 2px; margin-bottom: 30px;}
+.j_fadwei span i{width: 8px; height: 2px; display: inline-block;}
+.j_fadwei span .yl_energy{width: 24px; height: 2px; display: inline-block;}
+/*hk_询价按钮添加*/
+.j_tdsecond a.hk_xj_button{ font-size: 12px; background: #3e5698; border: 1px solid #3e5698; color: #fff; width: 230px; display: inline-block; height: 20px; width: 46px; margin-top: 10px; border-radius: 3px; line-height: 20px;}
+.j_duoli a{ margin-top: 12px; margin-bottom: 5px;}
+.j_carlist li .j_span{height: 36px; text-overflow:ellipsis; white-space: nowrap;}
+.j_duibifix{top: 200px;}

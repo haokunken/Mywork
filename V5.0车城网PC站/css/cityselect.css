@@ -1,0 +1,22 @@
+/* citySelector */
+.cityslide li{list-style:none;overflow:hidden;height:30px;padding:0px 0px;line-height:30px;}
+.cityslide li.on{background:#00a346;color:#fff;cursor:pointer;}
+.cityslide li:hover{background:#00a346;color:#fff;cursor:pointer;}
+.cityslide li b{font-weight:normal;}
+.cityslide li.empty{background:#fff2e8;color:#666;}
+.cityslide li.empty em{color:red;font-style:normal;}
+.cityname{float:left;}
+.cityspell{float:right;}
+.hide{display:none;}
+.cityBox{width: 0px; height: 0px; display: none; }
+
+.cityslide li b.cityspell{display: none;}
+.cityslide li b.cityname{width: 100%; line-height: 36px;}
+.cityslide li{line-height: 36px; display: block; font-size: 14px; color: #333333; padding: 0px 10px;}
+.cityslide li.empty{background:#fff2e8;color:#666; padding: 0px 9px;}
+.cityslide li.empty em{color:red;font-style:normal;}
+.cityslide li.on{background: rgb(204, 204, 204); color:#fff;cursor:pointer;}
+.cityslide li:hover{background: rgb(204, 204, 204);color:#fff;cursor:pointer;}
+.cityslide li b{font-weight:normal; color: #333333;}
+.cityslide{list-style:none;width: 298px; height: 125px; /*position: relative; top: 29px; left: -171px;*/ overflow: hidden; overflow-y: auto; border: 1px solid #ff1616; border-top: none; z-index: 200; padding: 0px 0px 0px 0px; background: #fff;}
+.cityslide li{line-height: 36px; display: block; font-size: 14px; color: #333333;}

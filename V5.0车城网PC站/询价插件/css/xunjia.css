@@ -1,0 +1,53 @@
+.xj-xunjia{position: fixed;left: 0;right: 0;bottom:0;z-index: 9999}
+.ina_pirce{position: relative;width:1200px;margin-left: auto;margin-right: auto;bottom: 0;}
+.ina_pirce .ina_ina_priceboxbtn{ display:none;float: left;cursor: pointer;margin-right: 4px;background: url(../images/x-xunjia.png);width: 44px; height: 44px;}
+.ina_pricebox{width: 893px; height: 44px;float: left;background: url(../images/xjbg.png);overflow: hidden;float: left;cursor: pointer;margin-right: 4px;}
+.ina_pricebox ul li{margin-right: 10px;margin-top: 8px;float: left;}
+.ina_xzpp1{width: 155px;height: 28px;line-height: 28px;padding: 0 8px;background:#fff;cursor: pointer;-webkit-border-radius: 4px;-o-border-radius: 4px;-ms-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+.ml100{margin-left:100px;}
+.bmxm,.telnum{width: 150px;padding: 4px 8px;float: left;background: #fff;border: 0;outline: none;-webkit-border-radius: 4px;-o-border-radius: 4px;-ms-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;color: #555}
+.bmxm::-moz-placeholder,.telnum::-moz-placeholder {color: #555;opacity: 1;}
+.bmxm:-ms-input-placeholder ,.telnum:-ms-input-placeholder {color: #555;}
+.bmxm::-webkit-input-placeholder,.telnum::-webkit-input-placeholder {color: #555;}
+.telnum{width: 140px;}
+.cxbtn{width: 110px;height: 28px;border: 0;color: #fff;cursor: pointer;background: #DB2C2D;float: left;webkit-border-radius: 4px;-o-border-radius: 4px;-ms-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+.xj-closebtn{background: url(../images/x.png);width:13px; height: 13px;margin-top: 8px; }
+.ina_pp{width:365px;height:250px;position:absolute;top:-251px;left:90px;border:1px solid #CCD3E4;overflow-y:scroll;padding:5px 10px 10px;z-index:6}
+.ina_pp .ina_hot{border-bottom:1px solid #ddd;color:#ddd;padding:5px 0 10px;font-size:12px;z-index:2}
+.ina_pp .ina_hot em{margin-right:5px;color:#d00;font-size:12px;line-height:22px}
+.ina_pp .ina_hot a{color:#333;font-size:12px;margin:0 4px;cursor:pointer}
+.ina_pp .ina_hot a:hover{color:#d00}
+/*.ina_pp ul{list-style:none;margin:0;padding:0;}*/
+.ina_pp ul li{float:left;border-bottom:1px solid #e9e9e9;padding: 5px 0}
+.ina_pp ul li b{float:left;font-size:14px;color:#d00;/*padding:10px 0;*/width: 25px;}
+.ina_pp ul li p{float:left;width: 270px;}
+.ina_pp ul li p a{float:left;color:#666;margin-right:10px;font-size:12px;cursor:pointer;white-space:nowrap;margin-bottom: 8px;}
+.ina_pp ul li p a:hover{color:#d00}
+.ina_cxtk{width:640px;height:250px;position:absolute;top:-251px;left:194px;background:#fff;border:3px solid #333;-moz-box-shadow:3px 3px 4px #666;filter:progid:dximagetransform.microsoft.shadow(strength=4,direction=135,color="#666666");-webkit-box-shadow:3px 3px 4px #666;box-shadow:3px 3px 4px #666;z-index:6;padding: 0;overflow-y:scroll;;}
+.ina_cxtk .noheight{overflow: hidden;}
+.ina_cxtk .ina_cxtk_left{width:440px;float:left;border-right:1px dotted #999;padding: 0 10px;padding-bottom: 99999px;margin-bottom: -99999px}
+.ina_cxtk .ina_cxtk_bt{width: 100%; float:left;border-bottom:1px solid #e9e9e9;padding-bottom: 5px; margin-top: 10px;}
+.ina_cxtk .ina_cxtk_bt a{font-size:14px;color:#d00;cursor: pointer; }
+.ina_cxtk ul li{margin-top:5px;}
+.ina_cxtk ul li a{font-size:12px;color:#666;margin-right: 10px;cursor: pointer;margin-bottom: 8px; }
+.ina_cxtk ul li a:hover{color:#d00}
+.ina_cxtk .ina_cxtk_right{width:177px;float:left;padding-bottom: 99999px;margin-bottom: -99999px}
+.ina_cxtk .ina_cxtk_right .ina_cxtk_right_bt{width:100%;height:24px;line-height:24px;background:#960002;color:#fff;padding-left:10px}
+.ina_cxtk .ina_cxtk_right .ina_cxtk_right_nr{width:100%;text-align: center;margin: 10px 0;}
+.ina_cxtk .ina_cxtk_right .ina_cxtk_right_nr img{width:120px;height:80px;display: inline-block;}
+.ina_cxtk .ina_cxtk_right .ina_cxtk_right_nr span{line-height:20px;display: block;color: #666;font-size: 12px;}
+.ina_cxtk .ina_cxtk_right .ina_cxtk_right_nr a:hover span{color:#d00}
+
+
+
+@media (min-width: 1280px) {.container {width: 1230px;}}
+@media(max-width: 767px) {
+/*.brand-kind{width: 100%;}*/
+/*.row-8-01{margin-left:-8px}*/
+.ina_pirce{width:100%;}
+.bmxm,.telnum,.cxbtn,.ina_xzpp1{width: 50px;}
+.ml100{margin-left:80px;}
+.ina_pp,.ina_cxtk{left: 0;width: 100%;-webkit-overflow-scrolling: touch;}
+}
+
+@media (max-width: 320px){}
